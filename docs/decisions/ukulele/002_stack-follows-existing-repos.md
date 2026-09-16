@@ -3,19 +3,22 @@
 - 日付: 2026-09-10
 - 対象: ビルド構成全体（`package.json`、`vite.config.ts`、CI）
 
-## 背景
-
-レッスン本文が中心のコンテンツサイトを作る。この形にはコンテンツ主導の静的サイトジェネレータが理論上よく合う。一方、同じユーザーの既存プロジェクト（flashcards、zoo-aquarium-log）は Vite + React 19 + TypeScript + Vitest + GitHub Pages で揃っている。
-
 ## 決定
 
 Vite + React 19 + TypeScript + MDX + Vitest。CI ワークフローは flashcards の `deploy.yml` を踏襲する。
 
+## 背景
+
+レッスン本文が中心のコンテンツサイトを作る。この形にはコンテンツ主導の静的サイトジェネレータが理論上よく合う。一方、同じユーザーの既存プロジェクト（flashcards、zoo-aquarium-log）は Vite + React 19 + TypeScript + Vitest + GitHub Pages で揃っている。
+
 ## 比較した代替案
 
-- 却下: **Astro + MDX + React islands** — コンテンツサイトとしては最適に近い。ただし既存3プロジェクトと別スタックになるコストは確実に発生する。一方で静的出力の利点は、レッスン15〜30本の規模だと体感差として現れにくい
-- 却下: **素の HTML / CSS / JS** — ビルドが要らない。ただしレッスンが増えると共通レイアウトの手作業複製が破綻し、楽器の抽象化（[001](001_instrument-contract-excludes-strings.md)）も表現できない
-- 採用: **既存スタックの踏襲**
+| 案 | 却下理由 |
+|---|---|
+| **Astro + MDX + React islands** | コンテンツサイトとしては最適に近い。ただし既存3プロジェクトと別スタックになるコストは確実に発生する。一方で静的出力の利点は、レッスン15〜30本の規模だと体感差として現れにくい |
+| **素の HTML / CSS / JS** | ビルドが要らない。ただしレッスンが増えると共通レイアウトの手作業複製が破綻し、楽器の抽象化（[001](001_instrument-contract-excludes-strings.md)）も表現できない |
+
+採用: **既存スタックの踏襲**
 
 ## 影響範囲
 
