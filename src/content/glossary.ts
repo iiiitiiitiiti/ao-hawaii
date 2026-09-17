@@ -239,6 +239,16 @@ export const GLOSSARY: Term[] = [
   { id: "au-current", hawaiian: "au", meaning: "流れ、潮流。au kō malalo＝引き波の底流", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=au", checkedAt: "2026-09-18" },
   { id: "kohola-reef", hawaiian: "kohola", meaning: "礁原、干出する礁。kai kohola＝礁湖", note: "クジラの koholā（長母音）とは別", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kohola", checkedAt: "2026-09-18" },
   { id: "papahanaumokuakea", hawaiian: "Papahānaumokuākea", meaning: "北西ハワイ諸島の海洋国家記念物（2006年設置、2007年命名、2016年拡張）。Papahānaumoku と Wākea の名を結ぶ", category: "aina", sourceUrl: "https://www.papahanaumokuakea.gov/new-about/", checkedAt: "2026-09-18" },
+  { id: "wahi-pana", hawaiian: "wahi pana", meaning: "伝説の地、名高い場所。語られることで名を得た場所", note: "pana の第3義「名高い場所」。第2義は「脈、鼓動」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wahi%20pana", checkedAt: "2026-09-18" },
+  { id: "hono", hawaiian: "hono", meaning: "湾、谷（地名の語根）。Honolulu、Honokōhau", note: "hana- も同じ働き（Hanalei、Hanauma）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=hono", checkedAt: "2026-09-18" },
+  { id: "wai", hawaiian: "wai", meaning: "真水、水（海水の kai と対）。Waipiʻo、Waimea、Waikīkī", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wai", checkedAt: "2026-09-18" },
+  { id: "kanilehua", hawaiian: "ua Kanilehua", meaning: "Hilo で名高い霧のような雨。「lehua の花が飲む雨」", note: "Hilo Hanakahi, i ka ua Kanilehua", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Kanilehua", checkedAt: "2026-09-18" },
+  { id: "tuahine", hawaiian: "ua Tuahine", meaning: "Mānoa の霧雨。Kahalaopuna の物語の Kuahine にちなむ", note: "辞書の見出しは Kuahine だが「より一般には Tuahine」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuahine", checkedAt: "2026-09-18" },
+  { id: "lililehua", hawaiian: "ua Līlīlehua", meaning: "Pālolo（Oʻahu）と Waiehu（Maui）の風と雨。「lehua の冷え」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=L%C4%ABl%C4%ABlehua", checkedAt: "2026-09-18" },
+  { id: "apaapaa", hawaiian: "ʻĀpaʻapaʻa", meaning: "Kohala（ハワイ島）の強い風", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C4%81pa%CA%BBapa%CA%BBa", checkedAt: "2026-09-18" },
+  { id: "puulena", hawaiian: "Puʻulena", meaning: "Kīlauea と Puna の冷たい風", note: "Ua hala ka Puʻulena（Puʻulena は去った＝道を外れた。悲しみの含み）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Pu%CA%BBulena", checkedAt: "2026-09-18" },
+  { id: "kiu", hawaiian: "Kiu", meaning: "強くやや冷たい北西の風。地方により Mālualua、Hoʻolua とも", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kiu", checkedAt: "2026-09-18" },
+  { id: "naulu", hawaiian: "nāulu", meaning: "にわか雨、通り雨。Kawaihae・Waimea（Kauaʻi）・Kanaloa（Maui）の海風の名でも", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=n%C4%81ulu", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
