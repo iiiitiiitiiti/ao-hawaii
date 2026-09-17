@@ -81,6 +81,12 @@ export const GLOSSARY: Term[] = [
   { id: "ahinahina", hawaiian: "ʻāhinahina", meaning: "銀剣草（silversword）。Haleakalā と Mauna Kea の高地だけに育つ", category: "mea-ola", sourceUrl: "https://www.nps.gov/locations/hawaii/silverswords.htm", checkedAt: "2026-09-18" },
   { id: "nene", hawaiian: "nēnē", meaning: "ハワイガン。州鳥", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=n%C4%93n%C4%93", checkedAt: "2026-09-18" },
   { id: "ahupuaa", hawaiian: "ahupuaʻa", meaning: "山から海まで細長く延びる伝統の土地区分", note: "境界の石積み（ahu）に豚（puaʻa）の像や供物を置いたことに由来", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ahupua%CA%BBa", checkedAt: "2026-09-18" },
+  { id: "iiwi", hawaiian: "ʻiʻiwi", meaning: "緋色のハワイミツスイ。羽は羽細工に使われた", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBi%CA%BBiwi", checkedAt: "2026-09-18" },
+  { id: "apapane", hawaiian: "ʻapapane", meaning: "深紅のハワイミツスイ。lehua の蜜を吸う", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBapapane", checkedAt: "2026-09-18" },
+  { id: "mamane", hawaiian: "māmane", meaning: "固有のマメ科高木。palila の餌", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=m%C4%81mane", checkedAt: "2026-09-18" },
+  { id: "pueo", hawaiian: "pueo", meaning: "ハワイコミミズク。ʻaumakua としてよく語られる", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pueo", checkedAt: "2026-09-18" },
+  { id: "io", hawaiian: "ʻio", meaning: "ハワイノスリ。王権の象徴とされた猛禽", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBio", checkedAt: "2026-09-18" },
+  { id: "alala", hawaiian: "ʻalalā", meaning: "ハワイガラス。2002年に野生絶滅、再導入中", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBalal%C4%81", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
