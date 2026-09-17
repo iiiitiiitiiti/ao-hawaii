@@ -220,6 +220,18 @@ export const GLOSSARY: Term[] = [
   { id: "koolau", hawaiian: "Koʻolau", meaning: "諸島の風上側（北東）。山脈の名にも", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Ko%CA%BBolau", checkedAt: "2026-09-18" },
   { id: "kona", hawaiian: "Kona", meaning: "諸島の風下側（南西）。南西から吹く Kona 風の名でもある", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kona", checkedAt: "2026-09-18" },
   { id: "moae", hawaiian: "Moaʻe", meaning: "貿易風。Moaʻe kū＝強い貿易風", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Moa%CA%BBe", checkedAt: "2026-09-18" },
+  { id: "ili", hawaiian: "ʻili", meaning: "ahupuaʻa の下位区分。ʻili ʻāina の貢納は ahupuaʻa の首長へ、ʻili kūpono は島の最高首長へ直接", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBili", checkedAt: "2026-09-18" },
+  { id: "loi", hawaiian: "loʻi", meaning: "灌漑した段々の田。主に kalo 用", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=lo%CA%BBi", checkedAt: "2026-09-18" },
+  { id: "auwai", hawaiian: "ʻauwai", meaning: "用水路、溝", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBauwai", checkedAt: "2026-09-18" },
+  { id: "loko-ia", hawaiian: "loko iʻa", meaning: "養魚池。loko kuapā（石垣の海面池）、loko puʻuone（砂州の背後の汽水池）、loko wai（淡水池）など", category: "aina", sourceUrl: "https://seagrant.soest.hawaii.edu/the-return-of-kuula/", checkedAt: "2026-09-18" },
+  { id: "makaha", hawaiian: "mākāhā", meaning: "養魚池の水門。枝を結わえた格子で、稚魚は入れるが成魚は出られない", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=m%C4%81k%C4%81h%C4%81", checkedAt: "2026-09-18" },
+  { id: "muliwai", hawaiian: "muliwai", meaning: "河口、汽水域", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=muliwai", checkedAt: "2026-09-18" },
+  { id: "pahoehoe", hawaiian: "pāhoehoe", meaning: "滑らかで途切れない溶岩。第2義は「サテン」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=p%C4%81hoehoe", checkedAt: "2026-09-18" },
+  { id: "aa-lava", hawaiian: "ʻaʻā", meaning: "粗く砕けた溶岩。第1義は「燃える、赤く輝く」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBa%CA%BB%C4%81", checkedAt: "2026-09-18" },
+  { id: "halemaumau", hawaiian: "Halemaʻumaʻu", meaning: "Kīlauea 山頂の火口。「ʻamaʻu（シダ）の家」。Pele の住まい", category: "aina", sourceUrl: "https://wehewehe.org/", checkedAt: "2026-09-18" },
+  { id: "kilauea", hawaiian: "Kīlauea", meaning: "「噴き出す、広く広がる」。ハワイ島の活火山", category: "aina", sourceUrl: "https://wehewehe.org/", checkedAt: "2026-09-18" },
+  { id: "kipuka", hawaiian: "kīpuka", meaning: "溶岩流に囲まれて残った古い土地と植生", category: "aina", sourceUrl: "https://www.nps.gov/havo/learn/nature/geological-features.htm", checkedAt: "2026-09-18" },
+  { id: "amau", hawaiian: "ʻamaʻu", meaning: "固有のシダ（Sadleria）。Kamapuaʻa の化身の一つ。Halemaʻumaʻu の語源", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBama%CA%BBu", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
