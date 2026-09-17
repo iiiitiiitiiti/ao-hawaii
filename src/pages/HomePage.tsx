@@ -15,9 +15,7 @@ export function HomePage() {
           E aʻo kākou — いっしょに学ぼう
         </p>
         <h1 className="hero__title">
-          ハワイの土地・生きもの・物語・歴史・フラ・ことばを、
-          <br />
-          出典に当たりながら講座で学ぶ
+          ハワイの土地・生きもの・物語・歴史・フラ・ことばを、出典に当たりながら講座で学ぶ
         </h1>
         <p className="hero__lead">
           <span lang="haw">aʻo</span> は「学ぶ」と「教える」の両方を指すことば。6つの講座、全<span className="num">{TOTAL_LESSONS}</span>

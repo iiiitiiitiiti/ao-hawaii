@@ -36,6 +36,16 @@ export function isAllowedLicense(shortName) {
     .some((s) => ALLOWED.some((re) => re.test(s)));
 }
 
+/**
+ * Commons の Artist 欄には「This file was created by X. It is not in the public domain…」のような
+ * 長い定型文が入ることがある。出典帯に出すのは名前だけでよいので、名前を取り出す。
+ */
+export function cleanAuthor(raw) {
+  const m = /^This file was created by ([^.]+)\./.exec(raw);
+  if (m) return m[1].trim();
+  return raw.length > 80 ? raw.slice(0, 77).trimEnd() + "…" : raw;
+}
+
 function stripHtml(html = "") {
   return html
     .replace(/<[^>]+>/g, "")
@@ -95,7 +105,7 @@ async function fetchInfo(fileTitle) {
     height: info.thumbheight ?? info.height,
     license: stripHtml(get("LicenseShortName")),
     licenseUrl: stripHtml(get("LicenseUrl")),
-    author: stripHtml(get("Artist")),
+    author: cleanAuthor(stripHtml(get("Artist"))),
     credit: stripHtml(get("Credit")),
     description: stripHtml(get("ImageDescription")).slice(0, 300),
     date: stripHtml(get("DateTimeOriginal")),
