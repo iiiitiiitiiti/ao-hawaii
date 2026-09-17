@@ -20,6 +20,17 @@ describe("目次と本文の対応", () => {
     }
   });
 
+  test("目次の全レッスンに本文がある（準備中を出さない）", () => {
+    for (const course of COURSES) {
+      for (const lesson of course.lessons) {
+        expect(
+          written.some((w) => w.courseSlug === course.slug && w.number === lesson.number),
+          `${course.slug}/lesson-${lesson.number} の本文`,
+        ).toBe(true);
+      }
+    }
+  });
+
   test("講座の slug と id が重複していない", () => {
     const slugs = COURSES.map((c) => c.slug);
     expect(new Set(slugs).size).toBe(slugs.length);
