@@ -153,6 +153,11 @@ export const GLOSSARY: Term[] = [
   { id: "lama", hawaiian: "lama", meaning: "在来の木（Diospyros）。白く緻密な材で、神聖な囲いや kapu の用途に使われた", note: "kuahu の Laka の依代はこの木の無彫刻の木片", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
   { id: "papa", hawaiian: "papa", meaning: "クラス、期。同じ時期に学び卒業した仲間", note: "Maiki Aiu Lake の「Papa Lehua」が有名", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=papa", checkedAt: "2026-09-18" },
   { id: "mele-kahea", hawaiian: "mele kāhea", meaning: "hālau に入る許可を請う詠唱。「Kūnihi ka mauna」が Emerson 1909 に合言葉として全文掲載されている", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
+  { id: "kupuna", hawaiian: "kupuna", meaning: "祖父母、年長者、祖先。複数形は kūpuna", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kupuna", checkedAt: "2026-09-18" },
+  { id: "hoike", hawaiian: "hōʻike", meaning: "見せる、発表会。競技ではない披露の場", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=h%C5%8D%CA%BBike", checkedAt: "2026-09-18" },
+  { id: "wahine", hawaiian: "wahine", meaning: "女性。複数形は wāhine。Merrie Monarch の女性部門の名", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wahine", checkedAt: "2026-09-18" },
+  { id: "kane", hawaiian: "kāne", meaning: "男性。Merrie Monarch の男性部門の名", note: "神 Kāne と同綴り", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=k%C4%81ne", checkedAt: "2026-09-18" },
+  { id: "haku-mele", hawaiian: "haku mele", meaning: "歌を作る、作詞作曲家。Nā Hōkū Hanohano の審査制部門の名", note: "haku＝編む、組む", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=haku%20mele", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 

@@ -289,6 +289,23 @@
     "subjectNote": ""
   },
   {
+    "id": "hula-tokyo-2018",
+    "file": "hula-tokyo-2018.jpg",
+    "title": "File:Hula in Tokyo 2018 - DSC08630.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hula_in_Tokyo_2018_-_DSC08630.jpg",
+    "author": "Daderot",
+    "credit": "Own work",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Hula in Tokyo, Japan.",
+    "date": "2018-04-14 02:11:28",
+    "width": 1280,
+    "height": 824,
+    "revision": 1137410438,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "東京の公開イベントでの舞台写真"
+  },
+  {
     "id": "humpback-breach",
     "file": "humpback-breach.jpg",
     "title": "File:HIHWNMS -- Breaching Humpback Whale (36619848411).jpg",
@@ -372,6 +389,23 @@
     "revision": 1189963486,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
+  },
+  {
+    "id": "kamuela-trophy-2019",
+    "file": "kamuela-trophy-2019.jpg",
+    "title": "File:Hula Hālau O Kamuela under the direction of Kumu Hula Kauʻi Kamanaʻo and Kunewa Mook - 2019 Overall Winners of the Merrie Monarch Festival - Hilo HI - Lokalia Montgomery Perpetual Trophy.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hula_H%C4%81lau_O_Kamuela_under_the_direction_of_Kumu_Hula_Kau%CA%BBi_Kamana%CA%BBo_and_Kunewa_Mook_-_2019_Overall_Winners_of_the_Merrie_Monarch_Festival_-_Hilo_HI_-_Lokalia_Montgomery_Perpetual_Trophy.jpg",
+    "author": "Allanbcool",
+    "credit": "Own work",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Hula Hālau O Kamuela under the direction of Kumu Hula Kauʻi Kamanaʻo and Kunewa Mook - 2019 Overall Winners of the Merrie Monarch Festival - Hilo HI - Lokalia Montgomery Perpetual Trophy",
+    "date": "2019-04-28 00:59:02",
+    "width": 1280,
+    "height": 960,
+    "revision": 639587683,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "Merrie Monarch Festival（公開の競技）の授賞場面"
   },
   {
     "id": "kanakaole-quarter",
@@ -508,6 +542,40 @@
     "revision": 1258504199,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
+  },
+  {
+    "id": "mm-parade-2026",
+    "file": "mm-parade-2026.jpg",
+    "title": "File:Merrie Monarch Festival 2026 (1MMP2026-CC).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merrie_Monarch_Festival_2026_(1MMP2026-CC).jpg",
+    "author": "NOIRLab/NSF/AURA",
+    "credit": "Merrie Monarch Festival 2026",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Participants from the Maunakea Observatories community, including NOIRLab/Gemini North staff, gather for a group photo at the Merrie Monarch Festival Royal Parade held on 11 April 2026 in Hilo, Hawaiʻi.",
+    "date": "30 April 2026, 15:46:00 (upload date)",
+    "width": 1280,
+    "height": 668,
+    "revision": 1206496792,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "公道での公開パレードの写真（NOIRLab 提供）"
+  },
+  {
+    "id": "mm-stage-2019",
+    "file": "mm-stage-2019.jpg",
+    "title": "File:Merrie Monarch Stage Practice 2019.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merrie_Monarch_Stage_Practice_2019.jpg",
+    "author": "Allanbcool",
+    "credit": "Own work",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Merrie Monarch Stage Practice 2019",
+    "date": "2019-04-24 09:29:26",
+    "width": 1280,
+    "height": 960,
+    "revision": 1007123359,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "会場での公開リハーサル"
   },
   {
     "id": "moanalua-dancers-1885",
