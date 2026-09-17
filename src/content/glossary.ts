@@ -208,6 +208,18 @@ export const GLOSSARY: Term[] = [
   { id: "ina", hawaiian: "inā", meaning: "もし。ke は「もし・〜するとき（未来）」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=in%C4%81", checkedAt: "2026-09-18" },
   { id: "aka", hawaiian: "akā", meaning: "しかし", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=ak%C4%81", checkedAt: "2026-09-18" },
   { id: "mamaka-kaiao", hawaiian: "Māmaka Kaiao", meaning: "現代語彙の辞書（2003）。Kōmike Huaʻōlelo と ʻAha Pūnana Leo が編纂。学校制度・IT などの新語", category: "olelo", sourceUrl: "https://uhpress.hawaii.edu/title/mamaka-kaiao-a-modern-hawaiian-vocabulary/", checkedAt: "2026-09-18" },
+  // ---- aina ----
+  { id: "aina", hawaiian: "ʻāina", meaning: "土地、大地、国", note: "「食べさせるもの」の含みで語られる", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C4%81ina", checkedAt: "2026-09-18" },
+  { id: "mokupuni", hawaiian: "mokupuni", meaning: "島", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=mokupuni", checkedAt: "2026-09-18" },
+  { id: "moku", hawaiian: "moku", meaning: "区（島の大区分）、島、切り離された部分", note: "動詞では「切れる」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=moku", checkedAt: "2026-09-18" },
+  { id: "mauna", hawaiian: "mauna", meaning: "山。Mauna Loa＝長い山、Mauna Kea＝白い山", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=mauna", checkedAt: "2026-09-18" },
+  { id: "puu", hawaiian: "puʻu", meaning: "丘、峰、噴石丘", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pu%CA%BBu", checkedAt: "2026-09-18" },
+  { id: "pele-lava", hawaiian: "pele", meaning: "溶岩流、火山、噴火（女神 Pele に由来）", note: "lua pele＝火山（現代語）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pele", checkedAt: "2026-09-18" },
+  { id: "makani", hawaiian: "makani", meaning: "風。比喩で怒り、噂", note: "多くの風に名がある", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=makani", checkedAt: "2026-09-18" },
+  { id: "ua-rain", hawaiian: "ua", meaning: "雨。「多くの雨には名があり、特定の場所と詩的に結びつく」（辞書）", note: "完了マーカーの ua と同綴り", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ua", checkedAt: "2026-09-18" },
+  { id: "koolau", hawaiian: "Koʻolau", meaning: "諸島の風上側（北東）。山脈の名にも", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Ko%CA%BBolau", checkedAt: "2026-09-18" },
+  { id: "kona", hawaiian: "Kona", meaning: "諸島の風下側（南西）。南西から吹く Kona 風の名でもある", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kona", checkedAt: "2026-09-18" },
+  { id: "moae", hawaiian: "Moaʻe", meaning: "貿易風。Moaʻe kū＝強い貿易風", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=Moa%CA%BBe", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
