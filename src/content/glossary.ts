@@ -196,6 +196,18 @@ export const GLOSSARY: Term[] = [
   { id: "uka-kai", hawaiian: "uka / kai", meaning: "内陸側／海側。ma uka・ma kai で方角を言う。場所名詞", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
   { id: "laila", hawaiian: "laila", meaning: "そこ。冠詞を取らない場所名詞。no laila＝だから", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
   { id: "anei-loc", hawaiian: "ʻaneʻi", meaning: "ここ。ma- の前で maʻaneʻi と1語に綴る", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=anei", checkedAt: "2026-09-18" },
+  { id: "wai-interr", hawaiian: "wai", meaning: "誰。ʻO wai kou inoa?（名前は？）", note: "水の wai と同綴り", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=wai", checkedAt: "2026-09-18" },
+  { id: "aha", hawaiian: "aha", meaning: "何、なぜ。He aha kēlā?（あれは何？）、No ke aha?（なぜ？）", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=aha", checkedAt: "2026-09-18" },
+  { id: "hea", hawaiian: "hea", meaning: "どこ、どの。i hea / ma hea / mai hea / no hea", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=hea", checkedAt: "2026-09-18" },
+  { id: "ehia", hawaiian: "ʻehia", meaning: "いくつ、いくら。Hola ʻehia?（何時？）", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=%CA%BBehia", checkedAt: "2026-09-18" },
+  { id: "ahea", hawaiian: "āhea / ināhea", meaning: "いつ。āhea は未来、ināhea は過去", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=in%C4%81hea", checkedAt: "2026-09-18" },
+  { id: "pehea", hawaiian: "pehea", meaning: "どう、どのように。Pehea ʻoe?（元気？）", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=pehea", checkedAt: "2026-09-18" },
+  { id: "anei", hawaiian: "anei", meaning: "yes/no 疑問を示す助詞。語や句のあとに置く。省略可", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=anei", checkedAt: "2026-09-18" },
+  { id: "aaohe", hawaiian: "ʻaʻohe", meaning: "無い、持っていない。ʻaʻole＋he の縮約。あとに k なし所有が続く", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=%CA%BBa%CA%BBohe", checkedAt: "2026-09-18" },
+  { id: "ai-anaphoric", hawaiian: "ai", meaning: "照応の助詞。文頭に出した時・場所・理由の「穴」を動詞の後ろで指し示す。i … ai／e … ai", category: "olelo", sourceUrl: "https://www.wehewehe.org/gsdl2.85/cgi-bin/hdict?a=d&d=D362", checkedAt: "2026-09-18" },
+  { id: "ina", hawaiian: "inā", meaning: "もし。ke は「もし・〜するとき（未来）」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=in%C4%81", checkedAt: "2026-09-18" },
+  { id: "aka", hawaiian: "akā", meaning: "しかし", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=ak%C4%81", checkedAt: "2026-09-18" },
+  { id: "mamaka-kaiao", hawaiian: "Māmaka Kaiao", meaning: "現代語彙の辞書（2003）。Kōmike Huaʻōlelo と ʻAha Pūnana Leo が編纂。学校制度・IT などの新語", category: "olelo", sourceUrl: "https://uhpress.hawaii.edu/title/mamaka-kaiao-a-modern-hawaiian-vocabulary/", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
