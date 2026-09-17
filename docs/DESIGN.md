@@ -1,7 +1,8 @@
 # Aʻo Hawaiʻi — 設計
 
 - 日付: 2026-09-18
-- 状態: 実装中
+- 状態: 公開済み（2026-09-18、33レッスン）。https://iiiitiiitiiti.github.io/ao-hawaii/
+- 判断の記録: [decisions/](decisions/)、資料ノート: [research/](research/)
 
 ## 結論
 
