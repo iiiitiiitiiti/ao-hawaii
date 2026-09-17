@@ -232,6 +232,13 @@ export const GLOSSARY: Term[] = [
   { id: "kilauea", hawaiian: "Kīlauea", meaning: "「噴き出す、広く広がる」。ハワイ島の活火山", category: "aina", sourceUrl: "https://wehewehe.org/", checkedAt: "2026-09-18" },
   { id: "kipuka", hawaiian: "kīpuka", meaning: "溶岩流に囲まれて残った古い土地と植生", category: "aina", sourceUrl: "https://www.nps.gov/havo/learn/nature/geological-features.htm", checkedAt: "2026-09-18" },
   { id: "amau", hawaiian: "ʻamaʻu", meaning: "固有のシダ（Sadleria）。Kamapuaʻa の化身の一つ。Halemaʻumaʻu の語源", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBama%CA%BBu", checkedAt: "2026-09-18" },
+  { id: "kai", hawaiian: "kai", meaning: "海、海水、潮、海辺の低地。makai＝海側へ", note: "nā kai ʻewalu＝8つの海（主島を隔てる海峡）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kai", checkedAt: "2026-09-18" },
+  { id: "moana", hawaiian: "moana", meaning: "大洋、外海", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=moana", checkedAt: "2026-09-18" },
+  { id: "nalu", hawaiian: "nalu", meaning: "波、うねり。heʻe nalu＝サーフィン（波を滑る）", note: "動詞では「思いめぐらす」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=nalu", checkedAt: "2026-09-18" },
+  { id: "ale", hawaiian: "ʻale", meaning: "うねり、大波。ʻale poʻi＝砕ける波", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBale", checkedAt: "2026-09-18" },
+  { id: "au-current", hawaiian: "au", meaning: "流れ、潮流。au kō malalo＝引き波の底流", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=au", checkedAt: "2026-09-18" },
+  { id: "kohola-reef", hawaiian: "kohola", meaning: "礁原、干出する礁。kai kohola＝礁湖", note: "クジラの koholā（長母音）とは別", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kohola", checkedAt: "2026-09-18" },
+  { id: "papahanaumokuakea", hawaiian: "Papahānaumokuākea", meaning: "北西ハワイ諸島の海洋国家記念物（2006年設置、2007年命名、2016年拡張）。Papahānaumoku と Wākea の名を結ぶ", category: "aina", sourceUrl: "https://www.papahanaumokuakea.gov/new-about/", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 

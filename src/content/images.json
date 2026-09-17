@@ -85,6 +85,23 @@
     "subjectNote": ""
   },
   {
+    "id": "eddie-waimea",
+    "file": "eddie-waimea.jpg",
+    "title": "File:The Eddie Aikau Big Wave Invitational, Waimea Bay, Oahu, Hawaii.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Eddie_Aikau_Big_Wave_Invitational%2C_Waimea_Bay%2C_Oahu%2C_Hawaii.jpg",
+    "author": "AK KAMEDA PHOTOS",
+    "credit": "https://www.flickr.com/photos/uhmedschool/25317193985/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "The Eddie Aikau Big Wave Invitational, Waimea Bay, Oahu, Hawaii",
+    "date": "2016-02-25 18:40:59",
+    "width": 1280,
+    "height": 449,
+    "revision": 1133740830,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "公開のサーフィン大会の遠景"
+  },
+  {
     "id": "fissure8-2018",
     "file": "fissure8-2018.jpg",
     "title": "File:Kilauea Fissure 8 cone erupting on 6-28-2018.jpg",
@@ -595,6 +612,23 @@
     "subjectNote": ""
   },
   {
+    "id": "kure-atoll",
+    "file": "kure-atoll.jpg",
+    "title": "File:PMNM - Kure Atoll (26491391503).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PMNM_-_Kure_Atoll_(26491391503).jpg",
+    "author": "National Marine Sanctuaries",
+    "credit": "PMNM - Kure Atoll",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "Look closely at the horizon, and you can just make out the faint outline of Kure Atoll (max. elevation 20 feet). The most remote of the Northwestern Hawaiian Islands, Kure lies within the protected waters of the 140,000-square-mile Papahānaumokuākea Marine National Monument. Photo Credit: Paulo Maur",
+    "date": "2006-07-03 13:39",
+    "width": 1280,
+    "height": 1707,
+    "revision": 991736107,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": ""
+  },
+  {
     "id": "lahainaluna-1838",
     "file": "lahainaluna-1838.jpg",
     "title": "File:Lahainaluna, ca. 1838. Drawn by Edward Bailey, engraved by Kepohoni.jpg",
@@ -778,6 +812,23 @@
     "width": 1280,
     "height": 1226,
     "revision": 984007553,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": ""
+  },
+  {
+    "id": "midway-reef",
+    "file": "midway-reef.jpg",
+    "title": "File:Reef fish at Midway Atoll (52410730831).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reef_fish_at_Midway_Atoll_(52410730831).jpg",
+    "author": "USFWS Pacific",
+    "credit": "Reef fish at Midway Atoll",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "Countless fish swim in all directions among the coral reef at Midway Atoll National Wildlife Refuge, May 13, 2022. USFWS volunteer video: Percy Ulsamer This is the only time it’s OK to tap the glass. Midway Atoll is surrounded by more than 88,500 acres of coral reef, supporting about 160 species of ",
+    "date": "Taken on 13 May 2022, 17:42:04",
+    "width": 1280,
+    "height": 720,
+    "revision": 1122941885,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
   },
