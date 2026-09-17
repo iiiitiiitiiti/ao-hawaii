@@ -40,3 +40,16 @@
 - 「kumu a hula」→「the kumu hula」、「最も民主的」→「おそらく最も民主的」、p.28 の引用の切れ目に省略記号、kōkua kumu（p.29）の追記、索引の指示ページ p.210 を明記
 
 PE 辞書と Hawaiian Grammar（ulukau の動的ページ）の逐語照合は未実施。次に確かめるならここ。
+
+## Pukui-Elbert 辞書の引用照合（ハワイ語講座）
+
+wehe.hilo.hawaii.edu（同じ PE 1986 本文）で76件を照合。一致63・ほぼ一致5・不一致2・原典に無い1・取得不能6（PE の前付け p.XVII–XXVIII はオンライン辞書に無い）。反映したもの:
+
+- aia の引用を原文どおりに（idiom. の表示、省略記号、2. の語義5つ、訳の全文）
+- ʻehia の a/o 対の取り違え（PE の対は「ʻEhia o kou pāpale?」と「ʻEhia o kāu pāpale?」）
+- ʻo の引用「Part;」→「Particle」、Gram. 9.13 を戻す。ka の引用末尾に省略記号
+- ʻia の引用を略号のまま、hoʻo- 4. の PE の例（kāholoholo）、「独立の見出しが無い」→「定義は語基の下」
+- kā- の項、kūʻai の項、haumana の綴り、ke aloha の帰属（HG p.154）、訳の脱落（here／with you）
+- 「Mai, mai, mai e ʻai!」は PE に無い → PE の「Mai e ʻai」と RG の繰り返し形に分けた
+
+未確認のまま: PE 前付けの発音表・二重母音表・強勢例（Lesson 01）と略号一覧・ピリオドの説明（Lesson 06）。紙の辞書か ulukau のスキャンで確かめる。
