@@ -1,6 +1,6 @@
 /**
- * 年表。歴史講座とフラ講座の年代を横断して並べる。
- * 年代に諸説あるものは year に "c." を含めず、note に諸説を書く。
+ * 年表。講座横断で出来事を並べる。各行の根拠はそれぞれの講座レッスンの出典にある。
+ * 年代に諸説あるものは note に書く。
  */
 export type TimelineEvent = {
   year: string;
@@ -10,4 +10,72 @@ export type TimelineEvent = {
   course?: "moaukala" | "hula" | "olelo" | "aina" | "mea-ola" | "moolelo";
 };
 
-export const TIMELINE: TimelineEvent[] = [];
+export const TIMELINE: TimelineEvent[] = [
+  { year: "約8,000万年前", title: "天皇海山列の北西端 Detroit 海山が活動", course: "aina" },
+  { year: "約510万年前", title: "Kauaʻi の主要溶岩", note: "K-Ar 年代（UH）", course: "aina" },
+  { year: "約40万年前〜", title: "Kīlauea が活動", course: "aina" },
+  { year: "1000〜1200頃", title: "ポリネシア人がハワイに到達", note: "近年の放射性炭素年代の再検討による。従来の300〜800年説は退けられつつある", course: "moaukala" },
+  { year: "1200〜1600頃", title: "養魚池（loko iʻa）の大半が築かれる", course: "aina" },
+  { year: "1470頃", title: "Kīlauea の現在の山頂カルデラが陥没で形成", course: "aina" },
+  { year: "1778", title: "Cook が Kauaʻi の Waimea に来航", course: "moaukala" },
+  { year: "1779", title: "Cook、Kealakekua 湾で死亡。Kalaniʻōpuʻu が羽根のマントを贈る", course: "moolelo" },
+  { year: "1790", title: "Kīlauea の爆発的噴火。米国の火山噴火で最多の死者", course: "aina" },
+  { year: "1791", title: "Puʻukoholā Heiau 完成。Kamehameha がハワイ島を統一", course: "moaukala" },
+  { year: "1795", title: "Nuʻuanu の戦い。Oʻahu 征服", course: "moaukala" },
+  { year: "1810", title: "Kauaʻi が服属し、Kamehameha の統一が完成", course: "moaukala" },
+  { year: "1819", title: "5月 Kamehameha I 死去。11月 ʻAi Noa（kapu の廃止）", course: "moaukala" },
+  { year: "1820", title: "4月4日、第一次宣教団が Kailua-Kona に上陸", course: "moaukala" },
+  { year: "1826", title: "宣教師がハワイ語アルファベットを確定。蚊（Culex）が Lahaina に上陸", course: "olelo" },
+  { year: "1830", title: "Kaʻahumanu が公の場でのフラを口頭で禁じる", note: "成文法ではない。1832年の死後に事実上消滅", course: "hula" },
+  { year: "1832", title: "識字教育がピーク。900校に53,000人", course: "moaukala" },
+  { year: "1834", title: "最初のハワイ語新聞 Ka Lama Hawaii（Lahainaluna）", course: "moaukala" },
+  { year: "1840", title: "10月8日、王国初の成文憲法", course: "moaukala" },
+  { year: "1843", title: "Paulet の5か月の占領。7月31日 Lā Hoʻihoʻi Ea「Ua mau ke ea o ka ʻāina i ka pono」", course: "moaukala" },
+  { year: "1848", title: "Great Māhele。土地の私有化", course: "moaukala" },
+  { year: "1859", title: "フラを法的に規制する法律（Civil Code）。公演1回10ドル以上、Honolulu 限定", course: "hula" },
+  { year: "1868", title: "元年者148名が Honolulu へ。アクシスジカが Molokaʻi に導入", course: "moaukala" },
+  { year: "1874", title: "Kalākaua 即位", course: "moaukala" },
+  { year: "1879", title: "Ravenscrag 号でポルトガル移民到着。ʻukulele の起源", course: "hula" },
+  { year: "1883", title: "2月12日、Kalākaua の戴冠式。3日間のフラ、262演目", course: "hula" },
+  { year: "1883", title: "マングース72頭がハワイ島に放獣", course: "mea-ola" },
+  { year: "1885", title: "官約移民943名が Honolulu 着", course: "moaukala" },
+  { year: "1887", title: "7月6日、Bayonet Constitution", course: "moaukala" },
+  { year: "1889", title: "Kalākaua がクムリポのハワイ語本文を印刷", course: "moolelo" },
+  { year: "1891", title: "Kalākaua 死去。Liliʻuokalani 即位", course: "moaukala" },
+  { year: "1893", title: "1月17日、王国転覆。2月10日 Kaulana Nā Pua 作曲", course: "moaukala" },
+  { year: "1895", title: "Wilcox の蜂起失敗。女王は幽閉され、1月24日に退位を強いられる", course: "moaukala" },
+  { year: "1896", title: "Act 57。英語を学校の教授言語に", course: "moaukala" },
+  { year: "1897", title: "Kūʻē 請願。21,269名が署名。Liliʻuokalani がクムリポの英訳を出版", course: "moaukala" },
+  { year: "1898", title: "7月7日 Newlands 決議。8月12日、ʻIolani Palace で主権移譲", course: "moaukala" },
+  { year: "1900", title: "Organic Act。ハワイ準州", course: "moaukala" },
+  { year: "1909", title: "Emerson『Unwritten Literature of Hawaii』刊行", course: "hula" },
+  { year: "1915", title: "パナマ太平洋万博でハワイ音楽が全国的ブームに", course: "hula" },
+  { year: "1937", title: "Kodak Hula Show 開始（〜2002）", course: "hula" },
+  { year: "1941", title: "真珠湾攻撃。戒厳令（〜1944）。Kahoʻolawe が爆撃場に", course: "moaukala" },
+  { year: "1951", title: "Beckwith『The Kumulipo』刊行", course: "moolelo" },
+  { year: "1959", title: "8月21日、50番目の州に", course: "moaukala" },
+  { year: "1964", title: "第1回 Merrie Monarch Festival（フラ競技はまだ無い）", course: "hula" },
+  { year: "1971", title: "Merrie Monarch にフラ競技部門。9 hālau", course: "hula" },
+  { year: "1976", title: "Hōkūleʻa がタヒチへ（34日）。PKO が Kahoʻolawe に上陸。Merrie Monarch に kāne 部門", course: "moaukala" },
+  { year: "1978", title: "州憲法会議。ハワイ語が公用語に、OHA 設置", course: "olelo" },
+  { year: "1979", title: "Elbert & Pukui『Hawaiian Grammar』刊行", course: "olelo" },
+  { year: "1983", title: "ʻAha Pūnana Leo 設立。Puʻu ʻŌʻō 噴火開始（〜2018）", course: "moaukala" },
+  { year: "1984", title: "最初の Pūnana Leo が Kekaha（Kauaʻi）に開設", course: "moaukala" },
+  { year: "1986", title: "Pukui & Elbert『Hawaiian Dictionary』改訂増補版。ハワイ語教育の禁止が解かれる", course: "olelo" },
+  { year: "1987", title: "公立のハワイ語イマージョン校が開校", course: "moaukala" },
+  { year: "1992", title: "Hawaiian Islands Humpback Whale National Marine Sanctuary 指定", course: "mea-ola" },
+  { year: "1993", title: "11月23日、Apology Resolution（Public Law 103-150）", course: "moaukala" },
+  { year: "1994", title: "海軍が Kahoʻolawe を州へ返還", course: "moaukala" },
+  { year: "2002", title: "ʻalalā が野生絶滅", course: "mea-ola" },
+  { year: "2006", title: "Papahānaumokuākea 海洋国家記念物設置", course: "aina" },
+  { year: "2010", title: "Rapid ʻŌhiʻa Death をハワイ島で確認。Papahānaumokuākea が世界遺産に", course: "mea-ola" },
+  { year: "2015", title: "サンゴの記録的な白化。Hāʻena に州初の CBSFA 規則", course: "mea-ola" },
+  { year: "2016", title: "8月26日、Papahānaumokuākea を4倍に拡張", course: "aina" },
+  { year: "2018", title: "Kīlauea 下部 East Rift Zone 噴火。700棟超が埋まる", course: "aina" },
+  { year: "2019", title: "7月17日、Mauna Kea で kūpuna 34名逮捕", course: "moaukala" },
+  { year: "2021", title: "Lōʻihi が Kamaʻehuakanaloa に改名", course: "aina" },
+  { year: "2022", title: "11月27日、Mauna Loa が38年ぶりに噴火", course: "aina" },
+  { year: "2023", title: "8月8日、Lahaina 山火事。Edith Kanakaʻole の25セント硬貨", course: "moaukala" },
+  { year: "2024", title: "11月、ʻalalā 5羽を Maui に放鳥", course: "mea-ola" },
+  { year: "2026", title: "第63回 Merrie Monarch。Hālau Hiʻiakaināmakalehua が総合優勝", course: "hula" },
+];

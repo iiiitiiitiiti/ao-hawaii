@@ -22,7 +22,6 @@ export function Photo({ id, caption, alt }: PhotoProps) {
         alt={alt ?? caption ?? entry.description}
         width={entry.width}
         height={entry.height}
-        loading="lazy"
       />
       {caption && <figcaption className="photo__caption">{caption}</figcaption>}
       <p className="photo__credit">
