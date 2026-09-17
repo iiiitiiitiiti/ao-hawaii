@@ -147,6 +147,12 @@ export const GLOSSARY: Term[] = [
   { id: "olioli", hawaiian: "olioli", meaning: "温かく、iʻi（声の震え）を極端にした詠唱の様式。語源は「喜ばしい」", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
   { id: "kepakepa", hawaiian: "kepakepa", meaning: "速くリズミカルな朗唱。祈りに用いる", note: "Emerson では「隠語的な言い回し」を指す。指す範囲に注意", category: "hula", sourceUrl: "https://keolamagazine.com/culture/oli/", checkedAt: "2026-09-18" },
   { id: "pua", hawaiian: "pua", meaning: "花。比喩で子孫、子ら", note: "Kaulana Nā Pua の「花々」はハワイの人々", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pua", checkedAt: "2026-09-18" },
+  { id: "halau", hawaiian: "hālau", meaning: "長屋。カヌー小屋、フラを教える場、集会所", note: "辞書の比較語源は PNP *folau（航海）。「hale＋lau」説は辞書に無い", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=halau", checkedAt: "2026-09-18" },
+  { id: "uniki", hawaiian: "ʻūniki", meaning: "修了の儀式。hula に限らず lua など古い技芸に共通", note: "辞書は niki（結ぶ）に関係すると推定。Emerson は「初舞台」と定義", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=uniki", checkedAt: "2026-09-18" },
+  { id: "ailolo", hawaiian: "ʻailolo", meaning: "修業の終わりを画す儀式。神に捧げた魚・犬・豚の頭、特に脳（lolo）を食べる（ʻai）ことから", note: "形容詞で「熟達した」の意も", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ailolo", checkedAt: "2026-09-18" },
+  { id: "lama", hawaiian: "lama", meaning: "在来の木（Diospyros）。白く緻密な材で、神聖な囲いや kapu の用途に使われた", note: "kuahu の Laka の依代はこの木の無彫刻の木片", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
+  { id: "papa", hawaiian: "papa", meaning: "クラス、期。同じ時期に学び卒業した仲間", note: "Maiki Aiu Lake の「Papa Lehua」が有名", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=papa", checkedAt: "2026-09-18" },
+  { id: "mele-kahea", hawaiian: "mele kāhea", meaning: "hālau に入る許可を請う詠唱。「Kūnihi ka mauna」が Emerson 1909 に合言葉として全文掲載されている", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
