@@ -68,6 +68,23 @@
     "subjectNote": ""
   },
   {
+    "id": "halau-o-kekuhi-mm2017",
+    "file": "halau-o-kekuhi-mm2017.jpg",
+    "title": "File:Hula dancers (DSC9108).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hula_dancers_(DSC9108).jpg",
+    "author": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation. Please credit authorship as follows: © CC BY-SA Thomas Tunsch / Hula dancers (DSC9108).jpg (Wikimedia Commons). Source attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Hula_dancers_(DSC9108).jpg) is recommended. The application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally.",
+    "credit": "Own work",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Hula kahiko dancers from Hālau o Kekuhi on stage at the Merrie Monarch Festival",
+    "date": "2017-04-19 18:09:47",
+    "width": 1280,
+    "height": 848,
+    "revision": 1038527494,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "Merrie Monarch Festival（公開の競技）のステージ写真"
+  },
+  {
     "id": "haleakala-summit",
     "file": "haleakala-summit.jpg",
     "title": "File:Haleakala Summit Scenic Overlook Hawaii 2021.jpg",
@@ -357,6 +374,23 @@
     "subjectNote": ""
   },
   {
+    "id": "kanakaole-quarter",
+    "file": "kanakaole-quarter.jpg",
+    "title": "File:2023 Edith Kanakaʻole Womens Quarter.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Edith_Kanaka%CA%BBole_Womens_Quarter.jpg",
+    "author": "Emily Damstra",
+    "credit": "https://www.usmint.gov/coins/coin-medal-programs/american-women-quarters/edith-kanakaole",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "The reverse (tails) depicts a portrait of Edith Kanakaʻole, with her hair and lei poʻo (head lei) morphing into the elements of a Hawaiian landscape, symbolizing Kanakaʻole's life’s work of preserving the natural land and traditional Hawaiian culture. The inscription \"E hō mai ka ʻike\" translates as",
+    "date": "2022",
+    "width": 1280,
+    "height": 1280,
+    "revision": 1058661818,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "米国造幣局の硬貨図案（公的な意匠）"
+  },
+  {
     "id": "kii-honaunau",
     "file": "kii-honaunau.jpg",
     "title": "File:The kiʻi at Puʻuhonua o Hōnaunau National Historical Park attract visitors from all over the world. Take a journey around the (eae0de4f-3632-489c-98c1-05160f44ac3d).JPG",
@@ -440,6 +474,23 @@
     "revision": 1103484050,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
+  },
+  {
+    "id": "makuakane-mm2013",
+    "file": "makuakane-mm2013.jpg",
+    "title": "File:Kumu Hula Patrick Makuakāne (a0006840).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumu_Hula_Patrick_Makuak%C4%81ne_(a0006840).jpg",
+    "author": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation. Please credit authorship as follows: © CC BY-SA Thomas Tunsch / Kumu Hula Patrick Makuakāne (a0006840).jpg (Wikimedia Commons). Source attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Kumu_Hula_Patrick_Makuak%C4%81ne_(a0006840).jpg) is recommended. The application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally.",
+    "credit": "Own work",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kumu Hula Patrick Makuakāne dances Hula ʻauana on stage at the 50th Merrie Monarch Festival",
+    "date": "2013-04-03 20:29:02",
+    "width": 1280,
+    "height": 1933,
+    "revision": 1129949343,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": "Merrie Monarch Festival（公開の競技）のステージ写真。人物は出場した kumu hula 本人"
   },
   {
     "id": "mao-hau-hele",
