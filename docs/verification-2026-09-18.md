@@ -26,3 +26,17 @@
 - Kaulana Nā Pua の作曲日（Stillman の2月10日説を採用。huapala は1月）
 - 1959年の住民投票に独立の選択肢が無かったこと
 - kapu の個別規定の原典（Malo）
+
+## Emerson 1909 の逐語照合（最終レビュー後の追加検証）
+
+最終レビュー（Opus）の提案で、Project Gutenberg のプレーンテキスト（`docs/research/emerson-1909-gutenberg.txt`）と、Emerson に帰属した記述79件を照合した。一致66・ほぼ一致5・不一致4・原典に無い2・脱漏2。反映したもの:
+
+- ʻami「腰を回すとは書いていない」→ p.210 に骨盤の回転の記述があるため、章を分けて書き直し
+- 「Kapo も祭壇の木片で象徴された」→ 脚注75 の被修飾語は Laka。p.15 の「Laka または Kapo に祈る」に差し替え
+- 黒い子豚の記述は p.34 → p.32（切り分けは p.34）
+- pule kuahu の3行目「Hooulu a lei ou」→ 原典「Hooulu lei ou」（脚注番号を "a" と読み違えていた）
+- mele aloha を Emerson の分類としない（Emerson は mele hoʻoipoipo／mele ipo）
+- 「祈りの資格は師系で継承」→ Emerson に無い。ʻailolo 通過後に祈る権利を得る、に限定
+- 「kumu a hula」→「the kumu hula」、「最も民主的」→「おそらく最も民主的」、p.28 の引用の切れ目に省略記号、kōkua kumu（p.29）の追記、索引の指示ページ p.210 を明記
+
+PE 辞書と Hawaiian Grammar（ulukau の動的ページ）の逐語照合は未実施。次に確かめるならここ。
