@@ -17,6 +17,23 @@
     "subjectNote": ""
   },
   {
+    "id": "alala",
+    "file": "alala.jpg",
+    "title": "File:Corvus hawaiiensis FWS.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_hawaiiensis_FWS.jpg",
+    "author": "U.S. Fish and Wildlife Service",
+    "credit": "This image originates from the National Digital Library of the United States Fish and Wildlife Service at this page This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.See Category:Images from the United States Fish and Wildlife Service. FWS.gov National Digital Library: WO-2879-15",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "Hawaiian Crow (Corvus hawaiiensis).",
+    "date": "12 February 2005 (original upload date)",
+    "width": 1280,
+    "height": 1276,
+    "revision": 1081357157,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": ""
+  },
+  {
     "id": "clermontia",
     "file": "clermontia.jpg",
     "title": "File:Clermontia montis-loa Wright Rd 4970.jpg",
@@ -170,6 +187,23 @@
     "subjectNote": ""
   },
   {
+    "id": "iiwi",
+    "file": "iiwi.jpg",
+    "title": "File:Iiwi.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iiwi.jpg",
+    "author": "不明（Commons の記載なし）",
+    "credit": "",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "",
+    "date": "",
+    "width": 1280,
+    "height": 776,
+    "revision": 1032467175,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": ""
+  },
+  {
     "id": "kalakaua-cogswell",
     "file": "kalakaua-cogswell.jpg",
     "title": "File:Kalakaua, painting by William Cogswell, Iolani Palace.jpg",
@@ -319,6 +353,23 @@
     "width": 1280,
     "height": 1146,
     "revision": 1258294031,
+    "fetchedAt": "2026-09-18",
+    "subjectNote": ""
+  },
+  {
+    "id": "nene-kauai",
+    "file": "nene-kauai.jpg",
+    "title": "File:Nene goose Branta sandvicensis Kauai 6152.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nene_goose_Branta_sandvicensis_Kauai_6152.jpg",
+    "author": "ImagePerson",
+    "credit": "Own work",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Nene geese Branta sandvicensis Kauai",
+    "date": "2020-02-17 21:13:11",
+    "width": 1280,
+    "height": 1382,
+    "revision": 1229652813,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
   },
