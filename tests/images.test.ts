@@ -71,6 +71,7 @@ describe("ライセンス判定", () => {
     ["CC BY 2.0", true],
     ["CC BY-SA 4.0", true],
     ["CC BY-SA 3.0,GFDL", true],
+    ["CC BY 3.0 us", true],
     ["CC BY-NC 2.0", false],
     ["CC BY-NC-SA 3.0", false],
     ["CC BY-ND 4.0", false],
