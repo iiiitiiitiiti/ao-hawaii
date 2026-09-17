@@ -158,6 +158,19 @@ export const GLOSSARY: Term[] = [
   { id: "wahine", hawaiian: "wahine", meaning: "女性。複数形は wāhine。Merrie Monarch の女性部門の名", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wahine", checkedAt: "2026-09-18" },
   { id: "kane", hawaiian: "kāne", meaning: "男性。Merrie Monarch の男性部門の名", note: "神 Kāne と同綴り", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=k%C4%81ne", checkedAt: "2026-09-18" },
   { id: "haku-mele", hawaiian: "haku mele", meaning: "歌を作る、作詞作曲家。Nā Hōkū Hanohano の審査制部門の名", note: "haku＝編む、組む", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=haku%20mele", checkedAt: "2026-09-18" },
+  // ---- olelo ----
+  { id: "okina", hawaiian: "ʻokina", meaning: "声門閉鎖音を表す文字。「切ること、区切り」が原義", note: "ʻuʻina（はじける音）とも呼ぶ（HG p.11）。Unicode は U+02BB", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=%CA%BBokina", checkedAt: "2026-09-18" },
+  { id: "kahako", hawaiian: "kahakō", meaning: "長母音を示す横線（マクロン）。長さと強勢の両方を表す", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "olelo-hawaii", hawaiian: "ʻōlelo Hawaiʻi", meaning: "ハワイ語。ʻōlelo は「ことば、話す」", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C5%8Dlelo", checkedAt: "2026-09-18" },
+  { id: "puke-wehewehe", hawaiian: "puke wehewehe ʻōlelo", meaning: "辞書。wehewehe は「説明する」", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wehewehe", checkedAt: "2026-09-18" },
+  { id: "kai-article", hawaiian: "kaʻi", meaning: "（文法用語）冠詞類。名詞の前に1つだけ付く", note: "ka/ke/nā/he と所有詞・指示詞を含む", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
+  { id: "kinoa", hawaiian: "kinoʻā", meaning: "（文法用語）所有の a クラス。自分が作る・選べる・支配下にある関係", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
+  { id: "kinoo", hawaiian: "kinoʻō", meaning: "（文法用語）所有の o クラス。選べない・生まれつき・身につける・乗る関係", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
+  { id: "kakou", hawaiian: "kākou", meaning: "私たち全員（あなたを含む、3人以上）", note: "kā-＝包括、-kou＝複数。mākou は「あなたを含まない」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=ka", checkedAt: "2026-09-18" },
+  { id: "kaua", hawaiian: "kāua", meaning: "あなたと私（2人）", note: "māua は「私ともう1人、あなたを含まない」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=ka", checkedAt: "2026-09-18" },
+  { id: "keia", hawaiian: "kēia", meaning: "これ（話し手の近く）", note: "「この人＝私」の意で使うこともある", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=k%C4%93ia", checkedAt: "2026-09-18" },
+  { id: "kena", hawaiian: "kēnā", meaning: "それ（聞き手の近く）", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=k%C4%93n%C4%81", checkedAt: "2026-09-18" },
+  { id: "kela", hawaiian: "kēlā", meaning: "あれ（遠く）。物語では「前述の〜」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=k%C4%93l%C4%81", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 

@@ -45,7 +45,9 @@ function stripHtml(html = "") {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    // Commons の Artist 欄は「Unknown authorUnknown author」のように同じ文字列が2回続くことがある
+    .replace(/^(.+?)\1$/, "$1");
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
