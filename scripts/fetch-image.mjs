@@ -22,8 +22,9 @@ const ALLOWED = [
   /^public domain$/i,
   /^pd\b/i,
   /^cc0\b/i,
-  /^cc by(?: \d(?:\.\d)?)?$/i,
-  /^cc by-sa(?: \d(?:\.\d)?)?$/i,
+  // "CC BY 3.0 us" のような地域版（ported）も同じ条件で可
+  /^cc by(?: \d(?:\.\d)?(?: [a-z]{2})?)?$/i,
+  /^cc by-sa(?: \d(?:\.\d)?(?: [a-z]{2})?)?$/i,
   /^attribution$/i,
   /^gfdl$/i,
 ];
