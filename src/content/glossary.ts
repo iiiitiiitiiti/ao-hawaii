@@ -186,6 +186,16 @@ export const GLOSSARY: Term[] = [
   { id: "aano", hawaiian: "ʻaʻano", meaning: "（文法用語）状態動詞。英語なら形容詞にあたる語もハワイ語では動詞", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
   { id: "hamani", hawaiian: "hamani", meaning: "（文法用語）他動詞。目的語標識 i/iā を取る", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
   { id: "hehele", hawaiian: "hehele", meaning: "（文法用語）自動詞。目的語を取らず、強意の nui/loa も取らない", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
+  { id: "mai-dir", hawaiian: "mai", meaning: "方向詞「こちらへ」。ほかに前置詞「〜から」、「もう少しで」、否定命令の4つの働きがある", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=mai", checkedAt: "2026-09-18" },
+  { id: "aku", hawaiian: "aku", meaning: "方向詞「あちらへ、話し手から離れて」。時間では「〜前（nei と）」「これから（nei なし）」", note: "kūʻai mai＝買う、kūʻai aku＝売る", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=aku", checkedAt: "2026-09-18" },
+  { id: "ae-dir", hawaiian: "aʻe", meaning: "方向詞「上へ、横へ、隣へ、次の」。聞き手の近く。比較級「より〜」にも", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=a%CA%BBe", checkedAt: "2026-09-18" },
+  { id: "iho", hawaiian: "iho", meaning: "方向詞「下へ」。体の動作（食べる・考える）のあとでは再帰「自分で、自身」", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=iho", checkedAt: "2026-09-18" },
+  { id: "na-no", hawaiian: "na / no", meaning: "na＝行為者（〜が作った、〜のもの）、no＝受益・主題（〜のための、〜について）、出身", note: "He mele na Kimo（Kimo 作）／He mele no Kimo（Kimo に捧ぐ）", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "e-vocative", hawaiian: "ē", meaning: "呼びかけ。名の前にも後ろにも置ける。「Ē Pua ē」", note: "行為者の e（短母音）とは別", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "me", hawaiian: "me", meaning: "〜と共に、〜で（道具）、〜のように", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "uka-kai", hawaiian: "uka / kai", meaning: "内陸側／海側。ma uka・ma kai で方角を言う。場所名詞", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "laila", hawaiian: "laila", meaning: "そこ。冠詞を取らない場所名詞。no laila＝だから", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
+  { id: "anei-loc", hawaiian: "ʻaneʻi", meaning: "ここ。ma- の前で maʻaneʻi と1語に綴る", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=anei", checkedAt: "2026-09-18" },
   { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
