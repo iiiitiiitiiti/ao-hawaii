@@ -749,3 +749,8 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 - 文化盗用・商業化・hula girlステレオタイプ批判・「教える資格」問題・Moana 2やLilo & Stitch実写への反応は、検索ツールの制約により今回確認できなかった。
 - ~~TV中継の開始~~ → **部分的に解消。公式によれば1981年からテレビ中継開始（座席増設が不可能なため）。2025年の Royal Parade は Nā Leo TV で放送（追補3参照）。** 競技本戦の現在の放送局名・チケット入手方法は依然**未確認**。
 - 検索の制約について：本セッションはWebSearchツールの利用上限に達したため使用不可となり、WebFetch経由のBing/DuckDuckGo検索も、CAPTCHAやキャッシュされた無関係な結果でほぼ機能しなかった。上記の未確認項目は、追加のWebSearch枠があれば埋められる可能性が高い。
+
+## 2026-09-18 追記（改稿時に確認した出典）
+
+- kahiko と ʻauana の対比: ハワイ州観光局は kahiko を「儀礼の一部またはその延長として oli に乗せ打楽器を伴う」、ʻauana を「儀礼を伴わない、より形式ばらない hula。歌と guitar・bass・steel guitar・ʻukulele の伴奏」と説明。衣装と言語の違いは同ページに記述なし（Lesson 02 の表からその2行を外した）。 https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/Hula
+- Papa Lehua の出典は moolelo.md の同日追記を参照（Ka Wai Ola 2023-08-01）。

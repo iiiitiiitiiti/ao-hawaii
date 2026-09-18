@@ -508,3 +508,8 @@ wehewehe.org / Pukui-Elbert(1986)の定義(wehe.hilo.hawaii.edu で確認):
 - **WebSearch がセッション上限（200回）に到達**し、調査後半は検索が使えなかった。Google / Bing / DuckDuckGo は curl でもブロックされる。archive.org の `advancedsearch.php` API と Commons の `list=search` API は検索エンジンではないため最後まで使えた。
 - **Wikimedia Commons API は並列アクセスで 429 を返す**。1枚ずつ 6〜12 秒の間隔を空ければ通る。
 - **ulukau の書籍 PDF はスキャン画像のみでテキスト層がない**（`pdftotext` は空を返す）。本文を読むにはページ画像を直接読むか、archive.org の OCR テキストを併用する必要がある。
+
+## 2026-09-18 追記（改稿時に確認した出典）
+
+- Beckwith『Hawaiian Mythology』（1940）第4章 Kanaloa:「This attitude is reflected in a tendency by Hawaiian antiquarians to equate Kanaloa with the Christian devil. His name is associated with various legends of strife against Kane in which Kanaloa and his spirits rebel and are sent down to the underworld.」（archive.org の全文テキスト hawaiianmytholog00beck_0_djvu.txt、Kumulipo の第8 wā への言及の直後） https://archive.org/details/hawaiianmytholog00beck_0
+- Papa Lehua: Hālau Hula O Maiki の最初の ʻūniki は1972年 Heʻeia、1973年にも Papa Lehua の卒業（Manuel Silva が助言役）。Kalani Akana, Ka Wai Ola 2023-08-01（フラ講座 Lesson 05 で使用） https://kawaiola.news/columns/ka-naauao-o-na-kupuna/the-hula-people-of-halau-hula-o-maiki-arise/

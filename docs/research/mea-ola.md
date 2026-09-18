@@ -498,3 +498,9 @@ Maui Nui Botanical Gardenによれば、1988年にハワイ州議会が「在来
 | サメ捕獲禁止法は **HRS 188-40.7** | **HRS 188-40.8**（188-40.7 はフカヒレ関連の別条文） | 条文突合で確認 |
 | アカヒアリ＝little fire ant | little fire ant は ***Wasmannia auropunctata***。「アカヒアリ」と通称される *Solenopsis invicta*（red imported fire ant）とは**別種** | レッスン5本文参照 |
 | canoe plants は 24〜27種 | 到達できた一次資料では **23種**（plantpono.org） | レッスン3本文参照 |
+
+## 2026-09-18 追記（改稿時に見つけた出典）
+
+- ʻiliahi（白檀）交易: 1790年 John Kendrick が Kauaʻi で発見、Kamehameha I の kapu と独占（1809〜12）、1826-12-27 の最初の成文税法（男子は白檀 半 picul かスペインドル4枚）、1829年ごろ資源枯渇で衰退、植え直しをしない伐採と畑の放棄による飢饉。 https://guides.loc.gov/this-month-in-business-history/december/hawaiis-first-written-tax-law-sandalwood-trade
+- 同・終息を1840年とし、飢饉に触れる。 https://keolamagazine.com/land/the-story-of-iliahi/
+- 野生化ヤギ: Cook が1778-02-01 に Niʻihau へ雄1・雌2、1779年 Kealakekua 湾、Vancouver が1792-03-13 に Kauaʻi へ1つがい。HAVO は1927〜31年に17,389頭、1955〜70年に31,000頭超を除去してもなお約14,000頭。1969年からの Kūkalauʻula 柵囲い実験で2年で在来植物が戻り、未知の Canavalia（ʻāwikiwiki）が出現。1971年から柵で区画、1980年代初めに「ほぼヤギなし」。W. E. Bonsey（NPS ボランティア）『Goats in Hawaiʻi Volcanoes National Park: A Story to be Remembered』 http://www.drylandforest.org/wp-content/uploads/2019/01/Goats-4-26-11_508.pdf
