@@ -29,7 +29,8 @@ const ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789";
 function privateDir(): string {
   const candidates = [
     process.env.AO_HAWAII_PRIVATE,
-    "G:\\マイドライブ\\ao-hawaii-private",
+    // Mac では path.dirname("G:\\…") が "." になって存在判定が通ってしまうので、Windows でだけ候補に入れる
+    ...(process.platform === "win32" ? ["G:\\マイドライブ\\ao-hawaii-private"] : []),
     ...(() => {
       const cloud = path.join(homedir(), "Library", "CloudStorage");
       if (!existsSync(cloud)) return [];
