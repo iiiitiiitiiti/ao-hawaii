@@ -2,6 +2,7 @@
  * 保護曲の本体の暗号化と復号（docs/decisions/008）。
  *
  * PBKDF2-SHA256 でパスフレーズから鍵を導き、AES-GCM 256bit で暗号化する。
+ * instrument-lessons の src/core/lock/crypto.ts と同じ内容を保つ（鍵を共有するため。どちらかを変えたら両方を変える）。
  * Web Crypto API だけを使うので、ブラウザ（MelePage）と Node（scripts/mele-lock.ts）で同じコードが動く。
  * salt と反復回数はサイト共通（src/content/mele-keyinfo.json）、IV は曲ごと・暗号化ごとにランダム。
  * 曲の id を AES-GCM の追加認証データに入れ、暗号文を別の曲のファイルへ移しても復号できないようにする。

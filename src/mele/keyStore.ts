@@ -1,10 +1,14 @@
 /**
- * 保護曲の鍵をこの端末に覚えておく。
+ * 鍵付きの曲の鍵をこの端末に覚えておく。
+ *
+ * instrument-lessons の src/core/lock/keyStore.ts と同じ内容を保つ。DB 名・store 名・キー名・DB version（1 固定）を揃えることで、
+ * 同じオリジン（iiiitiiitiiti.github.io）の2サイトが1つの鍵を共有する。どちらかで1回パスワードを入れれば両方で開き、
+ * どちらかで「鍵を消す」と両方から消える（docs/decisions/008、instrument-lessons DDR 021）。
+ * **DB version は上げない。** 片方だけ上げると、もう片方の open(name, 1) が VersionError になって永久に入力を求める。
  *
  * IndexedDB に extractable: false の CryptoKey をそのまま入れる。鍵は使えるが、JS から中身を読み出せない。
- * localStorage を使わないのは、鍵を文字列に書き出す必要があり、鍵そのものを持ち出せるため。
- * ただし GitHub Pages のオリジン（iiiitiiitiiti.github.io）は他のリポジトリのサイトと共有しており、
- * そちらの JS も IndexedDB の鍵を「使う」ことはできる。受け入れたリスク（docs/decisions/008）。
+ * 鍵と一緒に、導出に使った salt も別レコードで覚える。サイト側の salt が変わっていたら（パスフレーズの作り直し）、
+ * 古い鍵では開けないので捨てて、入力を求める。
  *
  * IndexedDB が使えない環境（プライベートブラウズなど）では、覚えずにその場だけ使う。
  */
@@ -12,6 +16,7 @@
 const DB_NAME = "ao-hawaii-mele";
 const STORE = "keys";
 const KEY_NAME = "site";
+const SALT_NAME = "site-salt";
 
 function open(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -35,20 +40,29 @@ async function run<T>(mode: IDBTransactionMode, fn: (store: IDBObjectStore) => I
   }
 }
 
-export async function loadKey(): Promise<CryptoKey | undefined> {
+/** 覚えている鍵。salt が今のサイトの値と違えば（鍵の作り直し）、捨てて undefined を返す */
+export async function loadKey(salt: string): Promise<CryptoKey | undefined> {
   if (typeof indexedDB === "undefined") return undefined;
   try {
-    return (await run<CryptoKey | undefined>("readonly", (s) => s.get(KEY_NAME))) ?? undefined;
+    const key = (await run<CryptoKey | undefined>("readonly", (s) => s.get(KEY_NAME))) ?? undefined;
+    if (!key) return undefined;
+    const savedSalt = (await run<string | undefined>("readonly", (s) => s.get(SALT_NAME))) ?? undefined;
+    if (savedSalt !== undefined && savedSalt !== salt) {
+      await clearKey();
+      return undefined;
+    }
+    return key;
   } catch {
     return undefined;
   }
 }
 
 /** 覚えられたら true */
-export async function saveKey(key: CryptoKey): Promise<boolean> {
+export async function saveKey(key: CryptoKey, salt: string): Promise<boolean> {
   if (typeof indexedDB === "undefined") return false;
   try {
     await run("readwrite", (s) => s.put(key, KEY_NAME));
+    await run("readwrite", (s) => s.put(salt, SALT_NAME));
     return true;
   } catch {
     return false;
@@ -60,6 +74,7 @@ export async function clearKey(): Promise<boolean> {
   if (typeof indexedDB === "undefined") return true;
   try {
     await run("readwrite", (s) => s.delete(KEY_NAME));
+    await run("readwrite", (s) => s.delete(SALT_NAME));
     return true;
   } catch {
     return false;

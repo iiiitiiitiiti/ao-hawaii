@@ -65,12 +65,29 @@ function init(dir: string): void {
     writeFileSync(KEYINFO_PATH, JSON.stringify(info, null, 2) + "\n", "utf8");
     console.log(`mele-keyinfo.json を作りました: ${path.relative(ROOT, KEYINFO_PATH)}`);
   }
+  syncKeyInfo(dir);
+}
+
+/**
+ * salt は instrument-lessons と共有する（あちらの DDR 021）。正本は Drive の keyinfo.json。
+ * 無ければリポジトリの値を正本として書き、あれば一致を確かめる。作り直すと両サイトの暗号文が読めなくなる。
+ */
+function syncKeyInfo(dir: string): KeyInfo {
+  const masterPath = path.join(dir, "keyinfo.json");
+  const repo = readFileSync(KEYINFO_PATH, "utf8").trim();
+  if (!existsSync(masterPath)) {
+    writeFileSync(masterPath, repo + "\n", "utf8");
+    console.log(`Drive に keyinfo.json（salt の正本）を置きました: ${masterPath}`);
+  } else if (readFileSync(masterPath, "utf8").trim() !== repo) {
+    throw new Error(`mele-keyinfo.json が正本（${masterPath}）と一致しません。正本に合わせてください（instrument-lessons と共有）`);
+  }
+  return JSON.parse(repo) as KeyInfo;
 }
 
 async function lock(dir: string): Promise<void> {
   const passPath = path.join(dir, "passphrase.txt");
   if (!existsSync(passPath) || !existsSync(KEYINFO_PATH)) throw new Error("先に npm run mele:lock -- --init を実行してください");
-  const info = JSON.parse(readFileSync(KEYINFO_PATH, "utf8")) as KeyInfo;
+  const info = syncKeyInfo(dir);
   const key = await deriveKey(readFileSync(passPath, "utf8").trim(), info);
 
   const srcDir = path.join(dir, "mele");

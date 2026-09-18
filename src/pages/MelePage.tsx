@@ -35,7 +35,7 @@ export function LockedBody({ id, envelope }: { id: string; envelope: LockedEnvel
   useEffect(() => {
     let alive = true;
     (async () => {
-      const key = sessionKey ?? (await loadKey());
+      const key = sessionKey ?? (await loadKey((keyInfo as KeyInfo).salt));
       if (key) {
         try {
           const body = await decryptJson<MeleBody>(envelope, key, id);
@@ -62,7 +62,7 @@ export function LockedBody({ id, envelope }: { id: string; envelope: LockedEnvel
       const key = await deriveKey(passphrase.trim(), keyInfo as KeyInfo);
       const body = await decryptJson<MeleBody>(envelope, key, id);
       sessionKey = key;
-      const remembered = await saveKey(key);
+      const remembered = await saveKey(key, (keyInfo as KeyInfo).salt);
       setPassphrase("");
       setState({ kind: "open", body, remembered });
     } catch {
