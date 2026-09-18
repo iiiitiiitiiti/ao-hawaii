@@ -57,6 +57,7 @@ w: When the saints go march-ing in
     strum: "down",
   },
   licensing: {
+    status: "public-domain",
     authors: [{ name: "作者不詳（黒人霊歌）", role: "both", died: "traditional" }],
     earliestPublication: "traditional",
     /*

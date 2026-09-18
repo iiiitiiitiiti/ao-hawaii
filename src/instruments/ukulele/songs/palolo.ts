@@ -57,6 +57,7 @@ w: _ I ka u-a Līlī-le-hu-a _ e ki-li-hu-ne ne-i
   arrangement:
     "コードは1923年版『King's Book of Hawaiian Melodies』79ページの Ernest K. Kaʻai によるコード記号から起こし、原典の F 長調を C へ移しました。コードは変えていません。歌詞は1番だけを載せています。2番以降も同じ節で歌います。",
   licensing: {
+    status: "public-domain",
     authors: [{ name: "Charles E. King", role: "both", died: 1950 }],
     // 原譜（1923年版79ページ）に "Copyright, 1917, by Chas. E. King" と印刷されている
     earliestPublication: 1917,

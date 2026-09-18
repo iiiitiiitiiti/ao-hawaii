@@ -60,6 +60,7 @@ w: heo i ka le-hu-a _ a me ka ma _ i-le a-ʻo Pa-na-e-wa
   arrangement:
     "コードは1923年版『King's Book of Hawaiian Melodies』6ページの Ernest K. Kaʻai によるコード記号から起こし、原典の F 長調を C へ移しました。1か所だけ変えています。1行目「Hawaiʻi」の「Ha」から2拍出る丸囲みの記号（②）は読み方が確かめられていないため外し、C を伸ばしました。歌詞は1番だけを載せています。",
   licensing: {
+    status: "public-domain",
     // 原譜の作者表記は "CHAS. E. KING"。huapala.org も "Words & music by Charles E. King"
     authors: [{ name: "Charles E. King", role: "both", died: 1950 }],
     // 原譜（1923年版6ページ）に "Copyright 1915 by Bergstrom Music Co. / Copyright transferred to Charles E. King 1917"

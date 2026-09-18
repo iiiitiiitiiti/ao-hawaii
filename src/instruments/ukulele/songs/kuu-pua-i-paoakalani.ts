@@ -100,6 +100,7 @@ w: na-ʻe ho-ʻi e _ like _ Me _ ku-ʻu pu-a i ka _ la-ʻi o Pa-oa-ka-lani
   arrangement:
     "コードは1923年版『King's Book of Hawaiian Melodies』50〜51ページの Ernest K. Kaʻai によるコード記号から起こしました。原典もキーは C です。2か所を変えています。4行目「I pua i ka」に2拍出る丸囲みの記号（③）は読み方が確かめられていないため外し、直前の F を伸ばしました。サビ4行目の手前、「like」を伸ばしている途中に1拍だけ出る E7 は、置ける音節が無いため外しました。コードの位置は、替わる拍にいちばん近い音節に合わせています（半拍ずれる箇所があります）。歌詞は1番とサビを載せています。",
   licensing: {
+    status: "public-domain",
     // 原譜の作者表記は "QUEEN LILIUOKALANI"。huapala.org も "Words & Music by Queen Liliʻuokalani"
     authors: [{ name: "Queen Liliʻuokalani", role: "both", died: 1917 }],
     // 原譜（1923年版50ページ）に "Copyright, 1917, by Chas. E. King" と印刷されている（King の編曲版）

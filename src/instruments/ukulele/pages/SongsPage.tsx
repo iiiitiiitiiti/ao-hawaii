@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import type { SongLibraryPageProps } from "../../../core/lesson/types";
 import { learnedChords } from "../../../core/progress/learnedChords";
 import { useProgress } from "../../../core/progress/useProgress";
-import { UKULELE_SONGS } from "../songs";
+import { UKULELE_SONGS, isLockedSong } from "../songs";
 import { type ChordCountBucket, chordCountBucket, isPlayable, usesBarre } from "../songs/filters";
 
 const COUNT_OPTIONS: { value: ChordCountBucket | "all"; label: string }[] = [
@@ -44,7 +44,7 @@ export function SongsPage({ instrument }: SongLibraryPageProps) {
         <p className="eyebrow">{UKULELE_SONGS.length} songs</p>
         <h1 className="hero__title">楽譜ライブラリ</h1>
         <p className="hero__lede">
-          日本と米国の両方で著作権の保護期間が満了した曲だけを載せています。掲載の根拠は曲ごとのページに書いてあります。
+          日本と米国の両方で著作権の保護期間が満了した曲は、そのまま載せています。保護期間中の曲（🔒）は歌詞コード譜とお手本を暗号化して置き、パスワードで開きます。掲載の根拠は曲ごとのページに書いてあります。
         </p>
       </header>
 
@@ -97,13 +97,16 @@ export function SongsPage({ instrument }: SongLibraryPageProps) {
             <li key={song.id}>
               <Link className="songrow" to={`/${instrument.slug}/songs/${song.id}`}>
                 <span className="songrow__main">
-                  <span className="songrow__title">{song.title}</span>
+                  <span className="songrow__title">
+                    {song.title}
+                    {isLockedSong(song) ? <span aria-label="パスワードが要る曲"> 🔒</span> : null}
+                  </span>
                   {song.altTitle ? (
                     <span className="songrow__alt">{song.altTitle}</span>
                   ) : null}
                 </span>
                 <span className="songrow__meta">
-                  <span className="songrow__chords">{song.chords.join(" · ")}</span>
+                  <span className="songrow__chords">{song.chords.length > 0 ? song.chords.join(" · ") : "コード未登録"}</span>
                   {song.progression ? (
                     <span className="songrow__bars">{song.progression.length}小節</span>
                   ) : null}

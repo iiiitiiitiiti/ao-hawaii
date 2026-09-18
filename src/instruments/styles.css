@@ -1117,3 +1117,51 @@ a.instrument-card:hover {
   /* 出典 URL は長い。狭い画面で溢れさせない */
   overflow-wrap: anywhere;
 }
+
+/* 鍵付きの曲（DDR 021）。ao-hawaii の .mele-lock と同じ見た目 */
+.song-lock {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 30rem;
+  padding: var(--space-5);
+  border: 1px solid var(--border-solid);
+  border-radius: var(--radius-md);
+  background: var(--surface-card);
+}
+
+.song-lock__label {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+}
+
+.song-lock__input {
+  font: inherit;
+  font-size: var(--text-base);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--border-solid);
+  border-radius: var(--radius-sm);
+}
+
+.song-lock__error {
+  color: #a4392f;
+}
+
+.song-lock__status {
+  color: var(--text-quiet);
+}
+
+.song-lock__forget {
+  margin-top: var(--space-7);
+  display: grid;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--text-quiet);
+}
+
+@media (max-width: 480px) {
+  /* iOS Safari は 16px 未満の入力欄にフォーカスすると画面を拡大する */
+  .song-lock__input {
+    font-size: 16px;
+  }
+}

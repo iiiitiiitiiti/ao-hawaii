@@ -68,6 +68,7 @@ w: ʻI-ke i ka na-ni Kai-ma-na Hi-la lā Kau mai i-lu-na
   arrangement:
     "コードは1923年版『King's Book of Hawaiian Melodies』88ページの Ernest K. Kaʻai によるコード記号から起こし、原典の G 長調を C へ移しました。2か所を変えています。「mākou」の「mā」に1拍だけ出る E は外し、直前の C を伸ばしました（この曲で使わないコードで、C7 に置き換えると旋律の B とぶつかります）。「Kaʻalawai」の「wa」に1拍だけ出る A7 も外しました。歌詞は1番だけを載せています。2番以降も同じ節で歌います。ここに載せているのは1916年に出版された原曲です。今よく歌われている Kaimana Hila は、のちに Andy Cummings が広めた版で、旋律も歌詞もこの原曲とは違います（huapala.org の記録による）。",
   licensing: {
+    status: "public-domain",
     authors: [{ name: "Charles E. King", role: "both", died: 1950 }],
     /*
      * 原譜で確認した。`King's Book of Hawaiian Melodies` 第5版（Honolulu: Charles E. King,

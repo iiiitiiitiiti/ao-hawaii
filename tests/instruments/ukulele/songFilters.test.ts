@@ -12,6 +12,7 @@ const song = (chords: string[]): Song => ({
   title: "test",
   chords,
   licensing: {
+    status: "public-domain",
     authors: [{ name: "x", role: "both", died: "traditional" }],
     earliestPublication: "traditional",
     usBasis: "test",
