@@ -68,6 +68,15 @@ export function HomePage() {
           );
         })}
       </section>
+
+      <section className="home-mele" aria-label="メレを読む">
+        <Link className="home-mele__link" to="/mele">
+          <span className="home-mele__name" lang="haw">
+            Heluhelu Mele
+          </span>
+          <span className="home-mele__sub">メレを読む — 歌詞を1行ずつ、語の意味と文法で読む</span>
+        </Link>
+      </section>
     </main>
   );
 }

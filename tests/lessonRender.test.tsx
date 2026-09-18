@@ -1,4 +1,5 @@
 import { render } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
 import { describe, expect, test } from "vitest";
 import { COURSES, findCourse, findLesson } from "../src/content/courses";
 import { LessonLayout } from "../src/lesson/LessonLayout";
@@ -10,7 +11,12 @@ function renderLesson(courseSlug: string, number: number) {
   const course = findCourse(courseSlug);
   const lesson = findLesson(courseSlug, number);
   if (!course || !lesson) throw new Error(`目次に無い本文: ${courseSlug}/lesson-${number}`);
-  return render(<LessonLayout course={course} lesson={lesson} />);
+  // 本文中のレッスン参照は router の Link になるので、router の中で描画する
+  return render(
+    <MemoryRouter>
+      <LessonLayout course={course} lesson={lesson} />
+    </MemoryRouter>,
+  );
 }
 
 describe("目次と本文の対応", () => {
