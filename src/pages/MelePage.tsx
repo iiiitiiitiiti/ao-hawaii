@@ -169,7 +169,7 @@ export function MelePage() {
             title={`Apple Music: ${meta.title}`}
             src={meta.appleMusic.url.replace("https://music.apple.com/", "https://embed.music.apple.com/")}
             allow="autoplay *; encrypted-media *;"
-            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-agent"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
             loading="lazy"
           />
           <p className="melepage__related">
