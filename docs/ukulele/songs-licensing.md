@@ -126,13 +126,18 @@ Wikipedia のスタブや典拠のない記述は、それ単独では根拠に�
 
 ### Noho Paipai（id: noho-paipai）
 
-- 作者: John Kameaaloha Almeida（1897〜1985）がクレジット上の作者。huapala.org は「Traditional」とし、
-  「public domain から取られ、広めた Almeida の名がクレジットされる」と注記する
-- 保護期間中と判断した理由: 作者を Almeida とする資料がある以上、没後70年の2055年末までは日本で保護期間中として扱う。
-  伝承曲だと確定できる一次資料が見つかれば、公開曲へ移す
+- 作者: John Kameaaloha Almeida（1897年11月28日〜1985年10月9日、Oʻahu の Pauoa 生まれ）。Almeida 自身の録音2点が作者を Almeida と記す。
+  Hawaiʻi State Archives 所蔵の KGU 放送用原盤（Johnny Almeida's Hawaiians、1938年ごろ、matrix HT-217）と、
+  49th State Hawaii Records 64-B（John K. Almeida And His Hawaiians。Internet Archive で公開）。
+  huapala.org は「Traditional」とした上で「public domain から取られ、広めた Almeida の名がクレジットされる」と注記する
+- 保護期間中と判断した理由: 録音のクレジットが作者を Almeida とする以上、没後70年の2055年末までは日本で保護期間中として扱う。
+  伝承曲だと確定できる一次資料（Almeida 以前の出版・録音）が見つかれば、公開曲へ移す
 - 平文の出どころ: 持ち主が所有する教室の歌詞カード（写真）。2026-09-18 時点では未着で、本体は置かれていない
 - 出典:
   - <https://www.huapala.org/No/Noho_Paipai.html>
+  - <https://digitalarchives.hawaii.gov/browse/parent/ark:70111/4T1X>（Hawaiʻi State Archives、Gene Becker Hawaiian Phonographic Recordings）
+  - <https://archive.org/details/78_noho-paipai-rocking-chair-hula_john-k-almeida-and-his-hawaiians-johnny-almeida-a_gbia0035277b>（49th State 64-B のレーベル記載）
+  - <https://en.wikipedia.org/wiki/John_Kameaaloha_Almeida>（生没年。Star-Bulletin 1985-10-11 の訃報を引く）
 - 検証日: 2026-09-18
 
 ## 譜面の状況
