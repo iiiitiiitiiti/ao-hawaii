@@ -502,3 +502,7 @@
 - The Sunday Manoa（またはSunday Mānoa）のWikipedia記事URLの正確な表記 — 検索結果からリンクを組み立てたが、直接のHTTPアクセスでの200確認はできていない
 - Ka Lāhui Hawaiʻiの専用記事URL — Hawaiian sovereignty movement記事内の言及にとどまり、専用ページへの直接アクセス確認はできていない
 - kaona・kūpuna・aupuniの語義単独を裏付ける言語学的出典（ulukau.orgのハワイ語辞書等）— 今回は文脈的な言及ページのみを出典としており、辞書的な一次出典への差し替えが望ましい
+
+## 2026-09-18 追記（改稿時に見つけた出典）
+
+- Hawaii v. Office of Hawaiian Affairs, 556 U.S. 163 (2009): 判決要旨2「The Apology Resolution did not strip Hawaii of its sovereign authority to alienate the lands the United States held in absolute fee and granted to the State upon its admission to the Union.」 https://www.law.cornell.edu/supct/html/07-1372.ZS.html

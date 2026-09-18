@@ -26,7 +26,7 @@ npm run build
 | Hula | フラ（歴史・kahiko/ʻauana・用語・mele と kaona・hālau と ʻūniki・現在） | 6 |
 | ʻŌlelo Hawaiʻi | ハワイ語文法（音と表記〜関係節と辞書の引き方） | 6 |
 
-各レッスンの根拠は `docs/research/<講座>.md`（出典 URL つきの調査ノート）にある。本文で「未確認」「諸説あり」としたものは、ノートの末尾に理由がある。
+各レッスンの根拠は `docs/research/<講座>.md`（出典 URL つきの調査ノート）にある。本文は出典が複数あれば言い切り、1つならその出典を名指しし、0なら書かない（`docs/decisions/007`。禁止フレーズは `tests/hedging.test.ts` が検査する）。
 
 ## 本文を書く
 
