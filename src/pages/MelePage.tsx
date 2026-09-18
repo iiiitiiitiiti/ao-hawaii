@@ -6,6 +6,7 @@ import keyInfo from "../content/mele-keyinfo.json";
 import { decryptJson, deriveKey, type KeyInfo, type LockedEnvelope } from "../mele/crypto";
 import { clearKey, loadKey, saveKey } from "../mele/keyStore";
 import { MeleBodyView } from "../mele/MeleBodyView";
+import { BackToTop } from "../widgets/BackToTop";
 import { getLockedEnvelope, getPublicBody } from "../mele/meleData";
 import type { LessonRef, MeleBody } from "../mele/types";
 import { NotFoundPage } from "./NotFoundPage";
@@ -164,6 +165,7 @@ export function MelePage() {
       {publicBody && <MeleBodyView body={publicBody} />}
       {envelope && <LockedBody id={meta.id} envelope={envelope} />}
       {!publicBody && !envelope && <p className="mele-lock__status">この曲の本文はまだ置かれていません。</p>}
+      <BackToTop />
     </main>
   );
 }

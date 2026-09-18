@@ -726,7 +726,31 @@ a.lesson-list__link:hover {
   font-size: var(--text-sm);
   letter-spacing: 0.06em;
   color: var(--text-quiet);
+  cursor: pointer;
+  list-style: none;
+}
+
+.terms__title::-webkit-details-marker {
+  display: none;
+}
+
+.terms__title::before {
+  content: "▸ ";
+}
+
+.terms[open] > .terms__title {
   margin-bottom: var(--space-3);
+}
+
+.terms[open] > .terms__title::before {
+  content: "▾ ";
+}
+
+.terms__count,
+.sources__count,
+.quiz__progress {
+  font-weight: 400;
+  color: var(--text-quiet);
 }
 
 .terms__list {
@@ -860,6 +884,34 @@ a.lesson-list__link:hover {
   font-weight: 600;
 }
 
+.quiz__progress {
+  margin-left: var(--space-3);
+  font-size: var(--text-sm);
+}
+
+.quiz__next {
+  margin-top: var(--space-4);
+}
+
+.quiz__prev,
+.quiz__retry {
+  margin-top: var(--space-3);
+  margin-left: var(--space-3);
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--text-quiet);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.quiz__prev {
+  display: block;
+  margin-left: 0;
+}
+
 /* 出典 */
 .sources {
   margin-top: var(--space-6);
@@ -870,7 +922,24 @@ a.lesson-list__link:hover {
 .sources__title {
   font-size: var(--text-sm);
   letter-spacing: 0.06em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.sources__title::-webkit-details-marker {
+  display: none;
+}
+
+.sources__title::before {
+  content: "▸ ";
+}
+
+.sources[open] > .sources__title {
   margin-bottom: var(--space-2);
+}
+
+.sources[open] > .sources__title::before {
+  content: "▾ ";
 }
 
 .sources__list {
@@ -1254,22 +1323,38 @@ a.lesson-list__link:hover {
 }
 
 .mele-word {
-  display: grid;
-  align-content: start;
-  max-width: 12rem;
-  padding: var(--space-1) var(--space-2);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  max-width: 100%;
+  padding: 0.1em var(--space-2);
   border-radius: var(--radius-sm);
   background: var(--surface-sunk);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
 }
 
 .mele-word__w {
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .mele-word__gloss {
   font-size: var(--text-xs);
-  line-height: var(--leading-snug);
   color: var(--text-quiet);
+}
+
+.mele-line__more {
+  margin-left: var(--space-2);
+  padding: 0 var(--space-2);
+  border: 1px solid var(--border-solid);
+  border-radius: var(--radius-pill);
+  background: var(--surface-card);
+  font: inherit;
+  font-size: var(--text-xs);
+  color: var(--text-quiet);
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 .mele-line__notes {
@@ -1362,4 +1447,65 @@ a.lesson-list__link:hover {
 .home-mele__sub {
   font-size: var(--text-sm);
   color: var(--text-quiet);
+}
+
+/* レッスンの目次 */
+.lesson__toc {
+  margin: var(--space-5) 0;
+  padding: var(--space-3) var(--space-4);
+  border-left: 3px solid var(--course-accent, var(--accent));
+  background: var(--surface-sunk);
+  font-size: var(--text-sm);
+}
+
+.lesson__toc-title {
+  letter-spacing: 0.06em;
+  color: var(--text-quiet);
+  margin-bottom: var(--space-1);
+}
+
+.lesson__toc-list {
+  margin: 0;
+  padding-left: 1.4em;
+  line-height: var(--leading-snug);
+}
+
+.lesson__toc-list li + li {
+  margin-top: 0.2em;
+}
+
+.lesson__body h2 {
+  scroll-margin-top: var(--space-6);
+}
+
+/* 上へ戻る */
+.back-to-top {
+  position: fixed;
+  right: var(--space-4);
+  bottom: var(--space-4);
+  z-index: 10;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--border-solid);
+  border-radius: var(--radius-pill);
+  background: var(--surface-card);
+  color: var(--text-body);
+  font: inherit;
+  font-size: var(--text-sm);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.12);
+  cursor: pointer;
+}
+
+/* スマホ幅では文字を 14px に落とし、スクロール量を減らす。パスワード入力欄だけは 16px（iOS の拡大を防ぐ） */
+@media (max-width: 480px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .lesson__body {
+    font-size: 1rem;
+  }
+
+  .mele-lock__input {
+    font-size: 16px;
+  }
 }

@@ -4,6 +4,7 @@ import { findCourse, lessonPath } from "../content/courses";
 import { meleRelatedTo } from "../content/mele";
 import { LessonLayout } from "../lesson/LessonLayout";
 import { useProgress } from "../progress/useProgress";
+import { BackToTop } from "../widgets/BackToTop";
 import { NotFoundPage } from "./NotFoundPage";
 
 const LESSON_SLUG_PATTERN = /^lesson-(\d{2})$/;
@@ -79,6 +80,7 @@ export function LessonPage() {
           </span>
         </nav>
       </div>
+      <BackToTop />
     </main>
   );
 }

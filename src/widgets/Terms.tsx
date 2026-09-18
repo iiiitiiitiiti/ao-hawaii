@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import { findTerm } from "../content/glossary";
+import { isNarrowScreen } from "../lib/narrow";
 
-/** レッスン内の用語ボックス。用語集（glossary.ts）の正本から引く。 */
+/** レッスン内の用語ボックス。用語集（glossary.ts）の正本から引く。スマホでは見出しだけ出して、タップで開く。 */
 export function Terms({ ids, title = "このレッスンの用語" }: { ids: string[]; title?: string }) {
   return (
-    <aside className="terms" aria-label={title}>
-      <h3 className="terms__title">{title}</h3>
+    <details className="terms" open={!isNarrowScreen()}>
+      <summary className="terms__title">
+        {title}
+        <span className="num terms__count"> {ids.length}</span>
+      </summary>
       <dl className="terms__list">
         {ids.map((id) => {
           const term = findTerm(id);
@@ -25,6 +29,6 @@ export function Terms({ ids, title = "このレッスンの用語" }: { ids: str
           );
         })}
       </dl>
-    </aside>
+    </details>
   );
 }
