@@ -1,4 +1,4 @@
-import { noteToMidi } from "../audio/pitch";
+import { noteToMidi } from "../audio/pitch.ts";
 
 /**
  * ABC 記法のごく小さなサブセットのパーサ。

@@ -98,6 +98,7 @@ w: fond em-brace, a ho-ʻi a-ʻe a-u Un-til we meet _ a-gain
   arrangement:
     "コードは1923年版『King's Book of Hawaiian Melodies』（Charles E. King 編曲、ウクレレ用コード記号は Ernest K. Kaʻai）から起こし、原典の A♭ 長調を C へ移しました。初心者向けに1か所だけ変えています。4行目「ʻāhihi」の「hi」に1拍だけ出る D7 は、この曲を弾く時点ではまだ習っていないため外しました。歌詞は1番とサビだけを載せています。",
   licensing: {
+    status: "public-domain",
     // 詞も曲も女王ひとりの作。huapala.org が "Words and music by Queen Liliʻuokalani" と記録している
     authors: [{ name: "Queen Liliʻuokalani", role: "both", died: 1917 }],
     /*

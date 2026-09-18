@@ -22,7 +22,11 @@ export type SongAuthor = {
   died: number | "traditional";
 };
 
-export type SongLicensing = {
+/**
+ * 公開曲（平文で載せる曲）の権利記録。DDR 004 の条件を満たすことをテストが検査する。
+ */
+export type PublicDomainLicensing = {
+  status: "public-domain";
   /** 分かっている作者を全員。 */
   authors: SongAuthor[];
   /**
@@ -40,6 +44,37 @@ export type SongLicensing = {
   sources: string[];
   /** 判定に残る疑義。docs/songs-licensing.md にも同じことを書く。 */
   caveat?: string;
+};
+
+/**
+ * 鍵付きの曲（保護期間中）の記録（DDR 021）。本体は暗号化して置くので、PD 判定の項目は持たない。
+ * 代わりに「なぜ保護期間中と判断したか」と「平文の出どころ」を必ず書く。
+ */
+export type ProtectedLicensing = {
+  status: "protected";
+  /** 分かっている作者。没年は分からなければ書かない。 */
+  authors: { name: string; role: SongAuthorRole; died?: number }[];
+  /** 保護期間中と判断した理由。docs/songs-licensing.md の節にも同じことを書く。 */
+  reason: string;
+  /** 平文の出どころ（持ち主が所有する歌詞カード・曲集）。 */
+  transcribedFrom: string;
+  verifiedOn: string;
+  sources: string[];
+};
+
+export type SongLicensing = PublicDomainLicensing | ProtectedLicensing;
+
+/**
+ * 曲の本体。鍵付きの曲では、これを暗号化して songs/locked/<id>.json に置く。
+ * 公開曲では Song の同名フィールドに平文で持つ。
+ */
+export type SongBody = {
+  sheet: string;
+  performance: SongPerformance;
+  meaning: SongMeaningLine[];
+  /** 鍵付きの曲では必須（小節ごとのコードの検査を本体だけで完結させるため）。 */
+  progression?: string[];
+  arrangement?: string;
 };
 
 /**
@@ -74,7 +109,12 @@ export type Song = {
   title: string;
   /** ハワイ語などの原題が別にある場合。 */
   altTitle?: string;
-  /** 使うコード。名前順で持つ。 */
+  /**
+   * 使うコード。名前順で持つ。
+   *
+   * 鍵付きの曲でも公開する（「弾ける曲だけ」「コード数」の絞り込みに要る）。コード名の集合は
+   * 編曲にも歌詞にも当たらない。本体のコードの集合と一致することは song:lock が検査する。
+   */
   chords: string[];
   /**
    * 1小節ずつのコード。長さが小節数になる。

@@ -9,7 +9,7 @@ import { UKULELE_CHORDS } from "../../src/instruments/ukulele/chords";
 import { UKULELE_CURRICULUM } from "../../src/instruments/ukulele/curriculum";
 import { parseSongSheet, songSheetChords } from "../../src/instruments/ukulele/songSheet";
 import { UKULELE_SONGS, findSong } from "../../src/instruments/ukulele/songs";
-import type { Song } from "../../src/instruments/ukulele/songs";
+import type { PublicDomainLicensing, Song } from "../../src/instruments/ukulele/songs";
 
 /*
  * 掲載できるのは日本と米国の両方で保護期間が満了した曲だけ（DDR 004）。
@@ -27,6 +27,13 @@ const each = (fn: (song: Song) => void) => {
   for (const song of UKULELE_SONGS) fn(song);
 };
 
+/** 公開曲（平文で載せる曲）だけ。鍵付きの曲の検査は lockedSongs.test.ts */
+const eachPublic = (fn: (song: Song, licensing: PublicDomainLicensing) => void) => {
+  for (const song of UKULELE_SONGS) {
+    if (song.licensing.status === "public-domain") fn(song, song.licensing);
+  }
+};
+
 describe("掲載曲の権利", () => {
   test("曲がある", () => {
     expect(UKULELE_SONGS.length).toBeGreaterThan(0);
@@ -39,8 +46,8 @@ describe("掲載曲の権利", () => {
   });
 
   test("作者全員の没年が1967年以下、または伝承曲", () => {
-    each((song) => {
-      for (const author of song.licensing.authors) {
+    eachPublic((song, licensing) => {
+      for (const author of licensing.authors) {
         if (author.died === "traditional") continue;
         expect(author.died, `${song.id} / ${author.name}`).toBeLessThanOrEqual(JP_DEATH_LIMIT);
       }
@@ -48,8 +55,8 @@ describe("掲載曲の権利", () => {
   });
 
   test("没年が年として妥当な範囲にある", () => {
-    each((song) => {
-      for (const author of song.licensing.authors) {
+    eachPublic((song, licensing) => {
+      for (const author of licensing.authors) {
         if (author.died === "traditional") continue;
         expect(author.died, `${song.id} / ${author.name}`).toBeGreaterThanOrEqual(
           EARLIEST_PLAUSIBLE_YEAR,
@@ -59,8 +66,8 @@ describe("掲載曲の権利", () => {
   });
 
   test("出版年が1929年より前、または伝承曲", () => {
-    each((song) => {
-      const year = song.licensing.earliestPublication;
+    eachPublic((song, licensing) => {
+      const year = licensing.earliestPublication;
       if (year === "traditional") return;
       expect(year, song.id).toBeLessThan(US_PUBLICATION_LIMIT);
       expect(year, song.id).toBeGreaterThanOrEqual(EARLIEST_PLAUSIBLE_YEAR);
@@ -68,9 +75,9 @@ describe("掲載曲の権利", () => {
   });
 
   test("出版年が特定できない曲には、米国側の根拠が書かれている", () => {
-    each((song) => {
-      if (song.licensing.earliestPublication !== "traditional") return;
-      expect(song.licensing.usBasis?.trim(), song.id).toBeTruthy();
+    eachPublic((song, licensing) => {
+      if (licensing.earliestPublication !== "traditional") return;
+      expect(licensing.usBasis?.trim(), song.id).toBeTruthy();
     });
   });
 
@@ -103,8 +110,8 @@ describe("掲載曲の権利", () => {
   });
 
   test("疑義のある曲は、記録側にも「疑義と判断」の項がある", () => {
-    each((song) => {
-      if (!song.licensing.caveat) return;
+    eachPublic((song, licensing) => {
+      if (!licensing.caveat) return;
       const start = licensingDoc.indexOf(`id: ${song.id}`);
       // 次の見出しまでがその曲の節
       const rest = licensingDoc.slice(start);

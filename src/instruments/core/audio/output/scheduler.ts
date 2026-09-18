@@ -1,4 +1,4 @@
-import { getAudioContext } from "./context";
+import { getAudioContext } from "./context.ts";
 
 export const MIN_BPM = 40;
 export const MAX_BPM = 160;
