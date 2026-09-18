@@ -883,6 +883,38 @@ a.lesson-list__link:hover {
   margin-top: var(--space-1);
 }
 
+.lesson__mele {
+  margin-top: var(--space-6);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--border-hair);
+  border-radius: var(--radius-md);
+}
+
+.lesson__mele-title {
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  margin: 0 0 var(--space-2);
+}
+
+.lesson__mele-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.lesson__mele-list a {
+  font-weight: 600;
+}
+
+.lesson__mele-summary {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--text-quiet);
+  line-height: var(--leading-snug);
+}
+
 /* フッター（完了・前後） */
 .lesson__footer {
   margin-top: var(--space-7);

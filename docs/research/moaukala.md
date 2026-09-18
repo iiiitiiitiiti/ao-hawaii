@@ -281,7 +281,7 @@
 
 ### Kaulana Nā Pua
 
-- 作者は **Ellen Kekoaohiwaikalani Wright Prendergast**（表記ゆれ: Ellen Kehoʻohiwaokalani Wright Prendergast、Eleanor Kekoaohiwaikalani Wright）。Liliʻuokalani 女王の親しい友人で、当時28歳の lady in waiting、かつ haku mele（作詞家）として認められていた。https://www.ksbe.edu/article/kuukahekahe-mele-ai-phaku （Kamehameha Schools・現物確認済み） ／ https://www.huapala.org/Kau/Kaulana_Na_Pua.html
+- 作者は **Ellen Kekoaohiwaikalani Wright Prendergast**（表記ゆれ: Ellen Kehoʻohiwaokalani Wright Prendergast、Eleanor Kekoaohiwaikalani Wright）。Liliʻuokalani 女王の親しい友人で、当時27歳（1865年4月12日生まれ。Nordyke & Noyes, HJH 27, 1993, p.28。KS の記事は28歳とするが生年月日と合わない）の lady in waiting、かつ haku mele（作詞家）として認められていた。https://www.ksbe.edu/article/kuukahekahe-mele-ai-phaku （Kamehameha Schools・現物確認済み） ／ https://www.huapala.org/Kau/Kaulana_Na_Pua.html
 - **成立の契機**: 1893年1月17日の転覆後、Royal Hawaiian Band の楽団員が暫定政府への忠誠の誓約書への署名を拒み、**1893年2月1日に職を失った**。彼らは Kapālama の Puahaulani Hale（父の家）の庭にいた Prendergast を訪ね、「我々は Liliu に忠誠を尽くす。haole の紙には署名しない。我々に残されたもの、すなわち石、この土地の神秘の食物だけで満足する」と述べて、その思いを歌にしてくれと頼んだ。https://www.ksbe.edu/article/kuukahekahe-mele-ai-phaku ／ https://www.huapala.org/Kau/Kaulana_Na_Pua.html
 - **作曲日**: 1893年5月12日付 *Ka Leo o ka Lahui* 紙の歌詞掲載のクレジット行に **「1893年2月10日」** と明記されている。転覆からわずか1か月後。Amy Kuʻuleialoha Stillman, "'Aloha Aina': New Perspectives on 'Kaulana Na Pua'", *The Hawaiian Journal of History*, vol.33 (1999), pp.83–（Hawaiian Historical Society）https://evols.library.manoa.hawaii.edu/handle/10524/167 （PDF 現物をテキスト抽出して確認済み）
   - **諸説あり**: huapala.org は「1893年1月執筆」とする。https://www.huapala.org/Kau/Kaulana_Na_Pua.html 。Stillman が一次資料（1893年の新聞のクレジット行）に基づく2月10日説を提示しているため、**2月10日説を採り、1月説も併記**するのが安全。
