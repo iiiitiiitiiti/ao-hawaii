@@ -63,6 +63,13 @@
 - 結論: **旋律は、単独の声で歌った録音（持ち主が携帯で歌うか、教室の音源）から取る。** 単独の声なら pyin で拍ごとの音が安定して取れる。教室で踊っている版が正なので、Almeida 盤は調・テンポ・構成の確認用にする。
 - 解析の手順（再現用）: `ffmpeg` で mono wav → `demucs --two-stems=vocals` → `librosa.effects.pitch_shift` で補正 → `librosa.pyin` を拍（`librosa.beat.beat_track`）に当てはめて拍ごとの中央値を取る。Python 3.11 の venv に demucs・basic-pitch・librosa・`setuptools<81`（basic-pitch が pkg_resources を要る）。
 
+### 旋律の書き起こし（2026-09-18 夜、持ち主指定の録音で完了）
+
+- 元: Wailau and Lopaka Ryder『Na Mele Hula』（Palm Records、2008）の音源 https://youtu.be/-XFwk3mFixU 。声が1本で、調は C、チューニングのずれなし。「節（4行＝原曲 2/4 で16小節）＋ vamp 4小節」が10回。
+- 手順: yt-dlp → ffmpeg（mono wav）→ demucs（vocals）→ pyin と basic-pitch → 拍（83.4 BPM、原曲 2/4 の1小節に相当）を4分割した音高の中央値を10節分重ねて多数決 → 歌詞カード（鳥山親雄『ハワイアン・メレ1001曲ミニ全集』1015ページ）の音節と発音位置（basic-pitch の onset の集計）に当てる。
+- 結果は Drive の `ao-hawaii-private/ukulele/noho-paipai.json`（sheet・meaning・ABC・progression。4/4 に倍書き、bpm 150）と `ukulele/noho-paipai.melody-draft.md`。解析の中間ファイルは `ukulele/analysis/`。合成音を持ち主に送り、耳での確認待ち。
+- コードは歌詞カードのとおり（C / F / C、C / D7 / G7 / C）。録音の A7・C7 は採らない。
+
 ### 残る問い（持ち主に確認）
 
 - **ウクレレ教材のお手本（ABC のメロディ）の元**。2026-09-18 夜に「録音から書き起こす」で決定（上の節）。歌詞カードには通常メロディが無い。instrument-lessons は「歌詞コード譜を持つ曲はお手本も持つ」をテストで強制している（DDR 017）。選択肢: (a) メロディ入りの譜面があれば写真を送ってもらう、(b) Almeida の録音（Internet Archive）から書き起こし、持ち主が耳で確かめる、(c) 鍵付き曲に限りお手本を任意にする（規則の例外。DDR が要る）。
