@@ -155,9 +155,11 @@ Wikipedia のスタブや典拠のない記述は、それ単独では根拠に�
 - 別セッションが Wailau and Lopaka Ryder の録音を機械解析して起こした旋律つきの本体は、
   Drive の `ao-hawaii-private/ukulele/analysis/noho-paipai.with-melody.json` に残してある（解析の中間データと
   合成の下書き音源も同じフォルダ。YouTube の音声そのものは置いていない）。合成のお手本を戻すときはこれを使う
-- 綴りはカードのまま。huapala.org は「Uese」を「uese」、「Roselani」を「rose lani」と書く。
+- 綴りはカードに合わせたが、「uese」だけはカードの「Uese」から小文字にした。人名ではなく **ʻoe（あなた）の砕けた形**
+  だと持ち主が教室（hālau）で教わっている（2026-09-19）。huapala.org も小文字で、Pukui 訳は sweetie〈愛しい人〉。
+  「Roselani」は huapala.org では「rose lani」。
   歌詞の意味は原詞から辞書（Pukui-Elbert）で作り、カードの日本語訳と huapala.org の Pukui 訳は照合にだけ使った。
-  辞書で引けなかった語: uese（Pukui 訳は sweetie〈愛しい人〉）・Roselani（バラ。lokelani と同じ語と読んだ）
+  辞書で引けなかった語: uese（上の教えで「あなた」と訳した）・Roselani（バラ。lokelani と同じ語と読んだ）
 - 出典:
   - <https://www.huapala.org/No/Noho_Paipai.html>
   - <https://digitalarchives.hawaii.gov/browse/parent/ark:70111/4T1X>（Hawaiʻi State Archives、Gene Becker Hawaiian Phonographic Recordings）
