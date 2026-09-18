@@ -48,4 +48,5 @@
 - テスト（`tests/mele.test.ts`）は、保護曲について平文の `content/mele/<id>.ts` が無いこと、暗号文ファイルが `{v, iv, ct}` だけであることを検査する。平文の中身は CI では検査できない（`mele:lock` の検査に任せる）
 - 暗号化の往復テストは、実在の歌詞ではなくダミーの歌詞で行う
 - パスフレーズを作り直すと、既存の暗号文は読めなくなる。そのときは Drive の平文から `mele:lock` で全曲を暗号化し直す
+- **salt・パスフレーズ・IndexedDB の鍵は instrument-lessons（ウクレレ教材）と共有する**（2026-09-18、あちらの DDR 021）。salt の正本は Drive の `ao-hawaii-private/keyinfo.json` で、`mele:lock` がリポジトリの `mele-keyinfo.json` と照合する。作り直すと両サイトの暗号文が読めなくなるので、両方で暗号化し直す
 - ウクレレ教材（instrument-lessons）へ同じ仕組みを入れるのは別の設計にする。曲データがメロディ（ABC）とコードも持ち、最近の曲ではそれも著作物なので、鍵をかける範囲と権利の記録（`docs/songs-licensing.md`）の扱いが変わる
