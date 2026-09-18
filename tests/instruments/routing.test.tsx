@@ -61,6 +61,16 @@ describe("ルーティング", () => {
     expect(screen.getByRole("heading", { name: /聖者の行進/ })).toBeInTheDocument();
   });
 
+  test("鍵付きの曲のページにはパスワード入力と参考の録音が出る", async () => {
+    renderAt("/ukulele/songs/noho-paipai");
+    expect(screen.getByRole("heading", { name: /Noho Paipai/ })).toBeInTheDocument();
+    // 覚えている鍵の確認が終わってから入力欄が出る
+    expect(await screen.findByLabelText(/パスワード/)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /参考の録音/ })).toBeInTheDocument();
+    expect(screen.getByTitle(/Wailau and Lopaka Ryder/)).toHaveAttribute("src", expect.stringContaining("embed.music.apple.com"));
+    expect(screen.getByRole("link", { name: /Almeida 自身の録音/ })).toHaveAttribute("href", expect.stringContaining("music.apple.com"));
+  });
+
   test("存在しない曲は 404 になる", () => {
     renderAt("/ukulele/songs/nope");
     expect(screen.getByText(/ページが見つかりません/)).toBeInTheDocument();

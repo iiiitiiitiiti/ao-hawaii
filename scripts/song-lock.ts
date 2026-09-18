@@ -82,7 +82,7 @@ async function lock(dir: string): Promise<void> {
     }
     const body = JSON.parse(readFileSync(path.join(srcDir, file), "utf8")) as SongBody;
     const errors = [
-      ...(body.progression ? [] : [`${id}: 鍵付きの曲は progression が必須です`]),
+      ...(body.performance && !body.progression ? [`${id}: お手本を持つ鍵付きの曲は progression が必須です`] : []),
       ...songBodyErrors(id, song.chords, body),
     ];
     if (errors.length > 0) {
@@ -94,7 +94,7 @@ async function lock(dir: string): Promise<void> {
     const back = await decryptJson<SongBody>(env, key, aad(id));
     if (JSON.stringify(back) !== JSON.stringify(body)) throw new Error(`${id}: 暗号化の往復で内容が一致しません`);
     writeFileSync(path.join(LOCKED_DIR, `${id}.json`), JSON.stringify(env) + "\n", "utf8");
-    console.log(`✓ ${id}: ${lyricCount(body)}行の歌詞コード譜とお手本を暗号化しました`);
+    console.log(`✓ ${id}: ${lyricCount(body)}行の歌詞コード譜${body.performance ? "とお手本" : "（お手本なし）"}を暗号化しました`);
   }
   if (failed) process.exitCode = 1;
 }

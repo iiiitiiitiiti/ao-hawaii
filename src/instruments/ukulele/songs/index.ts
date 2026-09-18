@@ -8,7 +8,7 @@ import { palolo } from "./palolo.ts";
 import { saints } from "./saints.ts";
 import type { Song } from "./types";
 
-export type { ProtectedLicensing, PublicDomainLicensing, Song, SongAuthor, SongAuthorRole, SongBody, SongLicensing } from "./types";
+export type { ProtectedLicensing, PublicDomainLicensing, Song, SongAuthor, SongAuthorRole, SongBody, SongLicensing, SongRecording } from "./types";
 
 /**
  * 掲載する曲。

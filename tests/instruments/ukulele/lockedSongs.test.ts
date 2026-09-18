@@ -98,6 +98,16 @@ describe("本体の検査と暗号化（ダミーの本体で）", () => {
     expect(songBodyErrors("dummy", ["C", "G7"], { ...DUMMY_BODY, meaning: DUMMY_BODY.meaning.slice(0, 1) }).length).toBeGreaterThan(0);
   });
 
+  test("お手本の無い本体は、置かない理由があるときだけ通る（DDR 022）", () => {
+    const { performance: _performance, progression: _progression, ...withoutPerformance } = DUMMY_BODY;
+    expect(songBodyErrors("dummy", ["C", "G7"], withoutPerformance).length).toBeGreaterThan(0);
+    expect(songBodyErrors("dummy", ["C", "G7"], { ...withoutPerformance, noPerformance: "歌詞カードに旋律の記譜が無いため。" })).toEqual([]);
+    // 理由があっても、歌詞コード譜のコードの集合は検査する
+    expect(songBodyErrors("dummy", ["C", "F", "G7"], { ...withoutPerformance, noPerformance: "理由" }).length).toBeGreaterThan(0);
+    // お手本と「置かない理由」は同時に持てない
+    expect(songBodyErrors("dummy", ["C", "G7"], { ...DUMMY_BODY, noPerformance: "理由" }).length).toBeGreaterThan(0);
+  });
+
   test("公開曲の平文も同じ検査関数を通る（テストと lock の検査がずれていない）", () => {
     for (const song of publicSongs) {
       if (!song.sheet || !song.performance || !song.meaning) continue;
