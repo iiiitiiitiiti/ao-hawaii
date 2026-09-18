@@ -33,6 +33,19 @@ export const MELE: MeleMeta[] = [
     related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-07"],
     ukulele: "https://iiiitiiitiiti.github.io/instrument-lessons/ukulele/songs/noho-paipai",
   },
+  {
+    id: "pauoa-ka-liko-ka-lehua",
+    title: "Pauoa Ka Liko Ka Lehua",
+    composer: "Emma Bush（クレジット上の作者）",
+    year: "20世紀前半（Emma Bush はラジオ・ナイトクラブの歌手）",
+    protection: "locked",
+    summary: "Honolulu の Pauoa 谷のレフアの若芽に、腰を揺らして歩く娘を重ねた hula ʻauana の定番。通称 Pauoa Liko Ka Lehua。",
+    background: [
+      "クレジット上の作者は Emma Bush。huapala.org は、Sam Kanahele か Charles W. Booth が作って Bush に贈った歌だと伝え、Bush を初期のラジオとナイトクラブの歌い手とする。",
+      "Pauoa は Honolulu の Punchbowl の北東にある谷。歌はその谷のレフアの若芽（liko）を若い踊り手に重ね、腰の揺れとペチコートの縁飾りをちらりと見たいと歌う。歌詞カードは8連を載せるが、教室で歌う4連（Aia・Makemake・Nihoniho・Haʻina）だけを載せる。",
+    ],
+    related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-05", "aina/lesson-06"],
+  },
 ];
 
 export function findMele(id: string): MeleMeta | undefined {

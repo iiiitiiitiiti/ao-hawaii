@@ -73,3 +73,11 @@
 ### 残る問い（持ち主に確認）
 
 - **ウクレレ教材のお手本（ABC のメロディ）の元**。2026-09-18 夜に「録音から書き起こす」で決定（上の節）。歌詞カードには通常メロディが無い。instrument-lessons は「歌詞コード譜を持つ曲はお手本も持つ」をテストで強制している（DDR 017）。選択肢: (a) メロディ入りの譜面があれば写真を送ってもらう、(b) Almeida の録音（Internet Archive）から書き起こし、持ち主が耳で確かめる、(c) 鍵付き曲に限りお手本を任意にする（規則の例外。DDR が要る）。
+
+## Pauoa Ka Liko Ka Lehua（id: pauoa-ka-liko-ka-lehua）— 2026-09-19 調査
+
+- 底本: 持ち主の歌詞カード（鳥山親雄『ハワイアン・メレ1001曲ミニ全集』1077ページ、Words & Music by Emma Bush。写真は Drive `ao-hawaii-private/cards/pauoa-ka-liko-ka-lehua.png`）。教室では8連のうち Aia・Makemake・Nihoniho・Haʻina の4連だけを歌う（持ち主の指示）。
+- 権利: Emma Bush の生没年を示す資料は Web 検索で見つからず、huapala は Sam Kanahele か Charles W. Booth の作とも伝える。作者の没年を示す資料が無いので保護期間中として扱い、鍵付きで置く。https://www.huapala.org/Pa/Pauoa_Liko_Ka_Lehua.html
+- Emma Bush は初期のラジオ・ナイトクラブの歌い手（Dancing Cat Records のライナーノーツ）。https://www.dancingcat.com/liner-notes-punahele
+- 地名: Pauoa は Honolulu の谷（Place Names of Hawaiʻi）。ʻAuwaiolimu は Punchbowl の遊び場と通りの名で、Pauoa 谷の入り口近く。長い髪の moʻo の女（Kahalaopuna とする説）が水浴びをしたと伝える（同書）。
+- huapala 版との違い（4連分）: 第2連1行目「Makemake nō wau la e ʻike」、同2行目「a ke kīkala」、第3連1行目「ko pelekoki」、第1連2行目の ā を a と書く。本サイトは教室の版（カード）に従う。
