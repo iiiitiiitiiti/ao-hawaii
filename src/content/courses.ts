@@ -78,6 +78,8 @@ export const COURSES: Course[] = [
       ["ペレとヒイアカ", "ペレの来歴とヒイアカの旅の筋を追い、この叙事詩がフラの根拠とされる理由を出典つきで言える", 15],
       ["ラカとカポ — フラの守護", "Laka の kinolau と kuahu に置く植物を言え、Kapo との関係を出典ごとに言える"],
       ["マウイと英雄譚、ʻōlelo noʻeau", "Māui の主要譚と、Pukui の『ʻŌlelo Noʻeau』の使い方、kaona の考え方を説明できる", 15],
+      ["Kamapuaʻa — 豚の kupua と雲・雨・地名", "Kamapuaʻa の系譜と主要な挿話を版の違いつきで説明でき、kinolau（豚・魚・草・雲）が mele の景物としてどう読まれるかを地名と hula puaʻa の例で言える", 15],
+      ["Poliʻahu — 雪の女神と Mauna Kea", "Poliʻahu を雪・霧・湖という Mauna Kea の気象と水を人格にした一族として説明でき、その名が山の地名と現在の論争にどう生きているかを言える", 15],
     ]),
   },
   {

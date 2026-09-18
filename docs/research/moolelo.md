@@ -425,7 +425,7 @@ wehewehe.org / Pukui-Elbert(1986)の定義(wehe.hilo.hawaii.edu で確認):
    根拠: NPS Haleakalā National Park「Māui and Hina」解説。 https://www.nps.gov/hale/learn/historyculture/deities.htm
 
 2. 問い: Kamapuaʻa が Pele の炎を逃れて変身したとされ、今日 kinolau(化身)とされる魚は何か。
-   答え: humuhumunukunukuāpuaʻa(トゲチョウチョウウオ)
+   答え: humuhumunukunukuāpuaʻa(モンガラカワハギ科)
    根拠: Beckwith『Hawaiian Mythology』(1940)Kamapuaʻa章。 https://archive.org/download/hawaiian-mythology/hawaiian-mythology_djvu.txt
 
 3. 問い: Kahalaopuna の両親の名前は何を由来としているか。
@@ -513,3 +513,348 @@ wehewehe.org / Pukui-Elbert(1986)の定義(wehe.hilo.hawaii.edu で確認):
 
 - Beckwith『Hawaiian Mythology』（1940）第4章 Kanaloa:「This attitude is reflected in a tendency by Hawaiian antiquarians to equate Kanaloa with the Christian devil. His name is associated with various legends of strife against Kane in which Kanaloa and his spirits rebel and are sent down to the underworld.」（archive.org の全文テキスト hawaiianmytholog00beck_0_djvu.txt、Kumulipo の第8 wā への言及の直後） https://archive.org/details/hawaiianmytholog00beck_0
 - Papa Lehua: Hālau Hula O Maiki の最初の ʻūniki は1972年 Heʻeia、1973年にも Papa Lehua の卒業（Manuel Silva が助言役）。Kalani Akana, Ka Wai Ola 2023-08-01（フラ講座 Lesson 05 で使用） https://kawaiola.news/columns/ka-naauao-o-na-kupuna/the-hula-people-of-halau-hula-o-maiki-arise/
+
+## レッスン6: Kamapuaʻa（2026-09-18 追記）
+
+
+
+担当題材: Kamapuaʻa（豚の半神）。出自、Oʻahu での挿話、Pele との争いと和解、kinolau、地名。
+
+- 既存の `content/moolelo/lesson-05.mdx`（Māui と Kamapuaʻa の対決）と `docs/research/moolelo.md` の Kamapuaʻa 節に**すでに書かれていること**は「Lesson 05 に既出」と明記し、本ノートは差分を集めた。
+- 各行末に出典 URL を付けた。すべてこのセッションで実際に取得・本文確認したもの。
+- Beckwith・Emerson・Fornander・Westervelt の逐語引用は**原文の表記のまま**（当時は ʻokina を付けない／アポストロフィ）。引用の外では現代正書法に直す。
+- ページ番号は、archive.org / Gutenberg のテキスト中に残る版面のノンブル（ページヘッダ）で確認した値。
+
+## この調査で使った一次資料（すべてアクセス確認済み）
+
+| 資料 | URL |
+|---|---|
+| Beckwith『Hawaiian Mythology』(1940) 第14章 KAMAPUAʻA, pp. 201–213 | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| Fornander & Thrum『Hawaiian Antiquities and Folk-lore』Vol. V Part 1（Memoirs V, 1918–19）「Legend of Kamapuaa / Kaao no Kamapuaa」pp. 314–363（ハワイ語・英語対訳） | https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 |
+| 同上・プレーンテキスト | https://archive.org/download/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1/FORNANDER%20%26%20THRUM%20Hawaiian%20antiquities%20and%20folk-lore%20Vol.5%20Part%201%20_djvu.txt |
+| N. B. Emerson『Unwritten Literature of Hawaii』(1909) 第33章 THE HULA PUAʻA, pp. 228–232 | https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt |
+| Westervelt『Hawaiian Legends of Volcanoes』(1916) 第8章 Pele and Kama-puaa, pp. 45–54 | https://www.gutenberg.org/ebooks/66516 |
+| Westervelt『Legends of Old Honolulu』(1915) 第25章 Kamapuaa Legends, pp. 246ff | https://www.gutenberg.org/ebooks/66547 |
+| Pukui-Elbert 辞書・Place Names of Hawaii（Wehewehe） | https://wehe.hilo.hawaii.edu/ |
+
+> Lesson 05 の Sources に「日本語で読める再話」として添える候補（**事実の根拠には使わない**）: legendaryhawaii.com「ハンサムな豚神カマプアア」 https://www.legendaryhawaii.com/pele/p05
+
+---
+
+## 事実ノート
+
+### 系譜・出自（Lesson 05 の記述に対する差分）
+
+- Lesson 05 既出: 祖母 Kamaunuaniho、母 Hina、Kaluanui で胎児として生まれ子豚の姿で見つかる、人の姿は「きらめく目をした大男」、背に剛毛。
+- **父は Kahiki-ula、義理の父（母の先夫でその兄）は Olopana**。Hina は先に Olopana の妻となって Kahiki-honua-kele を産み、その後 Olopana の弟 Kahiki-ula を夫として Kelekeleiaku と Kamapuaʻa を産んだ。つまり Olopana は伝承によって「叔父」とも「義父」とも呼ばれる。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 202、原典 Kamakau, Ke Au Okoa, 1870-03-31）
+- 一族の渡来伝承: 祖母 Ka-maunu-a-niho は夫 Humu と首長 Kalana-nuʻu-nui-kua-mamao とともに Kahiki から渡来し、**マウイ島 Waiheʻe の Kalahawai に上陸**して Waiheʻe の高地に住んだ。そこで Kamaunu は Kalana を夫とし、Humu は Kahiki へ戻る。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 202）
+- **Kumulipo に「半ば豚、半ば神」の誕生が pō の第5期に出る**。Beckwith はその一節を引く: “His snout was of great size and with it (he) dug the earth, / He dug until he raised a great mound, / He raised a hill for his gods, / A hill, a precipice in front, / For the offspring of a pig that was born.”（出典表記は Liliuokalani 訳 p. 25）。Beckwith は「豚神が盛り上げた mound は、強大な子孫の一族を指すと解せるかもしれない」と注する。→ 講座 Lesson 01（クムリポ）と直結する差分。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 201）
+- 誕生地は諸説あり。Beckwith は「**ほとんどのハワイ人は Kahiki で生まれたと言うが、Westervelt は Oʻahu での誕生を伝える**」と明記する。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 203）
+- 語り物としての規模: J. Emerson の報告として、Kamapuaʻa の kaʻao は**語り終えるのに16時間かかった**とされる。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 203、原典 J. Emerson, HHS Papers 2: 13–14）
+- Beckwith は物語全体を4つの争いに整理する: ①Oʻahu の義父 Olopana との争い ②Kauaʻi での争い（Makaliʻi と実父、次いで義父の敵） ③Kahiki での Lono-ka-eho と犬人 Ku-ilio-loa との争い ④Hawaiʻi・Maui での Pele への求愛。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 203）
+
+### Oʻahu の挿話（Fornander 版が最も詳しい）
+
+- Fornander 版第1章の冒頭は「**Kamapuaʻa には人と豚の二つの姿があった。住まいは Koʻolauloa の Kaluanui にある Kaliuwaʻa**」と始まる。彼は Olopana の領地（Kapaka・Punaluʻu・Kahana）から鶏を盗むのを常とし、鶏の姿の超自然的存在 **Kawauhelemoa** にそそのかされて捕まる。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, p. 314）
+- 捕縛は4度繰り返され、そのつど祖母 Kamaunuaniho が**名の詠唱（mele inoa）を唱えると彼は縄を破って捕り手を皆殺しにする**。生き残るのは毎回 Makaliʻi ひとりで、彼が Olopana に報告する。捕り手は800人 → 1200人 → 全島動員と増えていく。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 314–321）
+- **Kaliuwaʻa の脱出**。Fornander 版は「Kaliuwaʻa は登ることも降りることもできない高い崖で、麓から頂まで**1マイルの3分の2ほど**」と描写し、Kamapuaʻa が崖にもたれて体を橋にし、両親・兄・祖母・従者と荷物を頂へ上げたとする。**祖母だけは孫の背をよじ登るのを嫌がったので、彼は体の向きを変え、祖母は乳（waiū）を伝って登った**。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 320–321）
+- 同じ崖の溝について、**Beckwith / Thrum・Westervelt 系は「彼の陰茎を梯子にした跡」と説明する**。Beckwith はあわせて「谷は敬意をもって入るべきで、入口で葉の供物を捧げる。月経中の女は首に ti の葉の護符を着けねばならない」という慣行を記録する。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 212、原典 Westervelt, Honolulu 251–254; Thrum, Tales 193–199）
+- Emerson 1909 の注はさらに別版で、「彼は後ろ足で立ち上がって山壁をよじ登り、**跳ねた足が崖に巨大な溝を刻んだ**。ハワイ人はこの溝を waʻa（カヌーの内側の窪みに似るため）と呼ぶ。この業以来、彼は神として認められ、それ以来だれも Kamapuaʻa へ供物を捧げずにこの谷へ入らなかった」とする。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt （Emerson p. 230 注）
+- Westervelt 版では、脱出のあと彼は**自分の体で流れをせき止めてダムを作り**、Olopana の軍が谷へ入ったところで身を翻して鉄砲水を起こし、兵と海上のカヌー隊を壊滅させる（場所は Uhakohi とされる）。 https://www.gutenberg.org/ebooks/66547 （Legends of Old Honolulu 第25章）
+- **Kamapuaʻa を弱らせる呪法**。Kauaʻi から招かれた神官 Malae が Olopana に授けた策は、「**lau（ラ・ウ）の音を含むもの**——puaʻa lau、awa lau、moa lau、iʻa lau、kanaka lau、maia lau——を集めて彼の前に供物として置け」というもの。これを実行すると彼の力は抜けた。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 322–323）
+- **地名の由来**。彼を運ぶ人夫が「腹を割いて内臓を出せば軽くなる」と pahoa（木の短剣）を研いだ場所が、以後 **Pahoa**（Waiʻanae）と呼ばれる。失脚していた神官 **Lonoaohi** が息子 Kapuaaolomea・Kapuaahiwa を遣わして「王の命だ、豚を割くな」と偽りを伝えさせ、これを止めた。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 324–325）
+- 夜、Lonoaohi は神の力で縄を解いて heiau に忍び込み、まだ息のある Kamapuaʻa に「**wai（ワ・イ）の音を含む土地をくれ**」（Waiʻanae, Waialua など）と頼み、「Hu」と答えを得る。翌朝、生贄の祭壇の上で Kamapuaʻa は跳ね起き、Olopana と神官 Malae ら全員を殺す。Makaliʻi だけが祖母の股の間に逃げ込んで助かる。こうして Oʻahu は彼のものになる。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 324–326）
+- Westervelt 版の同じ場面は違う: 母 Hina が高位の首長として神官 Lonoaohi を説得し、**黒豚を殺してその血を彼の体に塗り「死んだように見せて」祭壇に縛らず置かせる**。祭壇の上で怒った Kamapuaʻa は生贄を解体する骨の短剣を奪い、Olopana を打ち殺す。舞台は **Kāneʻohe の Kawaewae heiau**。 https://www.gutenberg.org/ebooks/66547 （Legends of Old Honolulu 第25章）
+- Kalākaua 版（Beckwith 経由）では、彼は毛深い男で、**剛毛のように立つよう髪を短く刈り、豚に見えるよう入れ墨をし、羽根のマントの代わりに毛を外側にした豚皮を着た**とされる——つまり「変身」を人間の装いとして合理化する版がある。 https://www.gutenberg.org/ebooks/66547 （Westervelt が Kalākaua 版を要約、Legends of Old Honolulu 第25章）
+
+### Pele との争いと和解（Lesson 05 の2文に対する差分）
+
+- Lesson 05 既出: Halemaʻumaʻu で求愛 →「豚、豚の子」と罵られる → 炎と洪水の応酬 → 仲裁 → 地区の分割。
+- **求愛の立ち位置は Akanikōlea**。Place Names of Hawaii は Akani-kōlea を「Kīlauea 火口近くの土地。Kamapuaʻa が Pele をからかった場所。語義は『千鳥（kōlea）の鳴き声』」と記す。 https://wehe.hilo.hawaii.edu/?q=Akanik%C5%8Dlea
+- **罵り合いは mele の応酬という形をとる**。Fornander 版では Kamapuaʻa がまず「A ka luna i Puuonioni…」と詠い、Pele は「男なら起きるが、豚だから起きない」と応じる。次の詠唱で彼は Pele を「noni を搗く女たち」になぞらえ、Fornander の注は「その含意は **Pele が赤い目（makole）をしている**ということだ」と説明する。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 334–335）
+- 有名な罵りの詠唱は Fornander と Westervelt の双方に載る。冒頭2行（Fornander 版）: “Makole, makole akahi, / Hele i kai o Piheka,”（「目の赤い者、赤い者よ、Piheka の海へ行け」）。Westervelt 版は綴りが違い “Makole, Makole, akahi / Hele i kai o Pikeha…”。同じ詠唱の異本が2つ採録されている。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 338–339）／ https://www.gutenberg.org/ebooks/66516
+- 妹たちの証言が筋を動かす。Hiʻiaka たちが「Akanikōlea に立つあの美男を見よ」と促し、Pele は「あれは豚だ、Kamaunuaniho の孫、Kahikiula と Hina の子だ」と正体を名指しする。**Pele は彼が Kahiki から来たこと、Lonokaeho を殺したこと、Kowea の婿になり子をなしたことまで言い当てる**。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 336–337）
+- 戦いの構図（Fornander 版）: Pele は兄弟 Hiʻiakaluna・Hiʻiakalalo を上下から差し向けるが、Kamapuaʻa の**恋の神 Lonoikiaweawealoha**が彼らを籠絡して戦意を失わせる。火の番人 **Lonomakua** が火を絶やさない。Kamapuaʻa は妹 **Keliʻiomakahanaloa** を呼び、南から小さな雲が来て豪雨となり、火口を溢れさせて火を消す——**残るのは火起こしの木（ʻaunaki/ʻaulima）だけ**。彼は豚の姿で Halemaʻumaʻu ごと Pele 一族を飲み込むが、Lonoikiaweawealoha が憐れみを起こさせて吐き出す。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 340–343）
+- **決着**（Fornander 版）: 火と植物の応酬は続き「どちらも一歩も優位に立てなかった」。数日後、二人は夫婦として暮らし、その間に**ハワイ島を二分する契約を結ぶ**。Pele に Puna・Kaʻū・Kona（溶岩の多い地区）、Kamapuaʻa に Kohala・Hāmākua・Hilo（岩の少ない地区）。「これで二人の戦いは終わった」。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, p. 343）
+- **Westervelt 版の結末は正反対**: 草（kūkaepuaʻa）に変身して溶岩を逸らそうとするが焼かれ、腹の毛が焦げる（「だから豚は腹に毛が少ない」）。海へ追われ、**敗れて humuhumunukunukuāpuaʻa に変身して逃げる**。のちに Pele のほうが「戻れ、あなたは山、私は海辺」と恋の詠唱で呼び戻そうとするが、彼は誓いを守って拒む。 https://www.gutenberg.org/ebooks/66516 （Volcanoes 第8章）
+- **子ども**は版で名が違う。Beckwith は Kamakau により **Opelu-nui-kauhaʻalilo**（ハワイ島の首長と庶民の祖）とし（Lesson 05 の研究ノートに既出）、Westervelt は **Opelu-haa-lii** が生まれたがすぐ死に、「魚の ʻopelu になった」という説を添える。 https://www.gutenberg.org/ebooks/66516
+- **Kapo の kohe の挿話**（`docs/research/moolelo.md` Lesson 04 節に既出、Beckwith p. 187）。Place Names of Hawaii は地名側から裏づける: Puna の **Puaʻa-kanu**（「豚を植える」）は「Pele が Kamapuaʻa に襲われた土地。妹 Kapo が自分の kohe を囮に送り、彼はそれを Oʻahu の Koko Crater まで追い、そこに跡を残してから Kalihi へ飛び去った。Koko Crater の古名は **Kohelepelepe**」。 https://wehe.hilo.hawaii.edu/?q=Pua%CA%BBakanu ／ https://wehe.hilo.hawaii.edu/?q=Kohelepelepe
+- Beckwith は Puna の海辺 **Lua-o-Pele**（地面が争ったように掘り返されている場所）を「ここで Pele に追いつき、彼女を屈服させた」場所とし、「**だからこの場所だけ聖なる lehua が海辺まで生えている**」という土地の説明を記録する。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 212）
+- Maui 版の追跡では、彼は **Huluhulu-nui**（「たくさんの剛毛」）で毛を失い、**Puaʻa-hoʻokuʻi**（「突き当たる豚」）で崖にぶつかり、**Ka-iwi-o-Pele**（「Pele の骨」）の丘でついに Pele を組み伏せる。Place Names of Hawaii の Ka-iwi-o-Pele の項（Hāna, Maui の火山砕屑丘）も「Kamapuaʻa がここで Pele を犯した。HM 213」と Beckwith を引いて裏づける。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 213）／ https://wehe.hilo.hawaii.edu/?q=Kaiwiopele
+- Beckwith による構造の読み: Pele との対立は「火に敵対する嵐の兆しを神とする者」対「火の女神」という水と火の対立の一例であり、**Poliʻahu との争い、Nāmakaokahaʻi との争いと同じ型**に属する。また「Kamapuaʻa が Kāne-puaʻa（雨と作物の豊穣をもたらす農耕神）と同一なら、火の女神と対立するのは自然である」とも書く。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 193「水と火の対立の型」／p. 207「Kāne-puaʻa なら農耕神」）
+- Kalākaua は Pele 神話を実際の出来事の合理化とみなし、「1175年頃、Moho という kahuna に率いられた一族が Kaʻū の Honoapu に上陸し、Keauhou 背後の丘陵に住んだ。Kamapuaʻa の求愛を拒み洞窟に避難したところを溶岩が襲った」という年代つきの説を立てた。**Beckwith はこれを「Kalākaua の時代の aumakua 観に影響された合理化された創作である可能性が高い」と退けている**。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith pp. 206–207）
+
+### kinolau（変身形）
+
+- Beckwith: 「彼は豚だけでなく、さまざまな種類の**魚と植物**にも変身できた」。Pele の火を逃れて皮の硬い小魚 humuhumu-nukunuku-a-puaʻa になったとされ、**供犠のときに豚が手に入らなければ、この魚や彼の他の姿で代用してよい**とされた。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 202）
+- Beckwith はさらに「変身の力は**その形の複製**も含む。彼自身が豚になれるだけでなく、祈れば周囲が助けに来た豚で埋まる」と注意している（Fornander 版の「豚の大群」はこれ）。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 202）
+- 植物形の具体名（Fornander 版の戦闘場面で彼が呼ぶもの）: **nahelehele（雑草）・kukui・ʻamaʻumaʻu・ʻuhaloa・olomea・hala**。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 （Fornander V, pp. 332–333, 342–343）
+- 辞書の裏づけ（いずれも wehewehe 確認）:
+  - **kūkaepuaʻa**（Digitaria pruriens）「豚の糞。ハワイ原産の匍匐性の雑草。**豚の半神 Kamapuaʻa の植物形**」 https://wehe.hilo.hawaii.edu/?q=kukaepua%CA%BBa
+  - **ʻuhaloa**（Waltheria indica var. americana）「根の内皮が苦く、喉の痛みに噛む。**Kamapuaʻa の植物形の一つ**（FS 215）」 https://wehe.hilo.hawaii.edu/?q=%CA%BBuhaloa
+  - **olomea**（Perrottetia sandwicensis）「硬い材で、柔らかい hau 材と擦り合わせて火を起こした。**豚神 Kama-puaʻa の植物形の一つ**。別名 waimea」。同項の語義2は「**豚や犬の、濃い縞や斑のある茶色**」——植物名と毛色名が同語。 https://wehe.hilo.hawaii.edu/?q=olomea
+  - **humuhumunukunukuāpuaʻa**「humuhumu の諸種（Rhinecanthus aculeatus, R. rectangulus）。**語義は『豚のような鼻をした humuhumu』**」 https://wehe.hilo.hawaii.edu/?q=humuhumunukunuku%C4%81pua%CA%BBa
+  - **puaʻa** の語義3が重要: 「**霧や雲の帯**。しばしば山頂にかかるもので、雨の兆しとされ、**Kamapuaʻa の雲の姿と信じられている**」。用例 “Mehe ao puaʻa lā, ke aloha e kau nei”（山にかかる雲のように、愛がここに宿る）。→ **mele に出てくる「山にかかる雲」は Kamapuaʻa として読める**。 https://wehe.hilo.hawaii.edu/?q=pua%CA%BBa
+- 雲の姿の土地の実例: Emerson 1909 の注は「Kauaʻi の Kōloa 近くの山 **Haupu** の山頂にかかる雲は豚の形に似ているとされ、『豚が Haupu に休んでいる』は決まり文句だった」と記す。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt （Emerson p. 229 注）
+- Beckwith は「Kamapuaʻa と犬人 Ku-ilio-loa は、ハワイ人が崇めた空の兆し **ʻōuli** と何らかの形で結びついており、雲の獣の形は aumakua の臨在を示すものとして首長の動きを占うのに用いられた」と書く。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith pp. 346–347）
+- 神としての祭祀: 「報告が正しければ、**Kauaʻi の Wainiha に Kamapuaʻa を神とする小さな石畳の heiau があった**」（出典 HAA 1907, 43）。Beckwith 自身が「if the report is correct」と留保を付けている。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt （Beckwith p. 203）
+
+### フラ・mele との接点（**この題材の最大の差分**）
+
+- **hula puaʻa という独立したフラの種目がある**。Emerson 1909 第33章がそれで、「**生き残った動物の踊りの最後の一つ**。楽器の伴奏なしに ʻōlapa だけが踊る。男女どちらも踊り手になれた。胸を叩き、腕を勢いよく振り、体を反らせ、ときに床に触れそうなほど後ろへ倒す。詠唱は **ʻaihaʻa** と呼ばれる力のこもった様式で行われた」。**Emerson は「hula puaʻa は Kauaʻi 固有のものらしく、歴史時代に他島で演じられたことを確認できなかった」と明記する**。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt （Emerson pp. 228–229）
+- Emerson は「hula puaʻa が豚神 Kamapuaʻa の所業を扱っているかは、mele を一読すればイエスと答えられる」と書く。用いられた mele（正しくは oli）は「**Limaloa の兄弟とされる高名な詩人 Kana の二人の娘の共作**と言われる」。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt （Emerson p. 228）
+- その mele「Koʻi maka nui」（「刃の広い斧」＝Kamapuaʻa の異名）の冒頭5行（Emerson 1909 の原文表記のまま）: “Ko'i maka nui, / Ike ia na pae moku, / Na moku o Mala-la-walu, / Ka noho a Ka-maulu-a-niho, / Kupuna o Kama-pua'a.”（訳: 刃の広い斧と呼ばれる我／島々をことごとく見てきた／Malalawalu の島々を／Kamaunuaniho の座を／Kamapuaʻa の祖母の）。**一人称で Pele との顛末を語り、「恥をかかされた」と言い残して Kahiki へ帰るという筋**。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt （Emerson pp. 228–231）
+  - 引用可否（DDR 003）: **出版は1909年で「1929年より前」は満たす**が、作詞者が「Kana の娘二人」としか特定できず没年を確認できない。全文可と断定できないので、レッスンでは**1〜2行に留める**運用が安全。判断は本人に委ねる。
+- **辞書にも hula puaʻa の項がある**（wehewehe 確認）: 「**太った豚の歩みを真似て腰を左右に振るフラ。ʻami puaʻa ともいう**」。Emerson の記述（体を反らす激しい動き）と辞書の記述（腰の振り）は別の側面を伝えており、**両者は一致しない**ので並記するのが正確。 https://wehe.hilo.hawaii.edu/?q=hula%20pua%CA%BBa
+- **ʻai haʻa**（wehewehe 確認）: 「膝を曲げて踊るフラのステップ。この踊りの詠唱はふつう**大仰で力のこもった**ものになる。語義は low style」。Hula Lesson 03 の用語表に `ai-haa` として既出なので、そこへのリンクで足りる。 https://wehe.hilo.hawaii.edu/?q=ai%20haa
+- Pele 側の一次資料にも接点: Westervelt は、Hiʻiaka が旅の途中で「豚の唸り声」を聞き分け、「**これは海の豚だ。humuhumunukunukuāpuaʻa だ**」と言う場面を採録している。**供物としての黒い子豚と、その代用の魚が同じ場面に並ぶ**。 https://www.gutenberg.org/ebooks/66516 （Volcanoes 第14章）
+
+### 地名（レッスンで地図にできるもの）
+
+| 地名 | 島・地区 | 物語との結びつき | 出典 |
+|---|---|---|---|
+| **Ka-lua-nui**（「大きな穴」） | Oʻahu・Koʻolauloa | 誕生地。Place Names は Westervelt を引いて「胎児として生まれ、兄に捨てられ母 Hina に拾われた」と記す | https://wehe.hilo.hawaii.edu/?q=Kaluanui |
+| **Ka-liu-waʻa**（「カヌーの淦／カヌーの漏れ」＝Sacred Falls） | Oʻahu・Hauʻula | 滝の少し下の樋状の溝は「家族が体をよじ登って逃げられるよう崖にもたれた跡」 | https://wehe.hilo.hawaii.edu/?q=Kaliuwa%CA%BBa |
+| **Pōhaku-peʻe-o-Kamapuaʻa**（「Kamapuaʻa の隠れ石」） | Oʻahu・Kaluanui | 追っ手から隠れた石。密告した男は石に変えられた | https://www.gutenberg.org/ebooks/66547 |
+| **Kawaewae heiau** | Oʻahu・Kāneʻohe | 生贄として置かれた heiau（Westervelt 版）。Emerson の注は Olopana が建てたとする | https://www.gutenberg.org/ebooks/66547 ／ https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt |
+| **Pahoa** | Oʻahu・Waiʻanae | 人夫が pahoa（木の短剣）を研いだ場所。地名の由来として語られる | https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 |
+| **Wahiawā** | Oʻahu | 崖の上へ逃れたあと農耕をして暮らした地 | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| **「Kamapuaʻa の泉」**（Kamōʻiliʻili） | Oʻahu | 二人の美女を追って地面を掘ると二つの泉が湧いた | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| **Wai-a-ka-puaʻa** | Kauaʻi・Kīpūkai | 豚の姿で眠っていた泉。Limaloa が岩を落とそうとした | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| **Haupu** | Kauaʻi・Kōloa 近く | 山頂にかかる豚形の雲。「豚が Haupu に休んでいる」は定型句 | https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt |
+| **Wainiha** | Kauaʻi | Kamapuaʻa を神とする小さな石畳の heiau があったとの報告 | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| **Akani-kōlea**（「千鳥の声」） | Hawaiʻi・Kīlauea | Pele を挑発するために立った岬 | https://wehe.hilo.hawaii.edu/?q=Akanik%C5%8Dlea |
+| **Puaʻa-kanu**（「豚を植える」） | Hawaiʻi・Puna | Pele が襲われた土地。Kapo の kohe の挿話の起点 | https://wehe.hilo.hawaii.edu/?q=Pua%CA%BBakanu |
+| **Kohe-lepelepe**（Koko Crater の古名） | Oʻahu | Kapo の kohe が降りた跡が Makapuʻu 側に残るとされる | https://wehe.hilo.hawaii.edu/?q=Kohelepelepe |
+| **Ka-iwi-o-Pele**（「Pele の骨」） | Maui・Hāna | 追跡の末に Pele を組み伏せた丘。Place Names が Beckwith p. 213 を引いて裏づける | https://wehe.hilo.hawaii.edu/?q=Kaiwiopele |
+| **Huluhulu-nui / Puaʻa-hoʻokuʻi** | Maui・Hāna 付近 | 毛を失った地点／崖にぶつかった地点。Beckwith は「地名の語呂合わせと由来譚が筋を決めている」と評する | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+
+---
+
+## ハワイ語用語（各語 PE の語義と URL）
+
+- **kupua** — 半神、文化英雄。とくに**複数の姿を持つ超自然的存在（Kamapuaʻa と Laenihi が例に挙がる）**。mana を持つ者（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=kupua
+- **puaʻa** — 豚。語義3「**霧や雲の帯。山頂にかかり雨の兆しとされ、Kamapuaʻa の雲の姿と信じられる**」（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=pua%CA%BBa
+- **kinolau** — 超自然的存在が取る「多くの姿・体」（Māmaka Kaiao 2003、wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=kinolau
+- **kūkaepuaʻa** — 「豚の糞」。匍匐性の雑草 Digitaria pruriens。Kamapuaʻa の植物形（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=kukaepua%CA%BBa
+- **ʻuhaloa** — Waltheria indica var. americana。喉の痛みに根の内皮を噛む薬草。Kamapuaʻa の植物形（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=%CA%BBuhaloa
+- **olomea** — Perrottetia sandwicensis。hau と擦り合わせて**火を起こす硬材**。Kamapuaʻa の植物形。同語が「豚・犬の縞のある茶色」も意味する（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=olomea
+- **ʻamaʻumaʻu** — ʻamaʻu シダの若葉、またはシダの茂み。Halemaʻumaʻu の名の由来でもある（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=%CA%BBama%CA%BBuma%CA%BBu
+- **humuhumunukunukuāpuaʻa** — Rhinecanthus aculeatus / R. rectangulus。「**豚のような鼻をした humuhumu**」（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=humuhumunukunuku%C4%81pua%CA%BBa
+- **hula puaʻa** — 「太った豚の歩みを真似て腰を左右に振るフラ。**ʻami puaʻa** ともいう」（wehewehe 確認）。 https://wehe.hilo.hawaii.edu/?q=hula%20pua%CA%BBa
+- **ʻai haʻa** — 膝を曲げて踊るステップ。「詠唱はふつう大仰で力がこもる」。語義は low style（wehewehe 確認）。Hula Lesson 03 に既出。 https://wehe.hilo.hawaii.edu/?q=ai%20haa
+- **mele inoa** — 名の詠唱。祖母 Kamaunuaniho が縄を解くために唱えるのがこれ（Fornander の見出しは “Mele o Kamaunuaniho ke kupunawahine o Kamapuaa”）。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1
+
+## 確認問題のネタ
+
+1. 問い: Kamapuaʻa が Pele に呼びかけるために立った、Kīlauea 火口縁の場所の名は？　答え: **Akanikōlea**（「千鳥の声」）。根拠: Place Names of Hawaii「Kamapuaʻa が Pele をからかった土地」。 https://wehe.hilo.hawaii.edu/?q=Akanik%C5%8Dlea
+2. 問い: Fornander 版で、神官 Malae が Olopana に授けた「Kamapuaʻa を弱らせる方法」は？　答え: **lau の音を含むもの（puaʻa lau, awa lau, moa lau, iʻa lau, kanaka lau, maia lau）を供物として彼の前に置く**。根拠: Fornander V, pp. 322–323。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1
+3. 問い: Pele との戦いの結末は、版によってどう違う？　答え: **Fornander 版は引き分け → 夫婦となり地区を分割。Westervelt 版は Kamapuaʻa の敗走（魚に変身して逃げ、のちに Pele が呼び戻そうとして断られる）**。根拠: Fornander V, p. 343 ／ Westervelt, Volcanoes 第8章。 https://archive.org/details/fornander-thrum-hawaiian-antiquities-and-folk-lore-vol.-5-part-1 ／ https://www.gutenberg.org/ebooks/66516
+4. 問い: Pukui-Elbert が「Kamapuaʻa の雲の姿」と説明する自然現象は？　答え: **山頂にかかる霧・雲の帯（puaʻa の語義3）。雨の兆しとされる**。根拠: PE 辞書 puaʻa 項。 https://wehe.hilo.hawaii.edu/?q=pua%CA%BBa
+5. 問い: Emerson 1909 が記録した、Kamapuaʻa を歌う踊りの名と、その特徴は？　答え: **hula puaʻa**。楽器なしで ʻōlapa だけが踊り、詠唱は ʻaihaʻa 様式。**Kauaʻi 固有**とされる。根拠: Emerson, Unwritten Literature, pp. 228–229。 https://archive.org/download/unwrittenlitera00emergoog/unwrittenlitera00emergoog_djvu.txt
+
+## 画像候補（Commons API でライセンス確認済み。取り込みはしない）
+
+- **File:Koko Head crater from Makapuu trail, Oahu, Hawaii - panoramio.jpg** — 作者 Aaron Zhu、**CC BY-SA 3.0**、5177×2812。Kohelepelepe（Koko Crater）を **Makapuʻu 側**から見た画。Kapo の挿話の「Makapuʻu 側に跡が残る」という記述にそのまま合う。 https://commons.wikimedia.org/wiki/File:Koko_Head_crater_from_Makapuu_trail,_Oahu,_Hawaii_-_panoramio.jpg
+- **File:Rhinecanthus rectangulus Gratwicke.jpg** — 作者 Brian Gratwicke、**CC BY 2.0**、3228×2198。humuhumunukunukuāpuaʻa（PE が挙げる2種のうちの1種）。 https://commons.wikimedia.org/wiki/File:Rhinecanthus_rectangulus_Gratwicke.jpg
+- **File:Rhinecanthus rectangulus SI.jpg** — Sandra Raredon / Smithsonian、**Public domain**、2660×1476。標本写真。上の代替。 https://commons.wikimedia.org/wiki/File:Rhinecanthus_rectangulus_SI.jpg
+- Kaliuwaʻa（Sacred Falls）の使える写真は見つからなかった。検索で出たのは1920年代の旅行記 PDF のみ（`File:Hawaii; scenes and impressions (IA hawaiiscenesimpr00gero).pdf` ほか、Public domain）。**Commons 検索は3回までという制約のため、別語での再検索は行っていない**。「Hauula」「Kaliuwaa Falls」などで再検索する余地がある。
+
+---
+
+## 裏が取れなかった項目
+
+- **Sacred Falls（Kaliuwaʻa）州立公園の現在の立入可否**。1999年の落石事故以降閉鎖、と広く言われるが、DLNR（dlnr.hawaii.gov）の公式ページは Cloudflare のため curl で 403、Wayback も 429 で取得できなかった。レッスンで「今は入れない」と書くなら、別セッションで公式情報を取り直すこと。
+- **`docs/research/moolelo.md` の記述の誤り（要修正）**: 同ファイル 428行目が humuhumunukunukuāpuaʻa を「モンガラカワハギ科」としているが、PE が挙げるのは **Rhinecanthus aculeatus / R. rectangulus**（モンガラカワハギ科）で、チョウチョウウオ科ではない。Lesson 05 本文には和名が書かれていないので公開ページへの影響はない。 https://wehe.hilo.hawaii.edu/?q=humuhumunukunuku%C4%81pua%CA%BBa
+- **「Kamapuaʻa は8つの目を持つ」**。Fornander の名の詠唱に “Ewalu maka o ke keiki puaʻa a Hina”（Hina の豚の子は8つの目を持つ）とあり、Emerson も「ある伝えでは8つの目と8本の足」と注するが、**Beckwith はこの「8」をポリネシア全域の聖数のモチーフとして論じており、両者は同じ事実の解釈が違う**。「8つの目の豚」を単独の事実として書くなら Fornander の詠唱と Emerson の注を名指しすること。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- **現代のフラで hula puaʻa が踊られているか**。Emerson（1909）は「Kauaʻi 固有で、歴史時代に他島での上演は確認できない」と書くだけで、現在の hālau での扱いは一次資料で確認できなかった。現代の実践に触れるなら別途裏取りが必要。
+- **「Kamapuaʻa は Lono の化身／Lono 系の神である」**という通説。Beckwith は「Lono 名が物語に多く出るので Lono が一族の神だった可能性が高い」「Kāne-puaʻa と同一なら農耕神になる」と**推測の形でしか書いていない**。断定しないこと。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- **Kaliuwaʻa の崖の高さ**。Fornander 版は「1マイルの3分の2ほど」（約1km）とするが、これは語り手の誇張で実地形とは合わない。数値を書くなら「Fornander 版の語りでは」と限定すること。
+- **Fornander 版の詠唱・Westervelt 版の詠唱の全文引用可否**。いずれも1929年より前の出版（1916／1918–19）だが、原作者は伝承の匿名詠唱者で没年を特定できない。DDR 003 の条件を厳密には満たせないので、本文では1〜2行に留めるのが安全。
+
+---
+
+## レッスンの骨子案
+
+**タイトル案**: 「Kamapuaʻa — 豚の kupua と、雲・雨・地名」
+**到達点（1文）**: Kamapuaʻa の系譜と主要な挿話を版ごとの違いつきで説明でき、kinolau（豚・魚・草・雲）が mele の景物としてどう読まれるかを、地名と hula puaʻa の実例で言える。
+**所要分数**: 15分（`src/content/courses.ts` の 15 指定と同じ扱い）
+
+1. **Kaluanui に生まれる** — 父 Kahiki-ula、義父 Olopana、祖母 Kamaunuaniho という三角の出自と、Kumulipo 第5の pō に出る「半ば豚、半ば神」の一節（Lesson 01 へリンク）。
+2. **Kaliuwaʻa の崖** — 鶏泥棒から全島動員の追跡へ。崖を登る場面が版ごとに違う（Fornander＝乳を伝う／Beckwith・Thrum＝陰茎の梯子／Emerson＝後足で刻んだ溝）ことを並べ、「地形の説明が筋を決める」という語りの仕組みを示す。
+3. **lau と wai — ことばで効く呪法** — 神官 Malae の「lau の音を含む供物」と、Lonoaohi が代償に求めた「wai を含む土地」。**音の一致がそのまま力になる**という kaona の原型（Lesson 05 の kaona へリンク）。
+4. **Akanikōlea の応酬** — 求愛は mele の応酬という形を取る。「makole（赤い目）」の罵りが noni の比喩で間接的に言われること。Fornander の1〜2行を引く。
+5. **分けられた島** — 雨の Kohala・Hāmākua・Hilo と溶岩の Puna・Kaʻū・Kona。結末が版で正反対（和解／敗走）であることを明示する。ハワイ島の風上・風下の地理（ʻĀina 講座）へリンク。
+6. **kinolau — 豚・魚・草・雲** — humuhumunukunukuāpuaʻa、kūkaepuaʻa、ʻuhaloa、olomea、そして **PE の puaʻa 語義3「山にかかる雲」**。mele で「山にかかる雲」を見たら誰を思うか、という読みの実践。
+7. **hula puaʻa** — Emerson 1909 が記録した Kauaʻi 固有の踊りと、辞書の「ʻami puaʻa」の記述。両者の食い違いも含めて紹介し、Hula Lesson 02・03（ʻōlapa / ʻaihaʻa）へリンクして閉じる。
+
+## レッスン7: Poliʻahu（2026-09-18 追記）
+
+
+
+講座 Moʻolelo の新レッスン（Lesson 06 または 07）用の資料ノート。既存 `docs/research/moolelo.md` の書式に合わせ、各行末に出典 URL を付けた。
+
+- **既存レッスンとの重なり**: Pele の来歴・Hiʻiaka の旅・kilu の遊びは Lesson 03 に既出。Kamapuaʻa と Pele の対決、kaʻao/moʻolelo の区別は Lesson 05 に既出。Kapo は Lesson 04 に既出。Mauna Kea の「白い山」の語義・山頂の雪と降水量は ʻĀina Lesson 02 に既出。2019年の TMT 反対運動は Mōʻaukala Lesson 05 に既出。本ノートは**それ以外の差分**を集めた。
+- 引用は原文表記のまま（Beckwith 1940/1919 と Westervelt 1916 はアポストロフィ・ʻokina なし）。引用の外では現代正書法（Poliʻahu, Kūkahauʻula, Līlīnoe）に直す。
+- Beckwith のページ番号は archive.org 全文テキスト中の版面ページ（本文中に `222 HAWAIIAN MYTHOLOGY` の形で印字されているもの）。
+
+## この調査で使った主要一次資料（すべてアクセス確認済み）
+
+| 資料 | URL |
+|---|---|
+| Martha Beckwith『Hawaiian Mythology』(1940) 全文テキスト | https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt |
+| S. N. Haleʻole 著／Beckwith 訳『The Hawaiian Romance of Laieikawai』(1919)。英訳とハワイ語原文の対訳を収録 | https://www.gutenberg.org/cache/epub/13603/pg13603.txt |
+| W. D. Westervelt『Hawaiian Legends of Volcanoes』(1916) 第IX章 "Pele and the Snow-Goddess" | https://www.gutenberg.org/cache/epub/66516/pg66516.txt |
+| Kepā Maly『Mauna Kea — Ka Piko Kaulana o ka ʻĀina』(Kumu Pono Associates, 2005。OMKM 委託の文献・口述史調査) | https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf |
+| Pukui-Elbert 辞書／Place Names of Hawaiʻi（Wehewehe Wikiwiki） | https://wehe.hilo.hawaii.edu/ |
+| USGS HVO "Volcano Watch — Lake Waiau shrinking fast"（2013-11-07） | https://www.usgs.gov/observatories/hvo/news/volcano-watch-lake-waiau-shrinking-fast |
+| huapala.org — mele「Poliahu」（Frank Kawaikapuokalani Hewett 作） | https://www.huapala.org/Po/Poliahu.html |
+| Mauna Kea Education and Awareness（UH Hilo）— "The Love of Poliʻahu and Kūkahauʻula" | https://www.mkea.info/mauna-kea-moolelo/2021/10/25/the-love-of-poliahu-and-kkahauula-1 |
+
+---
+
+## 事実ノート
+
+### 1. 名と語義
+
+- Pukui-Elbert (1986) の見出し **Poli-ʻahu**: 「Mauna Kea の雪の女神（Snow goddess of Mauna Kea）。Lit., Bosom goddess」。同じ綴りの普通語 **poli.ʻahu** は他動詞「愛撫する（To caress）」、ただし *Rare*。 https://wehe.hilo.hawaii.edu/?q=poliahu
+- 『Place Names of Hawaiʻi』(1974) の **Poli-ʻahu**: 語義は「garment [for the] bosom（雪を指す）」。項目は2つ — ①Kauaʻi 島 Wai-lua 近くの州立公園内によく残る **heiau**（Malae heiau と関連づけられる）、②Mauna Kea 上の land division（UL 251）で「雪の女神にちなむ」。 https://wehe.hilo.hawaii.edu/?q=poliahu
+- Haleʻole/Beckwith 訳(1919) の登場人物表の訳は「**Cold-bosom**」。同じ名に「胸の衣」と「冷たい胸」の二通りの読みが並立している（辞書は前者、Beckwith は後者）。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- Maly (2005) は、Mauna Kea が伝承と祈りの中で **Mauna a Wākea**（ワーケアの山）とも呼ばれ、Wākea と Papa の長子である「山の子」で、島の **piko**（へその緒）の象徴だと整理する（p.v）。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+
+### 2. 姉妹／同伴の女神 — Lilinoe・Waiau・Kahoupokāne
+
+- Haleʻole/Beckwith 訳の登場人物表: **Lili-noe**「Fine-fog」= Poliʻahu の attendant、**Wai-aie**「Water-mist」= attendant、**Kahoupo ʻkane** = attendant。Poliʻahu 自身は「Maunakea に住む高位の chiefess」。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- Beckwith『Hawaiian Mythology』p.222 も同じく「her three maidens, Lilinoe, Waiaie, and Kahoupokane」と書く。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- **ただし「Waiaie」は誤植の可能性が高い**。Maly (2005:20 注6) は「Waiaie は Haleʻole の伝承の一箇所での植字ミスで、別の箇所では Waiau と書かれている（第XVIII章・第XIX章参照）」と注記する。Gutenberg 版のハワイ語原文で実際に確認したところ、第XVIII章相当箇所は "Poliahu, Lilinoe, Waiaie, a me Kahoupokane"、第XIX章相当箇所は "Lilinoe, me Poliahu, o **Waiau**, a me Kahoupokane" と綴りが割れている。英訳は両方を "Waiaie" に揃えている。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf ／ https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **Līlīnoe**: PE (1986)「fine mist, rain（細かい霧、雨）」。Place Names (1974)「Puʻu-Līlīnoe とも呼ばれる Mauna Kea 図幅の山（12,956 ft）。霧の女神 Līlīnoe にちなむ。より有名な雪の女神 Poli-ahu の姉妹」。一方 Parker (1922) は「Goddess of Haleakala」とする。 https://wehe.hilo.hawaii.edu/?q=lilinoe
+- **Waiau**: Place Names (1974)「Mauna Kea 山頂近くの湖（標高 13,020 ft）」。Westervelt (1916) は語義を「Wai-au とは身を浸せるだけの深さの水という意味」と説明し、「Waiau という乙女と Waiau という湖を結ぶ伝説が、どこかの古老の記憶に埋もれているはずだ」と書く（＝当時すでに物語が失われていた）。 https://wehe.hilo.hawaii.edu/?q=waiau ／ https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- **Kahoupokāne**: Wehewehe に項目なし（該当なし）。Westervelt は「おそらく Hualālai の女神で、長い間隔をおいてその荒涼とした山頂に降る雪をつかさどる。現在は名前以上のことはほとんど知られていない」と推測にとどめる。 https://wehe.hilo.hawaii.edu/?q=kahoupokane ／ https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+
+### 3. Westervelt 版 — Pele との対決（『Hawaiian Legends of Volcanoes』第IX章、p.55–62）
+
+- 冒頭の総論: 「ハワイの神話には白い mantle をまとった4人の乙女がいた。…みな雪をかぶった山の女神で、ペレの敵だった」。彼女たちは白い雪の衣を脱いで「太陽の光でできた衣（clothes made from the golden sunshine）」に着替える力を持つ。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- Poliʻahu は Hāmākua 海岸の断崖を好み、人間の首長たちの遊戯に加わって遊んだ。純白の kapa の mantle をまとい、滝の上の岩棚に憩った。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- **hōlua（そり）競走**: Poliʻahu の一行が Mauna Kea を下って Hāmākua の南の斜面で hōlua を滑っていると、絶世の美女が現れる。Poliʻahu は歓迎して競走を続けるが、地面が温かくなり敵の正体を知る。ペレは Mauna Kea の地下洞窟の扉を開いて火の泉を噴き上げる。Poliʻahu は山頂へ逃げ、燃え上がる雪の mantle を引きはがして山の上に投げかける。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- **因果譚**: 冷やされた溶岩が固まって流路を塞ぎ、海へ落ちた。「こうして Laupāhoehoe の岩塊と Onomea の arch ができた」。ただし Maly (2005:52) は「ハワイ人の定住後に Mauna Kea で噴火があったとする点で地質学の知見に反する」と明記する。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt ／ https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **結末**: 「この戦いではペレは負けてきたし、これからも必ず負ける、と現地の人は言う（the natives say that in this battle Pele has been and always will be defeated）。ペレの王国はハワイ島の南半分に限られ、雪の乙女たちが北の領域を支配する」。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- Beckwith はこの Westervelt 版を p.222 で「Maunaloa のペレが溶岩を注ぐ間、島の反対の端の Maunakea から Poliahu が冷たい mantle を広げる」と要約し、出典を「Volcanoes, 55-62」と注記する。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+
+### 4. Laieikawai 版 — ʻAiwohikupua との婚約と破局
+
+底本は S. N. Haleʻole が1844年に書き起こし、ハワイ語新聞 *Kuokoa* に1862年11月29日〜1863年4月11日に連載、1863年に単行本化したもの。Beckwith の英訳は1919年刊（Beckwith 1940 の注は「translation, RBAE 33: 285-666」、該当挿話は「Haleole, 378-383, 402-407, 474-491」）。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf ／ https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+
+- **出会い**: Kauaʻi の首長 ʻAiwohikupua の一行が Humuula を過ぎ Kealakaha 沖で、海の崖に座る女を見る。岸の釣り人に名を尋ねると「Poliahu, Cold-bosom」と答える。女は「雪に覆われた cloak」をまとって降りてくる。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **kupua どうしの会話**: Poliʻahu は「私はこの海岸の女主人ではない。内陸から、いまの私の白い衣のような衣をまとったあの山の頂から来た」と言い、ʻAiwohikupua が神に立てた誓いと Hāna の Hinaikamalama との婚約を言い当てる。理由を問われて「私はあなたと同じく神の力を持って生まれ、父祖の神々から知らされた」と答える。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **衣の交換**: Kohala までは「互いに触れない kapu」を置いて同船。別れ際、Poliʻahu は **kapa hau**（雪の mantle。「両親が他人に与えることを固く禁じた、私だけのための衣」）を渡し、「誓いを思い出したら白い山の上に私を訪ね、これを見せなさい。そのとき結ばれる」と告げる。ʻAiwohikupua は返礼に **ʻahuʻula**（羽根のマント）をかける。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **婚礼の合図**: Huna の夜（月の11日）に Kawaihae 着。使者が持ち帰った Poliʻahu の指示は「婚礼は Waiulaula で。17日 Kulu の日の早朝、雪が Maunakea・Maunaloa・Hualālai の頂を覆い Waiulaula まで届いたら出発せよ」。Beckwith の脚注56は「ハワイ島の3つの山頂は海抜13,000〜8,000ft で、高い2つは冬しばしば雪をかぶる」と補う。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **行列**: ʻAiwohikupua は Poliʻahu の kapa hau を着、ʻiʻiwi の赤い羽根で飾った ʻie 蔓の兜をかぶり、踊り手を乗せた10艘の双胴カヌーを従えて向かう。一行が寒さで進めないと伝えると、Poliʻahu は雪の mantle を脱ぎ、山の女たちは「太陽の mantle（sun mantles）」を着て、雪はいつもの場所へ退く。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **破局**: 二人は Kauaʻi の Honopuwai 上流に住むが、Hinaikamalama が現れて kōnane の賭けの履行を迫る。Poliʻahu は雪の mantle を広げて凍えるほどの冷気を送り、翌日は太陽の mantle で灼けるような熱を送る。Hinaikamalama は冷気に2首・熱に2首、計4首の短い chant を詠む（2026-09-18 レビューで訂正）（Beckwith 訳は PD。冒頭 "Cold, ah! cold, / A very strange cold, / My heart is afraid." と "The heat, ah! the heat, / The heat of my love stifles me"）。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **退場**: 祝宴の3夜目、Lilinoe・Waiau（Waiaie）・Kahoupokāne が Poliʻahu を探して kilu の集まりに現れる。雪の衣が光り、kilu の小屋全体が朝まで冷え、そのまま Poliʻahu 一行は Kauaʻi を去る。Hinaikamalama も同時に去る。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **Beckwith の読み**（p.222）: 「作者がここで念頭に置いているのは、人間の姿をとったペレとしての Hina-i-ka-malama である。この挿話全体は、Lohiau をめぐる Pele-ula と Hiʻiaka の kilu 争い（→ Lesson 03 既出）だけでなく、**二人の山の女神の伝統的な対立**に着想を得たものと見るべきだ」。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- Beckwith p.529 は「Poliahu は両方の物語で同じ誘惑者の役を演じるが、Laieikawai では脇役にすぎない」と位置づける。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+
+### 5. フラとの接点 — Ke-ao-melemele 譚
+
+- Beckwith p.520（Westervelt の Ke-ao-melemele 譚の要約）: Paliula は兄 Kahanai の妻になるが、「Maunakea の雪をかぶった頂に住む美しい kupua Poliahu」に夫を奪われる。Paliula は狂ってマーノアの高地をさまよい、**Waiʻanae で hula を習って名手になり、Kauaʻi へ渡ってその島の踊りを学ぶ**。雲の国にいた妹 Keaomelemele はその詠唱を聞き、**Kapo を師として** hula の名手になる。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- つまり **Poliʻahu の奪略がフラ伝承の起動因になっている**。Kapo は Lesson 04 既出。Beckwith 自身は同書 p.520 をフラ関係の章「ROMANCES OF THE DANCE」に置いている。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- Beckwith 訳『Laieikawai』序文は、Haleʻole 版が Westervelt 版に残る兄妹婚の関係を「外来の道徳観に配慮して抑えた」可能性を指摘し、Poliʻahu は「名も性格も同一だが Haleʻole の物語では脇役」と書く。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+
+### 6. Beckwith の中の細かい言及（本文の小ネタ）
+
+- p.87（LESSER GODS 章）: 「Poliahu、雪をかぶった山の女神は、Paliuli の女の恋人を誘惑する。白い mantle をまとい、冷たさが彼女の属性である」。自然神が「自らが表す形の属性に彩られて」結婚し戦い出産する例として挙げられる。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- p.193: ペレ信仰の呪術の学派どうしの争いが伝説に織り込まれた例として、「山頂の女 Poliahu と Pele の、**ハワイ島の肥沃な土地をめぐる争い**」を、Hiʻiaka と moʻo の戦い、Kamapuaʻa との争いと並べて挙げる。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- p.194（Punaaikoae 譚の Emerson/Westervelt 版）: Puna は moʻo の妻から逃げるため「**Poliahu の氷のように冷たい水**（the ice-cold waters of Poliahu）が飲みたい」と偽り、穴を開けた瓢箪を持たせて水汲みにやる。Poliʻahu の水が「最も冷たい水」の代名詞として使われている例。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- p.415（Kalelealuaka 譚）: Ka-opele-moemoe は半年ごとに仮死状態になり、その間、彼の霊は「**Poliahu とともに上空を漂い**（floats away into the upper air with Poliahu）」1日で島々を一巡する。巻末索引も "Poliahu … expression for trance, 415" と立項する。＝**トランス状態を表す慣用表現**。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+- p.314–315（洪水譚の Fornander 版）: Nuʻu は箱舟で洪水を生き延び、外に出ると Maunakea の頂にいて、そこには**妻 Lilinoe にちなむ名の洞窟**があった。同じ Fornander 版で「ハワイ島で語られる形では妻の名は Lilinoe、別説では Nuʻumealani」。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+
+### 7. 山の地名と Kūkahauʻula — Maly (2005) の集成
+
+- **Puʻu o Kūkahauʻula は Mauna Kea 山頂の cone 群の伝統的な名**で、1932年頃までネイティブの記録と地図に現れる。現在使われる Puʻu Wekiu・Puʻu Hauʻoki・Puʻu Haukea は1960年代（山頂の天文台開発以降）の新しい名で、伝統名がもつ精神的・文化的な意味を押しのけた、と Maly は明記する（p.v 注*）。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- Puʻu o Kūkahauʻula は Kū の一形態にちなみ、**新生児の piko を納める場所**。Waiau（Ka piko o Waiau）は女神 Waiau にちなみ、moʻo の女神 **Moʻoinanea** の住処で、やはり piko を納め、「**ka wai kapu o Kāne**（カーネの聖なる水）」を汲む場所。「これらの実践は現在も続いている」（p.v）。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- 地名 Puʻu Poliʻahu（Peak A）は、1892年に W. D. Alexander が女神を記念して**現在の地点に命名した**らしい。地名としての Poliʻahu 自体は Kamakau や1873年の Boundary Commission 証言に現れる（p.vi 注**）。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **Emma Ahuʻena Taylor**（*Paradise of the Pacific*, 1931年7月号）による Poliʻahu と Kūkahauʻula の物語（Maly p.53 の引用）: Poliʻahu は名付け親 Kāne によって Mauna Kea に留められ、乳母 **Lihau**（冷たい雨）が片時も離れず付き添った。Kāne は山頂に銀色の泳ぎの池 **Wai-au** を作り、番人を置いた。日の出と日の入りとともに現れる「桃色に染まる雪の神」**Kū-ka-hau-ʻula** が恋をするが、**Lilinoe（細かい霧雨）・Lihau（霜）・Kīpuʻupuʻu（雹）** が追い払う。やがて Moʻoinanea が愛を本物と認め、二人は結ばれる。「いまも Kūkahauʻula と Poliʻahu が Mauna Kea で抱き合う姿を見ることができる」。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf ／ https://www.mkea.info/mauna-kea-moolelo/2021/10/25/the-love-of-poliahu-and-kkahauula-1
+- **Bishop Museum, Hawaiian Ethnological Notes; Legends Vol. II:149**（Pukui 訳、年代不詳。Maly p.51）: Kukahaula は South Kohala の Waimea の首長。Kaʻū 出身の Lilinoe を妻にしたが人々が妻を嫌ったため、Waiau の上の Mauna Kea に移り住み、そこで凍死。Kauikeaouli（Kamehameha III）が二人の遺骸を見た最後の王で、遺骸は「凍って石のように」なっていた。その後、従者 **Pōheʻepali** が遺骸を隠した。／同じ記事に、山を訪れた二人が喉の渇きを訴えると「いま水はない」と答えた女の胸に水の照り返しが見えた、その女が Lilinoe で、隠していたのが「Poliahu の水」だったという挿話がある。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **Kamakau (1961:16-17)**（Maly p.29）: ʻUmi-a-Līloa がヒロを攻めたとき、Waipiʻo から「**Poliʻahu の道と Poliʻahu の泉**（the trail of Poliʻahu and Poliʻahu's spring = Waiau）」を通る山越えの古道を使った。Hāmākua・Kohala・Waimea の人々がヒロへ行くのに使った古い道。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **Kamakau (1961:215, 285)**: kahuna Pae は「山の女 Lilinoe の子孫」。Lilinoe はハワイの aliʻi の系譜上重要な祖で Mauna Kea に葬られた。1828年、Kaʻahumanu は「千年以上、髪も抜けずに保たれている」と言われた Lilinoe の骨を回収しにハワイ島へ渡ったが、**見つからなかった**。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **Ka-Miki 譚**（ハワイ語新聞 *Ka Hoku o Hawaii* 1914–1917 連載、John Wise・Isaac Kihe ら。Maly 訳、p.41–42）: 祖母 Ka-uluhe が Ka-Miki に「山の piko にある **Poliʻahu と Lilinoe の hālau aliʻi**、そしてその **hānai（養い子）である Ka-piko-o-Waiau** のところへ行き、Kāne の水を汲んでこい」と命じる。Waiau が二人の女神の「養い子」として人格化されている。同じ譚の別の箇所で Mauna Kea は「**mauna o Poliahu**（Poliʻahu の山）」と呼ばれる。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **Desha『Kekūhaupiʻo』**（*Ka Hoku o Hawaii* 連載／Frazier 訳 2000:94。Maly p.50）: Kamehameha は Kūkāʻilimoku を継いだ直後の危険な時期に Mauna Kea 山頂へ登り、**Waiau のすぐ近くで儀礼の供物を捧げた**。寒さのため長居できず Waimea へ下った。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+
+### 8. 雪・湖・望遠鏡（Mōʻaukala Lesson 05 との接点）
+
+- **1964年、最初の近代天文台が Puʻu Poliʻahu の頂上に建てられた**。1968年、州の土地・天然資源委員会が Mauna Kea 山頂全域を UH にリースした（Lease No. S-4191）。1980年の時点で地元と初期の科学者が推奨した天文台の数は6基までだった。＝**Lesson 05 で扱う2019年の TMT 反対運動の前史**であり、「女神の名を冠した丘に最初の望遠鏡が建った」という事実関係がそのまま論点になる。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- USGS HVO（2013年11月7日）: Lake Waiau の通常の水面は約5,000〜7,000 m²（1.2〜1.7エーカー）、最大水深約3m。2013年9月末の実測は面積 **115 m²**（0.03エーカー）、水深30cm未満 — 通常面積の約2%、体積の1%未満。減少は2010年初めに始まり、1950年代からの航空写真の記録に照らして「近代では前例がない」。 https://www.usgs.gov/observatories/hvo/news/volcano-watch-lake-waiau-shrinking-fast
+- ＝ Poliʻahu の姉妹 Waiau の名を負う湖が、2010年代に一度ほぼ干上がった。神話と現在の環境変化が同じ地点で重なる材料。
+
+### 9. mele — 現代のフラ曲
+
+- **「Poliahu」— Frank Kawaikapuokalani Hewett 作**。huapala.org に歌詞・英訳（訳: Henry Kaalekahi）と Laieikawai 譚の解題が載る。Poliʻahu の側から、去った ʻAiwohikupua への未練を歌う。冒頭は "Wai maka o Poliahu / I ka ʻeha a ke aloha"（Poliʻahu の涙／愛の痛みに）。**Hewett は現存の作者なので DDR 003 により全文引用不可、本文では1〜2行まで**。 https://www.huapala.org/Po/Poliahu.html
+- huapala の解題は Haleʻole 本文と細部が食い違う（「二人の結婚は成就せず、Poliʻahu は傷心のまま Mauna Kea に留まった」とする）。Haleʻole 本文では誓いは履行され、Poliʻahu は冷気と熱の**両方**を送る。本文で再話するなら Haleʻole 版に拠り、この差は注に回す。 https://www.huapala.org/Po/Poliahu.html ／ https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+
+---
+
+## ハワイ語用語
+
+- **Poli-ʻahu**（wehewehe 確認）— PE (1986)「Mauna Kea の雪の女神。Lit., Bosom goddess」。Place Names (1974)「胸の衣（雪を指す）」。Beckwith 訳は「Cold-bosom」。 https://wehe.hilo.hawaii.edu/?q=poliahu
+- **hau**（wehewehe 確認）— PE (1986) 語義2「Cool, iced; ice, frost, dew, snow（冷たい、氷った／氷・霜・露・雪）、涼しい風」。Andrews (1865) も「雪・氷・霜・冷たい露などの総称」。同じ綴りの語義1は海岸の木 *Hibiscus tiliaceus* なので文脈で切り分ける。 https://wehe.hilo.hawaii.edu/?q=hau
+- **hau kea**（wehewehe 確認）— PE (1986)「白い雪、雪」。Mauna Kea の「kea（白い）」と同じ語。 https://wehe.hilo.hawaii.edu/?q=hau+kea
+- **kapa hau** — 「雪の衣」。Haleʻole のハワイ語本文にそのまま出る語で、Poliʻahu が ʻAiwohikupua に与えた mantle。辞書の複合語項目としては未確認（Haleʻole 本文での用例として扱う）。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+- **Līlīnoe**（wehewehe 確認）— PE (1986)「細かい霧、雨」。Place Names (1974) は Puʻu-Līlīnoe（12,956 ft）を「霧の女神にちなむ。Poli-ahu の姉妹」とする。 https://wehe.hilo.hawaii.edu/?q=lilinoe
+- **Waiau**（wehewehe 確認）— Place Names (1974)「Mauna Kea 山頂近くの湖（13,020 ft）」。Andrews/Parker の普通語 waiau は「水が絶えず流れる場所／いつでも水浴できる水」。 https://wehe.hilo.hawaii.edu/?q=waiau
+- **Kūkahauʻula** — 「赤く染まる雪（露）の Kū」。**Wehewehe に項目なし**（辞書では引けない）。Mauna Kea 山頂 cone 群の伝統名で、Maly が native accounts と地図から1932年頃までの使用を跡づけている。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+- **piko**（wehewehe 確認）— PE (1986)「へそ・へその緒。比喩で血縁」、語義2に「丘や山の頂上」。Mauna Kea が「島の piko」であることと、Waiau・Kūkahauʻula に新生児の piko を納める習慣が同じ語で結ばれる。 https://wehe.hilo.hawaii.edu/?q=piko
+- **kupua**（wehewehe 確認）— PE (1986)「半神・文化英雄、とくに複数の姿を持つ超自然的存在」。Andrews (1865) は用例に "o Aiwohikupua keia, ke kupua kaulana a puni na moku"（*Laieik.* 100）を引く。Poliʻahu も ʻAiwohikupua も kupua。 https://wehe.hilo.hawaii.edu/?q=kupua
+- **hōlua**（wehewehe 確認）— PE (1986)「草の斜面を滑る古代のそり、およびその滑走路。papa hōlua はそり、heʻe hōlua はそりに乗ること」。Westervelt 版で Poliʻahu とペレが競った遊び。 https://wehe.hilo.hawaii.edu/?q=holua
+- **kilu**（wehewehe 確認）— PE (1986)「瓢箪やヤシ殻の小容器。kilu の遊びでは投輪として使い、詠唱しながら異性の前の的に投げ、当たれば口づけを求める」。Poliʻahu が Kauaʻi を去る場面の遊び（Lesson 03 の Pele-ula と Hiʻiaka の kilu と同じ遊び）。 https://wehe.hilo.hawaii.edu/?q=kilu
+
+---
+
+## 確認問題のネタ
+
+1. 問い: Haleʻole の『Laieikawai』で、Poliʻahu と ʻAiwohikupua が婚約の証に交換したものは何か。／答え: Poliʻahu の **kapa hau**（雪の mantle）と、ʻAiwohikupua の **ʻahuʻula**（羽根のマント）。／根拠: Gutenberg 版 Beckwith 訳 第VII章末（"Here is my snow mantle… / Then Aiwohikupua took out his feather cloak"）。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+2. 問い: Poliʻahu が Hinaikamalama に送った罰は「冷たさ」だけか。／答え: 違う。まず雪の mantle で凍えるほどの冷気を、翌日は **sun mantle（太陽の衣）で灼けるような熱**を送る。雪の女神は「冷」だけでなく「熱」も操る。／根拠: 同上 第XVIII〜XIX章。Beckwith 1940 p.222 も "alternate waves of unendurable heat and cold" と要約。 https://www.gutenberg.org/cache/epub/13603/pg13603.txt
+3. 問い: Westervelt 版で、Pele と Poliʻahu の争いはどう決着するか。／答え: Poliʻahu の勝ち。「この戦いでペレは負けてきたし、これからも必ず負ける」と伝えられ、ペレの領域はハワイ島南半分、雪の乙女たちが北半分を支配する。／根拠: Westervelt (1916) 第IX章 末尾。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+4. 問い: Mauna Kea 山頂の3つの cone を指す伝統的な地名は何か。／答え: **Puʻu o Kūkahauʻula**。現在の Puʻu Wekiu・Puʻu Hauʻoki・Puʻu Haukea は1960年代以降の新しい名。／根拠: Maly (2005) p.v 注*。 https://www.kumupono.com/wp-content/uploads/2021/03/Mauna_Kea_Ka_Piko_Kaulana_o_ka_Aina.pdf
+5. 問い: Beckwith の索引で Poliʻahu の項に「expression for trance（トランスを表す表現）」とあるのはなぜか。／答え: Kalelealuaka 譚の Ka-opele-moemoe が半年ごとに仮死状態に入るあいだ、その霊が「Poliahu とともに上空を漂う」と語られるから。／根拠: Beckwith 1940 p.415 および巻末索引。 https://archive.org/download/hawaiianmytholog00beck_0/hawaiianmytholog00beck_0_djvu.txt
+
+---
+
+## 画像候補
+
+Commons API（`action=query&list=search` + `prop=imageinfo&iiprop=extmetadata`）で実在とライセンスを確認したもの。取り込み（`npm run image`）は未実施。
+
+1. **File:Lake Waiau at Mauna Kea - panoramio.jpg** — 作者 Thomas Tunsch — ライセンス **CC BY-SA 4.0** — 4928×3264 — 採用理由: 姉妹神 Waiau の名を負う山頂の湖。「Waiau の乙女と Waiau の湖」を結ぶ図版。 https://commons.wikimedia.org/wiki/File:Lake_Waiau_at_Mauna_Kea_-_panoramio.jpg
+2. **File:Sunset over an iced Lake Waiau.jpg** — 作者 Allan Robbins — ライセンス **CC BY-SA 4.0** — 1600×1200 — 採用理由: 凍った湖面。Kūkahauʻula（夕日に染まる雪）の話と合わせやすい。 https://commons.wikimedia.org/wiki/File:Sunset_over_an_iced_Lake_Waiau.jpg
+3. **File:Lake Waiau2.jpg** — 初出アップロード者 Karl（en.wikipedia）— ライセンス **CC BY-SA 3.0** — 1136×852 — 代替候補。 https://commons.wikimedia.org/wiki/File:Lake_Waiau2.jpg
+4. 既存アセットの再利用: `mauna-kea-snow`（`src/content/images.json` に登録済み。Gemini 天文台撮影、2008年2月7日、CC BY 4.0）。ʻĀina Lesson 02 で使用中だが、Poliʻahu の「雪の mantle」の実写としてそのまま使える。新規取得は不要。 https://commons.wikimedia.org/wiki/File:Snow_on_Mauna_Kea_summit_(geminiann08004b).jpg
+
+> 注: Commons API はこのセッションで3回だけ検索した（レート制限回避）。Puʻu Poliʻahu・Puʻu Kūkahauʻula 単体の写真は検索語を変えても該当が出ず、未取得。
+
+---
+
+## 裏が取れなかった項目
+
+- **Kahoupokāne の正体**。Westervelt の「おそらく Hualālai の女神」は本人が推測と明記している。Wehewehe にも項目がなく、Haleʻole の本文でも名前以上のことは語られない。本文では「名前だけが残る」と書くのが安全。 https://www.gutenberg.org/cache/epub/66516/pg66516.txt
+- **Emma Ahuʻena Taylor の原文**（*Paradise of the Pacific*, 1931年7月, pp.13–15）は入手できず、Maly (2005) と mkea.info の引用経由でしか確認していない。Kīpuʻupuʻu（雹）が侍女に加わる点も Taylor 原文未確認。
+- **Fornander Collection の巻・ページの直接確認ができなかった**。archive.org には vol.4 しか見つからず、全文検索 API も応答なし。Nuʻu と Lilinoe の洪水譚は Beckwith 1940 p.314–315 と Maly 引用の Fornander (1973:91) 経由。
+- **Lake Waiau の水深の食い違い**。Westervelt (1916) は「底なし湖と呼ばれたが実際は最大40フィート」と書くが、USGS (2013) は通常時の最大水深を約3m（≒10ft）とする。Westervelt の数値の出所は不明。
+- **Pele と Poliʻahu の hōlua 競走の場所**。Westervelt は "a sloping hillside south of Hamakua" としか書かない。具体的な地名を挙げる二次資料は見たが一次資料に届かなかった。
+- **「Poliʻahu がペレに勝つ」という結末を Westervelt 以外の一次資料で確認できていない**。Beckwith も出典を Westervelt (Volcanoes, 55-62) 一本に絞っている。DDR 007 の基準では「出典1つ → Westervelt を名指しして書く」。
+- **Kauaʻi・Wailua の Poliʻahu heiau と女神 Poliʻahu の関係**。Place Names (1974) は heiau の名として立項するが、女神に由来するとは書いていない（Mauna Kea の land division のほうにだけ「雪の女神にちなむ」と注記）。ʻAiwohikupua が Kauaʻi の首長であることと結びつけたくなるが、**一次資料の裏づけがないので書かない**。 https://wehe.hilo.hawaii.edu/?q=poliahu
+- **Waiaie/Waiau の綴りの割れ**は Maly の注記と Gutenberg のハワイ語本文で確認したが、*Kuokoa* の原紙そのものは未確認。
+- 日本語で読める再話（**事実の根拠にはしない**。Sources に「日本語で読める再話」として添える候補）: https://www.legendaryhawaii.com
+
+---
+
+## レッスンの骨子案
+
+**想定所要**: 20〜24分（既存レッスンと同程度の分量）。
+**到達点**: Poliʻahu を「ペレの敵役」として片づけず、雪・霧・湖という Mauna Kea の実際の気象と水を人格にした一族として理解し、その名が今も山の地名と現在進行形の論争に生きていることを説明できる。
+
+1. **白い山の女神 — 名と語義**（1行要約）Poli-ʻahu は辞書では「胸の衣＝雪」、Beckwith 訳では「Cold-bosom」。二通りの読みが並立していることから入る。
+2. **四人の白い mantle — Lilinoe・Waiau・Kahoupokāne**（1行要約）霧・湖・雪という自然物がそのまま姉妹の名になっている。Waiaie は誤植で本来は Waiau、という文献学の小話を添える。
+3. **Pele との対決 — hōlua の坂で**（1行要約）Westervelt 版の雪と火の攻防と、「ペレは必ず負ける」という結論。Lesson 03 のペレ像を裏返す視点。
+4. **Laieikawai — 衣を交換する恋**（1行要約）kapa hau と ʻahuʻula の交換、三山が雪をかぶる婚礼の合図、冷気と熱の二段の罰。ハワイ文学で唯一単行本になった romance の見せ場。
+5. **フラはここから始まる — Paliula の放浪**（1行要約）Poliʻahu に夫を奪われた Paliula が Waiʻanae と Kauaʻi で踊りを習う。Kapo（Lesson 04）とつながる線。
+6. **山の名の中の女神 — Kūkahauʻula と Waiau**（1行要約）山頂の cone の伝統名、piko を納める場所、Kāne の聖なる水。Kamakau・Ka-Miki・Kamehameha の記録に出る「Poliʻahu の道と泉」。
+7. **1964年、Puʻu Poliʻahu の上に**（1行要約）女神の名を冠した丘に最初の望遠鏡が建ち、伝統名が新しい名に置き換わった。Mōʻaukala Lesson 05 の2019年へ渡す1〜2行。干上がった Lake Waiau（2013年）も添える。
