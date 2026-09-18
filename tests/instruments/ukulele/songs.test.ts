@@ -200,6 +200,7 @@ const BAR_CHORDS: Record<string, string> = {
     "C C7 / F D7 / G7 / C / C C7 / F / C G7 / C / G7 / C / D7 / G7 / C C7 / F D7 / G7 / C",
   "na-lei-o-hawaii": "C / G7 / D7 G7 / C / C A7 / D7 / G7 / C",
   palolo: "C / A7 / A7 / D7 / D7 / G7 / G7 / C",
+  "lei-lehua-o-panaewa": "C / C / A7 / A7 / A7 / D7 / D7 / G7 / G7 / G7 / G7 / G7 / G7 / C / C",
 };
 
 /** オクターブの書き間違い（, や ' の付け忘れ）を拾う範囲。 */
