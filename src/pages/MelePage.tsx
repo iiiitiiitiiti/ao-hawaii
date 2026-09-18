@@ -161,6 +161,23 @@ export function MelePage() {
         )}
       </section>
 
+      {meta.appleMusic && (
+        <section className="melepage__listen">
+          <h2>聴く</h2>
+          <p>{meta.appleMusic.note}。Apple Music に入っていない端末では30秒の試聴になります。</p>
+          <iframe
+            title={`Apple Music: ${meta.title}`}
+            src={meta.appleMusic.url.replace("https://music.apple.com/", "https://embed.music.apple.com/")}
+            allow="autoplay *; encrypted-media *;"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-agent"
+            loading="lazy"
+          />
+          <p className="melepage__related">
+            <a href={meta.appleMusic.url}>Apple Music で開く</a>
+          </p>
+        </section>
+      )}
+
       <h2 className="melepage__lyrics-title">歌詞を読む</h2>
       {publicBody && <MeleBodyView body={publicBody} />}
       {envelope && <LockedBody id={meta.id} envelope={envelope} />}

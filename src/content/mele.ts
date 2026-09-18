@@ -45,6 +45,10 @@ export const MELE: MeleMeta[] = [
       "Pauoa は Honolulu の Punchbowl の北東にある谷。歌はその谷のレフアの若芽（liko）を若い踊り手に重ね、腰の揺れとペチコートの縁飾りをちらりと見たいと歌う。歌詞カードは8連を載せるが、教室で歌う4連（Aia・Makemake・Nihoniho・Haʻina）だけを載せる。",
     ],
     related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-05", "aina/lesson-06"],
+    appleMusic: {
+      url: "https://music.apple.com/jp/album/pauoa-liko-ka-lehua/316201322?i=316201426",
+      note: "Chauncy Bermodez の歌（Aloha Festivals Hawaiian Falsetto Contest Winners Vol. 1、2000）",
+    },
   },
 ];
 

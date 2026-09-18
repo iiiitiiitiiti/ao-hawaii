@@ -90,5 +90,11 @@ export function validateMeta(meta: MeleMeta): string[] {
     if (hit) errors.push(`${meta.id} ${where}: 禁止フレーズ ${hit}（docs/decisions/007）`);
   }
   if (BAD_APOSTROPHE.test(meta.title)) errors.push(`${meta.id}: 題にアポストロフィ類があります（ʻokina は U+02BB）`);
+  if (meta.appleMusic) {
+    if (!/^https:\/\/music\.apple\.com\/[a-z]{2}\/album\/[^?]+\?i=\d+$/.test(meta.appleMusic.url)) {
+      errors.push(`${meta.id}: appleMusic.url は https://music.apple.com/<国>/album/<曲>/<albumId>?i=<trackId> の形にします`);
+    }
+    if (!meta.appleMusic.note.trim()) errors.push(`${meta.id}: appleMusic.note（誰の録音か）が空です`);
+  }
   return errors;
 }

@@ -71,4 +71,9 @@ export type MeleMeta = {
   related: LessonRef[];
   /** ウクレレ教材の同じ曲のページ（絶対 URL） */
   ukulele?: string;
+  /**
+   * Apple Music の埋め込み（docs/decisions/012）。url は music.apple.com の曲ページ（?i=<trackId> 付き）。
+   * 埋め込みは embed.music.apple.com に置き換えて出す。note は誰の録音かの一言（画面に出す）
+   */
+  appleMusic?: { url: string; note: string };
 };
