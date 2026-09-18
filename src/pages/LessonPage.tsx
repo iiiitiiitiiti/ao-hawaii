@@ -1,6 +1,7 @@
 import { useEffect, type CSSProperties } from "react";
 import { Link, useParams } from "react-router-dom";
 import { findCourse, lessonPath } from "../content/courses";
+import { meleRelatedTo } from "../content/mele";
 import { LessonLayout } from "../lesson/LessonLayout";
 import { useProgress } from "../progress/useProgress";
 import { NotFoundPage } from "./NotFoundPage";
@@ -24,6 +25,7 @@ export function LessonPage() {
   const isCompleted = progress.completedLessonIds.includes(lesson.id);
   const previous = course.lessons[lesson.number - 2];
   const next = course.lessons[lesson.number];
+  const songs = meleRelatedTo(`${course.slug}/lesson-${String(lesson.number).padStart(2, "0")}`);
 
   return (
     <main className="lessonpage" style={{ "--course-accent": course.accent } as CSSProperties}>
@@ -32,6 +34,23 @@ export function LessonPage() {
       </Link>
 
       <LessonLayout course={course} lesson={lesson} />
+
+      {songs.length > 0 && (
+        <aside className="lesson__mele" aria-label="このレッスンに関わる曲">
+          <h2 className="lesson__mele-title">この曲を1行ずつ読む</h2>
+          <ul className="lesson__mele-list">
+            {songs.map((m) => (
+              <li key={m.id}>
+                <Link to={`/mele/${m.id}`}>
+                  <span lang="haw">{m.title}</span>
+                  {m.protection === "locked" && <span aria-label="パスワードが要る曲"> 🔒</span>}
+                </Link>
+                <span className="lesson__mele-summary">{m.summary}</span>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
 
       <div className="lesson__footer">
         <button type="button" className={`btn done-toggle${isCompleted ? " is-done" : ""}`} onClick={() => toggleCompleted(lesson.id)}>

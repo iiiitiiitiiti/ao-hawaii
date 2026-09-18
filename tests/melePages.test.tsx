@@ -33,6 +33,19 @@ describe("メレのページ", () => {
     }
   });
 
+  test("曲が関連に挙げたレッスンからは、その曲へ戻れる", () => {
+    for (const m of MELE) {
+      for (const ref of m.related) {
+        const { container, unmount } = at(`/${ref}`);
+        const hrefs = [...container.querySelectorAll(".lesson__mele a")].map((a) => a.getAttribute("href"));
+        expect(hrefs, ref).toContain(`/mele/${m.id}`);
+        unmount();
+      }
+    }
+    const { container } = at("/olelo/lesson-01");
+    expect(container.querySelector(".lesson__mele")).toBeNull();
+  });
+
   test("公開曲は全行が描画され、逐語の意味を畳める", () => {
     const { container } = at("/mele/kaulana-na-pua");
     const lines = getPublicBody("kaulana-na-pua")!.stanzas.flatMap((s) => s.lines);

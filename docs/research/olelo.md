@@ -871,3 +871,321 @@ Wikimedia Commons API（`action=query&prop=imageinfo&iiprop=extmetadata|url`）�
 10. **a/o クラスの HG p.137 の表の縦横対応** — 「a｜o／active｜passive／alienable｜inalienable／inherited｜acquired／subordinate｜dominant」という語の並びは全文検索のスニペットで取得したもので、**どの語が a 側でどの語が o 側かの対応は行の並びからの推定を含む**。HG が複数の二分法を並べていること自体は確実（p.137–138）。本文で「a は◯◯、o は××」と断定する前に原書 p.137 の表を目視確認すること。
 11. **ハワイ語アルファベットを定めた1826年の委員会投票** — RG p.11–12 が Schütz (1994:111) を引いて述べるのみで、一次資料に当たっていない。年号を断定するなら Schütz の原典か UH の公式資料で裏を取ること。
 12. **「ハワイ語は1978年に公用語になった」以外の歴史年表** — 1896年の英語のみ教育令の条文そのものは確認していない（ʻAha Pūnana Leo 公式サイトが「90年続いた禁止」「1986年に撤廃」と述べているのは確認済み）。
+
+---
+
+## レッスン7: 歌の言葉 — 小辞・重複・歌だけの形
+
+作成日: 2026-09-18 / 用途: ʻŌlelo Hawaiʻi Lesson 07 の執筆素材（本文は別担当）。書式・出典の格付けは docs/research/olelo.md に合わせた。
+
+### この節の出典について（先に読むこと）
+
+- **HG の本文はページ画像を目視して確認した。** 2026-09-18 時点で puke.ulukau.org は Cloudflare のボット検証が入り、全文検索のスニペットが取れなかった。代わりに Wayback Machine が保存している Ulukau 配布の HG 全文 PDF（画像のみ・テキスト層なし）を取得し、該当ページを画像化して読んだ。
+  - 取得元: https://web.archive.org/web/20230103173413/https://puke.ulukau.org/ulukau-books/cgi-bin/imageserver.pl?oid=EBOOK-HAWAIIANGRAMMAR&getpdf=true
+  - 本文での引用先 URL は従来どおり https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR とした。
+  - 本文ページ番号は PDF のページ番号から 18 を引いた値（例: HG p.100 ＝ PDF 118 ページ目）。目次（p.vii–x）で節とページの対応を確認済み。
+- **PE辞書** は https://wehe.hilo.hawaii.edu/?q=… で取得した。www.wehewehe.org は Node からは 403 だったが、同じ Wehewehe Wikiwiki の辞書データである。以下「wehewehe確認」はこの確認を指す。
+- **RG** は PDF を取得してテキストを抽出した。以下の RG のページは印刷ページ番号（PDF のページ番号 − 1）。
+- **Emerson 1909** はリポジトリ内の docs/research/emerson-1909-gutenberg.txt（Project Gutenberg #20299）を使った。ページは同ファイル中の `[Page N]` 印で特定した。原文は ʻokina・kahakō のない当時の綴り。**ʻokina・kahakō を補った現代綴りは、PE・HG が同じ行を引用している場合だけ示した。** それ以外は原綴りのまま載せた。
+- 既存レッスンとの重複: 方向詞（Lesson 05）、呼格 `ē`（Lesson 05）、`ʻaʻole`・`anei`・疑問語＋`lā`（Lesson 06）、`ai`（Lesson 06）、`Haʻina ʻia mai ana ka puana`（Lesson 04、Hula Lesson 04）は**参照にとどめる**。本節では新しく教える項目だけを扱う。
+
+---
+
+### 1. 文末・句末の小辞（nō, kā, lā, hoʻi, paha ほか）
+
+#### 1-1. HG 7.5 の一覧と語順（最重要）
+
+- HG 7.5「Particles Following the ø-Demonstratives」。これらの小辞は**句の末尾、指示詞 lā/-la のさらに後ろ**に、**決まった順序**で並ぶ。
+  > These particles fall into semantic categories. They come in a fixed order, indicated in the following list. Certain incompatible items in the list are bracketed; they cannot occur in the same phrase.
+
+  HG が並べる順序（原文どおり。{ } は同じ句に共起できない組）:
+
+  | 順 | 小辞 | HG の分類 |
+  |---|---|---|
+  | 1 | { nō / nonaʻe / nohoʻi } | intensifying / conditional / intensifying |
+  | 2 | kā | intensifying |
+  | 3 | lā | dubitative（疑い） |
+  | 4 | auaneʻi 'probably' | dubitative |
+  | 5 | naʻe | conditional |
+  | 6 | { hoʻi / hoʻihā } | intensifying |
+  | 7 | ʻānō | temporal |
+  | 8 | anei | interrogative |
+  | 9 | paha | dubitative |
+  | 10 | auaneʻi 'soon' | temporal |
+  | 11 | kau | intensifying |
+
+  → HG p.100 https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR
+- 指示詞の `lā/-la`（Lesson 05 の `maila`・`akula` の -la）は、この表の疑いの `lā` より**前**に来る別物。 → HG p.100「The demonstrative lā/-la occurs earlier in the phrase than the dubitative lā described in section 7.5.」
+- HG は `nohoʻi`・`nonaʻe` を1語の小辞として扱う。RG は「今日では一般に2語（nō hoʻi, nō naʻe）と見なされる」と注記している。 → HG p.100–101 ／ RG p.117 https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf
+- RG の順序表（Neumann 2019 による）は HG とほぼ同じで、`nō kā lā auaneʻi* naʻe hoʻi hoʻihā hā ʻānō anei paha auaneʻi** kau`。RG は「huneʻaʻau（小辞）は必須ではないが、ないとハワイ語は無表情で平板に聞こえる」と書く。 → RGのみ（RG p.114, p.117–118）
+  - 例外として「疑問文では `lā` が `kā` より前、否定文では `anei` が `hoʻi` より前」になるという新しい研究がある。 → RGのみ（RG p.118、Neumann 2019:50–53）
+  - RG は HG にない `hā`（強い肯定）も表に入れている。 → RGのみ
+- **本文で使える要約**: 「歌詞の句末に小さな語が2つ3つ続いたら、並び順は決まっている。nō が最初、paha は後ろのほう」。この要約までは HG p.100 で断定してよい。
+
+#### 1-2. nō（強め・「まさに」「ちゃんと」）
+
+- PE `nō` 3.「intensifying particle, Very, quite, fairly, anyway. Maikaʻi nō, quite good, very good, fairly good. ʻOia nō, so that's it; that's so. Ua ʻike nō ʻoe, you do know. … Gram. 7.5.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=n%C5%8D
+- HG: 強めの `nō` と前置詞 `no`（〜のために）を混同しないこと。
+  > Ua maikaʻi nō ke aliʻi. 'The chief is quite well (now).' ／ Ua maikaʻi no ke aliʻi. '[It's] good (now) for the chief.'
+  → HG p.100
+- 出現する環境（HG の5分類）: (1) 動詞のあと `Pehea ʻoe? Maikaʻi nō.`（`maikaʻi nō` は `maikaʻi loa` より弱い）(2) 名詞・代名詞のあと `Ke aloha nō!`「たくさんの愛を！」、`ʻO au nō.`「私だけだ」(3) `wale` のあと `ʻelua wale nō mea`「たった2つ」(4) 接続詞のあと `inā nō au i make nou`「あなたのために死ねていたら」(5) `naʻe`・`hoʻi` と結合して母音が短くなる（`nonaʻe`, `nohoʻi`）。`kā` の前では長いまま（`nō kā`）。 → HG p.101
+- `nohoʻi` は強い強調で、決まり文句 `Auē nohoʻi ē!`「なんてことだ」に現れる。`nō kā` は驚き: `Eia aʻe nō kā!`「ここにいたのか！」 → HG p.101
+
+#### 1-3. kā（驚き・「なんと」）
+
+- PE `kā` 10.「interjection, of mild disapproval, annoyance, or surprise. Oh! So! Goodness! So that's it! Is that so! (If spoken alone it is frequently pronounced Chā! or Sah!) ʻO ʻoe kā! So it's you! ʻOia kā! Is that it! Eia aʻe nō kā! Still here! … Gram. 12.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=k%C4%81
+  - `kā` の見出しは13義ある（打つ、柄杓、所有の kā 等）。**小辞の kā は 10.**
+- HG:「Kā is most commonly heard alone as an exclamation of scorn … Within utterances, it more frequently follows nouns than verbs」。例 `ʻO ʻoe kā!`「なんだ、あんたか！」 → HG p.101
+- **歌詞での注意**: 当時の綴りは kahakō を書かないので、`ka`（冠詞）と `kā`（小辞）が紙面では区別できない。Emerson の歌詞で `ka` が句末にある場合も、小辞と断定するには PE・HG の同じ行の引用が要る（本資料では断定例を採らなかった）。
+
+#### 1-4. lā（疑い／歌の囃子）— 3つの lā を分ける
+
+歌詞の `la` は少なくとも3種類ある。レッスンの山場になりうる。
+
+| 種類 | 役割 | 出典 |
+|---|---|---|
+| 指示詞 lā/-la | 「あの」。方向詞のあとで -la（maila, akula）。`me he … lā`「〜のように」もこれ | PE `lā` 6.（wehewehe確認）https://wehe.hilo.hawaii.edu/?q=l%C4%81 ／ HG p.99 |
+| 疑いの lā | 「さあ、どうだか」。疑問語のあとに多い（`Pehea lā!`） | PE `lā` 7.「Particle expressing doubt, uncertainty. Pehea lā! How, I don't know. See Gram. 7.5.」／ HG p.102 |
+| 囃子（はやし）の lā | 意味を持たない行末の囃子 | PE `lā` 10.「interjection, Common refrain in songs, as in Elbert and Mahoe 90.」／ HG p.99, p.177 |
+
+- HG p.99（7.4 節）の原文:
+  > Lā is common as a meaningless refrain in songs, as Hanohano Hawaiʻi lā, lei ka lehua lā. 'Glorious is Hawaiʻi, lehua is the lei.' Lā here may serve to separate and emphasize the preceding phrase from what follows, and of course repetition is a favorite device in Hawaiian poetry.
+  → HG p.99 https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR
+  - ＝**囃子の lā は「意味はないが、直前の句を区切って際立たせる」**。フラの読者への説明としてそのまま使える。
+  - 例に引かれた `Hanohano Hawaiʻi lā` の曲名・作者・出版年は確認していない。**本文ではこの行を歌詞として引用せず**、HG の説明文の中の例として扱うこと。
+- HG の間投詞一覧にも「lā, common song refrain (Elbert and Mahoe 90)」がある。 → HG p.177
+- 疑いの `lā` の使い方（答えたくない問いに疑問語を繰り返して `lā` を付ける `ʻO wai lā.`「知らない」）は Lesson 06 で扱い済み。**参照のみ。** → HG p.102
+- 研究の裏づけ: Makanani Lee (1973) の調査では、指示詞 `lā/-la` は会話や事実の記述ではまれで、物語の間接話法でかなり多い。HG は「語りの装置」と結論している。 → HG p.99
+
+#### 1-5. hoʻi（強め／「〜も」）
+
+- PE `hoʻi` 5.「Part. intensifying preceding base. See kāhoʻi, nohoʻi, Gram. 7.5. ʻElua hoʻi, just two; two indeed. ʻAʻohe hoʻi au i lohe, I certainly did not hear.」／6.「part. Also, too, besides. (Gram. 7.5.) ʻAʻole hoʻi, neither.」／7.「Part. expressing doubt, uncertainty. Pehea hoʻi, how indeed, I don't know.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=ho%CA%BBi
+  - 見出し `hoʻi` の 1.–4. は動詞「帰る」、名詞「退場の詠唱」（Hula Lesson 04 の hoʻi）など。**小辞は 5.–7.**
+- HG: 小辞 `hoʻi` は「同音の自動詞 `hoʻi`『帰る』と混同しないこと」。意味は (1) 一般的な強め (2)「〜も」、否定のあとでは「〜もない」。肯定文では動詞のあと、否定では `ʻaʻole` のあとに来る。 → HG p.102–103
+- **歌にじかに関わる記述**（HG p.103）:
+  > In chants, the intensifier hoʻi may for aesthetic reasons contrast with the verb hoʻi: Kuʻu wahine hoʻi ē, hoʻi mai (FS 277). 'O my dear wife, come back.'
+  - ＝詠唱では、強めの `hoʻi` と動詞 `hoʻi`「帰る」を**わざと並べて響かせる**ことがある。フラの読者に刺さる一文。
+- `hoʻihā` は軽い怒り・苛立ちの強め: `Kāhea ʻia hoʻihā.`「じゃあ呼べばいい」 → HG p.103
+
+#### 1-6. paha（推量・「たぶん」、言い方を和らげる）
+
+- PE `paha` 6.「Particle, Maybe, perhaps, probably, possibly, may, might (very common, used to make speech less blunt and more conciliatory, something like English use of the conditional mode; it frequently follows ʻaʻole and pēlā, and never occurs after a pause). ʻAʻole paha … Pēlā paha, maybe so. Ā … paha, or. ʻElua ā ʻekolu paha, two or three. … Gram. 7.5.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=paha
+  - 見出し `paha` の 1. は「即興の詠唱（kepakepa など）」。**同じ綴りで oli の用語もある**ので、歌の解説では取り違えに注意。
+- HG:「This extremely common particle occurs before, but never after, a pause of some kind … Paha is often used to make speech more polite and conciliatory」。`Maikaʻi paha, ʻaʻole paha.`「いいかもしれないし、よくないかもしれない」は控えめな言い方。`ā … paha` は「または」。 → HG p.103–104
+- **位置の制約**（本文で使える）: paha は**休止の前には来るが、休止の直後には来ない**（HG p.103・PE とも同旨）。つまり文頭には立たない。
+
+#### 1-7. その他の強めの語（句の途中に入るもの）
+
+- **wale**（ただ・ひとりで・理由なく）: HG 7.1 では、`wale` は句末ではなく**主要語の直後の「内側」の位置**に入る小辞群（`pū wale koke ʻole ʻia` の順）に属する。`wale nō` は普通「〜だけ」。 → HG p.90–91
+  - PE `wale` 2.「A common particle that always follows modified words and has many meanings, as: only, just, very; alone; without pay … easily … Maikaʻi wale ʻo Kauaʻi (song), how beautiful is Kauaʻi.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=wale
+  - ＝**歌では「なんと〜なことか」の強めの wale** が PE に明記されている。
+- **loa**（とても・いちばん）: HG は `nui` と `loa` を**強めとして後置される状態動詞**とする。`loa` は状態動詞のあと（`maikaʻi loa`, `make loa`）。どちらも**自動詞のあとでは強めにならない**（`hele loa` は「遠くへ行く、永久に行く」）。最上級にもなる。 → HG p.129
+  - PE `loa` 2.「particle, Very, very much, too, excessive, most. Maikaʻi loa, very good. Wela loa, too hot.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=loa
+- **maoli**（本当に）: PE `maoli` 1.「Native, indigenous … genuine, true, real, actual; very, really, truly. Maikaʻi maoli, very good indeed.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=maoli
+  - HG の 7.1・7.5 の一覧には `maoli` は入っていない（目視で確認）。**「小辞」と呼ばず「強めに使う状態動詞」と書くのが安全。**
+- **nei**（愛着）: PE `nei` 3.「Following nouns and pronouns, nei means 'this' and may indicate affection, as in the common sequences Hawaiʻi nei, this [beloved] Hawaiʻi … Preposed nei seems to carry both favorable and pejorative emotional connotations: nei ʻāina, this [fine] land, nei maʻi ʻo ka lepela, this [horrible] disease, leprosy.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=nei
+  - HG も同旨で、**名詞の前に置いた nei（`nei ʻāina`）は感情の色を帯びる**とし、例として Emerson の歌詞を引く（→ 4. の例5）。 → HG p.111
+  - 恋人どうしの呼びかけ `e ia nei` は Hula の歌詞によく出る。HG は「夫婦間で使う」と書く。 → HG p.111
+- **ā**（長く引いて強める）: PE `ā` 4.（接続詞・前置詞）の中に「Prolonged ā may designate a protracted period of time or distance, a long continued action, or emphasis. Aloha ā nui, much, much aloha. Mahalo ā nui … Hele ā uka, go clear to the uplands.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=%C4%81
+  - 「ā は強めの小辞」と書くのは**不正確**。PE の品詞は conj./prep. で、**長く引く用法が強めになる**、が正しい。HG は ā を 9.5「Place to (Emphatic)」と接続詞（11.1）で扱う（Lesson 05 の前置詞表に既出）。
+- **ē**（強め）: PE `ē` 2.「Intensifying particle, as in the common exclamation Auē nohoʻi ē! Gram. 7.5.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=%C4%93
+  - 呼格の `ē`（PE `ē` 1.）は Lesson 05 で扱い済み。**同じ ē でも 1.（呼格）と 2.（強め）と 3.（間投詞「ああ」）は別項。**
+
+---
+
+### 2. 重複（語の繰り返し）
+
+#### 2-1. HG 6.2 の定義と7つの型
+
+- 定義:「Reduplication consists of repetition of all of a base or part of it.」部分重複はたいてい1つの強勢グループで発音し（重複した母音は短い: `kali` → `kakali`「待つ」）、完全重複は別々の強勢グループで発音する（`pī.pī`, `kau.kau`）。 → HG p.64–65 https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR
+- あらゆる種類の動詞が重複でき、名詞も多くが重複する（`ʻeke`, `lima`, `mahina`, `lau` など）。 → HG p.65
+- HG 6.2.1 の7型（例は HG のもの）:
+
+  | 型 | 内容 | HG の例 |
+  |---|---|---|
+  | (1) | 完全重複 | ʻaki → ʻaki-ʻaki、hoe → hoe-hoe、pā → pā-pā |
+  | (2) | 第1音節の重複（重複した母音は短く弱い） | kea → ke-kea、lele → le-lele、make → ma-make、nui → nu-nui |
+  | (3) | 第1音節以外の重複（短い第1音節は長くなる） | ʻōpio → ʻōpio-pio、aloha → āloha-loha、nahele → nāhele-hele |
+  | (4) | 第1音節（または最初の2音素）の二重重複 | hiki → hi-hi-hiki、pau → pa-pa-pau |
+  | (5) | 第1音節の最初の2音素の重複 | pailua → pa-pailua |
+  | (6) | 第1音節＋切り詰めた第2音節の重複 | kālai → kala-kalai、nīnau → nina-ninau |
+  | (7) | 最初の2音節の重複（長母音は短くなる） | nīele → nie-niele、pīnaʻi → pina-pinaʻi |
+
+  → HG p.65–66
+- 接辞は重複しない: `hoʻ-āloha-loha`, `hele-helena`（接辞を除いた語幹だけが繰り返される）。 → HG p.66
+- 重複形のほうが普通になり、元の形がほぼ使われない語もある: `ʻaoʻao`, `hilahila`, `makemake`, `minamina`, `nahenahe`, `noʻonoʻo` など。 → HG p.66
+  - `minamina` は Kaulana Nā Pua の歌詞語（→ 3-1）。
+
+#### 2-2. 重複の意味
+
+- **最も多いのは「反復・増大・複数の動作」**:
+  > By far the commonest meanings of reduplicative affixes are frequentative, increased, or plural action. These terms are to be construed broadly.
+  例 `hoe`「漕ぐ」→ `hoe-hoe`「漕ぎ続ける、何度も漕ぐ、大勢が漕ぐ」／`make`「死ぬ」→ `ma-make`「あちこちでの死、多くの死」／`nīnau`「問う」→ `nina-ninau`「問い詰める、大勢が問う」／`niho`「歯」→ `niho-niho`「ぎざぎざの」 → HG p.66
+- **意味がほとんど変わらないもの**もある（`ʻōpio` と `ʻōpio-pio` はどちらも「若い」）。 → HG p.67
+- **縮小（小さいもの）を表すものは少数**: `āhole`（成魚）／`āhole-hole`（稚魚）、`maʻi`「病気」／`maʻi-maʻi`「病気がちの」、`mana`「枝」／`mana-mana`「小枝、指」。 → HG p.67
+- 品詞は通常変わらないが例外がある（`hoʻi` 自動詞「帰る」→ `hoʻi-hoʻi` 他動詞「返す」、`kuli` 名詞「膝」→ `ku-kuli` 自動詞「ひざまずく」）。 → HG p.67
+- 意味が大きく変わるもの: `lau`「葉」／`lau-lau`「葉包みの蒸し料理」。 → HG p.67
+- 「辞書で重複形に定義がなく基本形を参照させている場合、その意味は反復・増大・複数の動作である」 → HG p.67
+- **課題文の「強さ（intensity）」について**: HG の用語は "increased" で、"intensity" という語は使っていない。本文では「動作が繰り返される・大きくなる・大勢になる」と書き、「強調」と言い切らないこと。
+
+#### 2-3. PE辞書で裏を取った重複語（すべて wehewehe確認）
+
+| 語 | PE の記述 | 型（HG 6.2.1） | URL |
+|---|---|---|---|
+| `wikiwiki` | 「Reduplication of wiki, fast, speedy.」（`wiki` = vs. To hurry, hasten; quick） | (1) 完全 | https://wehe.hilo.hawaii.edu/?q=wikiwiki |
+| `lelele` | 「Reduplication of lele #1; to beat swiftly, as the heart; to frisk, hop about … Lelele i ka hauʻoli, to leap for joy.」 | (2) 第1音節 | https://wehe.hilo.hawaii.edu/?q=lelele |
+| `lalawe` | 「Redup. of lawe, to carry; thrilling, overwhelmed, transported with emotion … Ka lalawe ninihi launa ʻole (song)」 | (2) 第1音節 | https://wehe.hilo.hawaii.edu/?q=lalawe |
+| `hihina` | 「Reduplication and plural of hina, to fall.」 | (2)＝複数 | https://wehe.hilo.hawaii.edu/?q=hihina |
+| `mālamalama` | 「Reduplication of malama #1; light of knowledge … shining, radiant, clear.」 | (3) 型に近い（第1音節が長くなる） | https://wehe.hilo.hawaii.edu/?q=m%C4%81lamalama |
+| `hoʻālohaloha` | 「To make love, express affection, gratitude or compassion … Also: ālohaloha. Lā Hoʻālohaloha, Thanksgiving Day.」 | (3)＋接頭辞（HG p.66 が `hoʻ-āloha-loha` を例示） | https://wehe.hilo.hawaii.edu/?q=ho%CA%BB%C4%81lohaloha |
+| `maʻimaʻi` | 「Reduplication of maʻi, sick; chronically sick, ailing, sickly.」 | (1)＝縮小（HG p.67） | https://wehe.hilo.hawaii.edu/?q=ma%CA%BBima%CA%BBi |
+| `manamana` | 「Reduplication of mana #2; appendages, claws, branches, rays … 3. n. Finger, toe.」 | (1)＝縮小（HG p.67） | https://wehe.hilo.hawaii.edu/?q=manamana |
+| `lewalewa` | 「Reduplication of lewa #2; oscillate.」 | (1) | https://wehe.hilo.hawaii.edu/?q=lewalewa |
+| `hopohopo` | 「nvs. Anxiety, uncertainty, doubt, fright …」（PE は Redup. と明記していない） | 形は (1) | https://wehe.hilo.hawaii.edu/?q=hopohopo |
+| `hulahula` | 「2. Rare reduplication of hula … twitching, fluttering. Hulahula ka maka, throbbing of an eyelid」／1. は「社交ダンス、洋風の踊り」 | (1) | https://wehe.hilo.hawaii.edu/?q=hulahula |
+
+- **フラの読者向けの一言**: `hulahula` は PE で第一義が「Ballroom dancing with partners, American dancing」。HG も `hula, hula-hula, hu-hu-hula` を「1語に複数の重複型がある」例に挙げる（HG p.66）。「hula を繰り返しても、より強い hula にはならない」という具体例に使える。
+- PE の見出しには「Redup.」「Reduplication of …」という表示が付く。RG の集計では wehewehe データ中「Redup.」が 1,623 語。 → RGのみ（RG p.38）
+
+---
+
+### 3. 歌だけの形・詩の形
+
+#### 3-1. aʻe ＝ 歌で動詞マーカー e の代わりに使う形
+
+- PE `aʻe` 5.（wehewehe確認）:
+  > Replacement of e in songs (commonly written a e, but a glottal stop is pronounced before ʻe). ʻA ʻole mākou aʻe minamina i ka puʻu kālā a ke aupuni (song), we do not care about the government's sum of money.
+  → https://wehe.hilo.hawaii.edu/?q=a%CA%BBe
+- HG も 5.4「Mood Markers」で同じことを述べ、出典を示す:
+  > E is sometimes replaced by aʻe in songs: ʻAʻole mākou aʻe minamina . . . (Elbert and Mahoe 64). 'We do not cherish . . . '
+  → HG p.61 https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR
+  - PE も HG も**曲名を書いていない**（PE は "(song)"、HG は Elbert & Mahoe『Nā Mele o Hawaiʻi Nei』の64ページ）。この行が Kaulana Nā Pua 第4連1行目であることは、Elbert & Mahoe 版の歌詞を再録した Nordyke & Noyes (1993) と huapala.org の歌詞で照合した。
+    - Nordyke & Noyes, HJH 27 (1993) p.29: 「'A'ole makou a'e minamina / I ka pu'ukala a ke aupuni.」 https://evols.library.manoa.hawaii.edu/handle/10524/172
+    - huapala.org: 「ʻAʻole mākou aʻe minamina / I ka puʻu kālā o ke aupuni」 https://www.huapala.org/Kau/Kaulana_Na_Pua.html
+    - **2行目の `a ke aupuni` / `o ke aupuni` は資料で割れる**（PE と Nordyke & Noyes は `a`、huapala は `o`）。サイトの /mele/kaulana-na-pua は huapala と同じ `o`。
+  - 同じ歌の第3連1行目「ʻAʻole aʻe kau i ka pūlima」（署名はしない）も同じ `aʻe`。 → Nordyke & Noyes p.29 ／ huapala
+- **既存ページとの関係**: サイトの content/mele/kaulana-na-pua.ts は既に `aʻe`＝「PE aʻe 5.」と注記している。レッスンからはこのページにリンクすればよい。
+- **方向詞の aʻe（Lesson 05）と見た目が同じ**なので、本文では「動詞の**前**にある aʻe は歌の e、動詞の**後ろ**にある aʻe は方向詞」と位置で見分ける方法を示すとよい（PE の例と HG の例はどちらも動詞 `minamina` の前）。※この見分け方は PE・HG の例から導いた**本資料の整理**。一般則として書かれているのは確認していない。
+
+#### 3-2. aʻo ＝ 歌で o（〜の）や ʻo（主語標識）の代わりに使う形
+
+- PE `aʻo` 2.「Particle replacing o, of, and ʻo, subject marker, in songs. ʻO nā pali aʻo Koʻolau Loa, the cliffs of Koʻolau Loa. Lapakū ka wahine aʻo Pele, the woman, Pele, is very active.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=a%CA%BBo
+- Kaulana Nā Pua 冒頭「Kaulana nā pua aʻo Hawaiʻi」の `aʻo` がこれ（Elbert & Mahoe 版。Nordyke & Noyes p.28–29、huapala）。
+- **注意（資料で割れる）**: Stillman (1999) が発見した **1895年の楽譜**の冒頭は「Kaulana na pua **o** Hawaii, kupaa mahope o ka aina」と引用されている。 → Stillman, HJH 33 (1999) p.84 https://evols.library.manoa.hawaii.edu/handle/10524/167
+  - つまり `aʻo` は1895年の印刷譜では `o` と書かれていた。当時の綴りは ʻokina を書かないので、`aʻo` を `o` と書いた可能性も、20世紀の版で `aʻo` になった可能性もある。**本文では「現在歌われる版（Elbert & Mahoe 1970）では aʻo」と版を明示し、「作者が aʻo と書いた」とは書かないこと。**
+- 課題文の一覧にはなかったが、aʻe と対になる「歌だけの形」なのでレッスンに入れる価値が高い。
+
+#### 3-3. 行末の囃子（ē, lā, e-e, ʻeāʻeā など）
+
+- HG は囃子を**間投詞**として扱う:「Refrains in songs, such as tra la la in English, can also be called interjections」 → HG p.175
+- HG の間投詞一覧から、歌・詠唱の囃子として明記されているもの（原文どおり）:
+  - 「Ē! 'Alas!' (**Commonly follows nouns or verb phrases and used as a refrain in poetry.** Ua lilo ke koʻi a ke aliʻi ē!. Make māua ē [FS 31]! 'Alas, the chief's adze is gone! Alas, the two of us will be killed!' …)」 → HG p.176
+  - 「ʻeāʻeā, song refrain (Elbert and Mahoe 81)」「ēhā, ēhē, song refrain」「ehehene, song refrain」「haʻuhaʻu ē, song refrain」 → HG p.176
+  - 「āeīē, chant refrain」「āeī eia, chant ending」 → HG p.175
+  - 「e ue, chant ending」 → HG p.176
+  - 「lā, common song refrain (Elbert and Mahoe 90)」「laʻehana, song refrain」「lae la lae, song refrain」 → HG p.177
+  - HG p.175 の `āeīē`・`āeī eia` は画像の目視で kahakō の位置を読んだ。本文に綴りを載せるなら原書で再確認すること。
+- PE `ē` 3.「interjection, Alas!」、PE `lā` 10.「Common refrain in songs」（wehewehe確認）で辞書側も一致。
+- **歌唱中の母音の装飾 iʻi**: Emerson は、歌い手が意味のない母音（多くは i と e）を旋律に絡ませる現象を、ハワイ人が **iʻi** と呼ぶと記録している:
+  > the constant interweaving of meaningless vowel sounds. This, which the Hawaiians call i'i, is a phenomenon comparable to the weaving of a vine about a framework … It consists of the repetition of a vowel sound—generally i (=ee) or e (=a, as in fate), or a rapid interchange of these two.
+  → Emerson 1909, p.159–160（docs/research/emerson-1909-gutenberg.txt）
+  - **これは歌い方（声の装飾）の話で、歌詞に書かれる囃子（ē, lā）とは別物**。本文で混同しないこと。PE で `iʻi` の見出しは確認していない。
+
+#### 3-4. l と n の交替（ʻālunu / ʻanunu など）
+
+- **課題文の前提の修正**: HG は l/n の交替を「詩の形」としてではなく**方言差**（2.8「Dialect Variations」）として扱う。
+  > The next most conspicuous dialect variation is substitution of n for l, especially, perhaps, on Molokaʻi and Lā-naʻi. Many of the changes are assimilatory; that is, l . . . n and n . . . l become n . . n
+  例 `luna, nuna`「上」、**`lunu, nunu`「強欲」**、`malino, manino`「凪」、`lanakea, nanakea`「青白い」など。 → HG p.25–26 https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR
+  - HG は「多くの n 形はハワイ語での新しい変化だろう」とする（l 形の多くがポリネシア祖語 PPN に対応するため）。 → HG p.26
+- HG が**「poetic」と明記している**のは、l が脱落する3語のうち2語:「ʻaʻole, ʻaʻoe 'not' (poetic)」「huli, hui 'to turn' (poetic)」。 → HG p.26
+  - PE `ʻaʻoe`「Same as ʻaʻole, not. See chant, wāhia. ʻA ʻoe e ʻole! Certainly not!」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=%CA%BBa%CA%BBoe
+- **ʻālunu / ʻanunu（Kaulana Nā Pua 第1連「Palapala ʻanunu me ka pākaha」）**:
+  - PE `ʻālunu`「nvs., Greedy, covetous, rapacious; greed, greedy person. Also: ʻanunu.」（wehewehe確認） → https://wehe.hilo.hawaii.edu/?q=%CA%BB%C4%81lunu
+  - Andrews (1865) `anunu`「Change of n for l. See ALUNU. An oppressor; one greedy of gain.」（wehewehe の Andrews 辞書） → https://wehe.hilo.hawaii.edu/?q=anunu
+  - **綴りの注意（重要）**: PE の見出し **`ʻānunu`（ā が長い）は「A native genus of cucurbit vines (Sicyos)」＝ウリ科のつる植物**で、「強欲」ではない。PE が「強欲」の異形として示すのは **`ʻanunu`（a が短い）**。Nordyke & Noyes (1993) も `'anunu`（kahakō なし）と表記している。
+    - huapala.org とサイトの content/mele/kaulana-na-pua.ts は `ʻānunu` と書いている。**サイト側の表記の見直し候補**（本資料では修正しない。報告のみ）。
+- 本文での扱い方の提案: 「歌で l と n が入れ替わる」とは書かず、「地域や話者で l と n が入れ替わる語があり、歌詞にもその形が残る。ʻalunu と ʻanunu は同じ語」と書く。
+
+#### 3-5. 語順の反転（修飾語を名詞の前に置く詩の技法）
+
+- HG 8.7.5: 普通は「名詞＋修飾語」の順だが、**愛情を示す手段として順序を逆にする**ことがある。例 `Hawaiʻi Aloha`（Elbert & Mahoe 42）。HG が挙げる詩の行:
+  > In Emerson (1965) is this poetic line: Kūpilikiʻi Hanalei lehua lā, 'the (beautiful) lehua of Hanalei are storm-buffeted'.
+  → HG p.128
+  - PE `kūpilikiʻi` にも同じ行が「Kūpilikiʻi Hanalei lehua lā (UL 210), the lehua of (beautiful) Hanalei are storm-buffeted.」として載る（wehewehe確認）。 → https://wehe.hilo.hawaii.edu/?q=k%C5%ABpiliki%CA%BBi
+  - 出典の Emerson 1909 p.210 では「Ku piliki'i Hanalei-lehua, la;」（→ 4. の例7）。**同じ行の読みが資料で違う**: Emerson は `Hanalei-lehua` を地名（「Hanalei の奥の lehua の多い原野」注396）とし、HG・PE は「Hanalei の lehua」と読んで語順反転の例にしている。本文で使うなら両方の読みを添えること。
+
+#### 3-6. 動詞マーカーの省略
+
+- HG 5.4: 命令・意図の `e` には**ゼロ形（ø）**があり、「informal speech では rather common」。例 `Hoʻi aku kāua i ka hale (FS 21).`「家へ帰ろう」 → HG p.61
+  - HG は「くだけた話し言葉」の現象としていて、**詩・歌に特有とは書いていない**。
+- HG 7.4: 後置の `ana` は `e` なしで動詞のあとに現れることがあり、1回の出来事（命令でも陳述でも）を示す。例に詩の行 `Ō hele ana ʻoe, ē ka noe (Emerson 1915:65).`「行け、霧よ」と、フラの定型 `Haʻina ʻia mai ana ka puana.` を挙げる。 → HG p.99
+  - ＝**Haʻina の定型句に `e` がない理由**の説明として使える。「Haʻina ʻia mai ana」は `e … ana` の e を欠いた形、と HG が同じ段落で並べている。Lesson 04 の説明（ʻia・mai・ana の3つ）を補う一文になる。Haʻina の節そのものは Hula Lesson 04 と Lesson 04 へリンクするだけにする。
+- 「詩では動詞マーカーを省略する」という一般則は、HG の目次・索引（p.vii–x, p.191–193。索引に poetry・song の項目なし）と上記の節では**見つからなかった**。
+
+#### 3-7. Haʻina の節（既出・リンクのみ）
+
+- Haʻina の定義と `Haʻina ʻia mai ana ka puana` の文法は Hula Lesson 04 と ʻŌlelo Lesson 04 で扱い済み。本レッスンでは 3-6 の HG p.99 の一文（ana が e なしで出る）だけを補足として使える。
+
+---
+
+### 4. パブリックドメインの歌詞からの例（1〜3行ずつ）
+
+採用基準: 作詞者の没年が1968年より前、かつ1929年より前に出版。Emerson 1909 所収の mele は1909年刊（伝承歌・作者不詳、または Liholiho ＝1824年没 など）。Kaulana Nā Pua は1893年に新聞初出、作者は1902年没（下の「サイドチェック」参照）。
+
+**表記について**: Emerson の歌詞は原綴り（ʻokina・kahakō なし、アポストロフィは Emerson の表記）で示した。和訳は Emerson の英訳をもとにした**本資料の訳**。
+
+| # | 項目 | 歌詞（原綴り） | 英訳（出典の訳） | 出典 |
+|---|---|---|---|---|
+| 1 | aʻe（歌の e） | ʻAʻole mākou aʻe minamina / I ka puʻu kālā a ke aupuni | We do not care about the government's sum of money（PE）／We do not value the government's sums of money（Elbert & Mahoe 訳） | Kaulana Nā Pua 第4連（1893）。行の引用は PE `aʻe` 5.・HG p.61・Nordyke & Noyes p.29 |
+| 2 | aʻo（歌の o） | Kaulana nā pua aʻo Hawaiʻi | Famous are the children of Hawaiʻi | Kaulana Nā Pua 第1連（Elbert & Mahoe 版）。1895年楽譜は「o Hawaii」（Stillman p.84） |
+| 3 | paha・nō（推量＋強め） | Ooe no paha ia, e ka lau o ke aloha, / Oia no paha ia ke kau mai nei ka hali'a. | Methinks it is you, leaf plucked from Love's tree, / You mayhap, that stirs my affection. | Emerson 1909, p.82（訳 p.83）、第10章 Hula Pa-ipu の _Mele_ |
+| 4 | paha の重ね（控えめな肯定） | E, oia paha; ae, oia no paha ia. | Yes it's probably so, he's the one. | Emerson 1909, p.84（Ewa の歌 第17行）、第10章 |
+| 5 | nō paha ＋ 名詞の前の nei | Kuhi no paha oe no Hopoe / Nei lehua au i ka hana ohi ai. | Thought you 'twas the tree of Hopoe, / This tree, whose bloom you would pluck? | Emerson 1909, p.115、第14章 Hula Puíli。**HG p.111 が同じ行を `Kuhi nō paha ʻoe no Hōpoe nei lehua āu i ka hana ʻohi ai`（Emerson 1965:115）と現代綴りで引き、前置の nei の「良い含み」の例にしている** |
+| 6 | nō hoʻi・重複・行末 e-e | Ino mai oe, noho malie aku no hoi au; / Hopo o' ka inaina, ka wai, e-e; / Wiwo au, hopohopo iho nei, e-e! | Palsied are you and helpless am I; / You shrink from a plunge in the water; / Alas, poor me! I'm a coward. | Emerson 1909, p.77（訳 p.78）、第10章 Hula Pa-ipu の _Song_ CANTO III 第16–18行 |
+| 7 | 行末の囃子 lā（全行） | Ku piliki'i Hanalei-lehua, la; / Kao'o 'luna o ka naéle, la; / Ka Pili-iki i ka Hua-moa, la; | Perilous, steep, is the climb to Hanalei woods; / To walk canny footed over its bogs; / To balance oneself on its ledges, | Emerson 1909, p.210–211、第27章 Hula Kieléi の _Mele_。PE `kūpilikiʻi` が「UL 210」として1行目を引用 |
+| 8 | 呼格 ē ＋ lā ＋ 行末 e-e ／ 重複 mālamalama | Eia ka hoala nou, e ka lani la, e-e! / E ala oe! // E ala, ua ao, ua malamalama. | A serenade to thee, O king. / Awake thee! // Awake, it is day, it is light; | Emerson 1909, p.196（訳 p.198）、第24章 Hula Pele の _Mele Hoala_ 第5–7行 |
+| 9 | 部分重複（lalawe） | Hele mai nei kou aloha / A lalawe i ko'u nui kino, | Your love comes to me a tornado; / It has rapt away my whole body, | Emerson 1909, p.115（例5と同じ歌の第7–8行）。PE `lalawe`「transported with emotion」 |
+| 10 | 行末 e・e-e ／ wale・iho・nō | O ku'u noho wale iho no i kahua, e-e. / A he aloha, e-e! | But still do I cherish the old spot, / For love—it is love. | Emerson 1909, p.68（訳 p.69）、第9章 Hula Ala'a-papa の _Hole Waimea_ Part IV 第16–17行。Emerson は Liholiho（Kamehameha II、1824年没）作と伝える（p.69） |
+
+- 各行の文法上の読み（本文用メモ）:
+  - 例3・4: `no paha` は PE・HG の `nō paha`（強め＋推量）と同じ並び。HG の順序表（nō → … → paha）どおり。※Emerson の原綴りでは `no` と `nō` の区別がないので、**`nō` と読むのは本資料の解釈**。例5は HG p.111 が `nō paha` と綴っているので確定。
+  - 例6: `no hoi` は HG p.101 の `nohoʻi`（強い強め）と同じ並び（同じく原綴りからの解釈）。`hopohopo` は PE 見出し語（形は完全重複。PE は Redup. と明記せず）。行末 `e-e` は HG p.176 の「Ē … used as a refrain in poetry」に当たると読める。
+  - 例7: 行末の `la` は HG p.99 の「meaningless refrain」の典型。`lewalewa`（同じ歌の第4行 `a'a lewalewa`）は PE で「Reduplication of lewa」。
+  - 例8: `e ka lani` は呼格（Lesson 05）。`malamalama` は PE `mālamalama`「Reduplication of malama」。
+  - 例10: `kou aloha ka i hiki mai`（同じ Part IV 第18行）の `ka` は小辞 `kā` の可能性があるが、原綴りでは冠詞と区別できないので**例として採らなかった**。
+- Kumulipo（Kalākaua 1889）は今回使っていない（例は Emerson 1909 と Kaulana Nā Pua で足りたため）。
+
+---
+
+### 5. サイドチェック: Ellen Kekoaohiwaikalani Wright Prendergast の生年月日
+
+- **生年月日: 1865年4月12日（ホノルル生まれ）。没年月日: 1902年12月5日（ホノルル）。**
+  > Ellen K. Wright Prendergast was born in Honolulu on April 12, 1865 (see front cover photograph). … In her brief life (her death occurred in Honolulu on December 5, 1902), she was recognized as a haku mele (poet) of many songs …
+  → Eleanor C. Nordyke & Martha H. Noyes, "'Kaulana Na Pua': A Voice for Sovereignty", *The Hawaiian Journal of History* vol.27 (1993), p.28 https://evols.library.manoa.hawaii.edu/handle/10524/172 （本文 PDF を取得して確認）
+- **「当時28歳」との照合**: 1893年2月（サイトが採る作曲日は Stillman の2月10日）の時点では**満27歳**。28歳になるのは1893年4月12日。1893年1月説（huapala）でも27歳。
+  - サイトの content/moaukala/lesson-04.mdx 55行目と docs/research/moaukala.md 284行目の「当時28歳」（Kamehameha Schools の記事が出典）は、Nordyke & Noyes の生年月日と**1歳ずれる**。数え方の違い（「28年目」）か記事側の誤りかは未確認。直すなら「当時27歳（1865年4月12日生まれ。Nordyke & Noyes 1993）」とするのが出典に忠実。→ 2026-09-18 に両ファイルをこの形へ直した。
+- 没年1902年なので、作詞者の没年「1968年より前」の条件は満たす（PD 判定の裏づけ）。
+- findagrave・huapala の生年は今回確認していない。
+
+---
+
+### 確認問題のネタ3つ（レッスン7）
+
+1. 歌詞の `la` を3種類に分ける: `hele maila`（方向詞＋指示詞）、`Pehea lā!`（疑い）、`Ku piliki'i Hanalei-lehua, la;`（囃子）。根拠は PE `lā` 6./7./10. と HG p.99, p.102。
+2. `aʻe` が2つある文を見せ、どちらが方向詞でどちらが歌の `e` かを答えさせる。根拠は PE `aʻe` 4.（方向詞）と 5.（歌の e）、HG p.61。Kaulana Nā Pua の「ʻAʻole mākou aʻe minamina」を使う。
+3. 重複語の意味の向きを当てる: `hoe → hoehoe`（何度も・大勢で漕ぐ＝反復・複数）、`maʻi → maʻimaʻi`（病気がち＝縮小）、`hula → hulahula`（社交ダンス＝意味が変わる）。根拠は HG p.66–67 と PE 各項。
+
+---
+
+### 裏が取れなかった項目（本文で断定しないこと）
+
+1. **「pīnaʻi ＝重複（reduplication）」という文法用語** — PE の `pīnaʻi` は「Again and again, repeatedly … to wear out a welcome by repeated visits; close together, crowded」「To patch」で、文法用語としての語義はない。Māmaka Kaiao（wehewehe の mm）は「(キーの) 連続入力」の意味だけ。wehewehe で英語 "reduplication" を引くと、Emerson (1845) の英ハ辞書の「ka hana e palua ai」だけが出る。RG の本文にも `pīnaʻi` は見つからなかった。現代の教室用語として使われている可能性はあるが、**出典を確認できなかった**。本文でハワイ語の用語を出すなら「出典未確認」と添えるか、使わないこと。https://wehe.hilo.hawaii.edu/?q=p%C4%ABna%CA%BBi
+2. **「詩では動詞マーカーを省略する」という一般則** — HG では、ゼロ形 `e` は「くだけた話し言葉」（p.61）、`ana` 単独は1回の出来事（p.99）として説明されていた。詩・歌に特有の省略として述べた箇所は、目次・索引と確認したページの範囲では見つからなかった。
+3. **Kaulana Nā Pua の1893年新聞初出の本文** — `aʻe`・`aʻo` が1893年の新聞（Ka Leo o ka Lahui 等）でどう綴られていたかは見ていない。確認できたのは Elbert & Mahoe 版（Nordyke & Noyes、huapala、PE、HG が引用）と、Stillman が引く1895年楽譜の冒頭1行（「o Hawaii」）だけ。
+4. **Kaulana Nā Pua 第4連2行目の `a ke aupuni` / `o ke aupuni`** — PE と Nordyke & Noyes は `a`、huapala とサイトは `o`。どちらが原形かは未確認。
+5. **HG p.99 の例 `Hanohano Hawaiʻi lā, lei ka lehua lā`** — 曲名・作者・出版年を特定していない。PD かどうか分からないので、歌詞としては引用しないこと（HG の説明文中の例としてなら可）。
+6. **Emerson の原綴りの `no`・`hoi`・`ka` を `nō`・`hoʻi`・`kā` と読むこと** — 例3・4・6・10 の読みは、HG・PE の同じ並びからの類推。HG・PE が同じ行を現代綴りで引いているのは例5（HG p.111）と例7の1行目（PE `kūpilikiʻi`）だけ。
+7. **HG p.175 の `āeīē`・`āeī eia` の kahakō の位置** — 画像の目視で読んだ。本文に載せるなら原書で再確認すること。
+8. **`ʻōpiopio` を HG の型 (3) の例とすること** — HG は `ʻōpio → ʻōpio-pio` を挙げるが、PE の `ʻōpiopio` 項は重複と明記しておらず、関連として「hoʻōpiopio: Reduplication of hoʻōpio」とだけある。本資料の表には入れていない。
+9. **Emerson の `hi-hi-hina`（p.71、Hole Waimea PAUKU 4 第4行「Ua hi-hi-hina wale i ka moe awakea」）** — PE にあるのは `hihina`（hina の重複・複数）。3音節重ねの `hihihina` という形は PE で確認していない。例には採っていない。
+10. **Prendergast の生年の別資料** — findagrave・huapala・Wikipedia の記載とは照合していない（Nordyke & Noyes 1993 のみ）。
