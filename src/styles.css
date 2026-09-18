@@ -1272,6 +1272,17 @@ a.lesson-list__link:hover {
   margin-top: var(--space-3);
 }
 
+.melepage__listen iframe {
+  display: block;
+  width: 100%;
+  max-width: 660px;
+  height: 175px;
+  border: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: transparent;
+}
+
 .melepage__related {
   margin-top: var(--space-3);
   font-size: var(--text-sm);
