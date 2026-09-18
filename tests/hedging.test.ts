@@ -1,23 +1,11 @@
 import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, test } from "vitest";
+import { BANNED_PHRASES } from "../src/content/bannedPhrases";
 
-// 2026-09-18 の方針（docs/decisions/007）: 「○○に記述がないため怪しい」型の書き方をしない。
-// 出典が複数あれば言い切る、1つならその出典を名指しする、0なら書かない。
+// 禁止フレーズの一覧と方針は src/content/bannedPhrases.ts（曲データの検査と共有）
 const ROOT = process.cwd();
-const BANNED: RegExp[] = [
-  /kind="unverified"/,
-  /本サイトの調査では/,
-  /記述がな/,
-  /裏取り/,
-  /未確認/,
-  /未検証/,
-  /可能性あり/,
-  /断定は避け/,
-  /諸説あり/,
-  /確認できていません/,
-  /確認できませんでした/,
-];
+const BANNED = BANNED_PHRASES;
 
 function mdxFiles(): string[] {
   const out: string[] = [];

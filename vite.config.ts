@@ -3,6 +3,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import mdx from "@mdx-js/rollup";
 import remarkGfm from "remark-gfm";
+import { remarkLessonRefs } from "./src/lesson/remarkLessonRefs.ts";
+import { remarkTermIds } from "./src/lesson/remarkTermIds.ts";
 
 const base = "/ao-hawaii/";
 
@@ -15,7 +17,7 @@ export default defineConfig({
       enforce: "pre",
       ...mdx({
         include: ["**/*.mdx"],
-        remarkPlugins: [remarkGfm],
+        remarkPlugins: [remarkGfm, remarkLessonRefs, remarkTermIds],
         providerImportSource: "@mdx-js/react",
       }),
     },

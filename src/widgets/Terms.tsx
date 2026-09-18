@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { findTerm } from "../content/glossary";
 
 /** レッスン内の用語ボックス。用語集（glossary.ts）の正本から引く。 */
@@ -12,7 +13,9 @@ export function Terms({ ids, title = "このレッスンの用語" }: { ids: str
           return (
             <div className="terms__item" key={id}>
               <dt className="terms__word">
-                <span lang="haw">{term.hawaiian}</span>
+                <Link className="terms__link" to={`/glossary#${id}`} lang="haw">
+                  {term.hawaiian}
+                </Link>
               </dt>
               <dd className="terms__meaning">
                 {term.meaning}

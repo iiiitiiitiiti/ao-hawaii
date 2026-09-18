@@ -9,7 +9,8 @@
     "lint": "tsc -b --noEmit",
     "preview": "vite preview",
     "test": "vitest run",
-    "image": "node scripts/fetch-image.mjs"
+    "image": "node scripts/fetch-image.mjs",
+    "mele:lock": "node scripts/mele-lock.ts"
   },
   "dependencies": {
     "react": "^19.3.0",

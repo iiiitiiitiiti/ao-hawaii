@@ -1,4 +1,5 @@
 import type { MDXComponents } from "mdx/types";
+import { Link } from "react-router-dom";
 import { Example } from "../widgets/Example";
 import { H } from "../widgets/H";
 import { Lead } from "../widgets/Lead";
@@ -22,6 +23,9 @@ export const mdxComponents: MDXComponents = {
   Quiz,
   Sources,
   Terms,
+  // サイト内リンク（remarkLessonRefs が作るレッスンへの参照など）は router で移る。
+  // 素の <a href="/..."> だと base の /ao-hawaii/ が付かず、Pages で 404 になる
+  a: ({ href = "", ...props }) => (href.startsWith("/") ? <Link to={href} {...props} /> : <a href={href} {...props} />),
   // 表は横に長くなりがちなので、はみ出しを枠内スクロールにする
   table: (props) => (
     <div className="table-wrap">

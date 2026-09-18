@@ -1,6 +1,8 @@
 import type { ComponentType } from "react";
+import { COURSES } from "../content/courses";
 
-type MdxModule = { default: ComponentType };
+/** termIds は remarkTermIds が本文の <Terms ids> から作る */
+type MdxModule = { default: ComponentType; termIds?: string[] };
 
 const modules = import.meta.glob<MdxModule>("../../content/*/lesson-*.mdx", { eager: true });
 
@@ -29,4 +31,12 @@ export function listAllWritten(): { courseSlug: string; number: number }[] {
     if (!m) throw new Error(`本文のパスが規約外です: ${path}`);
     return { courseSlug: m[1], number: Number(m[2]) };
   });
+}
+
+/** その用語を <Terms> に載せているレッスン（講座順・番号順）。用語集の逆引きに使う */
+export function lessonsUsingTerm(termId: string): { courseSlug: string; number: number }[] {
+  const order = (slug: string) => COURSES.findIndex((c) => c.slug === slug);
+  return listAllWritten()
+    .filter(({ courseSlug, number }) => modules[pathFor(courseSlug, number)]?.termIds?.includes(termId))
+    .sort((a, b) => order(a.courseSlug) - order(b.courseSlug) || a.number - b.number);
 }

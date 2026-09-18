@@ -1,6 +1,10 @@
-import { useMemo, useState } from "react";
-import { COURSES } from "../content/courses";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { COURSES, findLesson, lessonPath } from "../content/courses";
 import { GLOSSARY, type TermCategory } from "../content/glossary";
+import { findMele } from "../content/mele";
+import { lessonsUsingTerm } from "../lesson/lessonModules";
+import { publicMeleUsingTerm } from "../mele/meleData";
 
 const CATEGORY_LABEL: Record<TermCategory, string> = Object.fromEntries(
   COURSES.map((c) => [c.slug, `${c.name} — ${c.subtitle}`]),
@@ -18,6 +22,12 @@ function fold(s: string): string {
 export function GlossaryPage() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<TermCategory | "">("");
+  // レッスンの用語ボックスから /glossary#<id> で来たとき、その語までスクロールして強調する
+  const { hash } = useLocation();
+  const targetId = hash.slice(1);
+  useEffect(() => {
+    if (targetId) document.getElementById(targetId)?.scrollIntoView?.({ block: "center" });
+  }, [targetId]);
 
   const terms = useMemo(() => {
     const q = fold(query.trim());
@@ -52,7 +62,7 @@ export function GlossaryPage() {
       </div>
       <dl className="glossary__list">
         {terms.map((t) => (
-          <div className="glossary__item" key={t.id} id={t.id}>
+          <div className={`glossary__item${t.id === targetId ? " is-target" : ""}`} key={t.id} id={t.id}>
             <dt className="glossary__word">
               <span lang="haw">{t.hawaiian}</span>
               <span className="glossary__cat">{COURSES.find((c) => c.slug === t.category)?.name}</span>
@@ -63,11 +73,39 @@ export function GlossaryPage() {
               <a className="glossary__src" href={t.sourceUrl} target="_blank" rel="noreferrer">
                 出典
               </a>
+              <TermUses termId={t.id} />
             </dd>
           </div>
         ))}
       </dl>
       {terms.length === 0 && <p className="glossary__empty">該当する語がありません。</p>}
     </main>
+  );
+}
+
+/** その語が用語ボックスに載っているレッスンと、逐語注に出てくる曲。どちらも無ければ何も出さない */
+function TermUses({ termId }: { termId: string }) {
+  const uses = lessonsUsingTerm(termId);
+  const songs = publicMeleUsingTerm(termId);
+  if (uses.length === 0 && songs.length === 0) return null;
+  return (
+    <span className="glossary__uses">
+      <span className="glossary__uses-label">出てくるレッスン</span>
+      {uses.map(({ courseSlug, number }) => {
+        const course = COURSES.find((c) => c.slug === courseSlug);
+        const lesson = findLesson(courseSlug, number);
+        return (
+          <Link key={`${courseSlug}-${number}`} to={lessonPath(courseSlug, number)} title={lesson?.title}>
+            <span lang="haw">{course?.name}</span> <span className="num">{String(number).padStart(2, "0")}</span>
+          </Link>
+        );
+      })}
+      {songs.length > 0 && <span className="glossary__uses-label">出てくる曲</span>}
+      {songs.map((id) => (
+        <Link key={id} to={`/mele/${id}`} lang="haw">
+          {findMele(id)?.title ?? id}
+        </Link>
+      ))}
+    </span>
   );
 }

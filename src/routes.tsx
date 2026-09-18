@@ -4,6 +4,8 @@ import { CreditsPage } from "./pages/CreditsPage";
 import { GlossaryPage } from "./pages/GlossaryPage";
 import { HomePage } from "./pages/HomePage";
 import { LessonPage } from "./pages/LessonPage";
+import { MeleListPage } from "./pages/MeleListPage";
+import { MelePage } from "./pages/MelePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { Shell } from "./pages/Shell";
 import { StaticPage } from "./pages/StaticPage";
@@ -18,6 +20,8 @@ export function AppRoutes() {
         <Route path="/timeline" element={<TimelinePage />} />
         <Route path="/credits" element={<CreditsPage />} />
         <Route path="/notation" element={<StaticPage name="notation" />} />
+        <Route path="/mele" element={<MeleListPage />} />
+        <Route path="/mele/:meleId" element={<MelePage />} />
         <Route path="/:courseSlug" element={<CoursePage />} />
         {/* React Router は「lesson-:number」のような部分的な動的セグメントを解釈しない。
             セグメント全体を受け取り、LessonPage 側で解釈する。 */}
