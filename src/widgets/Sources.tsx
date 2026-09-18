@@ -1,3 +1,5 @@
+import { isNarrowScreen } from "../lib/narrow";
+
 export type Source = {
   /** 表示名（書名・機関名・ページ名） */
   label: string;
@@ -6,11 +8,13 @@ export type Source = {
   note?: string;
 };
 
-/** 出典。レッスン末尾に置く。URL の無い書籍も書ける。 */
+/** 出典。レッスン末尾に置く。URL の無い書籍も書ける。スマホでは見出しだけ出して、タップで開く。 */
 export function Sources({ items }: { items: Source[] }) {
   return (
-    <section className="sources" aria-label="出典">
-      <h3 className="sources__title">出典</h3>
+    <details className="sources" open={!isNarrowScreen()}>
+      <summary className="sources__title">
+        出典<span className="num sources__count"> {items.length}</span>
+      </summary>
       <ul className="sources__list">
         {items.map((s, i) => (
           <li key={i}>
@@ -25,6 +29,6 @@ export function Sources({ items }: { items: Source[] }) {
           </li>
         ))}
       </ul>
-    </section>
+    </details>
   );
 }

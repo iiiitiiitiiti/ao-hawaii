@@ -1,10 +1,13 @@
 import { MDXProvider } from "@mdx-js/react";
+import { useRef } from "react";
 import type { Course, Lesson } from "../content/courses";
 import { getLessonComponent } from "./lessonModules";
+import { LessonToc } from "./LessonToc";
 import { mdxComponents } from "./mdxComponents";
 
 export function LessonLayout({ course, lesson }: { course: Course; lesson: Lesson }) {
   const Body = getLessonComponent(course.slug, lesson.number);
+  const bodyRef = useRef<HTMLDivElement>(null);
   return (
     <article className="lesson">
       <header className="lesson__header">
@@ -23,7 +26,8 @@ export function LessonLayout({ course, lesson }: { course: Course; lesson: Lesso
           {lesson.goal}
         </p>
       </header>
-      <div className="lesson__body">
+      {Body && <LessonToc bodyRef={bodyRef} />}
+      <div className="lesson__body" ref={bodyRef}>
         {Body ? (
           <MDXProvider components={mdxComponents}>
             <Body />
