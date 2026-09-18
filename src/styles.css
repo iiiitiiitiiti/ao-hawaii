@@ -1482,15 +1482,22 @@ a.lesson-list__link:hover {
 .back-to-top {
   position: fixed;
   right: var(--space-4);
-  bottom: var(--space-4);
+  /* スマホの画面の角の丸みにかからないよう、下端から離す。セーフエリアがあればさらに上げる */
+  bottom: calc(var(--space-7) + env(safe-area-inset-bottom, 0px));
   z-index: 10;
-  padding: var(--space-2) var(--space-4);
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--border-solid);
-  border-radius: var(--radius-pill);
+  border-radius: 50%;
   background: var(--surface-card);
   color: var(--text-body);
   font: inherit;
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
+  line-height: 1;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.12);
   cursor: pointer;
 }

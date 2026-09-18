@@ -17,7 +17,7 @@ export function BackToTop({ threshold = 600 }: { threshold?: number }) {
       aria-label="ページの上へ戻る"
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
     >
-      ↑ 上へ
+      <span aria-hidden="true">↑</span>
     </button>
   );
 }
