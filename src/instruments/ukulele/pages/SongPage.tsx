@@ -39,6 +39,7 @@ function SongBodyView({ body }: { body: Partial<SongBody> }) {
             performance={body.performance}
             meaning={body.meaning}
           />
+          {body.noPerformance ? <p className="song__caveat">この曲にはお手本の再生がありません。{body.noPerformance}</p> : null}
           {body.arrangement ? <p className="song__caveat">{body.arrangement}</p> : null}
         </section>
       ) : null}
@@ -150,7 +151,7 @@ export function LockedSongBody({ song, envelope }: { song: Song; envelope: Locke
   }
   return (
     <form className="song-lock" onSubmit={submit}>
-      <p>この曲は著作権の保護期間中のため、歌詞コード譜とお手本を暗号化して置いています。パスワード（ハワイ講座「メレを読む」と共通）を入れると読めます。</p>
+      <p>この曲は著作権の保護期間中のため、歌詞コード譜など本体を暗号化して置いています。パスワード（ハワイ講座「メレを読む」と共通）を入れると読めます。</p>
       <label className="song-lock__label">
         パスワード
         <input
@@ -222,6 +223,32 @@ export function SongPage({ instrument }: SongLibraryPageProps) {
         </>
       )}
 
+      {song.recordings?.length ? (
+        <section className="song__section">
+          <h2>参考の録音</h2>
+          <p className="song__caveat">外部サイトの録音です。オフラインでは開けません。</p>
+          {song.recordings.map((recording) => (
+            <div key={recording.url} className="song-recording">
+              {recording.embedUrl ? (
+                <iframe
+                  className="song-recording__embed"
+                  title={recording.label}
+                  src={recording.embedUrl}
+                  allow="autoplay *; encrypted-media *;"
+                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                  loading="lazy"
+                />
+              ) : null}
+              <p>
+                <a href={recording.url} target="_blank" rel="noreferrer">
+                  {recording.label}
+                </a>
+              </p>
+            </div>
+          ))}
+        </section>
+      ) : null}
+
       {/* 掲載の根拠を読み手が確かめられるようにする。既定は畳んでおく */}
       <details className="song__license">
         <summary>掲載の根拠（著作権）</summary>
@@ -237,7 +264,7 @@ export function SongPage({ instrument }: SongLibraryPageProps) {
             <dd>{licensing.reason}</dd>
             <dt>置き方</dt>
             <dd>
-              保護期間中のため、歌詞コード譜とお手本は暗号化して置き、パスワードを知る持ち主だけが読めます。平文の出どころ: {licensing.transcribedFrom}
+              保護期間中のため、歌詞コード譜など本体は暗号化して置き、パスワードを知る持ち主だけが読めます。平文の出どころ: {licensing.transcribedFrom}
             </dd>
             <dt>出典</dt>
             <dd>

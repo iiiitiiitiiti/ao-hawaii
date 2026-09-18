@@ -44,7 +44,7 @@ export function SongsPage({ instrument }: SongLibraryPageProps) {
         <p className="eyebrow">{UKULELE_SONGS.length} songs</p>
         <h1 className="hero__title">楽譜ライブラリ</h1>
         <p className="hero__lede">
-          日本と米国の両方で著作権の保護期間が満了した曲は、そのまま載せています。保護期間中の曲（🔒）は歌詞コード譜とお手本を暗号化して置き、パスワードで開きます。掲載の根拠は曲ごとのページに書いてあります。
+          日本と米国の両方で著作権の保護期間が満了した曲は、そのまま載せています。保護期間中の曲（🔒）は歌詞コード譜など本体を暗号化して置き、パスワードで開きます。掲載の根拠は曲ごとのページに書いてあります。
         </p>
       </header>
 

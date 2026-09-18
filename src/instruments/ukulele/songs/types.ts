@@ -70,9 +70,15 @@ export type SongLicensing = PublicDomainLicensing | ProtectedLicensing;
  */
 export type SongBody = {
   sheet: string;
-  performance: SongPerformance;
+  /**
+   * お手本の再生。公開曲では sheet を持つ曲に必須（tests/ukulele/songs.test.ts）。
+   * 鍵付きの曲は、五線譜の出どころが無ければ省ける（DDR 022）。省くときは noPerformance が必須。
+   */
+  performance?: SongPerformance;
+  /** お手本を置かない理由。譜面の下に出る。performance が無いときだけ持つ。 */
+  noPerformance?: string;
   meaning: SongMeaningLine[];
-  /** 鍵付きの曲では必須（小節ごとのコードの検査を本体だけで完結させるため）。 */
+  /** 鍵付きの曲で performance を持つなら必須（小節ごとのコードの検査を本体だけで完結させるため）。 */
   progression?: string[];
   arrangement?: string;
 };
@@ -102,6 +108,14 @@ export type SongPerformance = {
 export type SongMeaningLine = {
   line: string;
   meaning: string;
+};
+
+export type SongRecording = {
+  /** 演奏者・年など、リンク先が何か分かる一言。 */
+  label: string;
+  url: string;
+  /** Apple Music などの埋め込み用 URL。あれば iframe で出し、無ければリンクだけ。 */
+  embedUrl?: string;
 };
 
 export type Song = {
@@ -138,6 +152,11 @@ export type Song = {
   meaning?: SongMeaningLine[];
   /** この教材の課題曲なら、そのレッスン ID。 */
   lessonId?: string;
+  /**
+   * 参考の録音（外部サイトへのリンク）。曲ページに「参考の録音」として出す。
+   * お手本の再生を持たない曲で、演奏を聴ける場所を示すために使う（DDR 022）。歌詞や編曲を含まないので鍵付きの曲でも公開する。
+   */
+  recordings?: SongRecording[];
   licensing: SongLicensing;
   /** 1〜2文の紹介。 */
   note?: string;

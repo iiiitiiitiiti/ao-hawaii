@@ -147,7 +147,17 @@ Wikipedia のスタブや典拠のない記述は、それ単独では根拠に�
   huapala.org は「Traditional」とした上で「public domain から取られ、広めた Almeida の名がクレジットされる」と注記する
 - 保護期間中と判断した理由: 録音のクレジットが作者を Almeida とする以上、没後70年の2055年末までは日本で保護期間中として扱う。
   伝承曲だと確定できる一次資料（Almeida 以前の出版・録音）が見つかれば、公開曲へ移す
-- 平文の出どころ: 持ち主が所有する教室の歌詞カード（写真）。2026-09-18 時点では未着で、本体は置かれていない
+- 平文の出どころ: 持ち主が所有する教室の歌詞カード（写真。2026-09-18 受領。
+  鳥山親雄『ハワイアン・メレ1001曲ミニ全集』1015ページ。「Words & Music by John Kameaaloha Almeida」、
+  © SOUTH SEA MUSIC CO. と表記）。コード（C・F・D7・G7）と歌詞10行を書き起こし、`npm run song:lock` で暗号化した。
+  カードには五線譜が無いため、**合成のお手本は置かない**（持ち主の決定。DDR 022）。代わりに曲ページへ
+  Apple Music の録音（Wailau and Lopaka Ryder『Na Mele Hula』2008）を埋め込み、Almeida 自身の録音へのリンクを置いた
+- 別セッションが Wailau and Lopaka Ryder の録音を機械解析して起こした旋律つきの本体は、
+  Drive の `ao-hawaii-private/ukulele/analysis/noho-paipai.with-melody.json` に残してある（解析の中間データと
+  合成の下書き音源も同じフォルダ。YouTube の音声そのものは置いていない）。合成のお手本を戻すときはこれを使う
+- 綴りはカードのまま。huapala.org は「Uese」を「uese」、「Roselani」を「rose lani」と書く。
+  歌詞の意味は原詞から辞書（Pukui-Elbert）で作り、カードの日本語訳と huapala.org の Pukui 訳は照合にだけ使った。
+  辞書で引けなかった語: uese（Pukui 訳は sweetie〈愛しい人〉）・Roselani（バラ。lokelani と同じ語と読んだ）
 - 出典:
   - <https://www.huapala.org/No/Noho_Paipai.html>
   - <https://digitalarchives.hawaii.gov/browse/parent/ark:70111/4T1X>（Hawaiʻi State Archives、Gene Becker Hawaiian Phonographic Recordings）

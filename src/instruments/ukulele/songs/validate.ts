@@ -34,7 +34,9 @@ export function songBodyErrors(id: string, chords: string[], body: SongBody): st
   if (JSON.stringify(chords) !== JSON.stringify(sorted)) errors.push(`${id}: chords が名前順ではありません`);
 
   if (!body.sheet?.trim()) errors.push(`${id}: sheet がありません`);
-  if (!body.performance) errors.push(`${id}: performance がありません`);
+  // お手本は五線譜の出どころが無い鍵付きの曲でだけ省ける（DDR 022）。省くなら理由を持たせ、黙って落とせないようにする
+  if (!body.performance && !body.noPerformance?.trim()) errors.push(`${id}: performance が無いなら noPerformance（お手本を置かない理由）が要ります`);
+  if (body.performance && body.noPerformance) errors.push(`${id}: performance と noPerformance は同時に持てません`);
   if (!body.meaning) errors.push(`${id}: meaning がありません`);
   if (errors.length > 0) return errors;
 
@@ -48,6 +50,8 @@ export function songBodyErrors(id: string, chords: string[], body: SongBody): st
     if (entry.line !== lines[index]) errors.push(`${id}: ${index + 1}行目の意味の歌詞「${entry.line}」が譜「${lines[index]}」と一致しません`);
     if (!entry.meaning.trim()) errors.push(`${id}: ${index + 1}行目の意味が空です`);
   });
+
+  if (!body.performance) return errors;
 
   const tune = parseAbc(body.performance.abc);
   errors.push(...sheetAlignmentErrors(tune, sheet).map((e) => `${id}: ${e}`));

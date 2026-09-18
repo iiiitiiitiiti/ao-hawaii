@@ -1065,6 +1065,23 @@ a.instrument-card:hover {
   text-align: center;
 }
 
+/* 参考の録音（外部サイトの埋め込みとリンク。DDR 022） */
+.song-recording {
+  margin-block: var(--space-3) var(--space-4);
+}
+
+.song-recording__embed {
+  display: block;
+  width: 100%;
+  max-width: 660px;
+  height: 175px;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: transparent;
+}
+
+
 .song__section td {
   font-family: var(--font-mono);
 }
