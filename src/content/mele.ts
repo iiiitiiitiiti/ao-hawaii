@@ -19,6 +19,20 @@ export const MELE: MeleMeta[] = [
     ],
     related: ["moaukala/lesson-04", "hula/lesson-04", "olelo/lesson-04", "olelo/lesson-07", "aina/lesson-03"],
   },
+  {
+    id: "noho-paipai",
+    title: "Noho Paipai",
+    composer: "John Kameaaloha Almeida（1897–1985）",
+    year: "1938年ごろ（KGU 放送用原盤の録音）",
+    protection: "locked",
+    summary: "揺り椅子に二人で座る情景を歌う hula ʻauana の定番。英題 Rocking Chair Hula。作者 Almeida 自身の録音が残る。",
+    background: [
+      "作者は John Kameaaloha Almeida。Oʻahu の Pauoa 谷に生まれ、10歳までに視力を失い、1930年代の KGU のラジオ番組で「The Dean of Hawaiian Music」と呼ばれた。300曲以上を作り、Genoa Keawe を見いだした人でもある（Wikipedia が Kanahele『Hawaiian Music & Musicians』を引く）。",
+      "作者自身の録音が2点残る。Hawaiʻi State Archives が所蔵する1938年ごろの KGU 放送用原盤と、49th State Records 盤で、どちらもクレジットは Almeida。huapala.org は伝承曲（Traditional）として掲げ、広めた Almeida の名を添える。",
+    ],
+    related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-07"],
+    ukulele: "https://iiiitiiitiiti.github.io/instrument-lessons/ukulele/songs/noho-paipai",
+  },
 ];
 
 export function findMele(id: string): MeleMeta | undefined {
