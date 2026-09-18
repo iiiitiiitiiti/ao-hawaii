@@ -117,6 +117,21 @@ Wikipedia のスタブや典拠のない記述は、それ単独では根拠に�
   - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
 - 検証日: 2026-09-11
 
+### Lei Lehua o Panaʻewa（id: lei-lehua-o-panaewa）
+
+- 作者: Charles E. King（1874-1950）。**詞・曲ともに本人**
+  - 原譜（1923年版63ページ）の作者表記は "CHAS. E. KING"。副題は "The Hilo Hula"
+  - huapala.org も「Words & music by Charles E. King」
+- 出版: **1916年**。原譜に "Copyright, 1916, by Chas. E. King" と印刷されている
+- 疑義と判断 — huapala.org は作者を King としつつ、注記に "The lyrics may not have been written by King"
+  と書いている。別の作者の名は挙げていない。原譜の作者表記と著作権表示はどちらも King 単独なので、
+  **原譜を根拠に King 単独として扱う**。別の作者を示す記録が見つかったら再検討する
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。63ページ）
+  - <https://www.huapala.org/lei/Lei_Lehua_Panaewa.html>
+  - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
+- 検証日: 2026-09-18
+
 ## 鍵付きで掲載（保護期間中）
 
 保護期間中の曲は、歌詞コード譜・お手本・進行を暗号化して置き、パスワードを知る持ち主だけが読める（DDR 021）。
@@ -286,6 +301,27 @@ Aloha ʻOe は huapala.org と2か所が異なる。
 - 詞・曲ともに Prince Leleiohoku II（1854-1877）で、日本側の条件を満たす
 - **不明: 出版年。** 1860年代の作とされるが、作曲年は出版年ではない。
   1929年より前の出版記録を見つける必要がある
+
+### 1923年版にある候補で、作者の没年が追えていない曲（2026-09-18 調査）
+
+2026-09-18 に 1923年版の目次を通して見て、次の曲を原譜ページで確かめた。いずれも 1929年より前の
+著作権表示があり米国側は満たすが、**作者の没年が確定しないため日本側の判定が終わらない**。
+没年が機関の記録で分かれば載せられる。
+
+| 曲（1923年版のページ） | 原譜の作者表記 | 足りないもの |
+|---|---|---|
+| Mai Poina ʻOe Iaʻu（138） | "Arranged by Chas. E. King" のみ。© 1916 | 作者の表記が無い。huapala.org は Lizzie Doirin（本名 Elizabeth Kahau Alohikea）とし、初出版を 1907年とする。**没年が不明** |
+| Nani Wale Līhuʻe（67） | "Prince Leleiohoku & Kamakau"。© 1916 | Leleiohoku（1854-1877）は満たす。**共作者 Kamakau が誰か、没年が不明** |
+| Kuʻu Lei Mokihana（120） | 詞 Mary Ann Bush・曲 Chas. E. King。© 1916 | **作詞者 Mary Ann Bush の没年が不明** |
+| Lei Poni Moʻi（132） | W. J. Coelho、arr. King。© 1923 | **Coelho の没年が不明**。丸囲みの記号 ①② もある（DDR 016） |
+| Liliʻu E（119） | John Kaulia。© 1923 | huapala.org は詠唱 Antone Kaoʻo・曲 John Kaulia。**2人とも没年が不明** |
+| Sweet Lei Lehua — A Slow Hula（78） | George Awai。© 1915 | **Awai の没年が不明** |
+
+### 次に載せられる候補（権利は通る見込み。未着手）
+
+- **Sweet Lei Lehua（74ページ）** — 作者表記 "KING KALAKAUA"（1836-1891）、© 1916。歌詞は英語が主体。
+  C 長調で、記号は 1C・2F・1F・2G・2C（C・C7・F・D7・G7）と丸囲みの ② が1か所。
+  16小節あり、丸囲みの記号は外して直前のコードを伸ばす（DDR 016）
 
 ## 除外（掲載できない）
 

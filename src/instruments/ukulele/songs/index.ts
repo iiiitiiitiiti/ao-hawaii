@@ -1,6 +1,7 @@
 import { alohaOe } from "./aloha-oe.ts";
 import { kaimanaHila } from "./kaimana-hila.ts";
 import { kuuPuaIPaoakalani } from "./kuu-pua-i-paoakalani.ts";
+import { leiLehuaOPanaewa } from "./lei-lehua-o-panaewa.ts";
 import { naLeiOHawaii } from "./na-lei-o-hawaii.ts";
 import { nohoPaipai } from "./noho-paipai.ts";
 import { palolo } from "./palolo.ts";
@@ -22,6 +23,7 @@ export const UKULELE_SONGS: Song[] = [
   kuuPuaIPaoakalani,
   naLeiOHawaii,
   palolo,
+  leiLehuaOPanaewa,
   nohoPaipai,
 ];
 
