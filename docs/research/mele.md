@@ -56,6 +56,13 @@
 - 逐語注（words）の語義は PE 辞書で1語ずつ引く。kaona は出典がある範囲だけ書く（huapala の訳は Pukui。行訳の参考にする）。
 - version 欄には「歌詞カードの版と huapala 掲載版の違い」を書く。
 
+### お手本のメロディの元（2026-09-18 夜、持ち主の決定: 録音から書き起こす）
+
+- 49th State 64-B の Almeida 録音（Internet Archive の mp3）を機械で解析した。転写のピッチずれは −0.28 半音（A=440 基準へ補正して解析）。補正後の調は B♭（伴奏の chroma で B♭・F7・E♭・E♭7 が並ぶ）、テンポは約129 BPM（4/4 で数えた場合）。曲長 2分58秒。
+- ボーカルを分離（demucs htdemucs）して音高を取った（pyin と basic-pitch）が、**旋律は取り出せなかった**。理由は3つ。歌がトリオ（Julia Nui's Kamaainas）でハーモニーを付けていて B♭・D・F が同時に鳴る。78回転の回転むらで音高が半音の間を揺れる。1940年代の録音で分離が粗い。
+- 結論: **旋律は、単独の声で歌った録音（持ち主が携帯で歌うか、教室の音源）から取る。** 単独の声なら pyin で拍ごとの音が安定して取れる。教室で踊っている版が正なので、Almeida 盤は調・テンポ・構成の確認用にする。
+- 解析の手順（再現用）: `ffmpeg` で mono wav → `demucs --two-stems=vocals` → `librosa.effects.pitch_shift` で補正 → `librosa.pyin` を拍（`librosa.beat.beat_track`）に当てはめて拍ごとの中央値を取る。Python 3.11 の venv に demucs・basic-pitch・librosa・`setuptools<81`（basic-pitch が pkg_resources を要る）。
+
 ### 残る問い（持ち主に確認）
 
-- **ウクレレ教材のお手本（ABC のメロディ）の元**。歌詞カードには通常メロディが無い。instrument-lessons は「歌詞コード譜を持つ曲はお手本も持つ」をテストで強制している（DDR 017）。選択肢: (a) メロディ入りの譜面があれば写真を送ってもらう、(b) Almeida の録音（Internet Archive）から書き起こし、持ち主が耳で確かめる、(c) 鍵付き曲に限りお手本を任意にする（規則の例外。DDR が要る）。
+- **ウクレレ教材のお手本（ABC のメロディ）の元**。2026-09-18 夜に「録音から書き起こす」で決定（上の節）。歌詞カードには通常メロディが無い。instrument-lessons は「歌詞コード譜を持つ曲はお手本も持つ」をテストで強制している（DDR 017）。選択肢: (a) メロディ入りの譜面があれば写真を送ってもらう、(b) Almeida の録音（Internet Archive）から書き起こし、持ち主が耳で確かめる、(c) 鍵付き曲に限りお手本を任意にする（規則の例外。DDR が要る）。
