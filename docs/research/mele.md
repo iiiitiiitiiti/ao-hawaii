@@ -81,3 +81,12 @@
 - Emma Bush は初期のラジオ・ナイトクラブの歌い手（Dancing Cat Records のライナーノーツ）。https://www.dancingcat.com/liner-notes-punahele
 - 地名: Pauoa は Honolulu の谷（Place Names of Hawaiʻi）。ʻAuwaiolimu は Punchbowl の遊び場と通りの名で、Pauoa 谷の入り口近く。長い髪の moʻo の女（Kahalaopuna とする説）が水浴びをしたと伝える（同書）。
 - huapala 版との違い（4連分）: 第2連1行目「Makemake nō wau la e ʻike」、同2行目「a ke kīkala」、第3連1行目「ko pelekoki」、第1連2行目の ā を a と書く。本サイトは教室の版（カード）に従う。
+
+## Ka Ua Kilihune（id: ka-ua-kilihune）— 2026-09-19 調査
+
+- 底本: 持ち主の歌詞カード（鳥山親雄『ハワイアン・メレ1001曲ミニ全集』499ページ、Words & Music by Leonard Kaleonahenaheokalani Spencer Beck & Al Makahinu Barcarse。写真は Drive `ao-hawaii-private/cards/ka-ua-kilihune*.{png,jpg}`）。3連すべて。
+- 権利: 作者は現代の kumu hula（Barcarse は Kāneʻohe の hālau Ka Ua Kilihune の kumu。弟子 Cameron Konapiliahi Barcarse が2016年に ʻūniki）。保護期間中で鍵付き。https://generations808.com/hula-is-life/ 、https://www.instagram.com/cameronkonapiliahi/（検索結果の要約）
+- huapala.org にページ無し（/Ka/Ka_Ua_Kilihune.html は 404）。比べる版が無いので綴りはカードのとおり。
+- 音源: Hoku Zuttermeister『Aina Kupuna』（2007-03-08）trackId 306218623。持ち主指定。
+- 地名: Kāneʻohe（Oʻahu 風上側）、Koʻolau（風上側・山脈）、Mokoliʻi（Kāneʻohe 湾 Kualoa 沖の小島、Chinaman's Hat、字義「小さな moʻo」）— Place Names of Hawaiʻi。
+- カードの解説: Hiʻiaka が moʻo を海に投げ、尾が島になった伝え。作者二人は島の呼び方で意見を分け、Leonard が Al の「小さな島（Mokoliʻiliʻi）」を受け入れて歌ができた。Al は Kāneʻohe 在住。

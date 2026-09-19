@@ -50,6 +50,23 @@ export const MELE: MeleMeta[] = [
       note: "Chauncy Bermodez の歌（Aloha Festivals Hawaiian Falsetto Contest Winners Vol. 1、2000）",
     },
   },
+  {
+    id: "ka-ua-kilihune",
+    title: "Ka Ua Kilihune",
+    composer: "Leonard Kaleonahenaheokalani Spencer Beck & Al Makahinu Barcarse",
+    year: "現代（2007年に Hoku Zuttermeister が録音）",
+    protection: "locked",
+    summary: "Kāneʻohe の Koʻolau の山陰に降る雨 Kilihune と、湾に浮かぶ Mokoliʻi を歌う。締めは雨そのものへの感謝。",
+    background: [
+      "作者は Leonard Kaleonahenaheokalani Spencer Beck と Al Makahinu Barcarse。Barcarse は Kāneʻohe の hālau「Ka Ua Kilihune」の kumu hula で、弟子の Cameron Konapiliahi Barcarse が2016年に ʻūniki を受けて自分の hālau を開いた。Hoku Zuttermeister がアルバム Aina Kupuna（2007）で録音している。",
+      "Kilihune は「霧雨」を表す普通名詞で、この歌では Kāneʻohe の雨の名として歌われる。歌詞カードの解説は、Kāneʻohe 湾の小島 Mokoliʻi をめぐる Hiʻiaka の伝えと、島の呼び方で作者二人が意見を分けた経緯を伝える。",
+    ],
+    related: ["aina/lesson-02", "aina/lesson-06", "moolelo/lesson-03", "hula/lesson-04"],
+    appleMusic: {
+      url: "https://music.apple.com/jp/album/ka-ua-kilihune/306218611?i=306218623",
+      note: "Hoku Zuttermeister の歌（Aina Kupuna、2007）",
+    },
+  },
 ];
 
 export function findMele(id: string): MeleMeta | undefined {
