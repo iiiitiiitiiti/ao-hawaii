@@ -439,6 +439,13 @@ a.lesson-list__link:hover {
   white-space: nowrap;
 }
 
+/* メレの一覧の右欄は「○分」ではなく年代の語句が入るので、折り返しを許す */
+.melelist .lesson-list__minutes {
+  white-space: normal;
+  text-align: right;
+  max-width: 9rem;
+}
+
 /* ============================================================
    Lesson
    ============================================================ */

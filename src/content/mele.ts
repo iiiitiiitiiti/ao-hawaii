@@ -23,7 +23,7 @@ export const MELE: MeleMeta[] = [
     id: "noho-paipai",
     title: "Noho Paipai",
     composer: "John Kameaaloha Almeida（1897–1985）",
-    year: "1938年ごろ（KGU 放送用原盤の録音）",
+    year: "1938年ごろ",
     protection: "locked",
     summary: "揺り椅子に二人で座る情景を歌う hula ʻauana の定番。英題 Rocking Chair Hula。作者 Almeida 自身の録音が残る。",
     background: [
@@ -37,7 +37,7 @@ export const MELE: MeleMeta[] = [
     id: "pauoa-ka-liko-ka-lehua",
     title: "Pauoa Ka Liko Ka Lehua",
     composer: "Emma Bush（クレジット上の作者）",
-    year: "20世紀前半（Emma Bush はラジオ・ナイトクラブの歌手）",
+    year: "20世紀前半",
     protection: "locked",
     summary: "Honolulu の Pauoa 谷のレフアの若芽に、腰を揺らして歩く娘を重ねた hula ʻauana の定番。通称 Pauoa Liko Ka Lehua。",
     background: [
@@ -54,7 +54,7 @@ export const MELE: MeleMeta[] = [
     id: "ka-ua-kilihune",
     title: "Ka Ua Kilihune",
     composer: "Leonard Kaleonahenaheokalani Spencer Beck & Al Makahinu Barcarse",
-    year: "現代（2007年に Hoku Zuttermeister が録音）",
+    year: "現代（2007年録音）",
     protection: "locked",
     summary: "Kāneʻohe の Koʻolau の山陰に降る雨 Kilihune と、湾に浮かぶ Mokoliʻi を歌う。締めは雨そのものへの感謝。",
     background: [
