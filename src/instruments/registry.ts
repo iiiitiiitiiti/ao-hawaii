@@ -1,4 +1,4 @@
-import type { Instrument } from "../core/lesson/types";
+import type { Instrument } from "./core/lesson/types";
 import { UKULELE } from "./ukulele/instrument";
 
 export const INSTRUMENTS: Instrument[] = [UKULELE];

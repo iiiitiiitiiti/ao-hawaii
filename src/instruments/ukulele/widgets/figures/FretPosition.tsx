@@ -1,4 +1,4 @@
-import { Figure } from "../../../../core/widgets/Figure";
+import { Figure } from "../../../core/widgets/Figure";
 
 const BOARD_LEFT = 30;
 const BOARD_RIGHT = 290;

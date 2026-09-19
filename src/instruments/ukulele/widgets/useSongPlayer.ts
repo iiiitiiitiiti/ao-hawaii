@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { playClick } from "../../../core/audio/output/click";
-import { getAudioContext } from "../../../core/audio/output/context";
-import { playNotes } from "../../../core/audio/output/play";
-import { bpmToInterval, clampBpm, createScheduler } from "../../../core/audio/output/scheduler";
-import { playVoice } from "../../../core/audio/output/voice";
-import { parseAbc } from "../../../core/music/abc";
+import { playClick } from "../../core/audio/output/click";
+import { getAudioContext } from "../../core/audio/output/context";
+import { playNotes } from "../../core/audio/output/play";
+import { bpmToInterval, clampBpm, createScheduler } from "../../core/audio/output/scheduler";
+import { playVoice } from "../../core/audio/output/voice";
+import { parseAbc } from "../../core/music/abc";
 import { UKULELE_CHORDS, chordNotes } from "../chords";
 import { buildPerformance, withCountIn } from "../performance";
 import type { SongPerformance } from "../songs/types";

@@ -50,5 +50,5 @@ type Instrument = {
 
 ## 関連ファイル
 
-- `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` §5
-- `docs/superpowers/plans/2026-09-10-plan-a-foundation.md` Task 6・8
+- `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` §5
+- `docs/ukulele/superpowers/plans/2026-09-10-plan-a-foundation.md` Task 6・8

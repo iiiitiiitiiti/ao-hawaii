@@ -1,4 +1,4 @@
-import { Figure } from "../../../../core/widgets/Figure";
+import { Figure } from "../../../core/widgets/Figure";
 
 /** 上から下へ 4弦・3弦・2弦・1弦。線の太さは実際の弦の太さの順に合わせる。 */
 const STRINGS = [

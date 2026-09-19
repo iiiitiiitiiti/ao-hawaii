@@ -34,4 +34,4 @@ flashcards と zoo-aquarium-log の `package.json` と `.github/workflows/` を�
 
 ## 関連ファイル
 
-- `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` §7
+- `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` §7

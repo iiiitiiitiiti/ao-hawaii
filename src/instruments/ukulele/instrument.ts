@@ -1,4 +1,4 @@
-import type { Instrument } from "../../core/lesson/types";
+import type { Instrument } from "../core/lesson/types";
 import { UKULELE_CURRICULUM } from "./curriculum";
 import { ukuleleMdxComponents } from "./mdxComponents";
 import { SongPage } from "./pages/SongPage";

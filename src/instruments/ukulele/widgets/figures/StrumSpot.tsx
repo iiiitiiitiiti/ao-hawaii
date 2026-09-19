@@ -1,4 +1,4 @@
-import { Figure } from "../../../../core/widgets/Figure";
+import { Figure } from "../../../core/widgets/Figure";
 
 /**
  * 右手を置く位置。

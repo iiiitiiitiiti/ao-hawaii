@@ -203,7 +203,7 @@ Kaimana Hila は、楽譜ライブラリに1916年の原曲として残す。
 現物は `King's Book of Hawaiian Melodies` 第5版・1923年の88ページで、
 同ページに "Copyright, 1916, by Chas. E. King" の表記もある。
 補作の記述は英語版 Wikipedia のスタブに由来し典拠がなく、補作者として名の挙がる Andy Cummings は
-1913年生まれで1916年の曲を共作できない。経緯は `docs/songs-licensing.md` が正本。
+1913年生まれで1916年の曲を共作できない。経緯は `docs/ukulele/songs-licensing.md` が正本。
 
 **この1件が示すこと。** 作者が1人でも追えないと日本側の判定が確定しない。
 判定の根拠は二次情報ではなく**原譜と機関の記録**で取る。
@@ -273,7 +273,7 @@ export type SongLicensing = {
 - 使うコードが定義済みで名前順。進行・譜面に出るコードの集合が一致
 - 課題曲はカリキュラムの記述と一致
 
-同じ記録を `docs/songs-licensing.md` にも人が読める形で残す。曲を追加するときは同ファイルへの追記を必須とする。
+同じ記録を `docs/ukulele/songs-licensing.md` にも人が読める形で残す。曲を追加するときは同ファイルへの追記を必須とする。
 
 ### 出典
 

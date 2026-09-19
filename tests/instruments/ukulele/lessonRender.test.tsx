@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, test } from "vitest";
-import { LessonLayout } from "../../src/core/lesson/LessonLayout";
-import { listLessonNumbers } from "../../src/core/lesson/lessonModules";
-import { UKULELE } from "../../src/instruments/ukulele/instrument";
-import { PitchMap } from "../../src/instruments/ukulele/widgets/figures/PitchMap";
+import { LessonLayout } from "../../../src/instruments/core/lesson/LessonLayout";
+import { listLessonNumbers } from "../../../src/instruments/core/lesson/lessonModules";
+import { UKULELE } from "../../../src/instruments/ukulele/instrument";
+import { PitchMap } from "../../../src/instruments/ukulele/widgets/figures/PitchMap";
 
 const written = listLessonNumbers(UKULELE.slug);
 
@@ -35,7 +35,7 @@ describe("レッスン本文の描画", () => {
     const { container } = render(
       <LessonLayout instrument={UKULELE} lesson={lessonByNumber(number)} />,
     );
-    const body = container.querySelector(".lesson__body");
+    const body = container.querySelector(".uke-lesson__body");
     expect(body?.textContent).not.toContain("**");
   });
 
@@ -44,7 +44,7 @@ describe("レッスン本文の描画", () => {
       const { container, unmount } = render(
         <LessonLayout instrument={UKULELE} lesson={lessonByNumber(number)} />,
       );
-      const strong = container.querySelectorAll(".lesson__body strong");
+      const strong = container.querySelectorAll(".uke-lesson__body strong");
       expect(strong.length, `Lesson ${number} の太字`).toBeGreaterThan(0);
       unmount();
     }

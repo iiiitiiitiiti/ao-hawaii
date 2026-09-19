@@ -55,4 +55,4 @@ Noho Paipai の平文は、持ち主の教室の歌詞カードから書き起�
 - `src/instruments/ukulele/pages/SongPage.tsx`
 - `src/instruments/ukulele/songs/noho-paipai.ts`
 - `tests/ukulele/lockedSongs.test.ts`
-- `docs/decisions/021_locked-songs-share-key-with-ao-hawaii.md`（補記）
+- `docs/decisions/ukulele/021_locked-songs-share-key-with-ao-hawaii.md`（補記）

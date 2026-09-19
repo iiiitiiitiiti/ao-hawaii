@@ -92,13 +92,13 @@ export function ChordChangeTrainer({ from = "C", to = "F" }: ChordChangeTrainerP
       {phase === "running" ? (
         <button
           type="button"
-          className="btn btn--primary trainer__tap"
+          className="uke-btn uke-btn--primary trainer__tap"
           onClick={() => setCount((value) => value + 1)}
         >
           替えた
         </button>
       ) : (
-        <button type="button" className="btn btn--primary trainer__tap" onClick={start}>
+        <button type="button" className="uke-btn uke-btn--primary trainer__tap" onClick={start}>
           {phase === "done" ? "もう一度" : "60秒はじめる"}
         </button>
       )}

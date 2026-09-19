@@ -14,11 +14,11 @@
 
 ## 設計と方針
 
-- 設計仕様: `docs/superpowers/specs/`
-- 実装プラン: `docs/superpowers/plans/`
+- 設計仕様: `docs/ukulele/superpowers/specs/`
+- 実装プラン: `docs/ukulele/superpowers/plans/`
 
 ## 掲載曲の著作権
 
 サイト内に掲載する曲は、日本と米国の両方で保護期間が満了したものに限る。
-判定基準と各曲の根拠は `docs/songs-licensing.md`（楽譜ライブラリを作るプランCで追加）に
+判定基準と各曲の根拠は `docs/ukulele/songs-licensing.md`（楽譜ライブラリを作るプランCで追加）に
 記録し、テストで機械的に検査する。

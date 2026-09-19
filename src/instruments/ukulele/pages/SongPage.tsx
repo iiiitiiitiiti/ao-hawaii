@@ -1,8 +1,8 @@
 import { type CSSProperties, type FormEvent, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { decryptJson, deriveKey, type LockedEnvelope } from "../../../core/lock/crypto";
-import { clearKey, loadKey, saveKey } from "../../../core/lock/keyStore";
-import type { SongLibraryPageProps } from "../../../core/lesson/types";
+import { decryptJson, deriveKey, type LockedEnvelope } from "../../../lib/lock/crypto";
+import { clearKey, loadKey, saveKey } from "../../../lib/lock/keyStore";
+import type { SongLibraryPageProps } from "../../core/lesson/types";
 import { NotFoundPage } from "../../../pages/NotFoundPage";
 import { findSong, isLockedSong } from "../songs";
 import type { Song, SongAuthor, SongBody } from "../songs";
@@ -142,7 +142,7 @@ export function LockedSongBody({ song, envelope }: { song: Song; envelope: Locke
               ? "この端末はパスワードを覚えています（ハワイ講座「メレを読む」と共通）。"
               : "この端末では覚えられないため、ページを閉じると再び入力が要ります。"}
           </p>
-          <button type="button" className="btn" onClick={forget}>
+          <button type="button" className="uke-btn" onClick={forget}>
             この端末から鍵を消す（メレを読む も開けなくなります）
           </button>
         </div>
@@ -163,7 +163,7 @@ export function LockedSongBody({ song, envelope }: { song: Song; envelope: Locke
           disabled={state.busy}
         />
       </label>
-      <button type="submit" className="btn" disabled={state.busy || !passphrase.trim()}>
+      <button type="submit" className="uke-btn" disabled={state.busy || !passphrase.trim()}>
         {state.busy ? "確かめています…" : "開く"}
       </button>
       {state.error ? (
@@ -185,15 +185,15 @@ export function SongPage({ instrument }: SongLibraryPageProps) {
   const envelope = locked ? getLockedEnvelope(song.id) : undefined;
 
   return (
-    <main className="song" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
-      <Link className="crumb" to={`/${instrument.slug}/songs`}>
+    <main className="instrument-section song" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
+      <Link className="uke-crumb" to={`/${instrument.slug}/songs`}>
         楽譜ライブラリ
       </Link>
 
-      <header className="hero hero--tight">
+      <header className="uke-hero uke-hero--tight">
         {song.altTitle ? <p className="eyebrow">{song.altTitle}</p> : null}
-        <h1 className="hero__title">{song.title}</h1>
-        {song.note ? <p className="hero__lede">{song.note}</p> : null}
+        <h1 className="uke-hero__title">{song.title}</h1>
+        {song.note ? <p className="uke-hero__lede">{song.note}</p> : null}
       </header>
 
       <section className="song__section">

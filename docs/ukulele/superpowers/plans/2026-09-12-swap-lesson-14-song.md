@@ -45,10 +45,10 @@ C7 を使う課題曲が無くならないのも都合がよい。
 - `content/ukulele/lesson-14.mdx` — 本文を差し替える。曲の紹介、静かな曲での右手、サビのヴァンプ、練習の3日
 - `content/ukulele/lesson-13.mdx` — 末尾の「明日の課題曲はこれが頭に付きます」。新しい課題曲では、ヴァンプの形が曲の中に出てくるので書き換える
 - `tests/ukulele/songs.test.ts` — `BAR_CHORDS` の Kaimana Hila の行（先頭が `C C7` → `C`）
-- `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` — §1 の成功条件、§4 のコード導入表の「使う課題曲」、
+- `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` — §1 の成功条件、§4 のコード導入表の「使う課題曲」、
   §5 のレッスン表、§6 の課題曲の表
-- `docs/songs-licensing.md` — 「初心者向けに変えた点」の Kaimana Hila の項（C7 への置き換えをやめた）
-- `docs/decisions/019_*.md` — この判断の記録。DDR 017 の「Lesson 14 の課題曲をこのままにするかはユーザーの判断待ち」を閉じる
+- `docs/ukulele/songs-licensing.md` — 「初心者向けに変えた点」の Kaimana Hila の項（C7 への置き換えをやめた）
+- `docs/decisions/ukulele/019_*.md` — この判断の記録。DDR 017 の「Lesson 14 の課題曲をこのままにするかはユーザーの判断待ち」を閉じる
 - `src/instruments/ukulele/songs/kuu-pua-i-paoakalani.ts` の `note` — 「ワイキキの屋敷パオアカラニで作った曲」は誤り。
   huapala.org によると、**イオラニ宮殿での8か月の幽閉中**に作った曲で、花はパウオア谷の庭ウルハイマラマから届いた。
   パオアカラニはワイキキの屋敷（歌に出る花の地）。曲ページに出る文なので直す
@@ -66,7 +66,7 @@ C7 を使う課題曲が無くならないのも都合がよい。
 
 1. 曲データ2つとカリキュラムを直す → `npm test`（課題曲とカリキュラムの一致、コード集合の一致、小節ごとのコード）
 2. Lesson 14 の本文を差し替える → `npm test`（レッスンの描画）・`npm run lint`・`npm run build`
-3. 仕様と `docs/songs-licensing.md`、DDR 019 を書く → textlint
+3. 仕様と `docs/ukulele/songs-licensing.md`、DDR 019 を書く → textlint
 4. コミット・公開 → 公開版の Lesson 14 と2曲の曲ページを実ブラウザ（幅 320px）で確認
 
 

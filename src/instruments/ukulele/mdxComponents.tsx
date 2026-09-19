@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import type { MDXComponents } from "mdx/types";
-import { Metronome } from "../../core/widgets/Metronome";
-import { TonePlayer } from "../../core/widgets/TonePlayer";
+import { Metronome } from "../core/widgets/Metronome";
+import { TonePlayer } from "../core/widgets/TonePlayer";
 import { findSong } from "./songs";
 import { UKULELE_TUNING } from "./tuning";
 import { ChordDiagram } from "./widgets/ChordDiagram";

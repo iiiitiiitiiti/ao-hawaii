@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { getLessonComponent, listLessonNumbers } from "../../src/core/lesson/lessonModules";
-import { UKULELE_CURRICULUM } from "../../src/instruments/ukulele/curriculum";
+import { getLessonComponent, listLessonNumbers } from "../../../src/instruments/core/lesson/lessonModules";
+import { UKULELE_CURRICULUM } from "../../../src/instruments/ukulele/curriculum";
 
 describe("レッスン本文", () => {
   test("Lesson 01 と 02 の本文が読み込める", () => {

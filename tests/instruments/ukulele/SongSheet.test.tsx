@@ -1,22 +1,22 @@
 import { act, fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, test, vi } from "vitest";
-import type { SchedulerOptions } from "../../src/core/audio/output/scheduler";
-import { SongSheet } from "../../src/instruments/ukulele/widgets/SongSheet";
+import type { SchedulerOptions } from "../../../src/instruments/core/audio/output/scheduler";
+import { SongSheet } from "../../../src/instruments/ukulele/widgets/SongSheet";
 
 // jsdom には Web Audio が無いので、鳴らす呼び出しだけ差し替える
 const playNotes = vi.hoisted(() => vi.fn());
-vi.mock("../../src/core/audio/output/play", () => ({ playNotes }));
+vi.mock("../../../src/instruments/core/audio/output/play", () => ({ playNotes }));
 const playVoice = vi.hoisted(() => vi.fn());
-vi.mock("../../src/core/audio/output/voice", () => ({ playVoice }));
+vi.mock("../../../src/instruments/core/audio/output/voice", () => ({ playVoice }));
 const playClick = vi.hoisted(() => vi.fn());
-vi.mock("../../src/core/audio/output/click", () => ({ playClick }));
-vi.mock("../../src/core/audio/output/context", () => ({
+vi.mock("../../../src/instruments/core/audio/output/click", () => ({ playClick }));
+vi.mock("../../../src/instruments/core/audio/output/context", () => ({
   getAudioContext: () => ({ currentTime: 0 }),
 }));
 
 // 時計を持たないスケジューラに差し替え、予約と通知をテストから直接呼ぶ
 const scheduler = vi.hoisted(() => ({ options: null as SchedulerOptions | null, running: false }));
-vi.mock("../../src/core/audio/output/scheduler", async (importOriginal) => {
+vi.mock("../../../src/instruments/core/audio/output/scheduler", async (importOriginal) => {
   const actual = await importOriginal<typeof import("../../src/core/audio/output/scheduler")>();
   return {
     ...actual,

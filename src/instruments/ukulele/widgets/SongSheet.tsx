@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { playNotes } from "../../../core/audio/output/play";
-import { TempoControl } from "../../../core/widgets/TempoControl";
+import { playNotes } from "../../core/audio/output/play";
+import { TempoControl } from "../../core/widgets/TempoControl";
 import { UKULELE_CHORDS, chordNotes } from "../chords";
 import { parseSongSheet, songSheetChords } from "../songSheet";
 import type { SongMeaningLine, SongPerformance } from "../songs/types";
@@ -69,7 +69,7 @@ export function SongSheet({ source, title, caption, performance, meaning }: Song
       {performance ? (
         <div className="songsheet__player">
           <div className="songsheet__playrow">
-            <button type="button" className="btn btn--primary" onClick={player.toggle}>
+            <button type="button" className="uke-btn uke-btn--primary" onClick={player.toggle}>
               {player.running ? "止める" : "お手本を再生"}
             </button>
             <label className="songsheet__melody">

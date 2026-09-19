@@ -1,15 +1,15 @@
 import { describe, expect, test } from "vitest";
 // Vite の ?raw で読む。node:fs を使うと @types/node が必要になる
-import licensingDoc from "../../docs/songs-licensing.md?raw";
-import { noteToMidi } from "../../src/core/audio/pitch";
-import { clampBpm } from "../../src/core/audio/output/scheduler";
-import { parseAbc } from "../../src/core/music/abc";
-import { barChords, sheetAlignmentErrors } from "../../src/instruments/ukulele/performance";
-import { UKULELE_CHORDS } from "../../src/instruments/ukulele/chords";
-import { UKULELE_CURRICULUM } from "../../src/instruments/ukulele/curriculum";
-import { parseSongSheet, songSheetChords } from "../../src/instruments/ukulele/songSheet";
-import { UKULELE_SONGS, findSong } from "../../src/instruments/ukulele/songs";
-import type { PublicDomainLicensing, Song } from "../../src/instruments/ukulele/songs";
+import licensingDoc from "../../../docs/ukulele/songs-licensing.md?raw";
+import { noteToMidi } from "../../../src/instruments/core/audio/pitch";
+import { clampBpm } from "../../../src/instruments/core/audio/output/scheduler";
+import { parseAbc } from "../../../src/instruments/core/music/abc";
+import { barChords, sheetAlignmentErrors } from "../../../src/instruments/ukulele/performance";
+import { UKULELE_CHORDS } from "../../../src/instruments/ukulele/chords";
+import { UKULELE_CURRICULUM } from "../../../src/instruments/ukulele/curriculum";
+import { parseSongSheet, songSheetChords } from "../../../src/instruments/ukulele/songSheet";
+import { UKULELE_SONGS, findSong } from "../../../src/instruments/ukulele/songs";
+import type { PublicDomainLicensing, Song } from "../../../src/instruments/ukulele/songs";
 
 /*
  * 掲載できるのは日本と米国の両方で保護期間が満了した曲だけ（DDR 004）。

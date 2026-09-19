@@ -69,7 +69,7 @@ export type MeleMeta = {
   /** 成立の背景。段落ごと。保護曲でもここは公開する（歌詞を引かない） */
   background: string[];
   related: LessonRef[];
-  /** ウクレレ教材の同じ曲のページ（絶対 URL） */
+  /** ウクレレ教材の同じ曲のページ（サイト内のパス。例 /ukulele/songs/noho-paipai） */
   ukulele?: string;
   /**
    * Apple Music の埋め込み（docs/decisions/012）。url は music.apple.com の曲ページ（?i=<trackId> 付き）。

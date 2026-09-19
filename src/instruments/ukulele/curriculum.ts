@@ -1,4 +1,4 @@
-import type { Curriculum } from "../../core/lesson/types";
+import type { Curriculum } from "../core/lesson/types";
 
 export const UKULELE_CURRICULUM: Curriculum = {
   stages: [

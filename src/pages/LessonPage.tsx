@@ -9,8 +9,11 @@ import { NotFoundPage } from "./NotFoundPage";
 
 const LESSON_SLUG_PATTERN = /^lesson-(\d{2})$/;
 
-export function LessonPage() {
-  const { courseSlug = "", lessonSlug = "" } = useParams();
+/** slug は routes.tsx の振り分けから props で受ける。無ければ URL のパラメータを読む */
+export function LessonPage({ courseSlug: courseProp, lessonSlug: lessonProp }: { courseSlug?: string; lessonSlug?: string } = {}) {
+  const params = useParams();
+  const courseSlug = courseProp ?? params.courseSlug ?? "";
+  const lessonSlug = lessonProp ?? params.lessonSlug ?? "";
   const course = findCourse(courseSlug);
   const matched = LESSON_SLUG_PATTERN.exec(lessonSlug);
   const lesson = matched ? course?.lessons.find((l) => l.number === Number(matched[1])) : undefined;

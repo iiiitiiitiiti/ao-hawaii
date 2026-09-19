@@ -2,7 +2,7 @@
 
 - 日付: 2026-09-11
 - 対象: `src/instruments/ukulele/songs/`、`tests/ukulele/songs.test.ts`、
-  `docs/songs-licensing.md`、`src/routes.tsx`、仕様 §5・§6
+  `docs/ukulele/songs-licensing.md`、`src/routes.tsx`、仕様 §5・§6
 
 ## 決定
 
@@ -10,7 +10,7 @@
 
 `SongLicensing` を必須フィールドにし、`tests/ukulele/songs.test.ts` で18項目を検査する。
 検査するのは、作者全員の没年、出版年の範囲、出典の scheme、検証日、
-`docs/songs-licensing.md` の記録など。揃わないとビルドが落ちる。
+`docs/ukulele/songs-licensing.md` の記録など。揃わないとビルドが落ちる。
 
 **テストが見られるのは記録の「存在」と「形」だけで、没年や出版年の「正しさ」は見られない。**
 正しさは裏取りの手順で担保する。この限界はテスト本体のコメントにも書いた。
@@ -68,13 +68,13 @@ Web のコード譜サイトの譜は他人の編曲で、写すとそれ自体�
 | **曲を持たない楽器の `/songs` に「まだありません」を出す** | プランではそう決めていた。だが登録楽器が1つの現状では到達しない分岐で、テストも書けない。NotFound へ倒した |
 | **`chords` を任意にする** | 進行や譜面と揃う。しかしコードが無い曲は「今の自分が弾ける曲」の絞り込みに乗らず、ウクレレの楽譜ライブラリとして役に立たない |
 
-採用: **型で必須にし、テストで検査し、記録を `docs/songs-licensing.md` と対で維持する**
+採用: **型で必須にし、テストで検査し、記録を `docs/ukulele/songs-licensing.md` と対で維持する**
 
 ## 影響範囲
 
-- 曲を足すときは `docs/songs-licensing.md` への追記が必須。忘れるとテストが落ちる
+- 曲を足すときは `docs/ukulele/songs-licensing.md` への追記が必須。忘れるとテストが落ちる
 - MDX プラグインの `include` を `.mdx` に限った。既定では `.md` も MDX として扱われ、
-  テストが `docs/songs-licensing.md` を `?raw` で読めない
+  テストが `docs/ukulele/songs-licensing.md` を `?raw` で読めない
 - ルートを2本足した（`/:instrumentSlug/songs` と `/:instrumentSlug/songs/:songId`）。
   静的セグメントが動的セグメントより優先されるので `:lessonSlug` より先に当たる
 
@@ -82,7 +82,7 @@ Web のコード譜サイトの譜は他人の編曲で、写すとそれ自体�
 
 - **Aloha ʻOe と Kaimana Hila の進行は載せていない。** 原譜は入手できたが、
   スキャンされた楽譜から小節ごとの和声を書き起こす作業はこちらで検証できない。
-  理由と次の一手は `docs/songs-licensing.md` の「譜面の状況」に書いた
+  理由と次の一手は `docs/ukulele/songs-licensing.md` の「譜面の状況」に書いた
 - **ハワイアン曲の追加も未着手。** 権利の裏取りは進むが、曲ごとに
   初心者キーのコードを決める必要があり、そこが検証できない
 

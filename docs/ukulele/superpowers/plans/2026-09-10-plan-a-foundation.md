@@ -8,7 +8,7 @@
 
 **Tech Stack:** Vite 8 / React 19 / TypeScript / MDX 3 / react-router-dom 7 / Web Audio API / Vitest / vite-plugin-pwa
 
-**Spec:** `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md`
+**Spec:** `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md`
 
 ## Global Constraints
 
@@ -2487,13 +2487,13 @@ jobs:
 
 ## 設計と方針
 
-- 設計仕様: `docs/superpowers/specs/`
-- 実装プラン: `docs/superpowers/plans/`
+- 設計仕様: `docs/ukulele/superpowers/specs/`
+- 実装プラン: `docs/ukulele/superpowers/plans/`
 
 ## 掲載曲の著作権
 
 サイト内に掲載する曲は、日本と米国の両方で保護期間が満了したものに限る。
-判定基準と各曲の根拠は `docs/songs-licensing.md` に記録し、テストで機械的に検査する。
+判定基準と各曲の根拠は `docs/ukulele/songs-licensing.md` に記録し、テストで機械的に検査する。
 ```
 
 - [ ] **Step 6: GitHub にリポジトリを作って push する**
@@ -2711,7 +2711,7 @@ git push
 - 権利情報をビルド時に強制するテスト
 - `/ukulele/songs` の一覧と絞り込み（今の自分が弾ける曲・コード数・セーハの有無）
 - ハワイアン12曲の検証と収録
-- `docs/songs-licensing.md`
+- `docs/ukulele/songs-licensing.md`
 
 ---
 

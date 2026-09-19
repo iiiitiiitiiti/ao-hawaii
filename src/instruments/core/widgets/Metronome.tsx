@@ -70,7 +70,7 @@ export function Metronome({ defaultBpm = 60, beatsPerBar = 4 }: MetronomeProps) 
 
       <TempoControl bpm={bpm} onChange={setBpm} />
 
-      <button type="button" className="btn btn--primary metronome__toggle" onClick={toggle}>
+      <button type="button" className="uke-btn uke-btn--primary metronome__toggle" onClick={toggle}>
         {running ? "止める" : "鳴らす"}
       </button>
 

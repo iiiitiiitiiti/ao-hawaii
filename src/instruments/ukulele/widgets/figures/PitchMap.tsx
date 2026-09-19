@@ -1,5 +1,5 @@
-import { midiToFrequency, midiToNote, noteToMidi } from "../../../../core/audio/pitch";
-import { Figure } from "../../../../core/widgets/Figure";
+import { midiToFrequency, midiToNote, noteToMidi } from "../../../core/audio/pitch";
+import { Figure } from "../../../core/widgets/Figure";
 import { UKULELE_TUNING } from "../../tuning";
 
 const BOX_W = 320;

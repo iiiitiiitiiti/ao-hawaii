@@ -1,12 +1,12 @@
 import { describe, expect, test } from "vitest";
-import { parseAbc } from "../../src/core/music/abc";
+import { parseAbc } from "../../../src/instruments/core/music/abc";
 import {
   barChords,
   buildPerformance,
   sheetAlignmentErrors,
   withCountIn,
-} from "../../src/instruments/ukulele/performance";
-import { parseSongSheet } from "../../src/instruments/ukulele/songSheet";
+} from "../../../src/instruments/ukulele/performance";
+import { parseSongSheet } from "../../../src/instruments/ukulele/songSheet";
 
 const tune = (body: string) => parseAbc(`M:4/4\nL:1/16\nK:C\n${body}`);
 const strokesOf = (body: string, strum: "down" | "d-du-udu") =>

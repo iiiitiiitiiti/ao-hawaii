@@ -3,8 +3,8 @@
 - 日付: 2026-09-12
 - 対象: `src/instruments/ukulele/songs/types.ts`・6曲のデータ、`widgets/SongSheet.tsx`・`SongSheet.css`、
   `pages/SongPage.tsx`、`mdxComponents.tsx`、`tests/ukulele/songs.test.ts`・`SongSheet.test.tsx`、
-  `docs/songs-licensing.md`
-- プラン: `docs/superpowers/plans/2026-09-12-lyric-meanings.md`（レビュー記録あり）
+  `docs/ukulele/songs-licensing.md`
+- プラン: `docs/ukulele/superpowers/plans/2026-09-12-lyric-meanings.md`（レビュー記録あり）
 
 ## 決定
 
@@ -54,7 +54,7 @@ huapala.org の英訳は意味の確認だけに使い、表現は写さない�
 
 - 曲を足すときは `sheet` と一緒に `meaning` も書く。無いとテストが落ちる
 - 歌詞を直したら `meaning[].line` も直す。テストが食い違いを落とす
-- **訳は専門家の校閲を受けていない。** 誤りが残りうることを `docs/songs-licensing.md` に書いた
+- **訳は専門家の校閲を受けていない。** 誤りが残りうることを `docs/ukulele/songs-licensing.md` に書いた
 
 ## 検証
 

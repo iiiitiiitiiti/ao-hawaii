@@ -3,7 +3,7 @@
 - 日付: 2026-09-12
 - 対象: `src/instruments/ukulele/curriculum.ts`、`songs/kuu-pua-i-paoakalani.ts`・`songs/kaimana-hila.ts`、
   `content/ukulele/lesson-13.mdx`・`lesson-14.mdx`、仕様 §1・§4・§5・§6
-- プラン: `docs/superpowers/plans/2026-09-12-swap-lesson-14-song.md`（レビュー記録あり）
+- プラン: `docs/ukulele/superpowers/plans/2026-09-12-swap-lesson-14-song.md`（レビュー記録あり）
 
 ## 決定
 

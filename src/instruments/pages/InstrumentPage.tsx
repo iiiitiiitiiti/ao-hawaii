@@ -1,11 +1,11 @@
 import type { CSSProperties } from "react";
 import { Link, useParams } from "react-router-dom";
-import { findInstrument } from "../instruments/registry";
-import { NotFoundPage } from "./NotFoundPage";
+import { findInstrument } from "../registry";
+import { NotFoundPage } from "../../pages/NotFoundPage";
 import { useProgress } from "../core/progress/useProgress";
 import { currentStreak, todayString } from "../core/progress/store";
 
-export function CoursePage() {
+export function InstrumentPage() {
   const { instrumentSlug = "" } = useParams();
   const instrument = findInstrument(instrumentSlug);
   const { progress } = useProgress(instrument?.id ?? "");
@@ -22,18 +22,18 @@ export function CoursePage() {
   const toPath = (n: number) => `/${instrument.slug}/lesson-${String(n).padStart(2, "0")}`;
 
   return (
-    <main className="course" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
-      <Link className="crumb" to="/">
-        楽器のはじめかた
+    <main className="instrument-section course" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
+      <Link className="uke-crumb" to="/">
+        トップ
       </Link>
 
-      <header className="hero hero--tight">
+      <header className="uke-hero uke-hero--tight">
         {/* 等幅が効くのは数字。ラベルには件数と日数という実質のある値を置く */}
         <p className="eyebrow">
           {lessons.length} lessons · {lastDay} days
         </p>
-        <h1 className="hero__title">{instrument.name}</h1>
-        <p className="hero__lede">{instrument.tagline}。読んで、その場で音を出しながら進みます。</p>
+        <h1 className="uke-hero__title">{instrument.name}</h1>
+        <p className="uke-hero__lede">{instrument.tagline}。読んで、その場で音を出しながら進みます。</p>
       </header>
 
       <section className="statusboard">
@@ -68,7 +68,7 @@ export function CoursePage() {
         {/* ボタンの文言に「Lesson NN」を入れない。レッスン一覧の件数を数えるテストと衝突する */}
         {next ? (
           <div className="statusboard__cta">
-            <Link className="btn btn--primary" to={toPath(next.number)}>
+            <Link className="uke-btn uke-btn--primary" to={toPath(next.number)}>
               {completed.size === 0 ? "はじめる" : "つづける"}
             </Link>
             <p className="statusboard__next">
@@ -138,7 +138,7 @@ export function CoursePage() {
           <p className="section__lede">
             著作権の保護期間が満了した曲を集めています。習ったコードだけで弾ける曲に絞れます。
           </p>
-          <Link className="btn" to={`/${instrument.slug}/songs`}>
+          <Link className="uke-btn" to={`/${instrument.slug}/songs`}>
             曲をさがす
           </Link>
         </section>

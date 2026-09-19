@@ -38,5 +38,5 @@ Karplus-Strong 法でブラウザ内合成する。音源ファイルは同梱�
 
 ## 関連ファイル
 
-- `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` §9
-- `docs/superpowers/plans/2026-09-10-plan-a-foundation.md` Task 3
+- `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` §9
+- `docs/ukulele/superpowers/plans/2026-09-10-plan-a-foundation.md` Task 3

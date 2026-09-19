@@ -1,7 +1,7 @@
 # 021. 保護期間中の曲は本体を暗号化して置き、鍵は ao-hawaii と共有する
 
 - 日付: 2026-09-18
-- 対象: `src/instruments/ukulele/songs/{types,index,locked}.ts`、`src/instruments/ukulele/songs/locked/<id>.json`、`src/instruments/ukulele/songs/song-keyinfo.json`、`src/core/lock/{crypto,keyStore}.ts`、`src/instruments/ukulele/pages/SongPage.tsx`、`scripts/song-lock.ts`、`tests/ukulele/songs.test.ts`、`docs/songs-licensing.md`（DDR 004 の適用範囲を改める）
+- 対象: `src/instruments/ukulele/songs/{types,index,locked}.ts`、`src/instruments/ukulele/songs/locked/<id>.json`、`src/instruments/ukulele/songs/song-keyinfo.json`、`src/core/lock/{crypto,keyStore}.ts`、`src/instruments/ukulele/pages/SongPage.tsx`、`scripts/song-lock.ts`、`tests/ukulele/songs.test.ts`、`docs/ukulele/songs-licensing.md`（DDR 004 の適用範囲を改める）
 
 ## 決定
 
@@ -22,7 +22,7 @@ DDR 004（日本・米国の両方で保護期間が満了した曲だけ載せ�
 - 「この端末から鍵を消す」は両サイトに効く。画面にそう書く
 - AES-GCM の追加認証データは `ukulele:<id>` にし、ao-hawaii の暗号文（`<id>`）と取り違えても復号できないようにする
 
-権利の記録は、鍵付きの曲にも `docs/songs-licensing.md` の節を必須にする。書くのは「なぜ保護期間中と判断したか（作者と没年、または不明）」「平文の出どころ（持ち主所有の歌詞カード・曲集）」「検証日」。型は `licensing.status: "public-domain" | "protected"` を足し、`protected` の曲は `died` を `"unknown"` や存命の扱いにできる。テストは `protected` の曲について没年・出版年の PD 判定を飛ばす。代わりに次を検査する。平文の曲ファイルに `sheet`・`performance`・`meaning` が無いこと、暗号文ファイルが `{v, iv, ct}` だけであること、記録の節に「保護期間中と判断した理由」があること。
+権利の記録は、鍵付きの曲にも `docs/ukulele/songs-licensing.md` の節を必須にする。書くのは「なぜ保護期間中と判断したか（作者と没年、または不明）」「平文の出どころ（持ち主所有の歌詞カード・曲集）」「検証日」。型は `licensing.status: "public-domain" | "protected"` を足し、`protected` の曲は `died` を `"unknown"` や存命の扱いにできる。テストは `protected` の曲について没年・出版年の PD 判定を飛ばす。代わりに次を検査する。平文の曲ファイルに `sheet`・`performance`・`meaning` が無いこと、暗号文ファイルが `{v, iv, ct}` だけであること、記録の節に「保護期間中と判断した理由」があること。
 
 ## 背景
 

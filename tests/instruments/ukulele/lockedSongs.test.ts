@@ -1,11 +1,11 @@
 import { describe, expect, test } from "vitest";
 // Vite の ?raw で読む。node:fs を使うと @types/node が必要になる
-import licensingDoc from "../../docs/songs-licensing.md?raw";
-import { decryptJson, deriveKey, encryptJson, type KeyInfo, type LockedEnvelope } from "../../src/core/lock/crypto";
-import { UKULELE_SONGS, isLockedSong } from "../../src/instruments/ukulele/songs";
-import type { SongBody } from "../../src/instruments/ukulele/songs";
-import { SONG_KEY_INFO, getLockedEnvelope, lockedSongIds, songAad } from "../../src/instruments/ukulele/songs/locked";
-import { songBodyErrors } from "../../src/instruments/ukulele/songs/validate";
+import licensingDoc from "../../../docs/ukulele/songs-licensing.md?raw";
+import { decryptJson, deriveKey, encryptJson, type KeyInfo, type LockedEnvelope } from "../../../src/lib/lock/crypto";
+import { UKULELE_SONGS, isLockedSong } from "../../../src/instruments/ukulele/songs";
+import type { SongBody } from "../../../src/instruments/ukulele/songs";
+import { SONG_KEY_INFO, getLockedEnvelope, lockedSongIds, songAad } from "../../../src/instruments/ukulele/songs/locked";
+import { songBodyErrors } from "../../../src/instruments/ukulele/songs/validate";
 
 /*
  * 鍵付きの曲（DDR 021）。平文は CI から見えないので、ここで見るのは

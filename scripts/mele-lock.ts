@@ -15,7 +15,7 @@ import { homedir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { MELE } from "../src/content/mele.ts";
-import { decryptJson, deriveKey, encryptJson, randomBytes, toBase64, type KeyInfo } from "../src/mele/crypto.ts";
+import { decryptJson, deriveKey, encryptJson, randomBytes, toBase64, type KeyInfo } from "../src/lib/lock/crypto.ts";
 import type { MeleBody } from "../src/mele/types.ts";
 import { validateBody } from "../src/mele/validate.ts";
 

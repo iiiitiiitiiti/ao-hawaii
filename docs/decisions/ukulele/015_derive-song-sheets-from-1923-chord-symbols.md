@@ -3,7 +3,7 @@
 - 日付: 2026-09-11
 - 対象: `src/instruments/ukulele/songs/aloha-oe.ts`・`kaimana-hila.ts`、
   `content/ukulele/lesson-11.mdx`・`lesson-14.mdx`、`src/instruments/ukulele/curriculum.ts`、
-  `src/instruments/ukulele/mdxComponents.tsx`、`docs/songs-licensing.md`
+  `src/instruments/ukulele/mdxComponents.tsx`、`docs/ukulele/songs-licensing.md`
 
 ## 決定
 
@@ -13,7 +13,7 @@
 
 凡例の代わりに、同じページのピアノ譜に出る臨時記号と突き合わせた。「文字がそのままコード名」
 と読む規則では説明できない臨時記号が、2曲で3か所ある（Aloha ʻOe の D♮ と D♭、Kaimana Hila の
-「♮♯」、同じく D♯）。どれも上の規則とは一致する。詳細は `docs/songs-licensing.md`。
+「♮♯」、同じく D♯）。どれも上の規則とは一致する。詳細は `docs/ukulele/songs-licensing.md`。
 
 DDR 014 で「検証できない」とした作業との違いは、**和声を耳や譜面の見た目から推測していない**点にある。
 印刷された記号を読み、その読み方の規則をピアノ譜で検算している。

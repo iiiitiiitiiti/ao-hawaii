@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { midiToFrequency, midiToNote, noteToFrequency, noteToMidi, transpose } from "../../src/core/audio/pitch";
+import { midiToFrequency, midiToNote, noteToFrequency, noteToMidi, transpose } from "../../../src/instruments/core/audio/pitch";
 
 describe("noteToMidi", () => {
   test("A4 は 69", () => {

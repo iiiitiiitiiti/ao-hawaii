@@ -15,6 +15,7 @@ export function Shell({ children }: { children: ReactNode }) {
         <nav className="shell__nav" aria-label="サイト内">
           <NavLink to="/">講座</NavLink>
           <NavLink to="/mele">メレを読む</NavLink>
+          <NavLink to="/ukulele">ウクレレ</NavLink>
           <NavLink to="/glossary">用語集</NavLink>
           <NavLink to="/timeline">年表</NavLink>
           <NavLink to="/notation">表記について</NavLink>

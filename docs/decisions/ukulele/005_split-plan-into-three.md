@@ -1,7 +1,7 @@
 # 005. 実装プランを3本へ分割する
 
 - 日付: 2026-09-10
-- 対象: `docs/superpowers/plans/`
+- 対象: `docs/ukulele/superpowers/plans/`
 
 ## 決定
 
@@ -39,4 +39,4 @@ B と C はプランAの完了後に書き起こす。
 
 ## 関連ファイル
 
-- `docs/superpowers/plans/2026-09-10-plan-a-foundation.md`
+- `docs/ukulele/superpowers/plans/2026-09-10-plan-a-foundation.md`
