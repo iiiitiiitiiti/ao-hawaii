@@ -43,11 +43,11 @@
     "作者自身の録音が2点残る。Hawaiʻi State Archives が所蔵する1938年ごろの KGU 放送用原盤と、49th State Records 盤で、どちらもクレジットは Almeida。huapala.org は伝承曲（Traditional）として掲げ、広めた Almeida の名を添える。",
   ],
   related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-07"],
-  ukulele: "https://iiiitiiitiiti.github.io/instrument-lessons/ukulele/songs/noho-paipai",
+  ukulele: "/ukulele/songs/noho-paipai",
 }
 ```
 
-- `ukulele` の URL は instrument-lessons の `src/routes.tsx`（`/:instrumentSlug/songs/:songId`、BrowserRouter）に合わせた。
+- `ukulele` はサイト内のパス（`/:instrumentSlug/songs/:songId`）。当初は別サイト instrument-lessons の URL だったが、2026-09-19 の統合（DDR 013）で内部リンクにした。
 - `tests/mele.test.ts` は `locked` の曲に暗号文を要求する。MeleMeta を足すのは `npm run mele:lock` で `src/content/mele-locked/noho-paipai.json` を作るのと同じコミットで行う。
 
 ### 本体（MeleBody）を書くときに要るもの
