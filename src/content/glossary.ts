@@ -88,7 +88,7 @@ export const GLOSSARY: Term[] = [
   { id: "konohiki", hawaiian: "konohiki", meaning: "ahupuaʻa の管理者。首長のもとで土地と漁業権を差配した", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=konohiki", checkedAt: "2026-09-18" },
   { id: "humuhumu", hawaiian: "humuhumu", meaning: "モンガラカワハギ類。州魚 humuhumunukunukuāpuaʻa は「豚の鼻の humuhumu」", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=humuhumu", checkedAt: "2026-09-18" },
   { id: "puaa", hawaiian: "puaʻa", meaning: "豚", note: "Lono の kinolau。辞書の語義3は山頂にかかる霧・雲の帯で、雨の兆し、Kamapuaʻa の雲の姿。野生化した puaʻa は森を荒らす", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pua%CA%BBa", checkedAt: "2026-09-18" },
-  { id: "waiawi", hawaiian: "waiawī", meaning: "ストロベリーグアバ。在来林を駆逐する侵略種", category: "mea-ola", sourceUrl: "http://hear.its.hawaii.edu/species/psidium_cattleianum/", checkedAt: "2026-09-18" },
+  { id: "waiawi", hawaiian: "waiawī", meaning: "ストロベリーグアバ。在来林を駆逐する侵略種", category: "mea-ola", sourceUrl: "http://www.hear.org/species/psidium_cattleianum/", checkedAt: "2026-09-19" },
   { id: "ahinahina", hawaiian: "ʻāhinahina", meaning: "銀剣草（silversword）。Haleakalā と Mauna Kea の高地だけに育つ", category: "mea-ola", sourceUrl: "https://www.nps.gov/locations/hawaii/silverswords.htm", checkedAt: "2026-09-18" },
   { id: "nene", hawaiian: "nēnē", meaning: "ハワイガン。州鳥", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=n%C4%93n%C4%93", checkedAt: "2026-09-18" },
   { id: "ahupuaa", hawaiian: "ahupuaʻa", meaning: "山から海まで細長く延びる伝統の土地区分", note: "境界の石積み（ahu）に豚（puaʻa）の像や供物を置いたことに由来", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ahupua%CA%BBa", checkedAt: "2026-09-18" },
