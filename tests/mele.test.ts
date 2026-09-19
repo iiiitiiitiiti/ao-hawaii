@@ -2,7 +2,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, test } from "vitest";
 import { MELE } from "../src/content/mele";
-import { decryptJson, deriveKey, encryptJson, randomBytes, toBase64, type KeyInfo } from "../src/mele/crypto";
+import { decryptJson, deriveKey, encryptJson, randomBytes, toBase64, type KeyInfo } from "../src/lib/lock/crypto";
 import { getLockedEnvelope, getPublicBody, listBodyFiles } from "../src/mele/meleData";
 import type { MeleBody } from "../src/mele/types";
 import { normalizeLine, validateBody, validateMeta } from "../src/mele/validate";

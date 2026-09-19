@@ -1,4 +1,4 @@
-import { transpose } from "../../core/audio/pitch.ts";
+import { transpose } from "../core/audio/pitch.ts";
 import { UKULELE_TUNING } from "./tuning.ts";
 
 export type ChordShape = {

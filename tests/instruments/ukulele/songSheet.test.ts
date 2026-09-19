@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { parseSongSheet, songSheetChords } from "../../src/instruments/ukulele/songSheet";
+import { parseSongSheet, songSheetChords } from "../../../src/instruments/ukulele/songSheet";
 
 describe("parseSongSheet", () => {
   test("仕様の例をコードと歌詞の塊に分ける", () => {

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, test } from "vitest";
-import { ChordDiagram } from "../../src/instruments/ukulele/widgets/ChordDiagram";
+import { ChordDiagram } from "../../../src/instruments/ukulele/widgets/ChordDiagram";
 
 describe("ChordDiagram", () => {
   test("コード名を表示する", () => {

@@ -13,7 +13,7 @@ const ROOT = process.cwd();
 function usageFromSource(): Map<string, Set<string>> {
   const out = new Map<string, Set<string>>();
   for (const course of readdirSync(path.join(ROOT, "content"))) {
-    if (course === "pages" || course === "mele") continue;
+    if (course === "pages" || course === "mele" || course === "ukulele") continue;
     for (const file of readdirSync(path.join(ROOT, "content", course))) {
       const m = /^lesson-(\d{2})\.mdx$/.exec(file);
       if (!m) continue;

@@ -3,8 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { COURSES, findLesson } from "../content/courses";
 import { findMele } from "../content/mele";
 import keyInfo from "../content/mele-keyinfo.json";
-import { decryptJson, deriveKey, type KeyInfo, type LockedEnvelope } from "../mele/crypto";
-import { clearKey, loadKey, saveKey } from "../mele/keyStore";
+import { decryptJson, deriveKey, type KeyInfo, type LockedEnvelope } from "../lib/lock/crypto";
+import { clearKey, loadKey, saveKey } from "../lib/lock/keyStore";
 import { MeleBodyView } from "../mele/MeleBodyView";
 import { BackToTop } from "../widgets/BackToTop";
 import { getLockedEnvelope, getPublicBody } from "../mele/meleData";
@@ -156,7 +156,7 @@ export function MelePage() {
         )}
         {meta.ukulele && (
           <p className="melepage__related">
-            <a href={meta.ukulele}>ウクレレ教材のこの曲</a>
+            <Link to={meta.ukulele}>ウクレレ教材のこの曲</Link>
           </p>
         )}
       </section>

@@ -1,4 +1,4 @@
-import type { LockedEnvelope } from "./crypto";
+import type { LockedEnvelope } from "../lib/lock/crypto";
 import type { MeleBody } from "./types";
 
 /**

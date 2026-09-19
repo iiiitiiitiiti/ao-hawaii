@@ -1,5 +1,5 @@
-import { midiToNote } from "../../core/audio/pitch.ts";
-import type { Tune } from "../../core/music/abc";
+import { midiToNote } from "../core/audio/pitch.ts";
+import type { Tune } from "../core/music/abc";
 import type { SongLine } from "./songSheet";
 
 /*

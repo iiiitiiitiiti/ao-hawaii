@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { beforeEach, describe, expect, test } from "vitest";
-import { AppRoutes } from "../src/routes";
+import { AppRoutes } from "../../src/routes";
 
 function renderAt(path: string) {
   return render(
@@ -16,7 +16,7 @@ describe("ルーティング", () => {
 
   test("トップに楽器の一覧が出る", () => {
     renderAt("/");
-    expect(screen.getByRole("link", { name: /ウクレレ/ })).toBeInTheDocument();
+    expect(screen.getAllByRole("link", { name: /ウクレレ/ }).length).toBeGreaterThanOrEqual(1);
   });
 
   test("コース概要にレッスンが15本並ぶ", () => {

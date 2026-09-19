@@ -4,7 +4,7 @@
 - 対象: `src/core/music/abc.ts`、`src/instruments/ukulele/performance.ts`、`src/core/audio/output/voice.ts`、
   `src/instruments/ukulele/widgets/SongSheet.tsx`・`useSongPlayer.ts`、`src/instruments/ukulele/songs/*.ts`、
   `content/ukulele/lesson-08.mdx`、`tests/ukulele/songs.test.ts`
-- プラン: `docs/superpowers/plans/2026-09-11-song-playback.md`（レビュー記録あり）
+- プラン: `docs/ukulele/superpowers/plans/2026-09-11-song-playback.md`（レビュー記録あり）
 
 ## 決定
 

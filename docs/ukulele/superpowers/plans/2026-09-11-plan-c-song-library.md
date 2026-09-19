@@ -2,7 +2,7 @@
 
 - 日付: 2026-09-11
 - 前提: プランA（基盤）・プランB相当（練習ツール7種 + 全15レッスン）は公開済み。`main` = `81c53ca`
-- 正本: `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` §5・§6・§10
+- 正本: `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` §5・§6・§10
 
 ## 1. 何を作るか
 
@@ -13,8 +13,8 @@
 - 曲データに権利の検証記録が必須で、欠けるとテストが落ちてビルドできない
 - `/ukulele/songs` が進捗連動の絞り込み（今の自分が弾ける曲）で動く
 - Lesson 11・14 について、**進行を出典付きで確定させて譜面を入れる。または確定できない理由を
-  `docs/songs-licensing.md` の保留節へ記録する**（どちらかを必ず満たす）
-- `docs/songs-licensing.md` に、人が読める形で同じ検証記録が残る
+  `docs/ukulele/songs-licensing.md` の保留節へ記録する**（どちらかを必ず満たす）
+- `docs/ukulele/songs-licensing.md` に、人が読める形で同じ検証記録が残る
 - 仕様 §5・§6 を実装に合わせて改訂し、DDR を1本書く
 
 **使う人**: 全15レッスンを終えたあと、あるいは途中で「今習ったコードで弾ける曲」を探す学習者。
@@ -76,7 +76,7 @@
 理由: 掲載可否の判断を曲数の都合で緩めると、DDR 004 の二重基準が意味を失う。
 仕様の「15曲」は候補の目標値であって、掲載の合格ラインではない。
 
-未確定の曲は捨てずに `docs/songs-licensing.md` の「保留」節へ、**何が分からないかを書いて残す**。
+未確定の曲は捨てずに `docs/ukulele/songs-licensing.md` の「保留」節へ、**何が分からないかを書いて残す**。
 
 ### 3-2. 曲データは1曲1ファイル
 
@@ -167,7 +167,7 @@ export type Song = {
 - `lessonId` があるなら、そのレッスンが `curriculum.ts` にある。
   さらに `lesson.song.id === song.id` かつ `lesson.song.chords` と `song.chords` が一致する
   （二重管理の破れを検出）
-- **`docs/songs-licensing.md` に全曲の `id` が現れている**（記録漏れの検出）
+- **`docs/ukulele/songs-licensing.md` に全曲の `id` が現れている**（記録漏れの検出）
 
 ### 3-5. 画面
 
@@ -189,7 +189,7 @@ export type Song = {
 - 見つからない `songId` は NotFound へ
 
 権利情報をサイト側にも置くのは、掲載根拠を読み手が確かめられるようにするため。
-`docs/songs-licensing.md` はリポジトリを見る人向けで、サイトの読み手には届かない。
+`docs/ukulele/songs-licensing.md` はリポジトリを見る人向けで、サイトの読み手には届かない。
 
 ### 3-6. 「進行の裏取り」の意味を決める
 
@@ -216,12 +216,12 @@ Web のコード譜サイトの譜は**他人の編曲**で、写すとそれ自
 | `src/pages/SongPage.tsx` / `.css` | 新規。個別 |
 | `src/routes.tsx` | ルート2本を追加 |
 | `src/pages/CoursePage.tsx` | 一覧への入口を追加 |
-| `docs/songs-licensing.md` | 新規 |
+| `docs/ukulele/songs-licensing.md` | 新規 |
 | `tests/ukulele/songs.test.ts` | 新規。権利と整合の検査 |
 | `tests/core/learnedChords.test.ts` | 新規 |
 | `tests/routing.test.tsx` | ルート2本の検査を追加 |
 | 仕様 §5・§6 | 実装に合わせて改訂 |
-| `docs/decisions/014_*.md` | 新規 |
+| `docs/decisions/ukulele/014_*.md` | 新規 |
 
 ### 主な関数
 
@@ -245,7 +245,7 @@ export function usesBarre(song: Song): boolean;
 
 | # | やること | 完了確認 |
 |---|---|---|
-| 1 | 型と `docs/songs-licensing.md` の枠。課題曲3曲を**裏取りしながら**書く（仕様 §6 は初出版年も出典 URL も持っていないので「移す」では済まない） | `npx vitest run` |
+| 1 | 型と `docs/ukulele/songs-licensing.md` の枠。課題曲3曲を**裏取りしながら**書く（仕様 §6 は初出版年も出典 URL も持っていないので「移す」では済まない） | `npx vitest run` |
 | 2 | `songs.test.ts`。**わざと違反データを入れて各検査が落ちることを確認** | 落ちる → 直す → 通る |
 | 3 | ルート2本 + 殻だけのページ2枚。**LessonPage に食われないことをテストで確認** | `tests/routing.test.tsx` |
 | 4 | `learnedChords` / `isPlayable` / `usesBarre` を書いてテスト | 単体テスト |
@@ -269,7 +269,7 @@ export function usesBarre(song: Song): boolean;
 6. 日本1967 / 米国1929 の両方を満たすことを確認してから書く
 7. 判定に残る疑義は `caveat` と `songs-licensing.md` の両方へ書く
 
-### `docs/songs-licensing.md` の書式
+### `docs/ukulele/songs-licensing.md` の書式
 
 曲ごとに `### <title>（id: <song-id>）` の節を作る。`id:` の形で書くのは、
 ステップ2の記録漏れ検査がこの文字列を探すため。節の中に作者・没年・初出版年・出典・疑義を書く。

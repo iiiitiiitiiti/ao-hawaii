@@ -144,16 +144,16 @@ Lesson 08 の譜面の説明は「上の表と同じ進行を、コードが替�
 8. **Pālolo** → 同上
 9. **Nā Lei o Hawaiʻi** → 同上
 10. **Kuʻu Pua i Paoakalani** → 同上
-11. **仕上げ**: テスト 5 を有効化、仕様 §8 を改訂、DDR 017、`docs/songs-licensing.md` に聖者の行進の旋律の出典を追記 → コミット・公開 → 公開版を実ブラウザで確かめる
+11. **仕上げ**: テスト 5 を有効化、仕様 §8 を改訂、DDR 017、`docs/ukulele/songs-licensing.md` に聖者の行進の旋律の出典を追記 → コミット・公開 → 公開版を実ブラウザで確かめる
 
 曲は1曲＝1コミットにする。転記を誤ったとき、その曲だけを戻せる。
 
 ## 触るファイル
 
 - 新規（実装）: `src/core/music/abc.ts`、`src/core/audio/output/voice.ts`、`src/instruments/ukulele/performance.ts`
-- 新規（テスト・記録）: `tests/core/abc.test.ts`、`tests/ukulele/performance.test.ts`、`docs/decisions/017_*.md`
+- 新規（テスト・記録）: `tests/core/abc.test.ts`、`tests/ukulele/performance.test.ts`、`docs/decisions/ukulele/017_*.md`
 - 変更（実装）: `songs/types.ts`・6曲のデータ、`widgets/SongSheet.tsx`・`SongSheet.css`、`pages/SongPage.tsx`、`mdxComponents.tsx`
-- 変更（本文・テスト・記録）: `content/ukulele/lesson-08.mdx`、`tests/ukulele/songs.test.ts`・`SongSheet.test.tsx`、仕様、`docs/songs-licensing.md`
+- 変更（本文・テスト・記録）: `content/ukulele/lesson-08.mdx`、`tests/ukulele/songs.test.ts`・`SongSheet.test.tsx`、仕様、`docs/ukulele/songs-licensing.md`
 
 ## 悪魔の代弁者
 

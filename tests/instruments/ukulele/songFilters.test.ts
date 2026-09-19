@@ -3,9 +3,9 @@ import {
   chordCountBucket,
   isPlayable,
   usesBarre,
-} from "../../src/instruments/ukulele/songs/filters";
-import { UKULELE_SONGS, findSong } from "../../src/instruments/ukulele/songs";
-import type { Song } from "../../src/instruments/ukulele/songs";
+} from "../../../src/instruments/ukulele/songs/filters";
+import { UKULELE_SONGS, findSong } from "../../../src/instruments/ukulele/songs";
+import type { Song } from "../../../src/instruments/ukulele/songs";
 
 const song = (chords: string[]): Song => ({
   id: "test",

@@ -1,4 +1,4 @@
-import { playNotes } from "../../../core/audio/output/play";
+import { playNotes } from "../../core/audio/output/play";
 import { UKULELE_CHORDS, chordNotes } from "../chords";
 import { ChordDiagram, type ChordDiagramProps } from "./ChordDiagram";
 import "./ChordPlayer.css";
@@ -26,14 +26,14 @@ export function ChordPlayer({ name, size = "md" }: ChordPlayerProps) {
       <div className="chord-player__actions">
         <button
           type="button"
-          className="btn chord-player__btn"
+          className="uke-btn chord-player__btn"
           onClick={() => playNotes(notes, { spreadMs: 22, seconds: 2.2 })}
         >
           ジャランと鳴らす
         </button>
         <button
           type="button"
-          className="btn chord-player__btn"
+          className="uke-btn chord-player__btn"
           onClick={() => playNotes(notes, { spreadMs: 260, seconds: 2.4 })}
         >
           1本ずつ鳴らす

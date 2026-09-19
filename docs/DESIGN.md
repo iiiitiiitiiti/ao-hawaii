@@ -89,6 +89,10 @@ erDiagram
     LINE { string song_id FK  int index }
 ```
 
+## ウクレレ教材の統合（2026-09-19 追加）
+
+旧 instrument-lessons を `/ukulele/` の区画として取り込んだ（`docs/decisions/013`）。楽器の共通層は `src/instruments/core/`、楽器ごとの実装は `src/instruments/<楽器>/`、画面の振り分けは `src/routes.tsx` の `SectionPage`。鍵の仕組みは `src/lib/lock/` を「メレを読む」と共用する。ウクレレ側の設計の正本は `docs/ukulele/superpowers/specs/` と `docs/decisions/ukulele/`。
+
 ## やらないこと（Non-goals）
 
 - 音声（ハワイ語の発音音源）。信頼できる自由ライセンスの音源が揃わないため、音節分解とカタカナ近似の併記に留める

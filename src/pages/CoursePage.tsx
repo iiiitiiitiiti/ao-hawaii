@@ -5,8 +5,10 @@ import { listWrittenLessons } from "../lesson/lessonModules";
 import { useProgress } from "../progress/useProgress";
 import { NotFoundPage } from "./NotFoundPage";
 
-export function CoursePage() {
-  const { courseSlug = "" } = useParams();
+/** slug は routes.tsx の振り分けから props で受ける。無ければ URL の courseSlug を読む */
+export function CoursePage({ courseSlug: slugProp }: { courseSlug?: string } = {}) {
+  const params = useParams();
+  const courseSlug = slugProp ?? params.courseSlug ?? "";
   const course = findCourse(courseSlug);
   const { progress } = useProgress();
   if (!course) return <NotFoundPage />;

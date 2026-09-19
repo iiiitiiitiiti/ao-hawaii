@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, test, vi } from "vitest";
 import {
   currentStreak, loadProgress, markCompleted, saveProgress, todayString, unmarkCompleted,
-} from "../../src/core/progress/store";
+} from "../../../src/instruments/core/progress/store";
 
 const EMPTY = {};
 

@@ -1,4 +1,4 @@
-import { Figure } from "../../../../core/widgets/Figure";
+import { Figure } from "../../../core/widgets/Figure";
 
 /** 下向き＝ダウンストローク、上向き＝アップストローク、休み＝弾かない。 */
 export type Stroke = "D" | "U" | "-";

@@ -1,6 +1,7 @@
 import { mkdirSync } from "node:fs";
 import sharp from "sharp";
 
+/** public/icon.svg から PWA 用の PNG を作る。npm run icons */
 const source = "public/icon.svg";
 const outputs = [
   { file: "public/icon-192.png", size: 192, pad: 0 },
@@ -16,10 +17,7 @@ for (const { file, size, pad } of outputs) {
   const inner = size - pad * 2;
   await sharp(source)
     .resize(inner, inner)
-    .extend({
-      top: pad, bottom: pad, left: pad, right: pad,
-      background: "#1d6f6a",
-    })
+    .extend({ top: pad, bottom: pad, left: pad, right: pad, background: "#1c4f7a" })
     .png()
     .toFile(file);
   console.log(`${file} を書き出しました（${size}x${size}）`);

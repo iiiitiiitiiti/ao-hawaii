@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { findInstrument } from "../instruments/registry";
-import { NotFoundPage } from "./NotFoundPage";
+import { findInstrument } from "../registry";
+import { NotFoundPage } from "../../pages/NotFoundPage";
 
 /**
  * 楽譜ライブラリのルートを、楽器が持つ画面へ振り分ける。

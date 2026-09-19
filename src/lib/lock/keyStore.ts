@@ -1,10 +1,8 @@
 /**
  * 鍵付きの曲の鍵をこの端末に覚えておく。
  *
- * instrument-lessons の src/core/lock/keyStore.ts と同じ内容を保つ。DB 名・store 名・キー名・DB version（1 固定）を揃えることで、
- * 同じオリジン（iiiitiiitiiti.github.io）の2サイトが1つの鍵を共有する。どちらかで1回パスワードを入れれば両方で開き、
- * どちらかで「鍵を消す」と両方から消える（docs/decisions/008、instrument-lessons DDR 021）。
- * **DB version は上げない。** 片方だけ上げると、もう片方の open(name, 1) が VersionError になって永久に入力を求める。
+ * 「メレを読む」とウクレレ教材の鍵付き曲が共に使う（docs/decisions/008、docs/decisions/ukulele/021、docs/decisions/013）。
+ * DB 名は旧サイト時代の "ao-hawaii-mele" のまま。変えると端末に覚えた鍵が見えなくなる。
  *
  * IndexedDB に extractable: false の CryptoKey をそのまま入れる。鍵は使えるが、JS から中身を読み出せない。
  * 鍵と一緒に、導出に使った salt も別レコードで覚える。サイト側の salt が変わっていたら（パスフレーズの作り直し）、

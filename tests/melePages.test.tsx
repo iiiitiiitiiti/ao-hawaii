@@ -3,7 +3,7 @@ import { MemoryRouter } from "react-router-dom";
 import { describe, expect, test } from "vitest";
 import keyInfo from "../src/content/mele-keyinfo.json";
 import { MELE } from "../src/content/mele";
-import { deriveKey, encryptJson, type KeyInfo } from "../src/mele/crypto";
+import { deriveKey, encryptJson, type KeyInfo } from "../src/lib/lock/crypto";
 import { getPublicBody } from "../src/mele/meleData";
 import type { MeleBody } from "../src/mele/types";
 import { LockedBody } from "../src/pages/MelePage";

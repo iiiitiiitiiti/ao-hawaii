@@ -1,7 +1,7 @@
-import type { KeyInfo, LockedEnvelope } from "../../../core/lock/crypto";
-import keyInfoJson from "./song-keyinfo.json";
+import type { KeyInfo, LockedEnvelope } from "../../../lib/lock/crypto";
+import keyInfoJson from "../../../content/mele-keyinfo.json";
 
-/** サイト共通の salt と反復回数（ao-hawaii の mele-keyinfo.json と同じ値。DDR 021） */
+/** サイト共通の salt と反復回数（「メレを読む」と同じ mele-keyinfo.json。DDR 021） */
 export const SONG_KEY_INFO = keyInfoJson as KeyInfo;
 
 /** AES-GCM の追加認証データ。ao-hawaii の暗号文（id そのもの）と取り違えても復号できない */

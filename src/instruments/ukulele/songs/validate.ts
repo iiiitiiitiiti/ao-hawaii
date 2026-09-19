@@ -1,6 +1,6 @@
-import { noteToMidi } from "../../../core/audio/pitch.ts";
-import { clampBpm } from "../../../core/audio/output/scheduler.ts";
-import { parseAbc } from "../../../core/music/abc.ts";
+import { noteToMidi } from "../../core/audio/pitch.ts";
+import { clampBpm } from "../../core/audio/output/scheduler.ts";
+import { parseAbc } from "../../core/music/abc.ts";
 import { UKULELE_CHORDS } from "../chords.ts";
 import { barChords, sheetAlignmentErrors } from "../performance.ts";
 import { parseSongSheet, songSheetChords } from "../songSheet.ts";

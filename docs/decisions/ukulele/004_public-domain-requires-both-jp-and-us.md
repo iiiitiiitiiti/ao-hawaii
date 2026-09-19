@@ -1,7 +1,7 @@
 # 004. 掲載曲は日本と米国の両方で保護期間が満了したものに限る
 
 - 日付: 2026-09-10
-- 対象: 楽譜ライブラリの収録判定、`docs/songs-licensing.md`
+- 対象: 楽譜ライブラリの収録判定、`docs/ukulele/songs-licensing.md`
 
 ## 決定
 
@@ -47,4 +47,4 @@
 
 ## 関連ファイル
 
-- `docs/superpowers/specs/2026-09-10-instrument-lessons-design.md` §6
+- `docs/ukulele/superpowers/specs/2026-09-10-instrument-lessons-design.md` §6

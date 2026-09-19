@@ -4,7 +4,7 @@ import { COURSES } from "../content/courses";
 /** termIds は remarkTermIds が本文の <Terms ids> から作る */
 type MdxModule = { default: ComponentType; termIds?: string[] };
 
-const modules = import.meta.glob<MdxModule>("../../content/*/lesson-*.mdx", { eager: true });
+const modules = import.meta.glob<MdxModule>(["../../content/*/lesson-*.mdx", "!../../content/ukulele/**"], { eager: true });
 
 function pathFor(courseSlug: string, lessonNumber: number): string {
   return `../../content/${courseSlug}/lesson-${String(lessonNumber).padStart(2, "0")}.mdx`;

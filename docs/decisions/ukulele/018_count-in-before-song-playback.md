@@ -3,7 +3,7 @@
 - 日付: 2026-09-12
 - 対象: `src/instruments/ukulele/performance.ts`（`withCountIn`）、`widgets/useSongPlayer.ts`・`SongSheet.tsx`、
   `content/ukulele/lesson-08.mdx`・`lesson-11.mdx`・`lesson-14.mdx`
-- プラン: `docs/superpowers/plans/2026-09-12-count-in.md`（レビュー記録あり）
+- プラン: `docs/ukulele/superpowers/plans/2026-09-12-count-in.md`（レビュー記録あり）
 
 ## 決定
 

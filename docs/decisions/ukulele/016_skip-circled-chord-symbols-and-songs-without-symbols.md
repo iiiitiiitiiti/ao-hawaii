@@ -2,7 +2,7 @@
 
 - 日付: 2026-09-11
 - 対象: `src/instruments/ukulele/songs/kuu-pua-i-paoakalani.ts`・`na-lei-o-hawaii.ts`・`palolo.ts`、
-  `docs/songs-licensing.md`
+  `docs/ukulele/songs-licensing.md`
 
 ## 決定
 
@@ -18,7 +18,7 @@
 
 Hawaiʻi Ponoʻī は、作詞の Kalākaua（1836-1891）も作曲の Henri Berger（1844-1929）も日本側の条件を満たし、
 権利の上では載せられる。だがこの版にはコード記号が無い。ピアノ譜から和声を読み取る形になり、
-DDR 014・015 で「検証できない」とした作業に当たる。**保留にし、`docs/songs-licensing.md` の保留節に理由を書く。**
+DDR 014・015 で「検証できない」とした作業に当たる。**保留にし、`docs/ukulele/songs-licensing.md` の保留節に理由を書く。**
 
 ### 3. コードは「替わる拍にいちばん近い音節」に置き、ずれを注記する
 
@@ -61,7 +61,7 @@ DDR 014・015 で「検証できない」とした作業に当たる。**保留�
 
 ## 影響範囲
 
-- `docs/songs-licensing.md` に、丸囲みの記号が未解決であることと、Hawaiʻi Ponoʻī の保留理由を書く
+- `docs/ukulele/songs-licensing.md` に、丸囲みの記号が未解決であることと、Hawaiʻi Ponoʻī の保留理由を書く
 - 丸囲みの記号の読み方が分かれば、外した2か所を戻せる。凡例を探すなら Kaʻai の教則本（1916年）
 
 ## 検証

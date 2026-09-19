@@ -1,8 +1,8 @@
 import { type CSSProperties, useState } from "react";
 import { Link } from "react-router-dom";
-import type { SongLibraryPageProps } from "../../../core/lesson/types";
-import { learnedChords } from "../../../core/progress/learnedChords";
-import { useProgress } from "../../../core/progress/useProgress";
+import type { SongLibraryPageProps } from "../../core/lesson/types";
+import { learnedChords } from "../../core/progress/learnedChords";
+import { useProgress } from "../../core/progress/useProgress";
 import { UKULELE_SONGS, isLockedSong } from "../songs";
 import { type ChordCountBucket, chordCountBucket, isPlayable, usesBarre } from "../songs/filters";
 
@@ -35,15 +35,15 @@ export function SongsPage({ instrument }: SongLibraryPageProps) {
   });
 
   return (
-    <main className="songs" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
-      <Link className="crumb" to={`/${instrument.slug}`}>
+    <main className="instrument-section songs" style={{ "--instrument-accent": instrument.accent } as CSSProperties}>
+      <Link className="uke-crumb" to={`/${instrument.slug}`}>
         {instrument.name}のコース
       </Link>
 
-      <header className="hero hero--tight">
+      <header className="uke-hero uke-hero--tight">
         <p className="eyebrow">{UKULELE_SONGS.length} songs</p>
-        <h1 className="hero__title">楽譜ライブラリ</h1>
-        <p className="hero__lede">
+        <h1 className="uke-hero__title">楽譜ライブラリ</h1>
+        <p className="uke-hero__lede">
           日本と米国の両方で著作権の保護期間が満了した曲は、そのまま載せています。保護期間中の曲（🔒）は歌詞コード譜など本体を暗号化して置き、パスワードで開きます。掲載の根拠は曲ごとのページに書いてあります。
         </p>
       </header>

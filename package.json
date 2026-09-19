@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "image": "node scripts/fetch-image.mjs",
-    "mele:lock": "node scripts/mele-lock.ts"
+    "mele:lock": "node scripts/mele-lock.ts",
+    "song:lock": "node scripts/song-lock.ts",
+    "icons": "node scripts/make-icons.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",
@@ -30,8 +32,10 @@
     "@vitejs/plugin-react": "^6.1.1",
     "jsdom": "^29.1.1",
     "remark-gfm": "^4.0.1",
+    "sharp": "^0.35.4",
     "typescript": "^7.0.2",
     "vite": "^8.2.2",
+    "vite-plugin-pwa": "^1.3.0",
     "vitest": "^5.0.0"
   }
 }

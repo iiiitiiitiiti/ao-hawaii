@@ -31,7 +31,7 @@ export const MELE: MeleMeta[] = [
       "作者自身の録音が2点残る。Hawaiʻi State Archives が所蔵する1938年ごろの KGU 放送用原盤と、49th State Records 盤で、どちらもクレジットは Almeida。huapala.org は伝承曲（Traditional）として掲げ、広めた Almeida の名を添える。",
     ],
     related: ["hula/lesson-02", "hula/lesson-04", "olelo/lesson-07"],
-    ukulele: "https://iiiitiiitiiti.github.io/instrument-lessons/ukulele/songs/noho-paipai",
+    ukulele: "/ukulele/songs/noho-paipai",
   },
   {
     id: "pauoa-ka-liko-ka-lehua",

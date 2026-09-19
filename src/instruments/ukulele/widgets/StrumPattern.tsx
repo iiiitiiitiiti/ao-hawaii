@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { playNotes } from "../../../core/audio/output/play";
-import { bpmToInterval, clampBpm, createScheduler } from "../../../core/audio/output/scheduler";
-import { TempoControl } from "../../../core/widgets/TempoControl";
+import { playNotes } from "../../core/audio/output/play";
+import { bpmToInterval, clampBpm, createScheduler } from "../../core/audio/output/scheduler";
+import { TempoControl } from "../../core/widgets/TempoControl";
 import { UKULELE_CHORDS, chordNotes } from "../chords";
 import { RhythmPattern, type Stroke } from "./figures/RhythmPattern";
 import "./StrumPattern.css";
@@ -105,7 +105,7 @@ export function StrumPattern({
       />
       <div className="strum__controls">
         <TempoControl bpm={bpm} onChange={setBpm} />
-        <button type="button" className="btn btn--primary" onClick={toggle}>
+        <button type="button" className="uke-btn uke-btn--primary" onClick={toggle}>
           {running ? "止める" : `${chord} で鳴らす`}
         </button>
       </div>

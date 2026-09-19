@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { UKULELE_CHORDS } from "../../src/instruments/ukulele/chords";
-import { UKULELE_CURRICULUM } from "../../src/instruments/ukulele/curriculum";
+import { UKULELE_CHORDS } from "../../../src/instruments/ukulele/chords";
+import { UKULELE_CURRICULUM } from "../../../src/instruments/ukulele/curriculum";
 
 const { lessons, stages } = UKULELE_CURRICULUM;
 

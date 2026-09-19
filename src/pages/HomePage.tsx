@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { Link } from "react-router-dom";
+import { INSTRUMENTS } from "../instruments/registry";
 import { COURSES, TOTAL_LESSONS, lessonPath } from "../content/courses";
 import { listWrittenLessons } from "../lesson/lessonModules";
 import { useProgress } from "../progress/useProgress";
@@ -67,6 +68,22 @@ export function HomePage() {
             </article>
           );
         })}
+      </section>
+
+      <section className="home-instruments" aria-label="楽器">
+        {INSTRUMENTS.map((instrument) => (
+          <Link
+            key={instrument.id}
+            className="home-mele__link"
+            to={`/${instrument.slug}`}
+            style={{ "--course-accent": instrument.accent } as CSSProperties}
+          >
+            <span className="home-mele__name">{instrument.name}</span>
+            <span className="home-mele__sub">
+              {instrument.tagline} — 全{instrument.curriculum.lessons.length}レッスンと楽譜ライブラリ
+            </span>
+          </Link>
+        ))}
       </section>
 
       <section className="home-mele" aria-label="メレを読む">

@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
-import { learnedChords } from "../../src/core/progress/learnedChords";
-import { UKULELE_CURRICULUM } from "../../src/instruments/ukulele/curriculum";
-import type { Curriculum } from "../../src/core/lesson/types";
+import { learnedChords } from "../../../src/instruments/core/progress/learnedChords";
+import { UKULELE_CURRICULUM } from "../../../src/instruments/ukulele/curriculum";
+import type { Curriculum } from "../../../src/instruments/core/lesson/types";
 
 describe("learnedChords", () => {
   test("完了が無ければ空", () => {

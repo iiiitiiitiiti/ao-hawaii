@@ -1,4 +1,4 @@
-import { Figure } from "../../../../core/widgets/Figure";
+import { Figure } from "../../../core/widgets/Figure";
 
 /**
  * ウクレレの正面図に、覚える4つの部位の名前を引き出し線で付ける。

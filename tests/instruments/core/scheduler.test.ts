@@ -8,7 +8,7 @@ import {
   clampBpm,
   createScheduler,
   planBeats,
-} from "../../src/core/audio/output/scheduler";
+} from "../../../src/instruments/core/audio/output/scheduler";
 
 const steady = (seconds: number) => () => seconds;
 

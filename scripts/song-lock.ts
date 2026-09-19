@@ -3,8 +3,8 @@
  *
  *   npm run song:lock   Drive の平文 ukulele/<id>.json を検査して暗号化し、src/instruments/ukulele/songs/locked/<id>.json へ書く
  *
- * パスフレーズと salt は ao-hawaii と共有する。--init は持たない（salt を新しく作ると ao-hawaii と分岐するため）。
- * 正本は Drive の ao-hawaii-private/keyinfo.json。リポジトリの song-keyinfo.json がそれと一致しなければ書かずに終了する。
+ * パスフレーズと salt は「メレを読む」（scripts/mele-lock.ts）と共有する。--init は持たない（salt を新しく作ると ao-hawaii と分岐するため）。
+ * 正本は Drive の ao-hawaii-private/keyinfo.json。リポジトリの src/content/mele-keyinfo.json（メレを読むと共有）がそれと一致しなければ書かずに終了する。
  * 平文とパスフレーズは Drive の ao-hawaii-private/ にだけ置く。場所は環境変数 AO_HAWAII_PRIVATE、
  * 無ければ Windows の G:\マイドライブ、Mac の ~/Library/CloudStorage/GoogleDrive-* /マイドライブ を探す。
  *
@@ -15,14 +15,14 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { homedir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { decryptJson, deriveKey, encryptJson, type KeyInfo } from "../src/core/lock/crypto.ts";
+import { decryptJson, deriveKey, encryptJson, type KeyInfo } from "../src/lib/lock/crypto.ts";
 import { UKULELE_SONGS } from "../src/instruments/ukulele/songs/index.ts";
 import type { SongBody } from "../src/instruments/ukulele/songs/types.ts";
 import { songBodyErrors } from "../src/instruments/ukulele/songs/validate.ts";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SONGS_DIR = path.join(ROOT, "src", "instruments", "ukulele", "songs");
-const KEYINFO_PATH = path.join(SONGS_DIR, "song-keyinfo.json");
+const KEYINFO_PATH = path.join(ROOT, "src", "content", "mele-keyinfo.json");
 const LOCKED_DIR = path.join(SONGS_DIR, "locked");
 const aad = (id: string) => `ukulele:${id}`;
 
@@ -46,20 +46,17 @@ function privateDir(): string {
 /** Drive の keyinfo.json を正本にして、リポジトリのコピーと一致することを確かめる */
 function loadKeyInfo(dir: string): KeyInfo {
   const masterPath = path.join(dir, "keyinfo.json");
-  if (!existsSync(masterPath)) throw new Error(`正本 ${masterPath} がありません。ao-hawaii で npm run mele:lock を1回実行すると作られます`);
+  if (!existsSync(masterPath)) throw new Error(`正本 ${masterPath} がありません。npm run mele:lock を1回実行すると作られます`);
   const master = readFileSync(masterPath, "utf8").trim();
-  if (!existsSync(KEYINFO_PATH)) {
-    writeFileSync(KEYINFO_PATH, master + "\n", "utf8");
-    console.log(`song-keyinfo.json を正本から写しました: ${path.relative(ROOT, KEYINFO_PATH)}`);
-  } else if (readFileSync(KEYINFO_PATH, "utf8").trim() !== master) {
-    throw new Error(`song-keyinfo.json が正本（${masterPath}）と一致しません。ao-hawaii の mele-keyinfo.json と同じ内容に直してください`);
+  if (!existsSync(KEYINFO_PATH) || readFileSync(KEYINFO_PATH, "utf8").trim() !== master) {
+    throw new Error(`mele-keyinfo.json が正本（${masterPath}）と一致しません。正本に合わせてください（メレを読むと共有）`);
   }
   return JSON.parse(master) as KeyInfo;
 }
 
 async function lock(dir: string): Promise<void> {
   const passPath = path.join(dir, "passphrase.txt");
-  if (!existsSync(passPath)) throw new Error(`パスフレーズ ${passPath} がありません（ao-hawaii の mele:lock --init が作るもの）`);
+  if (!existsSync(passPath)) throw new Error(`パスフレーズ ${passPath} がありません（mele:lock --init が作るもの）`);
   const info = loadKeyInfo(dir);
   const key = await deriveKey(readFileSync(passPath, "utf8").trim(), info);
 

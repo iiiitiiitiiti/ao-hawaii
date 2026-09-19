@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { effectivePluckFrequency, renderPluck } from "../../src/core/audio/output/pluck";
+import { effectivePluckFrequency, renderPluck } from "../../../src/instruments/core/audio/output/pluck";
 
 const SAMPLE_RATE = 44100;
 

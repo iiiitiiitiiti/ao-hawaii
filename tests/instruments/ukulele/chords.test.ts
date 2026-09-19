@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { UKULELE_TUNING } from "../../src/instruments/ukulele/tuning";
-import { UKULELE_CHORDS, describeChord, chordNotes } from "../../src/instruments/ukulele/chords";
+import { UKULELE_TUNING } from "../../../src/instruments/ukulele/tuning";
+import { UKULELE_CHORDS, describeChord, chordNotes } from "../../../src/instruments/ukulele/chords";
 
 describe("UKULELE_TUNING", () => {
   test("4弦から1弦の順に GCEA が並ぶ", () => {

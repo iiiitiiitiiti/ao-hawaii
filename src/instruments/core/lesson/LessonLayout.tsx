@@ -17,28 +17,28 @@ export function LessonLayout({ instrument, lesson }: LessonLayoutProps) {
       : `${lesson.days[0]}〜${lesson.days[1]}日目`;
 
   return (
-    <article className="lesson">
-      <header className="lesson__header">
-        <p className="lesson__stage">
+    <article className="uke-lesson">
+      <header className="uke-lesson__header">
+        <p className="uke-lesson__stage">
           Stage {lesson.stage} {stage?.title} ・ {days}
         </p>
         {/* 見出しの読み上げ名に「Lesson NN」を残したまま、番号だけ字面を変える */}
-        <h1 className="lesson__title">
-          <span className="lesson__no">Lesson {String(lesson.number).padStart(2, "0")}</span>
+        <h1 className="uke-lesson__title">
+          <span className="uke-lesson__no">Lesson {String(lesson.number).padStart(2, "0")}</span>
           {lesson.title}
         </h1>
-        <p className="lesson__goal">
-          <span className="lesson__goal-label">このレッスンの到達点</span>
+        <p className="uke-lesson__goal">
+          <span className="uke-lesson__goal-label">このレッスンの到達点</span>
           {lesson.goal}
         </p>
       </header>
-      <div className="lesson__body">
+      <div className="uke-lesson__body">
         {Body ? (
           <MDXProvider components={instrument.mdxComponents}>
             <Body />
           </MDXProvider>
         ) : (
-          <p className="lesson__pending">
+          <p className="uke-lesson__pending">
             このレッスンの本文はまだ書かれていません。順に書き足していきます。
           </p>
         )}
