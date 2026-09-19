@@ -1,0 +1,90 @@
+import { transpose } from "../../core/audio/pitch.ts";
+import { UKULELE_TUNING } from "./tuning.ts";
+
+export type ChordShape = {
+  name: string;
+  /** 4弦から1弦の順。0 は開放弦、"x" はミュート。 */
+  frets: (number | "x")[];
+  /** 押さえる指の番号（1=人差し指 〜 4=小指）。押さえない弦は null。 */
+  fingers: (number | null)[];
+  /** セーハ（同じフレットを1本の指で複数弦押さえる）。fret は押さえるフレット番号、from と to は frets 配列のインデックス（0=4弦、3=1弦）で、両端を含む。例: Bb は fret=1 を from=2（2弦）から to=3（1弦）までまたがって押さえる。 */
+  barre?: { fret: number; from: number; to: number };
+};
+
+export const UKULELE_CHORDS: Record<string, ChordShape> = {
+  C: { name: "C", frets: [0, 0, 0, 3], fingers: [null, null, null, 3] },
+  F: { name: "F", frets: [2, 0, 1, 0], fingers: [2, null, 1, null] },
+  G7: { name: "G7", frets: [0, 2, 1, 2], fingers: [null, 2, 1, 3] },
+  C7: { name: "C7", frets: [0, 0, 0, 1], fingers: [null, null, null, 1] },
+  // ハワイアン D7。根音の D を含まないが2本指で押さえられ、ヴァンプでは定番。
+  D7: { name: "D7", frets: [2, 0, 2, 0], fingers: [1, null, 2, null] },
+  Am: { name: "Am", frets: [2, 0, 0, 0], fingers: [2, null, null, null] },
+  Em: { name: "Em", frets: [0, 4, 3, 2], fingers: [null, 3, 2, 1] },
+  Dm: { name: "Dm", frets: [2, 2, 1, 0], fingers: [2, 3, 1, null] },
+  A7: { name: "A7", frets: [0, 1, 0, 0], fingers: [null, 1, null, null] },
+  // カリキュラムでは扱わないが、コード一覧と外部コード譜のために定義しておく。
+  Bb: { name: "Bb", frets: [3, 2, 1, 1], fingers: [3, 2, 1, 1], barre: { fret: 1, from: 2, to: 3 } },
+};
+
+const FINGER_NAMES: Record<number, string> = {
+  1: "人差し指",
+  2: "中指",
+  3: "薬指",
+  4: "小指",
+};
+
+/**
+ * 押さえ方を文章で返す。コード図の読み上げ用の説明に使う。
+ *
+ * 図が読めない人にとっては、この文がコード図の中身そのものになる。
+ * 図と食い違わないよう、押さえ方のデータから組み立てる。
+ */
+export function describeChord(chord: ChordShape): string {
+  const barre = chord.barre;
+  const isBarred = (index: number, fret: number | "x") =>
+    barre !== undefined && fret === barre.fret && index >= barre.from && index <= barre.to;
+
+  const pressed: string[] = [];
+  const open: string[] = [];
+  const muted: string[] = [];
+
+  chord.frets.forEach((fret, index) => {
+    const label = UKULELE_TUNING.strings[index].label;
+    if (fret === "x") {
+      muted.push(label);
+      return;
+    }
+    if (fret === 0) {
+      open.push(label);
+      return;
+    }
+    if (isBarred(index, fret)) return;
+    const finger = chord.fingers[index];
+    pressed.push(`${label}の${fret}フレットを${finger ? FINGER_NAMES[finger] : "指"}`);
+  });
+
+  const parts: string[] = [];
+  if (barre) {
+    const finger = chord.fingers[barre.from];
+    parts.push(
+      `${UKULELE_TUNING.strings[barre.from].label}から${UKULELE_TUNING.strings[barre.to].label}までの` +
+        `${barre.fret}フレットを${finger ? FINGER_NAMES[finger] : "指"}1本でまとめて押さえ（セーハ）`,
+    );
+  }
+  if (pressed.length > 0) parts.push(pressed.join("、"));
+
+  let text = parts.length > 0 ? `${parts.join("、")}で押さえる。` : "どの弦も押さえない。";
+  if (open.length > 0) text += `${open.join("・")}は開放のまま鳴らす。`;
+  if (muted.length > 0) text += `${muted.join("・")}は鳴らさない。`;
+  return text;
+}
+
+/** コードを鳴らしたときに出る音を、4弦から1弦の順に返す。ミュートした弦は含めない。 */
+export function chordNotes(chord: ChordShape): string[] {
+  const notes: string[] = [];
+  chord.frets.forEach((fret, index) => {
+    if (fret === "x") return;
+    notes.push(transpose(UKULELE_TUNING.strings[index].note, fret));
+  });
+  return notes;
+}

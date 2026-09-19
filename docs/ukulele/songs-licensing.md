@@ -1,0 +1,347 @@
+# 掲載曲の権利検証記録
+
+このサイトに掲載する曲は、**日本と米国の両方で保護期間が満了したものだけ**に限る。
+判定の根拠は `docs/decisions/004_public-domain-requires-both-jp-and-us.md`。
+
+- **日本** — 分かっている作詞者・作曲者の**全員**が1967年12月31日までに死亡している、または伝承曲
+- **米国** — 1929年より前に出版されている
+
+作曲者だけを見て判断すると事故る。**作詞・作曲の両方**を確認する。
+
+## この記録の使い方
+
+曲データ（`src/instruments/ukulele/songs/`）と、この文書は対で維持する。
+`tests/ukulele/songs.test.ts` は、曲データの `id` がこの文書へ現れているかを検査する。
+書き漏らすとビルドが落ちる。節の見出しは `### <曲名>（id: <song-id>）` の形で書く。
+
+判定に疑義が残る曲は、その節に `- 疑義と判断 —` で始まる項を必ず置く。
+曲データ側の `caveat` と対になっていることをテストが検査する。
+
+出典は**機関の記録を優先する**（図書館目録・議会図書館・huapala.org など）。
+Wikipedia のスタブや典拠のない記述は、それ単独では根拠にしない。
+
+## 掲載中
+
+### 聖者の行進（id: saints）
+
+- 作者: 不詳（黒人霊歌）。伝承曲として扱う
+- 出版: 単一の初出版を特定できない
+- 米国側の根拠: 現行の歌は1900年代初頭に、同じ題を持つ複数のゴスペル曲から派生した。
+  派生元は次の2曲とされる。
+  - 1896年 "When the Saints Are Marching In"（詞 Katharine Purvis・曲 James Milton Black）
+  - 1908年 "When the Saints March In for Crowning"
+
+  録音は1923年の Paramount Jubilee Singers（Paramount 12073）が最初に知られている。
+  そこから1928年まで商業録音が続いた。**どの経路でも1929年より前に世へ出ている**
+- 出典:
+  - <https://en.wikipedia.org/wiki/When_the_Saints_Go_Marching_In>
+  - <https://www.umcdiscipleship.org/articles/history-of-hymns-when-the-saints-go-marching-in>
+- 検証日: 2026-09-11
+
+### Aloha ʻOe（id: aloha-oe）
+
+- 作者: Queen Liliʻuokalani（1838-1917）。**詞・曲ともに本人**
+- 出版: 確認できた最古は1915年（Century Music Pub. Co., Philadelphia）
+- 補足: 1884年の出版が広く言われているが、こちらで確認できたのは1915年版。
+  より古い出版はありうる。米国側の判定はこの年で足りる
+- 出典:
+  - <https://www.huapala.org/Aloha/Aloha_Oe.html>（Words and music by Queen Liliʻuokalani）
+  - <https://levysheetmusic.mse.jhu.edu/collection/151/020>（Johns Hopkins Levy Music
+    Collection。Composed by H.M. Queen Liliuokalani / Publication Date 1915）
+  - <https://en.wikipedia.org/wiki/Liliuokalani>（1838-1917）
+- 検証日: 2026-09-11
+
+### Kaimana Hila（id: kaimana-hila）
+
+- 作者: Charles E. King（1874-1950）。**詞・曲ともに本人**
+- 出版: **1916年**。原譜に "Copyright, 1916, by Chas. E. King" と印刷されている
+  - 現物は `King's Book of Hawaiian Melodies` 第5版（Honolulu: Charles E. King, 1923）の88ページ
+  - この第5版は MIT Libraries がデジタル化し、米国で著作権なし
+    （No Copyright - United States）と判定している
+- 疑義と判断 — 英語版 Wikipedia は本曲を「1916年、Charles E. King 作、**Andrew Cummings 補作**」
+  としている。この補作者は没年を追えない。そのままでは日本側の判定が確定しない。
+  調べた結果は次のとおり。
+  - **原譜（1923年版88ページ）の作者表記は "CHAS. E. KING" 単独**で、補作者の名は無い
+  - 補作の記述に典拠が付いていない。同記事が挙げる唯一の参考文献（kalena.com =
+    huapala の作曲者索引）は King 単独と記録している
+  - huapala.org の本曲のページも「Words & music by Charles E. King」
+  - UH Mānoa 図書館のハワイ音楽コレクション（1947年の録音）も作曲者を King 単独と記録
+  - 補作者として名の挙がる **Andy Cummings は1913年生まれ**で、1916年の曲を共作できない。
+    本人は1947年に本曲を録音しており、**録音者と作者の混同である可能性が高い**
+
+  以上から、**原譜の表記に従い King 単独として扱う**
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。88ページ）
+  - <https://www.huapala.org/Kai/Kaimana_Hila.html>
+  - <https://digital.library.manoa.hawaii.edu/items/show/37997>（UHM Library。Composer: Charles E. King）
+  - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
+- 検証日: 2026-09-11
+
+### Kuʻu Pua i Paoakalani（id: kuu-pua-i-paoakalani）
+
+- 作者: Queen Liliʻuokalani（1838-1917）。**詞・曲ともに本人**
+  - 原譜（1923年版50ページ）の作者表記は "QUEEN LILIUOKALANI"
+  - huapala.org も「Words & Music by Queen Liliʻuokalani」
+- 出版: 確認できた最古は1917年。原譜に "Copyright, 1917, by Chas. E. King" と印刷されている。
+  King の編曲版の表記で、曲そのものはこれより前に作られている
+- 補足: 1番1行目は、1923年版が「e pa mai nei」、huapala.org が「a pa mai nei」
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。50〜51ページ）
+  - <https://www.huapala.org/Pa/Paoakalani.html>
+  - <https://en.wikipedia.org/wiki/Liliuokalani>（1838-1917）
+- 検証日: 2026-09-11
+
+### Nā Lei o Hawaiʻi（id: na-lei-o-hawaii）
+
+- 作者: Charles E. King（1874-1950）。**詞・曲ともに本人**
+  - 原譜（1923年版6ページ）の作者表記は "CHAS. E. KING"
+  - huapala.org も「Words & music by Charles E. King」。同じ題の別の曲（Kapu 作）があるので取り違えない
+- 出版: **1915年**。原譜に "Copyright 1915 by Bergstrom Music Co." と
+  "Copyright transferred to Charles E. King 1917" が印刷されている
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。6〜7ページ）
+  - <https://www.huapala.org/NA/Na_Lei_Hawaii_King.html>
+  - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
+- 検証日: 2026-09-11
+
+### Pālolo（id: palolo）
+
+- 作者: Charles E. King（1874-1950）。**詞・曲ともに本人**
+  - 原譜（1923年版79ページ）の作者表記は "CHAS. E. KING"
+  - huapala.org も「Pālolo - by Charles E. King」
+- 出版: **1917年**。原譜に "Copyright, 1917, by Chas. E. King" と印刷されている。
+  huapala.org も出典を「King's Blue Book © 1917」としている
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。79ページ）
+  - <https://www.huapala.org/Pa/Palolo.html>
+  - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
+- 検証日: 2026-09-11
+
+### Lei Lehua o Panaʻewa（id: lei-lehua-o-panaewa）
+
+- 作者: Charles E. King（1874-1950）。**詞・曲ともに本人**
+  - 原譜（1923年版63ページ）の作者表記は "CHAS. E. KING"。副題は "The Hilo Hula"
+  - huapala.org も「Words & music by Charles E. King」
+- 出版: **1916年**。原譜に "Copyright, 1916, by Chas. E. King" と印刷されている
+- 疑義と判断 — huapala.org は作者を King としつつ、注記に "The lyrics may not have been written by King"
+  と書いている。別の作者の名は挙げていない。原譜の作者表記と著作権表示はどちらも King 単独なので、
+  **原譜を根拠に King 単独として扱う**。別の作者を示す記録が見つかったら再検討する
+- 出典:
+  - <https://archive.org/details/kingsbookofhawai00king>（原譜。1923年第5版。63ページ）
+  - <https://www.huapala.org/lei/Lei_Lehua_Panaewa.html>
+  - <https://en.wikipedia.org/wiki/Charles_E._King>（1874-1950）
+- 検証日: 2026-09-18
+
+## 鍵付きで掲載（保護期間中）
+
+保護期間中の曲は、歌詞コード譜・お手本・進行を暗号化して置き、パスワードを知る持ち主だけが読める（DDR 021）。
+公開リポジトリと公開サイトに平文は置かない。平文は持ち主が所有する歌詞カード・曲集から書き起こし、Drive の
+`ao-hawaii-private/ukulele/<id>.json` にだけ置く。節には「保護期間中と判断した理由」と「平文の出どころ」を必ず書く。
+`tests/ukulele/lockedSongs.test.ts` が、鍵付きの曲の平文が曲ファイルに無いこと、暗号文の形、この記録の存在を検査する。
+
+### Noho Paipai（id: noho-paipai）
+
+- 作者: John Kameaaloha Almeida（1897年11月28日〜1985年10月9日、Oʻahu の Pauoa 生まれ）。Almeida 自身の録音2点が作者を Almeida と記す。
+  Hawaiʻi State Archives 所蔵の KGU 放送用原盤（Johnny Almeida's Hawaiians、1938年ごろ、matrix HT-217）と、
+  49th State Hawaii Records 64-B（John K. Almeida And His Hawaiians。Internet Archive で公開）。
+  huapala.org は「Traditional」とした上で「public domain から取られ、広めた Almeida の名がクレジットされる」と注記する
+- 保護期間中と判断した理由: 録音のクレジットが作者を Almeida とする以上、没後70年の2055年末までは日本で保護期間中として扱う。
+  伝承曲だと確定できる一次資料（Almeida 以前の出版・録音）が見つかれば、公開曲へ移す
+- 平文の出どころ: 持ち主が所有する教室の歌詞カード（写真。2026-09-18 受領。
+  鳥山親雄『ハワイアン・メレ1001曲ミニ全集』1015ページ。「Words & Music by John Kameaaloha Almeida」、
+  © SOUTH SEA MUSIC CO. と表記）。コード（C・F・D7・G7）と歌詞10行を書き起こし、`npm run song:lock` で暗号化した。
+  カードには五線譜が無いため、**合成のお手本は置かない**（持ち主の決定。DDR 022）。代わりに曲ページへ
+  Apple Music の録音（Wailau and Lopaka Ryder『Na Mele Hula』2008）を埋め込み、Almeida 自身の録音へのリンクを置いた
+- 別セッションが Wailau and Lopaka Ryder の録音を機械解析して起こした旋律つきの本体は、
+  Drive の `ao-hawaii-private/ukulele/analysis/noho-paipai.with-melody.json` に残してある（解析の中間データと
+  合成の下書き音源も同じフォルダ。YouTube の音声そのものは置いていない）。合成のお手本を戻すときはこれを使う
+- 綴りはカードに合わせたが、「uese」だけはカードの「Uese」から小文字にした。人名ではなく **ʻoe（あなた）の砕けた形**
+  だと持ち主が教室（hālau）で教わっている（2026-09-19）。huapala.org も小文字で、Pukui 訳は sweetie〈愛しい人〉。
+  「Roselani」は huapala.org では「rose lani」。
+  歌詞の意味は原詞から辞書（Pukui-Elbert）で作り、カードの日本語訳と huapala.org の Pukui 訳は照合にだけ使った。
+  辞書で引けなかった語: uese（上の教えで「あなた」と訳した）・Roselani（バラ。lokelani と同じ語と読んだ）
+- 出典:
+  - <https://www.huapala.org/No/Noho_Paipai.html>
+  - <https://digitalarchives.hawaii.gov/browse/parent/ark:70111/4T1X>（Hawaiʻi State Archives、Gene Becker Hawaiian Phonographic Recordings）
+  - <https://archive.org/details/78_noho-paipai-rocking-chair-hula_john-k-almeida-and-his-hawaiians-johnny-almeida-a_gbia0035277b>（49th State 64-B のレーベル記載）
+  - <https://en.wikipedia.org/wiki/John_Kameaaloha_Almeida>（生没年。Star-Bulletin 1985-10-11 の訃報を引く）
+- 検証日: 2026-09-18
+
+## 譜面の状況
+
+権利とは別に、**小節ごとのコードの割り振りと歌詞コード譜**が要る。
+
+| 曲 | 進行の表 | 歌詞コード譜 | 出どころ |
+|---|---|---|---|
+| 聖者の行進 | あり | あり | この教材の進行（Lesson 08） |
+| Aloha ʻOe | なし | 1番とサビ | 1923年版 130〜131ページ |
+| Kaimana Hila | なし | 1番 | 1923年版 88ページ |
+| Kuʻu Pua i Paoakalani | なし | 1番とサビ | 1923年版 50〜51ページ |
+| Nā Lei o Hawaiʻi | なし | 1番 | 1923年版 6ページ |
+| Pālolo | なし | 1番 | 1923年版 79ページ |
+
+Aloha ʻOe と Kaimana Hila には進行の表を載せていない。**小節の途中でコードの替わる箇所が多い**ため。
+進行の表は1小節1コードの形なので、原典どおりに書けない。歌詞コード譜なら替わる音節の位置をそのまま書ける。
+
+### お手本の再生（メロディと拍）
+
+歌詞コード譜とは別に、曲データの `performance` にメロディ・拍・歌詞の音節を ABC 記法で持つ（DDR 017）。
+
+| 曲 | メロディの出どころ | 移調と書き方 |
+|---|---|---|
+| 聖者の行進 | Carnegie Hall の教材譜（Link Up「The Orchestra Swings」） | C 長調のまま |
+| Aloha ʻOe | 1923年版 130〜131ページの歌の段（上の声部） | A♭ から C へ |
+| Kaimana Hila | 1923年版 88ページの歌の段 | G から C へ。2/4 を音価2倍の 4/4 で書く |
+| Kuʻu Pua i Paoakalani | 1923年版 50〜51ページの歌の段 | C のまま |
+| Nā Lei o Hawaiʻi | 1923年版 6ページの歌の段（上の声部） | F から C へ |
+| Pālolo | 1923年版 79ページの歌の段 | F から C へ。2/4 を音価2倍の 4/4 で書く |
+
+**聖者の行進は 1923年版に無い。** 旋律と歌詞の対応は、歌詞とコードの付いた Carnegie Hall の教材譜に拠った。
+Wikimedia Commons の MIDI（`File:When The Saints.mid`、Peter Gerloff の編曲、CC0）で、1・2・4節の音と小節の区切りを確かめた。
+3節目「Oh Lord I」の音は版によって違う（E E D と D E D）。使ったのは伝承曲の旋律の音の高さと長さだけで、
+教材譜の版面や伴奏は写していない。旋律の権利は、上の「聖者の行進」の判定がそのまま当てはまる。
+
+- 出典: <https://www.carnegiehall.org/-/media/CarnegieHall/Files/PDFs/Education/Educators/Link-Up/The-Orchestra-Swings/LU-Orchestra-Swings-When-the-Saints-Singing-Recorder-Sheet-Music.pdf>
+- 照合: <https://commons.wikimedia.org/wiki/File:When_The_Saints.mid>
+
+**Aloha ʻOe の2か所**（サビ1行目の終わりの「a」と、2行目頭の「o」）は、スキャンから音の高さを読み切れなかった。
+Wikimedia Commons の MIDI（`File:Aloha oe song midi.mid`、PD-US）で決めた。この MIDI は別の版に拠っていて細部が違うため、
+ほかの音は 1923年版の読みを優先した。
+
+- 照合: <https://commons.wikimedia.org/wiki/File:Aloha_oe_song_midi.mid>
+
+**再生と突き合わせて、歌詞コード譜のコードの位置を直した。** 聖者の行進は3行（進行表の1小節目を「saints」から数え直した）、
+Aloha ʻOe は3か所、Nā Lei o Hawaiʻi は1か所。どれもコードが実際に替わる音節より前後にずれていた。一覧と根拠は DDR 017 にある。
+
+**Kaimana Hila は1916年の原曲を載せている。** 今歌われている版は Andy Cummings が広めたもので、旋律と歌詞がどちらも違う
+（huapala.org の記録。著作権表示は 1916, 1943）。新しい版は1943年の出版で、米国側の条件を満たさないため載せていない。
+
+### 歌詞の意味（日本語）
+
+6曲すべてに日本語の意味を付け、歌詞コード譜の各行の下に出している（DDR 020）。
+
+- **訳は原詞から作った。** ハワイ語の語義は wehe.hilo.hawaii.edu（Pukui-Elbert 1986・Andrews 1865・Parker 1922）で
+  引き、引けた語釈を曲データのコメントに残している
+- **辞書で裏が取れない語は、曲ごとにそう明記した。** この辞書は同綴りの別語が先に並ぶため、歌詞の文脈の義に
+  届かない語がある（`pua`・`uka`・`mākou`・`onaona`・`haʻaheo`・`pali`・`nahele` など）。
+  地名と雨の名（`Pālolo`・`Līlīlehua`・`Paoakalani`・`Uluhaimalama`・`Kaʻalawai`・`Panaʻewa`・`Keawe`）も引けない
+- **1923年版に印刷されている英語詞は、意味の照合にだけ使った。** 歌うための意訳で原詞と行が対応しないため、
+  訳の元にはしていない。全文はリポジトリに書かず、参照したページだけを残している
+- **huapala.org の英訳は意味の確認だけに使い、表現は写していない**（訳者の権利があるため。DDR 014 と同じ理由）
+- 聖者の行進は、掲載している英語詞をそのまま訳した
+- **訳はこの教材の制作者（Claude）が作ったもので、専門家の校閲を受けていない。** 誤りが残りうる
+
+### 1923年版のコード記号の読み方
+
+`King's Book of Hawaiian Melodies` 第5版（1923年）は、全曲の譜表の上に **Ernest K. Kaʻai
+（1881-1962）によるウクレレ・ギター用のコード記号**を付けている。同書の索引末尾にこう書かれている。
+
+> For the convenience of ukulele and guitar players Mr. Ernest K. Kaai has indicated
+> above the staff the chords used for the accompaniment of the songs in this book.
+
+記号は `1G₂` `2A♭` のような形をしている。**同書に凡例は無い**（前付けと後付けを確認した）。
+2曲の譜面を読み、次の規則で確定した。
+
+- **文字はキー、数字はそのキーでの役割。** `1` は主和音、`2` は属七の和音
+  - `1D♭` = D♭、`2A♭` = E♭7（A♭ の属七）、`2E♭` = B♭7、`2D` = A7、`2G` = D7
+- 添字（`₁` `₂`）はコードの種類を変えない。押さえ方の違いと考えられる
+
+**確かめ方。** 同じページのピアノ譜の臨時記号と突き合わせた。「文字がそのままコード名」と読む
+規則では、次の臨時記号を説明できない。
+
+- Aloha ʻOe「a-hi-hi le-hu-a」の小節。記号 `1D♭ — 2E♭ — 2A♭` の位置に合わせて臨時記号が出る。
+  2拍目は D♮ で、A♭ 長調で D♮ を含むのは B♭7（= `2E♭`）。
+  3拍目は D♭ で、D♭ を含む属七は E♭7（= `2A♭`）
+- Kaimana Hila「la」の小節。記号 `2D` の頭に「♮♯」が付く。直前の E7 の G♯ を打ち消し、
+  C♯ を立てる記号で、A7（= `2D`）と一致する。「D」と読むと C♯ は出ない
+- Kaimana Hila「wa-ho ma」の小節。`1B₂` の位置に D♯ が出る。B 長調で、添字 `₂` が短調の印ではないと分かる
+
+読み取った和声は、ハワイアンの定番（II7-V7-I の終止、IV-I-V7-I のサビ）とも合う。
+
+**丸で囲んだ数字の記号（`②` `③`）は未解決。** `1`・`2` とは別の種類の記号で、OCR テキストに
+`3` として2回だけ出ていたのはこれだった。Nā Lei o Hawaiʻi に `②`、Kuʻu Pua i Paoakalani に `③₂` が出る。
+どちらも2拍だけの経過和音で、臨時記号（E♭・F♯）からは減七の和音らしく見える。しかし番号と和音の
+対応を2曲で矛盾なく説明できない。**推測で埋めずに外し、直前のコードを伸ばす形にした**（DDR 016）。
+外したことは各曲の `arrangement` に書いてある。
+
+**権利。** 編曲の Charles E. King は1950年没、コード記号の Ernest K. Kaʻai は1962年没で、
+どちらも1967年以前。1923年の出版で、MIT Libraries が米国で著作権なしと判定している。
+
+### 初心者向けに変えた点
+
+原典のコードを、その曲を弾く時点で習っているコードに合わせた。変えた点は曲データの
+`arrangement` にも書き、曲ページとレッスンの譜面の下に出している。
+
+- **Aloha ʻOe** — 4行目「ʻāhihi」の「hi」に1拍だけ出る D7（原典は B♭7）を外した。
+  D7 は Lesson 13 で習うため。結果として C7 を使わない。**カリキュラムと Lesson 11 は当初「C・C7・F・G7」と
+  書いていたが、原典に C7 は無かった**ので、C・F・G7 に直した
+- **Kaimana Hila** — 「mākou」の「mā」に1拍だけ出る E（原典は B）を外し、直前の C を伸ばした。
+  当初は C7 に置き換えていたが、旋律の B と C7 の B♭ がぶつかるため 2026-09-12 に外した（DDR 019）。
+  「Kaʻalawai」の「wa」に1拍だけ出る A7（原典は E7）も外した。A7 は Lesson 15 で習うため
+
+### 歌詞の表記
+
+歌詞はコードの位置を決めた1923年版の譜面の語句に合わせ、綴り（ʻokina と長音記号）は huapala.org に合わせた。
+Aloha ʻOe は huapala.org と2か所が異なる。
+
+- 1行目: 1923年版「Haʻaheo **e** ka ua」／ huapala.org「Haʻaheo ka ua」
+- 3行目: 1923年版「E **uhai** ana paha」／ huapala.org「E hahai (uhai) ana paha」
+
+## 保留（掲載しない）
+
+権利の裏取りか、コードの出どころが済んでいないため掲載しない曲。**何が足りないか**を書いて残す。
+出典が見つかったら再検討する。
+
+### Hawaiʻi Ponoʻī
+
+- 権利は条件を満たす。原譜（1923年版30ページ）の表記は「Words by King Kalakaua」
+  「Music by Prof. H. Berger」
+  - Kalākaua は1836-1891年。<https://en.wikipedia.org/wiki/Kal%C4%81kaua>
+  - Henri Berger は1844-1929年。<https://en.wikipedia.org/wiki/Henri_Berger>
+- **足りないもの: コードの出どころ。** 1923年版のこのページにはコード記号が1つも無い。
+  ピアノ譜から和声を読み取ることになり、ほかの曲と根拠の強さが揃わない（DDR 016）。
+  コード記号の付いた1929年より前の版が見つかれば載せられる
+
+### On the Beach at Waikiki
+
+- 作曲 Henry Kailimai は1948年没で、日本側の条件を満たす
+- 楽譜は Sherman, Clay & Co. から1915〜1916年に出ており、米国側の条件も満たす見込み
+- **不明: 作詞 G. H. Stover の没年。** 作詞者が1967年より後に没していれば日本では保護期間中になる
+
+### Kāua i ka Huahuaʻi
+
+- 詞・曲ともに Prince Leleiohoku II（1854-1877）で、日本側の条件を満たす
+- **不明: 出版年。** 1860年代の作とされるが、作曲年は出版年ではない。
+  1929年より前の出版記録を見つける必要がある
+
+### 1923年版にある候補で、作者の没年が追えていない曲（2026-09-18 調査）
+
+2026-09-18 に 1923年版の目次を通して見て、次の曲を原譜ページで確かめた。いずれも 1929年より前の
+著作権表示があり米国側は満たすが、**作者の没年が確定しないため日本側の判定が終わらない**。
+没年が機関の記録で分かれば載せられる。
+
+| 曲（1923年版のページ） | 原譜の作者表記 | 足りないもの |
+|---|---|---|
+| Mai Poina ʻOe Iaʻu（138） | "Arranged by Chas. E. King" のみ。© 1916 | 作者の表記が無い。huapala.org は Lizzie Doirin（本名 Elizabeth Kahau Alohikea）とし、初出版を 1907年とする。**没年が不明** |
+| Nani Wale Līhuʻe（67） | "Prince Leleiohoku & Kamakau"。© 1916 | Leleiohoku（1854-1877）は満たす。**共作者 Kamakau が誰か、没年が不明** |
+| Kuʻu Lei Mokihana（120） | 詞 Mary Ann Bush・曲 Chas. E. King。© 1916 | **作詞者 Mary Ann Bush の没年が不明** |
+| Lei Poni Moʻi（132） | W. J. Coelho、arr. King。© 1923 | **Coelho の没年が不明**。丸囲みの記号 ①② もある（DDR 016） |
+| Liliʻu E（119） | John Kaulia。© 1923 | huapala.org は詠唱 Antone Kaoʻo・曲 John Kaulia。**2人とも没年が不明** |
+| Sweet Lei Lehua — A Slow Hula（78） | George Awai。© 1915 | **Awai の没年が不明** |
+
+### 次に載せられる候補（権利は通る見込み。未着手）
+
+- **Sweet Lei Lehua（74ページ）** — 作者表記 "KING KALAKAUA"（1836-1891）、© 1916。歌詞は英語が主体。
+  C 長調で、記号は 1C・2F・1F・2G・2C（C・C7・F・D7・G7）と丸囲みの ② が1か所。
+  16小節あり、丸囲みの記号は外して直前のコードを伸ばす（DDR 016）
+
+## 除外（掲載できない）
+
+判定を誤りやすい例。作曲者だけを見て判断すると通してしまう。
+
+| 曲 | 除外理由 |
+|---|---|
+| 夕焼小焼 | 作詞の中村雨紅が1972年没。2042年まで保護 |
+| 椰子の実 | 作曲の大中寅二が1982年没。2052年まで保護 |
+| 赤とんぼ | 日本では満了しているが、1927年発表のため米国の保護が継続中 |
+| Ke Kali Nei Au の英語詞 | 1958年の Hoffman / Manning 詞は保護期間中。King のハワイ語詞のみ扱う |
