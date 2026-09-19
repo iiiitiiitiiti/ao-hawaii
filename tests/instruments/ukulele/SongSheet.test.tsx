@@ -17,7 +17,7 @@ vi.mock("../../../src/instruments/core/audio/output/context", () => ({
 // 時計を持たないスケジューラに差し替え、予約と通知をテストから直接呼ぶ
 const scheduler = vi.hoisted(() => ({ options: null as SchedulerOptions | null, running: false }));
 vi.mock("../../../src/instruments/core/audio/output/scheduler", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("../../src/core/audio/output/scheduler")>();
+  const actual = await importOriginal<typeof import("../../../src/instruments/core/audio/output/scheduler")>();
   return {
     ...actual,
     createScheduler: (options: SchedulerOptions) => {
