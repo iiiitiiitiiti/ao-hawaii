@@ -23,3 +23,7 @@ Kaulana Nā Pua 第1連の「Palapala ʻānunu」を「Palapala ʻanunu」に改
 ## 検証
 
 wehe.hilo.hawaii.edu で ʻanunu・ʻālunu を引き、PE・Andrews（1865）・Parker（1922）・Judd/Pukui/Stokes（1943）の記述を確認した。`npm test` で曲データの「語の連結＝行」の検査が通ることを確認した。
+
+## 追記（2026-09-21）— ʻanunu を底本の ʻānunu に戻した
+
+決定の前提「PE では長い ā の ʻānunu はウリ科の植物だけ」が半分しか当たっていなかった。PE には別に `ʻānulu` の見出しがあり、「Variants of ʻālunu, greed」として長い ā の `ʻānunu` を立て、この曲のこの行そのもの（Palapala ʻānunu me ka pākaha, Elbert and Mahoe 63 = greedy document of extortion）を例文に引いている。底本（Elbert & Mahoe／huapala）と PE が一致するので、綴りを `ʻānunu` に戻し、曲ページ・Mōʻaukala 04・ʻŌlelo 07 を揃えた。「底本の綴りが PE の見出しでは別の語になる場合は PE に合わせる」という規則自体は変えない。教訓: 見出し語の検索は歌詞の綴りそのものだけで止めず、同義の見出し（ʻālunu・ʻānulu）の例文まで見る。
