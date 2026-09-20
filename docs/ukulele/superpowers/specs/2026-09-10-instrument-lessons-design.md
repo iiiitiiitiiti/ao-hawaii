@@ -58,7 +58,7 @@
 | Stage 2 | F | 2 0 1 0 | 全曲 |
 | Stage 2 | G7 | 0 2 1 2 | 全曲 |
 | Stage 3 | C7 | 0 0 0 1 | Kuʻu Pua i Paoakalani |
-| Stage 4 | D7 | 2 2 2 3 | Kuʻu Pua i Paoakalani（1小節で2回替わる箇所） |
+| Stage 4 | D7 | 2 0 2 0（ハワイアンの根音なし形。セーハ形 2 2 2 3 は注記のみ。2026-09-21 訂正） | Kuʻu Pua i Paoakalani（1小節で2回替わる箇所） |
 | Stage 4（応用） | Am, Em, Dm, A7 | 2 0 0 0 / 0 4 3 2 / 2 2 1 0 / 0 1 0 0 | 外部コード譜を読むため |
 
 ### レッスン一覧
@@ -189,7 +189,7 @@ content/
 | 曲 | 作者 | 没年 | 判定 | 使用コード |
 |---|---|---|---|---|
 | When the Saints Go Marching In（聖者の行進） | 作者不詳（黒人霊歌、19世紀） | — | 伝承曲・PD | C, F, G7 |
-| Aloha ʻOe | Queen Liliʻuokalani | 1917 | 1967年以前に没 → PD | C, C7, F, G7 |
+| Aloha ʻOe | Queen Liliʻuokalani | 1917 | 1967年以前に没 → PD | C, F, G7（DDR 015 で C7 を外した） |
 | Kuʻu Pua i Paoakalani | Queen Liliʻuokalani（1895年作・1917年出版の King 編曲版） | 1917 | 1967年以前に没 → PD | C, C7, D7, F, G7 |
 
 歌詞も同じ根拠で掲載可。
