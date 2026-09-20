@@ -15,7 +15,7 @@ export const kuuPuaIPaoakalani: Song = {
    * ③（丸囲み）は読み方が確定していないので外した。
    */
   sheet: `
-[C]E ka gentle breeze e [C7]pa mai [F]nei
+[C]E ka gentle breeze e [C7]pā mai [F]nei
 [D7]Hoʻohāliʻa[G7]liʻa mai ana [C]iaʻu
 E kuʻu sweet never fad[C7]ing flow[F]er
 I pua i ka [C]uka [G7]o Paoakala[C]ni
@@ -40,7 +40,7 @@ O ka [D7]uka o Uluhaimala[G7]ma
    */
   meaning: [
     {
-      line: "E ka gentle breeze e pa mai nei",
+      line: "E ka gentle breeze e pā mai nei",
       meaning: "やさしい風よ、いま吹いてくる風よ",
     },
     {
@@ -85,7 +85,7 @@ M:4/4
 L:1/16
 K:C
 "C"G3 G1 | e6 B2 d2 c2 "C7"G2 G2 | "F"A8- "D7"A2 c1- c1 B2 A2 | "G7"G8- G2 A2 G2 F2 | "C"E8- E2 G2 G2 G2 |
-w: E ka gen-tle breeze e pa mai nei _ Hoʻo _ hā-liʻa liʻa _ mai a-na iaʻu _ E ku-ʻu
+w: E ka gen-tle breeze e pā mai nei _ Hoʻo _ hā-liʻa liʻa _ mai a-na iaʻu _ E ku-ʻu
 e6 B2 d2 c2 "C7"G2 E2 | "F"A8- A2 c2 B2 A1 A1 | "C"G6 ^F1 G1 "G7"A1 G1 c1 B1 d3 c1 | "C"c12 G2 G2 |
 w: sweet nev-er fad-ing flow-er _ I pua i ka u-ka _ o Pa-o-a-ka-la-ni ʻI-ke
 "G7"d6 B1 B1 G2 A2 F2 A2 | "C"G8- G4 c2 c2 | "D7"c2 c4 A2 A2 d2 d2 e2 | "G7"d8- d2 ^F1 G1 A1 B1 c1 d1 |
