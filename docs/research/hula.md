@@ -754,3 +754,7 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 
 - kahiko と ʻauana の対比: ハワイ州観光局は kahiko を「儀礼の一部またはその延長として oli に乗せ打楽器を伴う」、ʻauana を「儀礼を伴わない、より形式ばらない hula。歌と guitar・bass・steel guitar・ʻukulele の伴奏」と説明。衣装と言語の違いは同ページに記述なし（Lesson 02 の表からその2行を外した）。 https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/Hula
 - Papa Lehua の出典は moolelo.md の同日追記を参照（Ka Wai Ola 2023-08-01）。
+
+## 2026-09-21 追記
+
+- L6 の話者数: DBEDT『Non-English Speaking Population in Hawaii』（2016年4月、ACS 2010–2014）で、家庭でハワイ語を話す5歳以上は州全体 18,400人。詳細は `moaukala.md` の 2026-09-21 追記 — https://files.hawaii.gov/dbedt/economic/data_reports/Non_English_Speaking_Population_in_Hawaii_April_2016.pdf

@@ -506,3 +506,9 @@
 ## 2026-09-18 追記（改稿時に見つけた出典）
 
 - Hawaii v. Office of Hawaiian Affairs, 556 U.S. 163 (2009): 判決要旨2「The Apology Resolution did not strip Hawaii of its sovereign authority to alienate the lands the United States held in absolute fee and granted to the State upon its admission to the Union.」 https://www.law.cornell.edu/supct/html/07-1372.ZS.html
+
+## 2026-09-21 追記（夜間の読み直しで当たった一次資料）
+
+- **kapu の個別規定の原典**: Malo『Hawaiian Antiquities (Moolelo Hawaii)』Emerson 訳 1903（Internet Archive `hawaiianantiquit00malouoft`、全文テキストあり）。第11章「Eating under the kapu system」13節（p.52–53）: 女性に禁じられた食物は pork, bananas, cocoanuts と特定の魚介（ulua, kūmū〈赤い魚、供犠用〉, niuhi サメ, ウミガメ, ʻea, pahu, naiʻa, 鯨, nuao, hāhālua〈エイ〉, hailepo）で、見つかれば死刑。第18章「The aliis and the common people」32節（p.83–84）: kapu moe の首長は原則夜に出歩き、昼は先触れが「kapu! moe!」と叫んで全員が伏す。立ったままの者は死刑。Kīwalaʻō がこの kapu を持った。kapu noho の語は Malo の本文（OCR）では見つからず、Wikipedia の記述のまま — https://archive.org/details/hawaiianantiquit00malouoft
+- **1959年住民投票の設問文**: statehoodhawaii.org「Statehood Plebiscite」が投票用紙の図版を掲げ、Proposition 1 は「Shall Hawaii immediately be admitted into the Union as a State?」、答えは Yes／No のみ。同ページは国連決議742(VIII)（1953）の「独立を含む複数の選択肢」要件との対比も論じる（主権運動側のサイトである点は踏まえる）。上の「要追加裏取り」（レッスン5の節）はこれで二次資料2つになった — https://www.statehoodhawaii.org/plebiscite/
+- **ハワイ語の話者数の一次資料**: DBEDT『Non-English Speaking Population in Hawaii』（2016年4月、ACS 2010–2014 5年推計）Table 1 統計: 家庭でハワイ語を話す5歳以上は州全体 18,400人（非英語話者の5.6%、英語を「very well」と話す割合 81.7%）。郡別: Honolulu 5,000（表の並びから）、Hawaiʻi 郡では最多の非英語言語で16%。Wikipedia の「2016年 約18,000」はこの数字と一致する。なお ACS 2016 以降の詳細言語表（B16001）では Hawaiian が「Ilocano, Samoan, Hawaiian, or other」に統合され、単独の数字は出ない（Data Book Table 1.43, 2019–2023 で確認） — https://files.hawaii.gov/dbedt/economic/data_reports/Non_English_Speaking_Population_in_Hawaii_April_2016.pdf
