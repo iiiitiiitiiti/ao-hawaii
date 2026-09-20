@@ -34,7 +34,7 @@
 - 【未確認】昆虫単体の固有率97〜98%という数値は検索結果に複数現れたが、一次資料（Bishop Museum Howarth 1990 PDF）を直接開いても該当する単一のパーセンテージ表記は確認できなかった。裏取り失敗。
 
 ### 適応放散の例
-- ハワイミツスイ（honeycreepers）: スズメ目フウキンチョウ（rosefinch）系の単一祖先が約5〜6百万年前に到達し、60種以上に適応放散した。最も急激な多様化は約2.5〜3.5百万年前の約100万年間に起き、Oʻahu島・Maui Nui島群の形成時期と相関する。現存は17種のみ。 https://pmc.ncbi.nlm.nih.gov/articles/PMC13462372/
+- ハワイミツスイ（honeycreepers）: ユーラシア産のマシコ類（rosefinch、Carpodacus 属に近い）系〈2026-09-21 訂正: 旧記述「スズメ目フウキンチョウ」は取り違え〉の単一祖先が約5〜6百万年前に到達し、60種以上に適応放散した。最も急激な多様化は約2.5〜3.5百万年前の約100万年間に起き、Oʻahu島・Maui Nui島群の形成時期と相関する。現存は17種のみ。 https://pmc.ncbi.nlm.nih.gov/articles/PMC13462372/
 - ハワイミツスイのうち化石記録のみで知られる（既に絶滅した）種が18種ある。 https://home.nps.gov/teachers/classrooms/hawaiian-honeycreepers-and-adaptive-radiation.htm
 - ロベリア類（lobeliads, Campanulaceae）: 6属125種以上（Cyanea 70種以上、Clermontia 22種、Delissea 9種など）で構成され、単一のLobelia様祖先が約1,300万年前に到達し適応放散した。海洋島の植物クレードとしては最大級とされる。 https://en.wikipedia.org/wiki/Hawaiian_lobelioid （原典 Givnish et al. 2008, Proc. R. Soc. B。同論文本体は403エラーでアクセス不可のため未直接確認）
 - ハワイのショウジョウバエ（Hawaiian Drosophila）: Drosophila属とScaptomyza属を合わせて在来種は約800種。全種が単一の祖先種（受精した1匹のハエ）に由来すると考えられている。 https://www.ncbi.nlm.nih.gov/books/NBK208861/

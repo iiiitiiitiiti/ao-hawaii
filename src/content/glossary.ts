@@ -174,6 +174,9 @@ export const GLOSSARY: Term[] = [
   { id: "kahako", hawaiian: "kahakō", meaning: "長母音を示す横線（マクロン）。長さと強勢の両方を表す", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
   { id: "olelo-hawaii", hawaiian: "ʻōlelo Hawaiʻi", meaning: "ハワイ語。ʻōlelo は「ことば、話す」", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C5%8Dlelo", checkedAt: "2026-09-18" },
   { id: "puke-wehewehe", hawaiian: "puke wehewehe ʻōlelo", meaning: "辞書。wehewehe は「説明する」", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=wehewehe", checkedAt: "2026-09-18" },
+  { id: "ka-ke", hawaiian: "ka / ke", meaning: "定冠詞。a・e・o・k で始まる語の前では ke（例外語あり）", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ka", checkedAt: "2026-09-21" },
+  { id: "na-plural", hawaiian: "nā", meaning: "複数の定冠詞。常に長母音", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=n%C4%81", checkedAt: "2026-09-21" },
+  { id: "he-article", hawaiian: "he", meaning: "不定冠詞。「〜である」の He 文を作り、所有詞と組むと「持っている」", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=he", checkedAt: "2026-09-21" },
   { id: "kai-article", hawaiian: "kaʻi", meaning: "（文法用語）冠詞類。名詞の前に1つだけ付く", note: "ka/ke/nā/he と所有詞・指示詞を含む", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
   { id: "kinoa", hawaiian: "kinoʻā", meaning: "（文法用語）所有の a クラス。自分が作る・選べる・支配下にある関係", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
   { id: "kinoo", hawaiian: "kinoʻō", meaning: "（文法用語）所有の o クラス。選べない・生まれつき・身につける・乗る関係", category: "olelo", sourceUrl: "https://hawaiian-grammar.org/current/Elements%20of%20Hawaiian%20Grammar.pdf", checkedAt: "2026-09-18" },
@@ -185,7 +188,7 @@ export const GLOSSARY: Term[] = [
   { id: "aia", hawaiian: "aia", meaning: "そこに〜がある（存在・場所文）。「〜次第」の意も", note: "eia は「ここに」。動詞マーカーを取らない", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=aia", checkedAt: "2026-09-18" },
   { id: "aaole", hawaiian: "ʻaʻole", meaning: "いいえ、〜ない。否定詞", note: "ʻaʻohe は ʻaʻole＋he の縮約", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=%CA%BBa%CA%BBole", checkedAt: "2026-09-18" },
   { id: "o-subject", hawaiian: "ʻo", meaning: "主語標識。人名・wai・ia の前に特によく立つ。同格も表す", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=%CA%BBo", checkedAt: "2026-09-18" },
-  { id: "ia-object", hawaiian: "iā", meaning: "目的語・場所の標識 i が、代名詞・wai・人名の前で取る形", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=i%C4%81", checkedAt: "2026-09-18" },
+  { id: "ia-object", hawaiian: "iā", meaning: "目的語・場所の標識 i が、代名詞・wai・人名・地名の前で取る形", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=i%C4%81", checkedAt: "2026-09-18" },
   { id: "ua", hawaiian: "ua", meaning: "完了の動詞マーカー。「〜した」「〜になった」", note: "否定文・従属節では i に替わる", category: "olelo", sourceUrl: "https://www.wehewehe.org/?q=ua", checkedAt: "2026-09-18" },
   { id: "e-ana", hawaiian: "e … ana", meaning: "未完了の動詞マーカー。継続・持続。時制は文脈で決まる", category: "olelo", sourceUrl: "https://puke.ulukau.org/ulukau-books/?a=d&d=EBOOK-HAWAIIANGRAMMAR", checkedAt: "2026-09-18" },
   { id: "ke-nei", hawaiian: "ke … nei", meaning: "現在進行（話し手の近く）。ke … lā は遠い", category: "olelo", sourceUrl: "https://www.wehewehe.org/gsdl2.85/cgi-bin/hdict?a=d&d=D7752", checkedAt: "2026-09-18" },
@@ -290,7 +293,9 @@ export const GLOSSARY: Term[] = [
   { id: "punana-leo", hawaiian: "Pūnana Leo", meaning: "「声の巣」。ハワイ語イマージョンの幼稚園（1984年〜）", category: "moaukala", sourceUrl: "https://www.ahapunanaleo.org/history-hl-1", checkedAt: "2026-09-18" },
   { id: "kaiapuni", hawaiian: "Kaiapuni", meaning: "ハワイ語イマージョン教育プログラム（Ka Papahana Kaiapuni、1987年〜）", category: "moaukala", sourceUrl: "https://files.eric.ed.gov/fulltext/ED523186.pdf", checkedAt: "2026-09-18" },
   { id: "aupuni", hawaiian: "aupuni", meaning: "政府、国家", category: "moaukala", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=aupuni", checkedAt: "2026-09-18" },
-  { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈で使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
+  { id: "mokuaweoweo", hawaiian: "Mokuʻāweoweo", meaning: "Mauna Loa の山頂カルデラ。2022年11月の噴火はここから始まった", category: "aina", sourceUrl: "https://www.usgs.gov/volcanoes/mauna-loa", checkedAt: "2026-09-21" },
+  { id: "amakihi", hawaiian: "ʻamakihi", meaning: "ハワイミツスイの一種（Chlorodrepanis virens ほか）。黄緑色で、低地の個体群は鳥マラリアへの耐性を進化させつつある", category: "mea-ola", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBamakihi", checkedAt: "2026-09-21" },
+  { id: "kuleana", hawaiian: "kuleana", meaning: "責任、権利、受け持ち。庶民が耕作・居住する土地区画（1850年の Kuleana Act）", note: "年下の弟（人）が年上の兄（kalo）を世話する責任、の文脈でも使う", category: "moolelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=kuleana", checkedAt: "2026-09-18" },
 ];
 
 export function findTerm(id: string): Term | undefined {
