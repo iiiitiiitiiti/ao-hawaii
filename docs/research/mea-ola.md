@@ -75,7 +75,7 @@
 
 ### 確認問題のネタ（3つ）
 1. ハワイ諸島に在来の陸生哺乳類は何種いるか、その名前と絶滅危惧種指定の有無を問う（正解: 1種＝ʻōpeʻapeʻa、絶滅危惧種指定あり）。
-2. ハワイミツスイはもともと何種存在し、単一のどのような祖先から適応放散したかを問う（正解: 60種以上、スズメ目フウキンチョウ系の単一祖先から）。
+2. ハワイミツスイはもともと何種存在し、単一のどのような祖先から適応放散したかを問う（正解: 60種以上、ユーラシア産のマシコ類の単一祖先から）。
 3. ハワイの在来植物相が現在の姿になるまでの「1種あたりの平均定着間隔」の推定値を、植物と昆虫それぞれについて問う（正解: 植物 約10万年に1種、昆虫 約17万5千年に1種）。
 
 ### 画像候補（Wikimedia Commons）
@@ -504,3 +504,14 @@ Maui Nui Botanical Gardenによれば、1988年にハワイ州議会が「在来
 - ʻiliahi（白檀）交易: 1790年 John Kendrick が Kauaʻi で発見、Kamehameha I の kapu と独占（1809〜12）、1826-12-27 の最初の成文税法（男子は白檀 半 picul かスペインドル4枚）、1829年ごろ資源枯渇で衰退、植え直しをしない伐採と畑の放棄による飢饉。 https://guides.loc.gov/this-month-in-business-history/december/hawaiis-first-written-tax-law-sandalwood-trade
 - 同・終息を1840年とし、飢饉に触れる。 https://keolamagazine.com/land/the-story-of-iliahi/
 - 野生化ヤギ: Cook が1778-02-01 に Niʻihau へ雄1・雌2、1779年 Kealakekua 湾、Vancouver が1792-03-13 に Kauaʻi へ1つがい。HAVO は1927〜31年に17,389頭、1955〜70年に31,000頭超を除去してもなお約14,000頭。1969年からの Kūkalauʻula 柵囲い実験で2年で在来植物が戻り、未知の Canavalia（ʻāwikiwiki）が出現。1971年から柵で区画、1980年代初めに「ほぼヤギなし」。W. E. Bonsey（NPS ボランティア）『Goats in Hawaiʻi Volcanoes National Park: A Story to be Remembered』 http://www.drylandforest.org/wp-content/uploads/2019/01/Goats-4-26-11_508.pdf
+
+## 2026-09-21 追記（夜間の読み直しで当たった出典）
+
+- **koa の仮葉（phyllode）**: Wikipedia「Acacia koa」— 生後6〜9か月ごろから鎌形の phyllode が出て、本来の複葉は置き換わる。旧記述の「裏取り失敗」はこれで出典1つ（本文で名指し） — https://en.wikipedia.org/wiki/Acacia_koa
+- **野生化した豚と木生シダ**: Murphy, Inman-Narahari, Ostertag & Litton 2014, *Biological Invasions* 16: 63–71「Invasive feral pigs impact native tree ferns and woody seedlings in Hawaiian forest」— ハワイ島の湿潤山地林で1年に木生シダ個体の13%が豚の被害。被害の大きい個体は幹の伸びが4〜27%減り、年間の枯死率が最大34%高い。ForestGEO の紹介ページで要旨を確認 — https://link.springer.com/article/10.1007/s10530-013-0503-2 ／ https://forestgeo.si.edu/invasive-feral-pigs-impact-native-tree-ferns-and-woody-seedlings-hawaiian-forest
+- **ʻōhiʻa の占有率と面積**: Don't Move Firewood「Ceratocystis wilt of ʻōhiʻa」—「ʻŌhiʻa trees overwhelmingly dominate approximately 80% of Hawaii's remaining native forest」「ʻŌhiʻa forests cover 865,000 acres」（本文で名指し、Sources に追加） — https://www.dontmovefirewood.org/pest_pathogen/ceratocystis-wilt-ohi-html/
+- **LFA とペットの角膜混濁**: Hawaii Ant Lab（UH CTAHR）「Impacts of Little Fire Ants」—「animals in LFA infested areas suffer high rates of skin irritations and tropical keratopathy, a clouding of the corneas resembling cataracts」。Wetterer & Porter 2003 への帰属は外した — https://littlefireants.com/impacts/
+- **Haleakalā のウィルダネス**: NPS「Wilderness」— 指定ウィルダネスは 24,719 エーカー。公園総面積は NPS ページで確認できず、「80%」の割合は本文から外した（Wikipedia の 33,265 エーカーで割ると74%） — https://www.nps.gov/hale/planyourvisit/wilderness.htm
+- **waiawī の水消費27%**: BWS の2020年 PDF は404、DLNR の2014年発表（nr14-025）は curl・WebFetch とも403、Civil Beat 2020 の記事には数値なし。出典が開けないので本文から27%を外した（開ける出典が取れたら戻す）
+- **naiʻa の kapu**: wehe.hilo.hawaii.edu の naiʻa 検索結果。Pukui-Elbert 1986 の項は「Porpoise, dolphin」だけで、女性の kapu を書くのは同ページに併載の Andrews 1865「The naia was forbidden to women to eat」と Kent 1986「kapu to women」— https://wehe.hilo.hawaii.edu/?q=nai%CA%BBa
+- **ʻamakihi**: PE「A group of small endemic Hawaiian honey creepers, Loxops virens」（用語集に追加） — https://wehe.hilo.hawaii.edu/?q=%CA%BBamakihi

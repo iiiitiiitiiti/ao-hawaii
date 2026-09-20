@@ -13,6 +13,7 @@ npm run dev        # http://localhost:5173/ao-hawaii/
 npm run lint       # 型検査
 npm test           # 画像の記録・表記・用語集・全レッスン描画の検査
 npm run build
+npm run links      # 本文と出典欄の外部リンクを全部叩いて、切れているものを一覧（数分かかる）
 ```
 
 ## 講座

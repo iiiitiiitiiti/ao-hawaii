@@ -535,3 +535,9 @@
 13. **Kamehameha Schools 資料の下位区分の綴り**（lele、moʻo、pauku、kīhāpai、kōʻele、poʻolimu/poʻoliuna）。PDF のスキャン品質が低く OCR が乱れているため、最後の語の綴りは要再確認。 https://www.manoa.hawaii.edu/coe/kulia/resources/ahupuaa_maps/OahuAhupuaa.pdf
 14. **loko iʻa の現存・復元数**。ハワイ大学 Sea Grant は「35 団体・49 池」、NOAA Fisheries は「約 40 池が復元段階（2021年5月時点）」。集計基準と時点が違うので、どちらを使うか決めて出典を明記すること。 https://seagrant.soest.hawaii.edu/the-return-of-kuula/ / https://www.fisheries.noaa.gov/feature-story/hawaiian-fishponds-providing-physical-and-cultural-sustenance
 15. **DLNR の「1990 年調査で 488 か所」**。DLNR のサイト（dlnr.hawaii.gov）は本調査時に 403 を返したため直接確認できず。ただし同じ 488 という数字はハワイ大学 Sea Grant が「西洋接触前の推定数」として記載しており、こちらは確認済み。**両者は意味が違う（調査で確認された現存跡数 vs 接触前の推定総数）可能性がある**ので、書き分けに注意。 https://seagrant.soest.hawaii.edu/the-return-of-kuula/
+
+## 2026-09-21 追記（夜間の読み直し）
+
+- Lead の数値は本文の条件語を落とさない（L5「35〜60 ft」は2016年2月の The Eddie の記録値、平常の冬は平均12 ft。L2「同じ島に404インチと8インチ」は Maui と Hawaiʻi 島で別の島）。両方とも本文に合わせて直した
+- L5 の「潮差が小さいから mākāhā が枝の格子で足りる／礁原を歩ける」の因果と、「北太平洋亜熱帯循環の南縁を西へ向かう流れ」は出典が無いので本文から外した（海流の一次資料は末尾の未確認事項のまま）
+- 用語集に Mokuʻāweoweo を追加（出典 USGS Mauna Loa） — https://www.usgs.gov/volcanoes/mauna-loa
