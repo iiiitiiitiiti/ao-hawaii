@@ -157,7 +157,7 @@ export const GLOSSARY: Term[] = [
   { id: "hoaeae", hawaiian: "hoʻāeae", meaning: "静かで感傷的な詠唱の様式。母音を柔らかく引く", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
   { id: "olioli", hawaiian: "olioli", meaning: "温かく、iʻi（声の震え）を極端にした詠唱の様式。語源は「喜ばしい」", category: "hula", sourceUrl: "https://www.gutenberg.org/cache/epub/20299/pg20299.txt", checkedAt: "2026-09-18" },
   { id: "kepakepa", hawaiian: "kepakepa", meaning: "速くリズミカルな朗唱。祈りに用いる", note: "Emerson では「隠語的な言い回し」を指す。指す範囲に注意", category: "hula", sourceUrl: "https://keolamagazine.com/culture/oli/", checkedAt: "2026-09-18" },
-  { id: "pua", hawaiian: "pua", meaning: "花。比喩で子孫、子ら", note: "Kaulana Nā Pua の「花々」はハワイの人々", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pua", checkedAt: "2026-09-18" },
+  { id: "pua", hawaiian: "pua", meaning: "花。PE 3. で「子孫、子ら」", note: "Kaulana Nā Pua の「花々」はハワイの人々", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=pua", checkedAt: "2026-09-18" },
   { id: "halau", hawaiian: "hālau", meaning: "長屋。カヌー小屋、フラを教える場、集会所", note: "辞書の比較語源は PNP *folau（航海）。「hale＋lau」説は辞書に無い", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=halau", checkedAt: "2026-09-18" },
   { id: "uniki", hawaiian: "ʻūniki", meaning: "修了の儀式。hula に限らず lua など古い技芸に共通", note: "辞書は niki（結ぶ）に関係すると推定。Emerson は「初舞台」と定義", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=uniki", checkedAt: "2026-09-18" },
   { id: "ailolo", hawaiian: "ʻailolo", meaning: "修業の終わりを画す儀式。神に捧げた魚・犬・豚の頭、特に脳（lolo）を食べる（ʻai）ことから", note: "形容詞で「熟達した」の意も", category: "hula", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=ailolo", checkedAt: "2026-09-18" },
@@ -233,7 +233,7 @@ export const GLOSSARY: Term[] = [
   { id: "ao-song", hawaiian: "aʻo", meaning: "歌で o（〜の）や ʻo（主語標識）の代わりに使う形", note: "PE aʻo 2.", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=a%CA%BBo", checkedAt: "2026-09-18" },
   { id: "e-intens", hawaiian: "ē", meaning: "強めの小辞。詩では行末の囃子にもなる", note: "呼びかけの ē とは PE で別の番号", category: "olelo", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%C4%93", checkedAt: "2026-09-18" },
   // ---- aina ----
-  { id: "aina", hawaiian: "ʻāina", meaning: "土地、大地、国", note: "「食べさせるもの」の含みで語られる", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C4%81ina", checkedAt: "2026-09-18" },
+  { id: "aina", hawaiian: "ʻāina", meaning: "土地、大地（PE: land, earth。「国」は aupuni）", note: "「食べさせるもの」の含みで語られる", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BB%C4%81ina", checkedAt: "2026-09-18" },
   { id: "mokupuni", hawaiian: "mokupuni", meaning: "島", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=mokupuni", checkedAt: "2026-09-18" },
   { id: "moku", hawaiian: "moku", meaning: "区（島の大区分）、島、切り離された部分", note: "動詞では「切れる」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=moku", checkedAt: "2026-09-18" },
   { id: "mauna", hawaiian: "mauna", meaning: "山。Mauna Loa＝長い山、Mauna Kea＝白い山", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=mauna", checkedAt: "2026-09-18" },

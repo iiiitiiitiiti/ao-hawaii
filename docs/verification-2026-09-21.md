@@ -47,3 +47,10 @@
 
 - 全77ページをスマホ幅・PC 幅で機械計測（はみ出しはメレ一覧の1件だけ。2026-09-19 に修正済み）
 - 外部リンク603本を検査し、切れていた2件（HEAR、Bishop Museum）を差し替え。検査は `npm run links` として残した
+
+## 追加の2班（同夜、後半）
+
+- **Kaulana Nā Pua の逐語注 × PE 辞書**（Opus 1班、17件）: 最重要は綴り。DDR 010 で ʻānunu → ʻanunu に改めた前提が PE の実物と食い違っていた（PE の ʻānulu の項がこの行を ʻānunu で例文に引く）。底本の ʻānunu に戻し、Mōʻaukala 04・ʻŌlelo 07・DDR 010（追記）を揃えた。ほかに、ana（後置。完了・未完了を問わない。ʻŌlelo 04 も修正）、ma hope o の慣用「支持する」（PE がこの曲の行を例文に引く）、puʻu kālā＝sum of money、ʻāina は land（「国」は aupuni。行訳を「この土地の」に統一）、paʻapū の「一丸」を外す、Mano＝Manokalanipō の裏づけ、第5連2行目の A の注、sivila、ʻia は小辞、pua の語義番号、Hono- は3島、出典ラベル
+- **ウクレレ教材 15本**（Opus 1班、15件）: Lesson 10 の図（span はストローク数。半小節で替わる図になっていた）、Lesson 13 のセーハ形 D7（2222 は D6）、Lesson 12 の記法例のずれ、Lesson 14 の「5か所」は6か所、お手本の説明（弱起でメロディは合図の途中から）、Lesson 01 の左手の矛盾、Lesson 08 の小節番号の表、Lesson 02 のチューニング手順、練習の組み合わせぶんの ChordChangeTrainer、Kuʻu Pua の pā mai nei、仕様書の古い記述
+- **用語集の見出し語の機械照合**: wehe.hilo の sourceUrl 159件。haumana（PE の見出し。haumāna は複数）、kūʻauhau・kino lau・kumu の sourceUrl、Waiau（PE に無く Andrews・Parker）を直した
+- **最終レビュー（fable-advisor）**: 新規に書いた9文は資料ノートと一致。指摘4件（aupuni を本文に、kapu の列挙の言い方、ʻamakihi は一群、Bayonet の資料ノート追記）を反映
