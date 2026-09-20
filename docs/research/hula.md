@@ -758,3 +758,8 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 ## 2026-09-21 追記
 
 - L6 の話者数: DBEDT『Non-English Speaking Population in Hawaii』（2016年4月、ACS 2010–2014）で、家庭でハワイ語を話す5歳以上は州全体 18,400人。詳細は `moaukala.md` の 2026-09-21 追記 — https://files.hawaii.gov/dbedt/economic/data_reports/Non_English_Speaking_Population_in_Hawaii_April_2016.pdf
+- L1 の Note に Silva 2000（HJH 34）を足し、「Kamehameha III の時代の許可制」が治世の点でもずれていることを明記（出典は moaukala.md 136行の Silva PDF） — https://evols.library.manoa.hawaii.edu/handle/10524/347
+- L1 の Sonny Cunha に Wikipedia を Sources へ — https://en.wikipedia.org/wiki/Sonny_Cunha
+- L2 の表から「観客との関係」行を削除（Big Island Now への誤帰属。同記事から採ったのは楽器の可否だけ）。Emerson の目次の種目名は28種目を全部並べた
+- L2・L5・L6 の到達点を本文の中身に合わせて書き換えた（ʻālaʻapapa の様式内容・教室の作法・盗用の議論は資料ノートに無い）
+- L6 の「批判が存在する」型の2文を構造の説明に書き換えた（批判の実在は未確認のまま）。年表の出典に ʻAha Pūnana Leo 公式を足した — https://www.ahapunanaleo.org/history-hl-1

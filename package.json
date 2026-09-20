@@ -12,7 +12,8 @@
     "image": "node scripts/fetch-image.mjs",
     "mele:lock": "node scripts/mele-lock.ts",
     "song:lock": "node scripts/song-lock.ts",
-    "icons": "node scripts/make-icons.mjs"
+    "icons": "node scripts/make-icons.mjs",
+    "links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",

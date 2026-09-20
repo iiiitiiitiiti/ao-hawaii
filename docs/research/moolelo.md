@@ -858,3 +858,10 @@ Commons API（`action=query&list=search` + `prop=imageinfo&iiprop=extmetadata`�
 5. **フラはここから始まる — Paliula の放浪**（1行要約）Poliʻahu に夫を奪われた Paliula が Waiʻanae と Kauaʻi で踊りを習う。Kapo（Lesson 04）とつながる線。
 6. **山の名の中の女神 — Kūkahauʻula と Waiau**（1行要約）山頂の cone の伝統名、piko を納める場所、Kāne の聖なる水。Kamakau・Ka-Miki・Kamehameha の記録に出る「Poliʻahu の道と泉」。
 7. **1964年、Puʻu Poliʻahu の上に**（1行要約）女神の名を冠した丘に最初の望遠鏡が建ち、伝統名が新しい名に置き換わった。Mōʻaukala Lesson 05 の2019年へ渡す1〜2行。干上がった Lake Waiau（2013年）も添える。
+
+## 2026-09-21 追記（夜間の読み直し）
+
+- L5「Mānaiakalani は星座（さそり座）の名でもある」は出典0（wehe.hilo に見出し語なし）なので本文から削除。図版候補の但し書きは残す
+- L7 の帰属を直した: Lili-noe（Fine-fog）・Wai-aie（Water-mist）・Kahoupo ʻkane は1919年『Laieikawai』英訳の登場人物表、『Hawaiian Mythology』p.222 は語義なしの列挙。Līlīnoe の洪水譚は Beckwith p.314–315（Fornander 版）で、Westervelt ではない。「kilu 争い（Lesson 03）」の参照は lesson-03 に該当箇所が無いので Beckwith 直接参照に変えた
+- L3 の Pele の落ち着き先は Beckwith 版 Mokuaweoweo／NPS Halemaʻumaʻu を並記し、本サイトは Halemaʻumaʻu を採ると明記。ʻĀina L1 の「Nāmakaokahaʻi に消され」は資料ノートに無いので L3 と同じ「失敗を繰り返し」に揃えた
+- L6 の Westervelt 版の島の分割の内訳（Hilo〜Kohala など）は Fornander 版のものなので削除。引用「戻れ、あなたは山、私は海辺」は資料ノートの訳に戻した。Kahiki-ula → Kahikiula に統一

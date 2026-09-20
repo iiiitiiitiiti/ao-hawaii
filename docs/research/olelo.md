@@ -1189,3 +1189,12 @@ Wikimedia Commons API（`action=query&prop=imageinfo&iiprop=extmetadata|url`）�
 8. **`ʻōpiopio` を HG の型 (3) の例とすること** — HG は `ʻōpio → ʻōpio-pio` を挙げるが、PE の `ʻōpiopio` 項は重複と明記しておらず、関連として「hoʻōpiopio: Reduplication of hoʻōpio」とだけある。本資料の表には入れていない。
 9. **Emerson の `hi-hi-hina`（p.71、Hole Waimea PAUKU 4 第4行「Ua hi-hi-hina wale i ka moe awakea」）** — PE にあるのは `hihina`（hina の重複・複数）。3音節重ねの `hihihina` という形は PE で確認していない。例には採っていない。
 10. **Prendergast の生年の別資料** — findagrave・huapala・Wikipedia の記載とは照合していない（Nordyke & Noyes 1993 のみ）。
+
+## 2026-09-21 追記（夜間の読み直し）
+
+- notation.mdx の w の発音を PE の発音表どおりに直した（u・o のあと w／i・e のあと v／a のあとと語頭は両方）
+- L4 の Quiz に残っていた HG p.168 を p.59 に（2026-09-18 の一括修正の取り残し）。L4 の iā の範囲に地名を戻し、用語集 ia-object も同じに
+- L2 の HG p.137 の二分法から agentive／benefactive を外した（p.137 の表は4組。na/no は9.11節）。kō の注記は「双数・複数の ko」と「HG p.175 の2人称 kō」に分けた（RG p.56 の注記が ko と kou のどちらを指すかは原文未確認）
+- L2 の Quiz の選択肢「mele（普通の会話で）」を lei に差し替え（RG Table 6 は ke mele を例外語に挙げるので、誤答にできない）
+- L1 の PE 前付けの出典を Ulukau 電子版（EBOOK-PED）に分けた。curl では403だがブラウザでは開ける
+- 用語集に ka/ke・nā・he を追加（wehe.hilo の見出し語）
