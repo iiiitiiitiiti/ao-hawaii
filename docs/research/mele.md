@@ -90,3 +90,13 @@
 - 音源: Hoku Zuttermeister『Aina Kupuna』（2007-03-08）trackId 306218623。持ち主指定。
 - 地名: Kāneʻohe（Oʻahu 風上側）、Koʻolau（風上側・山脈）、Mokoliʻi（Kāneʻohe 湾 Kualoa 沖の小島、Chinaman's Hat、字義「小さな moʻo」）— Place Names of Hawaiʻi。
 - カードの解説: Hiʻiaka が moʻo を海に投げ、尾が島になった伝え。作者二人は島の呼び方で意見を分け、Leonard が Al の「小さな島（Mokoliʻiliʻi）」を受け入れて歌ができた。Al は Kāneʻohe 在住。
+
+## He Mele no Kāne（id: he-mele-no-kane）— 2026-09-24 調査
+
+- 底本: Emerson『Unwritten Literature of Hawaii』（1909）第41章「The Water of Kane」、p.257–259（`docs/research/emerson-1909-gutenberg.txt` の 14597–14760行）。本文6連39行、英訳45行、注512–518
+- 権利: 伝承の詠唱で1909年刊。歌詞の規約（1929年より前の出版・作者不詳の伝承）を満たすので全文を公開曲として置く
+- Emerson の位置づけ: 英語圏の聖杯伝説にあたる「the most representative romantico-mystical aspiration」。「This mele comes from Kauai」。Kauaʻi は「less than any other of the group was dazzled by the glamour of royalty」
+- 綴り（DDR 010、PE の見出しに合わせた）: ú-i→ui（PE ui 1. の例文「He ui, a he nīnau kēia (chant)」）、Hae-hae→Haʻehaʻe（Parker 1922「ha'e-ha'e … Name of a cape or promontory in Puna often used in native meles」）、ua-koko→uakoko（PE 見出し ua.koko: 1. a low-lying rainbow, literally blood rain 2. rain so heavy that it turns stream waters red-brown 3. reflection of rainbow colors in the clouds）、alewa-lewa→ʻālewalewa（PE「Buoyant, floating」、Andrews「A cloud or smoke floating in the atmosphere」）、ouli→ʻōuli（PE の ouli 検索で PE 見出しは ʻōuli のみ。aouli 2.＝Variant of ʻōuli）、e-a→ʻeā（PE ʻeā 2. Song refrain）
+- 語義の要点（PE）: ala 3. to rise up, arise／puka 2. … to rise, as the sun／ea 3. To rise, go up／pae 1. cluster, row／ʻōpua puffy clouds … often interpreted as omens／mole 1. tap root, bottom, foundation／kualono 1. region near the mountaintop, ridge／kualau shower accompanied by sea wind／pūnohu to rise, as smoke, mist（connotation of redness）／pōpolohua 1. purplish-blue … 例文「Kai pōpolohua mea a Kāne, the purplish-blue reddish-brown sea of Kāne」／mea 7. reddish-brown／panopano 用例 ao panopano thick cloud／wai hū gushing spring／puna 1. spring／mana 1.／ola
+- Kāne と淡水、Kanaloa と水を探す話: UH Kahoʻiwai「He is associated with freshwater streams, pools, and fishponds. In stories, it is often told that he is in search of freshwater alongside the God Kanaloa」— https://www.hawaii.edu/kawaihapai/akua-list/kane/ 。Emerson 注518（Keʻanae）と合わせて2出典
+- 書かなかったこと: 4行目の Ala を Aia の誤りと読む説（資料なし）。Kaulanakalā・Haʻehaʻe の所在地の特定（Emerson は天の門・現象の名とし、Parker は Puna の岬の名とする。本文ではどちらも名指しで並べた）
