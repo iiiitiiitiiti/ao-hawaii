@@ -770,3 +770,15 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 - 掲載誌名は資料で食い違う（Pacific Islands Studies Teaching Resources は「Contours」5巻1号とする）。本文では誌名を書かない — http://pacificstudies.pbworks.com/w/page/60574508/Lovely%20Hula%20Hands%20(journal%20article)
 - Trask の経歴: Wikipedia「Haunani-Kay Trask」— UH Mānoa 名誉教授、Kamakakūokalani Center for Hawaiian Studies を創設・主宰 — https://en.wikipedia.org/wiki/Haunani-Kay_Trask
 - これで L6「敬意と商業化」の論点に、批判を名指しした一次に近い資料が1つ入った（kumu の資格や歌詞理解をめぐる批判は引き続き未確認で、本文には書かない）
+
+## 2026-09-24 追記（L7「手で語る」の資料）
+
+L7 は Emerson 1909 の第22章「Gesture」（原書 p.176–180、`docs/research/emerson-1909-gutenberg.txt` の 9911–10140行）と p.46–47 の祈り（同 2530–2550行）を1冊の出典として名指しで書いた。今の hālau の型と同じだとは書かない（2つ目の資料が無い）。
+
+- 章の冒頭「Gesture is a voiceless speech, a short-hand dramatic picture.」／「The art of gesture was one of the most important branches taught by the kumu.」／教え方を「inductive」と呼ぶ／「There were no books, no manuals of instruction」／島と地区が政治的に分かれていたことが技の隔たりの理由
+- 教え方: 「Having labored to fix the song … he appointed some one to recite the words … the class … were required to repeat the kumu's gestures in pantomime … That done, the class took up the double task of recitation joined to that of gesture.」
+- 型: pali（手のひらを外へ。越えるなら押し出して登るように揺らす）、手のひらを自分へ向ける型は「less adapted to the hula … the hula demanded the subordination of strength to grace and elegance」、旅（手のひら下で水平に波打たせる）、平地（両腕を広げ手のひら下）、衣（反対の肩へ。「one can lay down no hard and fast rule」、málo・pa-ú・kiheí）、ahuula（肩から地面へ払う）、結びつき（手のひら上で小指を付ける）と不和（片方を返す）、死（指先を離しながら下ろす）と老人の「the king is sick」の実演
+- Hiiaka の場面: 「pressing his thumb, forefinger, and middle finger into a cone, he brought them quickly to his mouth, while he snapped his jaws together like a dog seizing a morsel」。魔物の群れの綴りは Emerson では ma’o（moʻo と同一視する資料は無いので本文では言い換えない）
+- 表情と手招き: mai／komo mai が「the most common of salutations」、近くは手のひらを自分へ向けて払い寄せ、遠くは指を上へ。同意は眉を上げる、不同意は鼻をしかめる、軽蔑は唇と顎、事務的な断りは手の甲を向けて外へ払う
+- 祈り（p.46–47）: 「E Laka i ke kuhi」＝「give gesture」。Emerson は訪問者を olohe と書く
+- 辞書（wehe.hilo の PE 1986 の項）: kuhi 第1義「To point, gesture, as in speaking, directing an orchestra, or dancing the hula」、hula kuhi lima「sitting dance with gestures of hands and swaying of torso」、hoʻokuhi「To teach the art of gesturing in the hula」— https://wehe.hilo.hawaii.edu/?q=kuhi ／ ʻōlohe 第2義「Skilled, especially in lua fighting … also said of hula experts」— https://wehe.hilo.hawaii.edu/?q=%CA%BB%C5%8Dlohe ／ pali「Figuratively, an obstacle, difficulty」— https://wehe.hilo.hawaii.edu/?q=pali ／ kīhei「rectangular tapa garment worn over one shoulder and tied in a knot」— https://wehe.hilo.hawaii.edu/?q=k%C4%ABhei ／ ʻahu ʻula「Feather cloak or cape … formerly worn by high chiefs and kings」— https://wehe.hilo.hawaii.edu/?q=%CA%BBahu%20%CA%BBula ／ komo「Komo mai! Come in, welcome!」— https://wehe.hilo.hawaii.edu/?q=komo
