@@ -24,10 +24,10 @@ npm run links      # 本文と出典欄の外部リンクを全部叩いて、�
 |---|---|---|
 | ʻĀina | 地理と自然環境（成り立ち・地形と気候・ahupuaʻa・火山・海・地名と風雨の名） | 6 |
 | Nā Mea Ola | 生態系（到達と固有種・鳥・植物・海の生きもの・外来種と保全） | 5 |
-| Moʻolelo | 神話（クムリポ・四大神・Pele と Hiʻiaka・Laka と Kapo・Māui と ʻōlelo noʻeau） | 5 |
+| Moʻolelo | 神話（クムリポ・四大神・Pele と Hiʻiaka・Laka と Kapo・Māui と ʻōlelo noʻeau・Kamapuaʻa・Poliʻahu） | 7 |
 | Mōʻaukala | 歴史（到達〜王国〜転覆〜州〜復興） | 5 |
 | Hula | フラ（歴史・kahiko/ʻauana・用語・mele と kaona・hālau と ʻūniki・現在） | 6 |
-| ʻŌlelo Hawaiʻi | ハワイ語文法（音と表記〜関係節と辞書の引き方） | 6 |
+| ʻŌlelo Hawaiʻi | ハワイ語文法（音と表記〜関係節と辞書の引き方・歌の言葉） | 7 |
 
 ## ウクレレ教材（/ukulele）
 
