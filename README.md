@@ -16,6 +16,8 @@ npm run build
 npm run links      # 本文と出典欄の外部リンクを全部叩いて、切れているものを一覧（数分かかる）
 ```
 
+`npm run links` は GitHub Actions（`.github/workflows/links.yml`）でも毎週月曜 06:00 JST に走る。切れたリンクがあるとジョブが失敗し、GitHub から失敗通知のメールが届く。403 などの「要目視」は失敗にしない。
+
 ## 講座
 
 | 講座 | 内容 | 本数 |

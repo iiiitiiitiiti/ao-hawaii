@@ -15,15 +15,15 @@
 - 同列を構成する火山は 80 以上。過去 7,000 万年ほどのあいだにホットスポットの上で次々に生まれた。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html
 - 噴出した溶岩の総量は少なくとも 75 万 km³ と計算されている。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html
 - ハワイ海嶺部分（ハワイ島から Midway まで）だけで約 2,600 km。USGS はこれを「ワシントン D.C. からデンバーまでの距離に等しい」と説明している。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html
-- 太平洋プレートは下位層に対して北西へ年 5〜10 cm の速さで移動している（ハワイ大学 SOEST・Hawaii Center for Volcanology）。 https://www.soest.hawaii.edu/GG/HCV/haw_formation.html
+- 太平洋プレートは下位層に対して北西へ年 5〜10 cm の速さで移動している（ハワイ大学 SOEST・Hawaii Center for Volcanology）。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_formation.html
 - 海山列の「折れ曲がり」＝ Hawaiian–Emperor Bend について、USGS の一般向け解説は「太平洋プレートの運動が約 4,300 万年前に急変した」と書く。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html
 - 一方、専門論文（Torsvik et al., *Nature Communications* 2017）は屈曲の年代を 47 Ma とし、原因を「47 Ma におけるプレート運動の顕著な変化」と結論づける。ホットスポット自身も 80〜47 Ma のあいだに南へ 4〜9° 移動したとする。 https://www.nature.com/articles/ncomms15660
 - → 授業では「約 4,700 万年前（USGS の一般向け資料では約 4,300 万年前とも）」と幅を持たせて書くのが安全。数字が資料によって違う理由自体が良い教材になる。
 - 列の北西端に近い Detroit 海山の火山活動は約 8,000 万年前。列はそこまで約 6,000 km 続く。 https://www.nature.com/articles/ncomms15660
 
 ### 各島・各火山の年代
-- K-Ar 年代（SOEST / Hawaii Center for Volcanology）: Kīlauea 0〜0.4 Ma、Mauna Kea 0.375±0.05 Ma、Kohala 0.43±0.02 Ma、Haleakalā 0.75±0.04 Ma、Kauaʻi 5.1±0.20 Ma、Suiko 海山（南部）59.6±0.6 Ma。 https://www.soest.hawaii.edu/GG/HCV/haw_formation.html
-- 同ページは現在活動中の火山として Mauna Loa（当時の記述で最後の噴火 1984）、Kīlauea（1983 以降噴火中）、Lōʻihi（1996 噴火）を挙げる。休止中として Hualālai（最後 1801）、Haleakalā（最後 約1790）、Mauna Kea（最後 約4,000年前）。 https://www.soest.hawaii.edu/GG/HCV/haw_formation.html
+- K-Ar 年代（SOEST / Hawaii Center for Volcanology）: Kīlauea 0〜0.4 Ma、Mauna Kea 0.375±0.05 Ma、Kohala 0.43±0.02 Ma、Haleakalā 0.75±0.04 Ma、Kauaʻi 5.1±0.20 Ma、Suiko 海山（南部）59.6±0.6 Ma。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_formation.html
+- 同ページは現在活動中の火山として Mauna Loa（当時の記述で最後の噴火 1984）、Kīlauea（1983 以降噴火中）、Lōʻihi（1996 噴火）を挙げる。休止中として Hualālai（最後 1801）、Haleakalā（最後 約1790）、Mauna Kea（最後 約4,000年前）。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_formation.html
 - 島ごとの主要溶岩の年代（Niʻihau・Kauaʻi 5.6〜3.8 Ma、Oʻahu 3.4〜2.2 Ma、Molokaʻi 1.8〜1.3 Ma、Maui 1.3〜0.8 Ma、Hawaiʻi 0.7 Ma 未満）は USGS *This Dynamic Earth* 由来として広く引用されるが、現行の USGS ページ本文では確認できなかった → 未確認事項へ。
 
 ### Kamaʻehuakanaloa（旧 Lōʻihi）
@@ -38,7 +38,7 @@
 - USGS の一般向け資料は「Lōʻihi は海底から約 3 km 隆起し、海面下 1 km まで迫っている」と記す。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html
 
 ### 侵食段階（盾状火山 → 侵食 → 環礁）
-- ハワイの主要島は「ハワイ・ホットスポットで形成された巨大な海底盾状火山の頂上部」。盾状火山は「非常に流動性の高い溶岩が多数積み重なってできた、なだらかな山」。 https://www.soest.hawaii.edu/GG/HCV/haw_volc.html
+- ハワイの主要島は「ハワイ・ホットスポットで形成された巨大な海底盾状火山の頂上部」。盾状火山は「非常に流動性の高い溶岩が多数積み重なってできた、なだらかな山」。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_volc.html
 - 段階の実例として使える対比: Kamaʻehuakanaloa（前盾状／海面下）→ Kīlauea・Mauna Loa（盾状・活動中）→ Haleakalā・Kohala（活動終盤〜休止）→ Kauaʻi・Niʻihau（深い侵食）→ Nihoa・Mokumanamana（岩礁化）→ French Frigate Shoals・Pearl and Hermes・Kure（環礁）。年代順は上記 K-Ar 年代と DBEDT の島別データで裏づけられる。
 - 北西ハワイ諸島の陸地面積は合計 3.100 平方マイル（8.030 km²）しかない。Maro Reef は「Awash（水没）」と記載される。侵食の終着点が数字で見える。 https://files.hawaii.gov/dbedt/economic/databook/db2022/section05.pdf
 - 最高点の低さも段階を示す: Nihoa（Millers Peak）903 ft、Necker Island 276 ft、Gardner Pinnacles 190 ft、Laysan 40 ft、Lisianski 40 ft、Pearl and Hermes Atoll 10 ft、Kure Atoll 20 ft。 https://files.hawaii.gov/dbedt/economic/databook/db2022/section05.pdf
@@ -56,7 +56,7 @@
 | ʻāina | 土地、大地、国 | wehewehe 確認（HD 1986 / MK 2003） https://wehewehe.org/ |
 
 ### 確認問題のネタ（レッスン1）
-1. ハワイ島から北西へ向かうほど島は古くなる。Kauaʻi の約 510 万年に対し Kīlauea は 40 万年以下——この「年齢の並び」が何を証明しているか（プレートが動き、ホットスポットが固定されていること）。 https://www.soest.hawaii.edu/GG/HCV/haw_formation.html
+1. ハワイ島から北西へ向かうほど島は古くなる。Kauaʻi の約 510 万年に対し Kīlauea は 40 万年以下——この「年齢の並び」が何を証明しているか（プレートが動き、ホットスポットが固定されていること）。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_formation.html
 2. 天皇海山列がハワイ海嶺と折れ曲がる地点は何を記録しているか。USGS の一般向け資料（約4,300万年前）と専門論文（47 Ma）で年代が違う理由を考えさせる。 https://pubs.usgs.gov/gip/dynamic/Hawaiian.html / https://www.nature.com/articles/ncomms15660
 3. Kamaʻehuakanaloa が海面に顔を出すのは何年後か。現在の成長速度 1,000 年で 5 m と、山頂の深さ 975 m から計算させる（USGS の見積もりは最大 20 万年）。 https://www.usgs.gov/volcanoes/kama%E2%80%98ehuakanaloa
 
@@ -301,7 +301,7 @@
 - **Pele's tears**: 噴出速度が低いとき、溶けた物質が引き伸ばされずに急冷してできる涙滴形のガラス片。Pele's hair の一端についていることが多い（一次資料未確認 → 末尾参照）。
 - **pāhoehoe**: pā.hoe.hoe nvt.「ʻaʻā と対照的な、滑らかで途切れのない溶岩。pāhoehoe 溶岩になること」。第2義として「サテン（繻子）」——語感がそのまま表面の質感を表す。 wehewehe 確認（HD 1986） https://wehewehe.org/
 - **ʻaʻā**: ʻaʻā nvs.（第2義）「ʻaʻā 溶岩。石だらけの、ʻaʻā 溶岩に富む」。第1義は「燃える、赤く輝く、火」。 wehewehe 確認（HD 1986） https://wehewehe.org/
-- SOEST の解説: pāhoehoe は「なめらか、あるいは縄状の表面をもつ溶岩流」、ʻaʻā は「クリンカー状で粗く、砕けた表面の溶岩流」。pāhoehoe は西洋接触前のハワイ語で文字どおり「滑らかで途切れない、あるいはサテン（布）」を意味し、ʻaʻā は複数の語義のうち「石だらけの」「燃える」がこの命名に関わったと考えられる。 https://www.soest.hawaii.edu/GG/HCV/haw_volc.html
+- SOEST の解説: pāhoehoe は「なめらか、あるいは縄状の表面をもつ溶岩流」、ʻaʻā は「クリンカー状で粗く、砕けた表面の溶岩流」。pāhoehoe は西洋接触前のハワイ語で文字どおり「滑らかで途切れない、あるいはサテン（布）」を意味し、ʻaʻā は複数の語義のうち「石だらけの」「燃える」がこの命名に関わったと考えられる。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_volc.html
 - HAVO が個別ページを立てている火山地形の語: lava tube（溶岩洞）、lava tree / tree mold（溶岩樹型）、pit crater、steam vent・sulphur bank、cinder cone、**kīpuka**（溶岩に囲まれて残った古い植生の島）。 https://www.nps.gov/havo/learn/nature/geological-features.htm
 
 ### ハワイ語の用語（レッスン4）
@@ -321,7 +321,7 @@
 ### 確認問題のネタ（レッスン4）
 1. Kīlauea の地表の 90% が 1,000 年より新しい——この数字が何を意味するか（「山の風景そのものが人の歴史より新しい」）。 https://www.usgs.gov/volcanoes/kilauea/geology-and-history
 2. 2018 年の噴火が「過去 200 年で最も破壊的」とされる理由を、数字（24 の割れ目／35.5 km²／700 棟超／48 km の道路／62 回の山頂陥没）で説明させる。 https://www.usgs.gov/observatories/hvo/news/volcano-watch-five-years-flow-reflections-destructive-2018-eruption-kilauea
-3. pāhoehoe と ʻaʻā の違いを、ハワイ語の語義（「サテン」と「燃える／石だらけ」）から説明させる。命名が観察に基づいていることに気づかせる。 https://wehewehe.org/ / https://www.soest.hawaii.edu/GG/HCV/haw_volc.html
+3. pāhoehoe と ʻaʻā の違いを、ハワイ語の語義（「サテン」と「燃える／石だらけ」）から説明させる。命名が観察に基づいていることに気づかせる。 https://wehewehe.org/ / https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_volc.html
 
 ### 画像候補（レッスン4）
 - `File:Kilauea Fissure 8 cone erupting on 6-28-2018.jpg` — 作者: United States Geological Survey — **Public domain** — 2018年6月28日早朝、下部 East Rift Zone の fissure 8。 https://commons.wikimedia.org/wiki/File:Kilauea_Fissure_8_cone_erupting_on_6-28-2018.jpg
@@ -520,7 +520,7 @@
 
 ## 未確認事項（裏が取れなかったもの・注意が必要なもの）
 
-1. **島ごとの主要溶岩の年代**（Niʻihau・Kauaʻi 5.6〜3.8 Ma、Oʻahu 3.4〜2.2 Ma、Molokaʻi 1.8〜1.3 Ma、Maui 1.3〜0.8 Ma、Hawaiʻi 0.7 Ma 未満）。USGS *This Dynamic Earth* 由来として広く引用されるが、現行の https://pubs.usgs.gov/gip/dynamic/Hawaiian.html 本文では確認できなかった。SOEST の K-Ar 年代（Kauaʻi 5.1±0.20 Ma 等）で代替するのが安全。 https://www.soest.hawaii.edu/GG/HCV/haw_formation.html
+1. **島ごとの主要溶岩の年代**（Niʻihau・Kauaʻi 5.6〜3.8 Ma、Oʻahu 3.4〜2.2 Ma、Molokaʻi 1.8〜1.3 Ma、Maui 1.3〜0.8 Ma、Hawaiʻi 0.7 Ma 未満）。USGS *This Dynamic Earth* 由来として広く引用されるが、現行の https://pubs.usgs.gov/gip/dynamic/Hawaiian.html 本文では確認できなかった。SOEST の K-Ar 年代（Kauaʻi 5.1±0.20 Ma 等）で代替するのが安全。 https://www.soest.hawaii.edu/earthsciences_archive/HCV/haw_formation.html
 2. **Hawaiian–Emperor Bend の年代**が USGS（約 4,300 万年前）と論文（47 Ma）で食い違う。どちらかに断定せず、両論併記が正しい。
 3. **火山の発達段階の標準的な名称と体積比**（preshield / shield / postshield / erosional / rejuvenated / atoll・guyot、各段階の体積割合）。USGS HVO の「Evolution of Hawaiian Volcanoes」相当ページに到達できなかった（URL が 404 / 403）。Kamaʻehuakanaloa ページの「pre-shield と shield のあいだ」という記述までは確認済み。
 4. **Mauna Kea の標高**。ハワイ州 Data Book は 13,796 ft / 4,205 m。近年の測量にもとづく 13,803 ft / 4,207 m という値も流通しているが、NGS 等の一次資料を確認できなかった。授業では Data Book の値を使い、出典を明示するのが安全。

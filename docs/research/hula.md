@@ -763,3 +763,10 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 - L2 の表から「観客との関係」行を削除（Big Island Now への誤帰属。同記事から採ったのは楽器の可否だけ）。Emerson の目次の種目名は28種目を全部並べた
 - L2・L5・L6 の到達点を本文の中身に合わせて書き換えた（ʻālaʻapapa の様式内容・教室の作法・盗用の議論は資料ノートに無い）
 - L6 の「批判が存在する」型の2文を構造の説明に書き換えた（批判の実在は未確認のまま）。年表の出典に ʻAha Pūnana Leo 公式を足した — https://www.ahapunanaleo.org/history-hl-1
+
+## 2026-09-24 追記（観光による商品化への批判）
+
+- **Haunani-Kay Trask「Lovely Hula Hands: Corporate Tourism and the Prostitution of Hawaiian Culture」**: Honolulu Civil Beat（Chad Blair、2021年7月）によれば、学術誌の1991〜92年冬号に載り、ほぼ同文が著書『From a Native Daughter: Colonialism and Sovereignty in Hawaii』に収められた。観光産業（ホテル・航空会社・地主・メディア・州の Hawaii Visitors Bureau など）を「pimps」と呼び、ハワイの土地と文化が売り物にされていると論じる。記事は、この幻想が Bing Crosby・Alfred Apaka・Don Ho らの歌「Lovely Hula Hands」やハリウッドで広まったと書く — https://www.civilbeat.org/2021/07/chad-blair-a-30-year-old-rant-on-hawaii-tourism-still-rings-true/
+- 掲載誌名は資料で食い違う（Pacific Islands Studies Teaching Resources は「Contours」5巻1号とする）。本文では誌名を書かない — http://pacificstudies.pbworks.com/w/page/60574508/Lovely%20Hula%20Hands%20(journal%20article)
+- Trask の経歴: Wikipedia「Haunani-Kay Trask」— UH Mānoa 名誉教授、Kamakakūokalani Center for Hawaiian Studies を創設・主宰 — https://en.wikipedia.org/wiki/Haunani-Kay_Trask
+- これで L6「敬意と商業化」の論点に、批判を名指しした一次に近い資料が1つ入った（kumu の資格や歌詞理解をめぐる批判は引き続き未確認で、本文には書かない）

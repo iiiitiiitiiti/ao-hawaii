@@ -515,3 +515,8 @@ Maui Nui Botanical Gardenによれば、1988年にハワイ州議会が「在来
 - **waiawī の水消費27%**: BWS の2020年 PDF は404、DLNR の2014年発表（nr14-025）は curl・WebFetch とも403、Civil Beat 2020 の記事には数値なし。出典が開けないので本文から27%を外した（開ける出典が取れたら戻す）
 - **naiʻa の kapu**: wehe.hilo.hawaii.edu の naiʻa 検索結果。Pukui-Elbert 1986 の項は「Porpoise, dolphin」だけで、女性の kapu を書くのは同ページに併載の Andrews 1865「The naia was forbidden to women to eat」と Kent 1986「kapu to women」— https://wehe.hilo.hawaii.edu/?q=nai%CA%BBa
 - **ʻamakihi**: PE「A group of small endemic Hawaiian honey creepers, Loxops virens」（用語集に追加） — https://wehe.hilo.hawaii.edu/?q=%CA%BBamakihi
+
+## 2026-09-24 追記（未確認2件の解決）
+
+- **waiawī の水消費27%（解決）**: DLNR の2014年2月14日の発表（nr14-025）をブラウザで開いて確認。Giambelluca 教授（UH Mānoa、地理学）の談話として「A forest of invasive strawberry guava trees can evaporate 27 percent more water than native ʻōhia forests.」。出典1つなので本文では DLNR の発表と Giambelluca 教授を名指しした。数値の意味は「消費」ではなく「蒸発」 — https://dlnr.hawaii.gov/blog/2014/02/14/nr14-025/
+- **Haleakalā 国立公園の総面積（解決）**: NPS Land Resources Division「Listing of Acreage」2026年6月30日時点の xlsx で HALEAKALA NP の Gross Area Acres は 33,489.24（NPS Fee 33,480.65＋Less Than Fee 8.44＋Other Public 0.15）。Wikipedia の 33,265 は2011年の値。指定ウィルダネス24,719エーカーは総面積の約74% — https://home.nps.gov/subjects/lwcf/upload/NPS-Acreage-06-30-2026.xlsx
