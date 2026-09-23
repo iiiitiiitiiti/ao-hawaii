@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { appendFileSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 /**
@@ -87,6 +87,13 @@ await Promise.all(
   }),
 );
 
+// 一時的に落ちているだけのサーバーがある（soest.hawaii.edu など）。切れと出たものは1分おいてもう一度だけ試す
+const suspects = [...results].filter(([, s]) => s === 0 || s === 404 || s === 410).map(([u]) => u);
+if (suspects.length) {
+  await new Promise((r) => setTimeout(r, 60_000));
+  for (const url of suspects) results.set(url, await probe(url));
+}
+
 const dead = [];
 const blocked = [];
 for (const [url, status] of results) {
@@ -98,3 +105,10 @@ const ok = urls.length - dead.length - blocked.length;
 console.log(`\n正常 ${ok} / 要目視（自動アクセス拒否） ${blocked.length} / 切れ ${dead.length}`);
 if (dead.length) console.log(`\n## 切れ\n${dead.sort().join("\n")}`);
 if (blocked.length) console.log(`\n## 要目視\n${blocked.sort().join("\n")}`);
+
+// 週1回の自動実行（.github/workflows/links.yml）で、切れがあればジョブを失敗させて持ち主にメールで知らせる
+if (process.env.GITHUB_STEP_SUMMARY) {
+  const summary = [`正常 ${ok} / 要目視 ${blocked.length} / 切れ ${dead.length}`, ...dead.map((d) => `- ${d}`)].join("\n");
+  appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + "\n");
+}
+if (dead.length) process.exitCode = 1;
