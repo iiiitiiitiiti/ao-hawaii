@@ -14,7 +14,7 @@ export const body: MeleBody = {
           "words": [
             {
               "w": "Ke",
-              "gloss": "動詞の前の ke（ke … nei の ke。ここでは後ろに maila）",
+              "gloss": "ke … lā の ke（PE: present tense at a distance from the speaker。lā は maila の中）",
               "term": "ke-nei"
             },
             {
@@ -24,7 +24,7 @@ export const body: MeleBody = {
             },
             {
               "w": "maila",
-              "gloss": "方向詞 mai（こちらへ）と lā がつながった形。PE は Kaʻula の項の例文でこう綴る",
+              "gloss": "方向詞 mai（こちらへ）と lā（あちら）。PE の見出し maila「The directional mai plus lā」",
               "term": "mai-dir"
             },
             {
@@ -69,16 +69,16 @@ export const body: MeleBody = {
           "words": [
             {
               "w": "Ke",
-              "gloss": "定冠詞",
-              "term": "ka-ke"
+              "gloss": "動詞の前の ke。m で始まる語の前の冠詞は ka になるので、冠詞ではなく動詞の標識と読む（Emerson も shines forth と動詞で訳す）",
+              "term": "ke-nei"
             },
             {
               "w": "mālamalama",
-              "gloss": "輝き、澄んだ光（PE mālamalama 1.）"
+              "gloss": "輝く、澄んで明るい（PE mālamalama 1.）"
             },
             {
               "w": "o",
-              "gloss": "〜の"
+              "gloss": "Niʻihau を示す o（Emerson の訳では Niʻihau が主語）"
             },
             {
               "w": "Niʻihau",
@@ -94,7 +94,7 @@ export const body: MeleBody = {
               "gloss": "穏やかな、凪いだ（PE）"
             }
           ],
-          "ja": "Niʻihau は輝き、海は凪いだ",
+          "ja": "Niʻihau は輝き、凪いでいる",
           "notes": [
             {
               "text": "Emerson の訳は「Nii-hau shines forth in the calm」。"
@@ -133,7 +133,7 @@ export const body: MeleBody = {
           "words": [
             {
               "w": "Ke",
-              "gloss": "動詞の前の ke",
+              "gloss": "ke … lā の ke（PE: present tense at a distance from the speaker。lā は maila の中）",
               "term": "ke-nei"
             },
             {
@@ -142,7 +142,7 @@ export const body: MeleBody = {
             },
             {
               "w": "maila",
-              "gloss": "方向詞 mai（こちらへ）と lā がつながった形。PE は Kaʻula の項の例文でこう綴る",
+              "gloss": "方向詞 mai（こちらへ）と lā（あちら）。PE の見出し maila「The directional mai plus lā」",
               "term": "mai-dir"
             },
             {
@@ -186,7 +186,7 @@ export const body: MeleBody = {
           ]
         },
         {
-          "haw": "No Naue ka hala, no Puna ka wahine,",
+          "haw": "No Naue, ka hala, no Puna ka wahine.",
           "words": [
             {
               "w": "No",
@@ -271,10 +271,10 @@ export const body: MeleBody = {
   ],
   "kaona": [
     "Emerson（1909）の p.56 では、hālau の支度の場面で歌われる。pāʻū を着ける儀式のあとに lei の儀式が続き、頭と首に lei を結びながらこの oli lei を唱えた。Emerson は同じ箇所で、昔は体を花で覆い尽くさず、神々が喜ぶのは ʻilima・lehua・maile・ʻieʻie のようなその土地の花だけだった、とも書く。",
-    "Emerson は p.212 で、この歌の始まりを Hiʻiaka の物語に置く。Lohiʻau を迎えに行く旅の途中、Hiʻiaka は Wahineʻōmaʻo と Maui の Kahakuloa の高台から、手足を失った女が浜の岩の上で踊っているのを見た。女は幽霊で、Wahineʻōmaʻo には見えない。Hiʻiaka が首の lei から hala の実を一つ取って投げると、女は喜んでその香りをかいだ。女がそれに感謝して返したのがこの歌で、hula の人々が lei の歌として用いるようになった、という。",
-    "物語で Hiʻiaka が投げたのは hala の実で、詠唱の4・5行目にも Naue の hala が出てくる。5・6行目の「Puna の女」「Kīlauea の火口から」の女を、Emerson の注125 は Pele とする。"
+    "Emerson は p.212 で、この歌の始まりを Hiʻiaka の物語に置く。この物語は、まず hula muʻumuʻu（手足を失った者の踊り）の起こりとして語られる。Lohiʻau を迎えに行く旅の途中、Hiʻiaka は Wahineʻōmaʻo と Maui の Kahakuloa の高台から、手足を失った女が浜の岩の上で踊っているのを見た。女は幽霊で、Wahineʻōmaʻo には見えない。Hiʻiaka が首の lei から hala の実を一つ取って投げると、女は喜んでその香りをかいだ。女がそれに感謝して返したのがこの歌で、hula の人々が lei の歌として用いるようになった、という。",
+    "5・6行目の「Puna の女」「Kīlauea の火口から」の女を、Emerson の注125 は Pele とする。"
   ],
-  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.56 の本文（Oli Lei）に拠る。p.212 に同じ歌が再び載り、1行目の末が e-e!、5行目の Naue のあとの読点が無い。綴りは DDR 010 に従い PE の見出しと例文に合わせた。1行目は PE の Kaʻula の項の例文どおり mai la を maila と書き、4行目も同じにした（Ka-ula→Kaʻula、Niihau→Niʻihau、malamalama→mālamalama、malie→mālie、Inu-wai→Inuwai、na→nā、no→nō、Kilauea→Kīlauea）。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。",
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.56 の本文（Oli Lei）に拠る。p.212 に同じ歌が再び載り、1行目の末が e-e!、5行目の Naue のあとの読点が無く行末が読点になっている。句読点は p.56 に従った。綴りは DDR 010 に従い PE の見出しと例文に合わせた。1・4行目の mai la は、PE の見出し maila（The directional mai plus lā）と Kaʻula の項の例文「Ke lei maila ʻo Kaʻula i ke kai (UL 56)」に合わせて maila と書いた（Ka-ula→Kaʻula、Niihau→Niʻihau、malamalama→mālamalama、malie→mālie、Inu-wai→Inuwai、na→nā、no→nō、Kilauea→Kīlauea）。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。",
   "sources": [
     {
       "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）p.56「Oli Lei」、p.212–213（Project Gutenberg 全文）",
