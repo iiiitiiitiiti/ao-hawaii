@@ -9,6 +9,22 @@ export type QuizItem = {
   why: string;
 };
 
+/**
+ * 選択肢を出す順（元の添字の並び）。本文では正解を2番目に置いた問題が多く、位置で当たってしまうので、
+ * 問題文から決まる順に並べ替える。同じ問題はいつ開いても同じ順になる。
+ */
+export function choiceOrder(item: QuizItem): number[] {
+  let h = 2166136261;
+  for (const ch of item.q) h = Math.imul(h ^ ch.codePointAt(0)!, 16777619);
+  const order = item.choices.map((_, i) => i);
+  for (let i = order.length - 1; i > 0; i--) {
+    h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0;
+    const j = h % (i + 1);
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}
+
 /** 確認問題。1問ずつめくって、その場で答え合わせをするだけで、結果は保存しない。 */
 export function Quiz({ items }: { items: QuizItem[] }) {
   const [picked, setPicked] = useState<Record<number, number>>({});
@@ -33,7 +49,8 @@ export function Quiz({ items }: { items: QuizItem[] }) {
         <li className="quiz__item" key={current}>
           <p className="quiz__q">{item.q}</p>
           <div className="quiz__choices" role="group" aria-label={`問${current + 1}の選択肢`}>
-            {item.choices.map((choice, j) => {
+            {choiceOrder(item).map((j) => {
+              const choice = item.choices[j];
               const state = !done ? "" : j === item.answer ? " is-correct" : j === chosen ? " is-wrong" : " is-muted";
               return (
                 <button
