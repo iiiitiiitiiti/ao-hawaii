@@ -773,7 +773,7 @@ Emerson 1909 の全文（Project Gutenberg 版 pg20299.txt、854KB）を落と�
 
 ## 2026-09-24 追記（L7「手で語る」の資料）
 
-L7 は Emerson 1909 の第22章「Gesture」（原書 p.176–180、`docs/research/emerson-1909-gutenberg.txt` の 9911–10140行）と p.46–47 の祈り（同 2530–2550行）を1冊の出典として名指しで書いた。今の hālau の型と同じだとは書かない（2つ目の資料が無い）。
+L7 は Emerson 1909 の第22章「Gesture」（原書 p.176–182、`docs/research/emerson-1909-gutenberg.txt` の 9911–10140行）と p.46–47 の祈り（同 2530–2550行）を1冊の出典として名指しで書いた。今の hālau の型と同じだとは書かない（2つ目の資料が無い）。
 
 - 章の冒頭「Gesture is a voiceless speech, a short-hand dramatic picture.」／「The art of gesture was one of the most important branches taught by the kumu.」／教え方を「inductive」と呼ぶ／「There were no books, no manuals of instruction」／島と地区が政治的に分かれていたことが技の隔たりの理由
 - 教え方: 「Having labored to fix the song … he appointed some one to recite the words … the class … were required to repeat the kumu's gestures in pantomime … That done, the class took up the double task of recitation joined to that of gesture.」

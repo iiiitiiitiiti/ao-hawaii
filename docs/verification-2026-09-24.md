@@ -1,0 +1,27 @@
+# 夜間作業の記録（2026-09-24 未明）
+
+持ち主が就寝中の無人作業。持ち主の依頼は「Claude だけで進められるものは完全に進め、ほかにもできることがあれば進める。朝5時まで」。
+
+## 前回の未確認事項の解決
+
+| 項目 | 結果 |
+|---|---|
+| waiawī の水の27% | **解決**。DLNR の2014年2月14日の発表（nr14-025）をブラウザで開いて確認。Giambelluca 教授の談話「evaporate 27 percent more water than native ʻōhia forests」。出典1つなので Nā Mea Ola 05 で DLNR と教授を名指しして戻した（「消費」ではなく「蒸発」） |
+| Haleakalā 国立公園の総面積 | **解決**。NPS Land Resources Division の面積統計（2026年6月30日時点）で Gross Area 33,489.24 エーカー。Wikipedia の 33,265 は2011年の値 |
+| フラの商業化・盗用への「批判」 | **一部解決**。Haunani-Kay Trask「Lovely Hula Hands」（1991〜92年、のち『From a Native Daughter』）を Honolulu Civil Beat（2021）の記事で確認し、Hula 06 の論点に名指しで足した。kumu の資格や歌詞理解をめぐる批判は、引き続き資料が無いので書かない |
+
+## 仕組みの改善
+
+- **外部リンク検査の自動化**: `.github/workflows/links.yml` で毎週月曜 06:00 JST に `scripts/check-links.mjs` を実行。切れがあればジョブが失敗し、GitHub の失敗通知メールが届く。切れと出たものは1分後に再試行する（soest.hawaii.edu のような一時的な停止を拾わないため）
+- **SOEST の火山のページの移転**: `/GG/HCV/` → `/earthsciences_archive/HCV/`。ただし2026-09-24 未明の時点でサーバー自体が応答しない（Wayback には移転先の2026年8月の保存がある）
+- **スマホの小さい文字**: 補足の文字が 10.5〜11.4px まで縮んでいたので 12〜13px に上げた（DDR 011 追記）。上部メニューを語の途中で折らない、目次を指で押しやすく、用語集の講座選択が 320px 幅ではみ出すのを直した
+- **確認問題の正解の位置**: 108問のうち69問で正解が2番目にあった。表示するとき、問題ごとに決まった順へ並べ替え、正解の位置は 31・33・23・21 問に散った（`tests/quiz.test.ts`）
+- Lighthouse（モバイル、代表6ページ）: アクセシビリティ・ベストプラクティス・SEO はいずれも100。パフォーマンスは88（JS 1本 1.2MB が主因。レッスン本文の遅延読み込みは効果が3割程度で、テストと PWA への影響の割に小さいので見送り）。クレジットのページは画像35枚・計12MB を読むため72
+
+## 新しく書いたもの
+
+- **Hula Lesson 07「手で語る — Emerson が書き留めた所作」**: Emerson 1909 第22章「Gesture」と p.46–47 の ʻōlohe の祈り（e Laka i ke kuhi）から。kuhi の語義、kumu の教え方の順序、手の型、Hiʻiaka の場面の実演、表情と手招き。出典が1冊なので Emerson を名指しし、Emerson 自身の「型は一つではない」を最後に置いた。用語集に kuhi・ʻōlohe・pali・kīhei・ʻahu ʻula
+- **メレを読む「He Mele no Kāne」**: Emerson 第41章。6連39行の全文に逐語注・行訳・kaona。綴りは PE の見出しに合わせた（DDR 010）
+- **メレを読む「Kūnihi ka Mauna」**: Emerson p.40 の mele kāhea。9行。5〜7行目の綴りは Place Names の Nounou の項の引用（「Hula chant by Hiʻiaka」）に合わせた
+
+<!-- 以下、レビュー結果と残りの作業を追記する -->
