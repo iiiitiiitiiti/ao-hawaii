@@ -139,7 +139,7 @@ export const body: MeleBody = {
             },
             {
               "w": "hikina",
-              "gloss": "東（PE hikina 1.）"
+              "gloss": "日の昇り（PE hikina 3. coming）。Place Names の Haʻehaʻe の項に「Ka hikina a ka lā i Haʻehaʻe」＝the rising of the sun at Haʻehaʻe の例文がある"
             },
             {
               "w": "a",
@@ -155,7 +155,7 @@ export const body: MeleBody = {
               "gloss": "太陽"
             }
           ],
-          "ja": "日の昇る東に起こり",
+          "ja": "日の昇るところに起き上がり",
           "notes": [
             {
               "text": "Emerson の訳は「At the Eastern Gate」。"
@@ -175,7 +175,7 @@ export const body: MeleBody = {
             },
             {
               "w": "Haʻehaʻe",
-              "gloss": "天の東の門。朝、太陽がここから入る（Emerson 注512）。Parker 1922 は haʻe-haʻe と発音を示し、Puna の岬の名で mele によく出るとする"
+              "gloss": "天の東の門。朝、太陽がここから入る（Emerson 注512）。Place Names は Hawaiʻi 島 Kumukahi 近くの土地の名とし、Parker 1922 は Puna の岬の名で mele によく出るとする"
             }
           ],
           "ja": "Haʻehaʻe から現れる"
@@ -314,7 +314,7 @@ export const body: MeleBody = {
             },
             {
               "w": "Kaulanakalā",
-              "gloss": "「浮かぶ太陽」。沈む日が海の上に舟のように浮いて見える現象の名が、その場所の名になった（Emerson 注513）"
+              "gloss": "「浮かぶ太陽」。沈む日が海の上に舟のように浮いて見える現象の名が、その場所の名になった（Emerson 注513）。辞書と地名辞典に見出しが無いので、Emerson の訳 the floating of the sun に従い kau・lana・ka・lā（太陽）をつなげて書いた"
             }
           ],
           "ja": "日の浮かぶ Kaulanakalā に"
@@ -386,7 +386,7 @@ export const body: MeleBody = {
               "gloss": "Nihoa 島。Kauaʻi と Midway の間の島（PE nihoa 2.）"
             }
           ],
-          "ja": "Nihoa の上にせり上がり",
+          "ja": "Nihoa にせり上がり",
           "notes": [
             {
               "text": "Emerson 注515: Nihoa は Kauaʻi の北西の小さな岩の島で、水平線のはるか下にあるのに、見えているかのように歌われている。"
@@ -1054,10 +1054,10 @@ export const body: MeleBody = {
               "gloss": "黒い（PE ʻeleʻele 1.）"
             }
           ],
-          "ja": "空の兆しに、黒い雲に",
+          "ja": "兆しに、黒い雲に",
           "notes": [
             {
-              "text": "PE は aouli（大空、青い天蓋）の第2義を ʻōuli の異形とする。Emerson が「天の青」と訳したのはこの重なりに沿う読み。"
+              "text": "PE の aouli は第1義が「大空、青い天蓋」、第2義が「ʻōuli の異形」。Emerson の訳は「the heavenly blue」。"
             }
           ]
         },
@@ -1347,10 +1347,10 @@ export const body: MeleBody = {
               "gloss": "Kanaloa（神の名）"
             }
           ],
-          "ja": "Kāne が Kanaloa と据えた水に",
+          "ja": "Kāne と Kanaloa の wai kau に",
           "notes": [
             {
-              "text": "Emerson 注518: Kāne と Kanaloa が連れ立って旅をしていたとき、Kanaloa が喉の渇きを訴えた。Kāne が杖を崖に突き立てると清水が湧き、今も流れている。場所は Maui の Keʻanae。",
+              "text": "PE に wai kau の見出しは無く、Emerson は注518 でこの句を見出しに立てて「the ducts of Kane and Loa」と訳す。注518: Kāne と Kanaloa が連れ立って旅をしていたとき、Kanaloa が喉の渇きを訴えた。Kāne が杖を崖に突き立てると清水が湧き、今も流れている。場所は Maui の Keʻanae。",
               "lesson": "moolelo/lesson-02"
             }
           ]
@@ -1468,12 +1468,12 @@ export const body: MeleBody = {
     }
   ],
   "kaona": [
-    "Emerson（1909）はこの詠唱を、英語圏の人にとっての聖杯伝説にあたるものだと書く。「Kāne の水」という考えはハワイの歌と物語のあちこちにほのめかされているが、はっきりした形に刻まれているのはこの mele だけだ、というのが Emerson の見立てである。",
+    "Emerson（1909）は、英語圏の人にとっての聖杯伝説にあたるハワイの観念が「Kāne の水」だと書く。その観念はハワイの歌と物語のあちこちにほのめかされているが、はっきりした形に刻まれているのはこの mele だけだ、というのが Emerson の見立てである。",
     "問いは6回くり返され、答えの場所が移っていく。日の昇る東の Haʻehaʻe、日の沈む西の水平線と Nihoa・Lehua、山と谷と川、海と空のにわか雨・虹・赤い霧、高みの黒い雲、そして地の下の湧き水。最後の連で水は「飲むための水」「力を与える水」「命を与える水」になり、E ola nō（生きよ）で終わる。",
     "Kāne は淡水と結びつく神で、Kanaloa と連れ立って水を探す話がよく語られる（UH の Kahoʻiwai）。第6連の wai kau a Kāne me Kanaloa は、その話の一つを名指しする。Emerson によれば、渇いた Kanaloa のために Kāne が杖を崖に突き立てて湧かせた Maui の Keʻanae の水である。",
     "第4連の pūnohu と uakoko は、Emerson の注で前兆とされる空のしるし。punohu は神聖で大事な出来事の前ぶれ、ua koko は kapu の首長の誕生を示すしるしだった。Kāne の水のありかを答える行に、こうした空のしるしが並んでいる。"
   ],
-  "version": "Emerson『Unwritten Literature of Hawaii』（1909）第41章「The Water of Kane」の本文に拠る。綴りは DDR 010 に従って PE の見出しに合わせた（ú-i→ui、i-héa→i hea、ia oe→iā ʻoe、Hae-hae→Haʻehaʻe、Kau-lana-ka-la→Kaulanakalā、pae opua→pae ʻōpua、ua-koko→uakoko、alewa-lewa→ʻālewalewa、ouli→ʻōuli、e-a→ʻeā など）。語そのものは変えていない。4行目の Ala も本文のまま。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。Emerson の本文は6連39行で、英訳は行の分け方が違い45行ある。",
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）第41章「The Water of Kane」の本文に拠る。綴りは DDR 010 に従って PE の見出しに合わせた（ú-i→ui、i-héa→i hea、ia oe→iā ʻoe、Hae-hae→Haʻehaʻe（Place Names の見出し）、Kau-lana-ka-la→Kaulanakalā、pae opua→pae ʻōpua、ua-koko→uakoko、alewa-lewa→ʻālewalewa、ouli→ʻōuli、e-a→ʻeā など）。語そのものは変えていない。4行目の Ala も本文のまま。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。Emerson の本文は6連39行で、英訳は行の分け方が違い45行ある。",
   "sources": [
     {
       "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）第41章「The Water of Kane」（Project Gutenberg 全文）",

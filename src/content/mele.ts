@@ -25,10 +25,10 @@ export const MELE: MeleMeta[] = [
     composer: "伝承（Kauaʻi の詠唱。N. B. Emerson が採録）",
     year: "1909年刊",
     protection: "public",
-    summary: "「Kāne の水はどこにある？」と6回問い、東の空から地の下の泉までを巡って答える oli。Emerson が「ハワイの聖杯伝説」と呼んだ詠唱。",
+    summary: "「Kāne の水はどこにある？」と6回問い、東の空から地の下の泉までを巡って答える詠唱。Emerson は「Kāne の水」の観念を英語圏の聖杯伝説になぞらえた。",
     background: [
-      "Emerson『Unwritten Literature of Hawaii』（1909）の最終章の一つ前、第41章「The Water of Kane」に全文と英訳・注が載る。Emerson によれば Kauaʻi の詠唱で、Kauaʻi はポリネシア神話の神秘的な面を最もよく保ち、王の神聖な出自という考えに最も染まらなかった島だという。",
-      "問いと答えの型をくり返す oli で、答えの中に Haʻehaʻe（天の東の門）、Kaulanakalā（海に浮かぶ夕日）、Nihoa と Lehua、赤い霧や低い虹といった前兆の名が並ぶ。最後の連の Kāne と Kanaloa の水は、講座 Moʻolelo Lesson 02 の伝承と同じもの。",
+      "Emerson『Unwritten Literature of Hawaii』（1909）の最終章の一つ前、第41章「The Water of Kane」に全文と英訳・注が載る。Emerson によれば Kauaʻi の詠唱で、Kauaʻi はハワイ諸島のなかでポリネシア神話の神秘的な面を最もよく保ち、王の神聖な出自という考えに最も染まらなかった島だという。",
+      "問いと答えの型をくり返す詠唱で、答えの中に Haʻehaʻe（天の東の門）、Kaulanakalā（海に浮かぶ夕日）、Nihoa と Lehua の島々、そして赤い霧や低い虹といった前兆のしるしが並ぶ。最後の連の Kāne と Kanaloa の水は、講座 Moʻolelo Lesson 02 の伝承と同じもの。",
     ],
     related: ["moolelo/lesson-02", "hula/lesson-04", "olelo/lesson-03", "olelo/lesson-04", "aina/lesson-06"],
   },
