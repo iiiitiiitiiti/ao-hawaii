@@ -1,0 +1,351 @@
+import type { MeleBody } from "../../src/mele/types.ts";
+
+/*
+ * Kūnihi ka mauna（Hiʻiaka の物語の詠唱。hālau に入る mele kāhea。N. B. Emerson が1909年に採録）。
+ * 伝承で、1929年より前に出版されているので、歌詞の規約（docs/DESIGN.md「歌詞（mele）引用の規約」）を満たし全文を載せる。
+ * 本文は Emerson『Unwritten Literature of Hawaii』p.40。綴りは PE の見出しと Place Names に合わせた（DDR 010）。
+ */
+export const body: MeleBody = {
+  "stanzas": [
+    {
+      "lines": [
+        {
+          "haw": "Kūnihi ka mauna i ka laʻi ē,",
+          "words": [
+            {
+              "w": "Kūnihi",
+              "gloss": "切り立った、険しい（PE kūnihi 1.）"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "mauna",
+              "gloss": "山",
+              "term": "mauna"
+            },
+            {
+              "w": "i",
+              "gloss": "〜に"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "laʻi",
+              "gloss": "凪、静けさ。海・空・風の穏やかさ（PE）"
+            },
+            {
+              "w": "ē",
+              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "term": "e-intens"
+            }
+          ],
+          "ja": "山は凪の中に切り立ち",
+          "notes": [
+            {
+              "text": "Emerson の訳は「Steep stands the mountain in calm」。述語の Kūnihi が先、主語 ka mauna があと。",
+              "lesson": "olelo/lesson-04"
+            }
+          ]
+        },
+        {
+          "haw": "ʻO Waiʻaleʻale lā i Wailua,",
+          "words": [
+            {
+              "w": "ʻO",
+              "gloss": "名を示す ʻo",
+              "term": "o-subject"
+            },
+            {
+              "w": "Waiʻaleʻale",
+              "gloss": "Kauaʻi の最高峰（PE、Place Names）。Emerson 注59 は「Leaping-water」、Kauaʻi の中央の山塊とする"
+            },
+            {
+              "w": "lā",
+              "gloss": "行中・行末の囃子",
+              "term": "la-refrain"
+            },
+            {
+              "w": "i",
+              "gloss": "〜に"
+            },
+            {
+              "w": "Wailua",
+              "gloss": "Kauaʻi の川と土地の名（Place Names）"
+            }
+          ],
+          "ja": "Wailua から望む Waiʻaleʻale",
+          "notes": [
+            {
+              "text": "Emerson の訳は「Profile of Wai-ale-ale at Wai-lua」。Place Names の Waiʻaleʻale の項は典拠の一つにこの本の p.40（UL 40）を挙げる。"
+            }
+          ]
+        },
+        {
+          "haw": "Huki aʻe lā i ka lani",
+          "words": [
+            {
+              "w": "Huki",
+              "gloss": "引く、引っ張る（PE huki 1.）"
+            },
+            {
+              "w": "aʻe",
+              "gloss": "上へ（方向詞）",
+              "term": "ae-dir"
+            },
+            {
+              "w": "lā",
+              "gloss": "行中・行末の囃子",
+              "term": "la-refrain"
+            },
+            {
+              "w": "i",
+              "gloss": "〜に"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "lani",
+              "gloss": "空、天（PE lani 1.）"
+            }
+          ],
+          "ja": "空へと引き上げられた",
+          "notes": [
+            {
+              "text": "PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani」＝reaching to the sky を例文に挙げる。"
+            }
+          ]
+        },
+        {
+          "haw": "Ka papa ʻauwai o ka Waikini;",
+          "words": [
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "papa",
+              "gloss": "板、平らなもの（PE papa 1.）"
+            },
+            {
+              "w": "ʻauwai",
+              "gloss": "水路、溝（PE）"
+            },
+            {
+              "w": "o",
+              "gloss": "〜の"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "Waikini",
+              "gloss": "地名（Emerson の綴りは Wai-kini）"
+            }
+          ],
+          "ja": "Waikini の流れにかけた板が",
+          "notes": [
+            {
+              "text": "Emerson は3・4行目をまとめて「Gone the stream-spanning plank of Wai-kini」と訳す。"
+            }
+          ]
+        },
+        {
+          "haw": "Ālai ʻia aʻela e Nounou,",
+          "words": [
+            {
+              "w": "Ālai",
+              "gloss": "さえぎる、ふさぐ（PE ālai 1.）"
+            },
+            {
+              "w": "ʻia",
+              "gloss": "受動",
+              "term": "ia-passive"
+            },
+            {
+              "w": "aʻela",
+              "gloss": "方向詞 aʻe と lā がつながった形"
+            },
+            {
+              "w": "e",
+              "gloss": "〜によって（行為者の e）"
+            },
+            {
+              "w": "Nounou",
+              "gloss": "Kauaʻi の山。今は Sleeping Giant と呼ばれる（Place Names）"
+            }
+          ],
+          "ja": "Nounou にさえぎられ",
+          "notes": [
+            {
+              "text": "Place Names は Nounou の項に「Hula chant by Hiʻiaka」として「Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」を引く。5〜7行目の綴りはこの引用に合わせた。",
+              "lesson": "moolelo/lesson-03"
+            }
+          ]
+        },
+        {
+          "haw": "Nalo Kaipuhaʻa,",
+          "words": [
+            {
+              "w": "Nalo",
+              "gloss": "隠れる、見えなくなる（PE nalo 1.）"
+            },
+            {
+              "w": "Kaipuhaʻa",
+              "gloss": "丘の名。字義は「低いひょうたん」（Place Names の Nounou の項の訳 The-low-calabash）。Emerson の綴りは ka Ipu-haʻa"
+            }
+          ],
+          "ja": "Kaipuhaʻa も見えなくなる"
+        },
+        {
+          "haw": "Ka laulā mauka o Kapaʻa ē!",
+          "words": [
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "laulā",
+              "gloss": "広さ、広がり（PE）"
+            },
+            {
+              "w": "mauka",
+              "gloss": "山側へ、内陸に（PE は uka を見よとする）"
+            },
+            {
+              "w": "o",
+              "gloss": "〜の"
+            },
+            {
+              "w": "Kapaʻa",
+              "gloss": "Kauaʻi の Kawaihau 地区の土地・町の名（Place Names）"
+            },
+            {
+              "w": "ē",
+              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "term": "e-intens"
+            }
+          ],
+          "ja": "Kapaʻa の山側に広がる土地も",
+          "notes": [
+            {
+              "text": "Place Names は Kapaʻa の項にこの行と次の行「Ka laulā mauka o Kapaʻa ē, mai paʻa i ka leo」を引き、典拠に UL 40（この本の p.40）を挙げる。"
+            }
+          ]
+        },
+        {
+          "haw": "Mai paʻa i ka leo!",
+          "words": [
+            {
+              "w": "Mai",
+              "gloss": "〜するな（否定の命令。PE mai 4.）"
+            },
+            {
+              "w": "paʻa",
+              "gloss": "閉ざす、固く保つ（PE paʻa 1.）"
+            },
+            {
+              "w": "i",
+              "gloss": "〜に"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "leo",
+              "gloss": "声（PE）"
+            }
+          ],
+          "ja": "声を閉ざさないで",
+          "notes": [
+            {
+              "text": "Emerson の訳は「Give voice and make answer」。"
+            }
+          ]
+        },
+        {
+          "haw": "He ʻole ka hea mai ē!",
+          "words": [
+            {
+              "w": "He",
+              "gloss": "不定冠詞（He 文）",
+              "term": "he-article"
+            },
+            {
+              "w": "ʻole",
+              "gloss": "無い、ゼロ（PE ʻole 1.）"
+            },
+            {
+              "w": "ka",
+              "gloss": "定冠詞",
+              "term": "ka-ke"
+            },
+            {
+              "w": "hea",
+              "gloss": "呼ぶこと（PE hea 1.）"
+            },
+            {
+              "w": "mai",
+              "gloss": "こちらへ（方向詞）",
+              "term": "mai-dir"
+            },
+            {
+              "w": "ē",
+              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "term": "e-intens"
+            }
+          ],
+          "ja": "こちらへの呼びかけは無い",
+          "notes": [
+            {
+              "text": "Emerson の訳は「Dead silence—no voice in reply」。He ʻole ＋名詞で「〜が無い」。",
+              "lesson": "olelo/lesson-03"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "kaona": [
+    "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行く途中、Kauaʻi の Wailua 川に来る。川には板が一枚かけてあるだけだったが、その板は Kahiki から来たとされる気難しい女、Wailua（川と同じ名）が外してしまっていた。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
+    "物語に重ねると、3・4行目の「空へ引き上げられた板」は外された橋、5〜7行目は山がさえぎって見えなくなった景色、8行目は「声を閉ざさず答えよ」という呼びかけ、9行目は答えが返らない沈黙になる。",
+    "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。Emerson は、この訪問者を戸口で長く待たせた、と書いたうえで次の mele kāhea へ話を進める。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
+  ],
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、Wai-kini→Waikini、e→ē など）。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳（8行）の解釈に合わせている。",
+  "sources": [
+    {
+      "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）p.40「Mele Kahea」（Project Gutenberg 全文）",
+      "url": "https://www.gutenberg.org/cache/epub/20299/pg20299.txt",
+      "note": "本文・英訳・注59、Hiʻiaka と Wailua の物語、合言葉としての使われ方"
+    },
+    {
+      "label": "Place Names of Hawaiʻi（1974。Wehewehe Wikiwiki、Hilo ミラー）— Nounou",
+      "url": "https://wehe.hilo.hawaii.edu/?q=Nounou",
+      "note": "Sleeping Giant、「Hula chant by Hiʻiaka」として5〜7行目を引く"
+    },
+    {
+      "label": "Place Names of Hawaiʻi（1974）— Kapaʻa / Waiʻaleʻale / Wailua",
+      "url": "https://wehe.hilo.hawaii.edu/?q=Kapa%CA%BBa",
+      "note": "7・8行目を UL 40 として引く。Waiʻaleʻale は Kauaʻi の最高峰"
+    },
+    {
+      "label": "Pukui & Elbert, Hawaiian Dictionary（Wehewehe Wikiwiki、Hilo ミラー）",
+      "url": "https://wehe.hilo.hawaii.edu/?q=k%C5%ABnihi",
+      "note": "逐語の意味。kūnihi、laʻi、huki（Huki i ka lani の例文）、papa、ʻauwai、ālai、nalo、laulā、mai 4.、paʻa、leo、ʻole、hea"
+    }
+  ]
+};

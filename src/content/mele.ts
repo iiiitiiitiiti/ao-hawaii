@@ -33,6 +33,19 @@ export const MELE: MeleMeta[] = [
     related: ["moolelo/lesson-02", "hula/lesson-04", "olelo/lesson-03", "olelo/lesson-04", "aina/lesson-06"],
   },
   {
+    id: "kunihi-ka-mauna",
+    title: "Kūnihi ka Mauna",
+    composer: "伝承（Hiʻiaka の物語の詠唱。N. B. Emerson が採録）",
+    year: "1909年刊",
+    protection: "public",
+    summary: "hālau の戸口で入室を請う mele kāhea。Kauaʻi の Wailua 川で、橋の板を外されて答えを待つ Hiʻiaka の場面を詠む。",
+    background: [
+      "Emerson『Unwritten Literature of Hawaii』（1909）の p.40 に、hālau に入るときの合言葉の詠唱（mele kahea）の一つとして全文と英訳が載る。巻末索引にも「KUNIHI KA MAUNA: mele kahea, password to the halau」の項が立つ。",
+      "Emerson によれば、詞章は Hiʻiaka が Lohiʻau を迎えに行く旅の途中、Kauaʻi の Wailua 川で渡し板を外され、呼びかけても答えが返らない場面から取られている。Place Names of Hawaiʻi も後半の3行を「Hula chant by Hiʻiaka」として引く。Waiʻaleʻale、Wailua、Nounou、Kaipuhaʻa、Kapaʻa と、Kauaʻi の東側の地名が並ぶ。",
+    ],
+    related: ["hula/lesson-05", "hula/lesson-04", "moolelo/lesson-03", "olelo/lesson-03"],
+  },
+  {
     id: "noho-paipai",
     title: "Noho Paipai",
     composer: "John Kameaaloha Almeida（1897–1985）",

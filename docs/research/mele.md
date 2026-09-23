@@ -100,3 +100,11 @@
 - 語義の要点（PE）: ala 3. to rise up, arise／puka 2. … to rise, as the sun／ea 3. To rise, go up／pae 1. cluster, row／ʻōpua puffy clouds … often interpreted as omens／mole 1. tap root, bottom, foundation／kualono 1. region near the mountaintop, ridge／kualau shower accompanied by sea wind／pūnohu to rise, as smoke, mist（connotation of redness）／pōpolohua 1. purplish-blue … 例文「Kai pōpolohua mea a Kāne, the purplish-blue reddish-brown sea of Kāne」／mea 7. reddish-brown／panopano 用例 ao panopano thick cloud／wai hū gushing spring／puna 1. spring／mana 1.／ola
 - Kāne と淡水、Kanaloa と水を探す話: UH Kahoʻiwai「He is associated with freshwater streams, pools, and fishponds. In stories, it is often told that he is in search of freshwater alongside the God Kanaloa」— https://www.hawaii.edu/kawaihapai/akua-list/kane/ 。Emerson 注518（Keʻanae）と合わせて2出典
 - 書かなかったこと: 4行目の Ala を Aia の誤りと読む説（資料なし）。Kaulanakalā・Haʻehaʻe の所在地の特定（Emerson は天の門・現象の名とし、Parker は Puna の岬の名とする。本文ではどちらも名指しで並べた）
+
+## Kūnihi ka Mauna（id: kunihi-ka-mauna）— 2026-09-24 調査
+
+- 底本: Emerson 1909 p.40「Mele Kahea」（`docs/research/emerson-1909-gutenberg.txt` の 2083–2124行）。9行、英訳8行、注59（Wai-ale-ale: Leaping-water, the central mountain-mass of Kauai）。巻末索引「KUNIHI KA MAUNA: mele kahea, password to the halau」
+- 物語（Emerson）: Hiʻiaka が Hōpoe と Lohiʻau を迎えに行く途中、Kauaʻi の Wailua 川の一枚板の橋を、Kahiki から来たとされる気難しい女 Wailua が外した。呼びかけに答えず、Hiʻiaka が力を振るうと moʻo に戻って川底の洞へ逃げた。Hiʻiaka は飛び石を置き、石は今も残る
+- Place Names of Hawaiʻi（1974、wehe.hilo 経由）: Nounou の項「Mountain (now known as Sleeping Giant) … Hula chant by Hiʻiaka (PH 109): Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」— https://wehe.hilo.hawaii.edu/?q=Nounou ／ Kapaʻa の項「Ka laulā mauka o Kapaʻa ē, mai paʻa i ka leo (UL 40)」— https://wehe.hilo.hawaii.edu/?q=Kapa%CA%BBa ／ Waiʻaleʻale「Highest mountain on Kauaʻi (5,080 feet) … (PH 109; UL 40.)」／ Wailua「State park, land division, river … Līhuʻe qd., Kauaʻi」
+- 綴り: 5〜7行目は Place Names の引用に合わせた（Ālai ʻia aʻela、Kaipuhaʻa）。Waikini は辞書・地名辞典に項が無いので Emerson の Wai-kini をつなげただけ
+- PE: kūnihi 1. steep, sheer／laʻi calm, stillness … serene, as of sea, sky, wind／huki 1. to pull … 例文「Huki i ka lani, ka lae o Kalāʻau (chant by Hiʻiaka)」／ālai 1. obstruction … to obstruct, block／nalo 1. lost, vanished, concealed／laulā broad, wide; width, extent／mai 4. preverb particle of negative command／paʻa 1.／leo voice／ʻole 1. not, without … nothing
