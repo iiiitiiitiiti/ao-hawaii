@@ -54,9 +54,22 @@ export const MELE: MeleMeta[] = [
     summary: "hālau で lei を結びながら唱える oli lei。Kaʻula は海を lei にまとい、Naue の hala は潮を飲む。",
     background: [
       "Emerson『Unwritten Literature of Hawaii』（1909）の p.56 に、hālau の支度で lei を着けるときに唱える歌（Oli Lei、英訳 Wreath Song）として全文と英訳が載る。PE の Kaʻula の項も1行目をこの本の p.56 から例文に引く。",
-      "Emerson は p.212 で、この歌の始まりを Hiʻiaka の物語に置く。Maui の Kahakuloa で、手足を失った幽霊の女に Hiʻiaka が lei の hala の実を投げ、女がその礼に返した歌だという。Kaʻula と Niʻihau、Kauaʻi の Naue、Hawaiʻi 島の Puna と Kīlauea と、島々の名が並ぶ。",
+      "Emerson は p.212 で、hula muʻumuʻu の起こりとして語る Hiʻiaka の物語に、この歌の始まりも置く。Maui の Kahakuloa で、手足を失った幽霊の女に Hiʻiaka が lei の hala の実を投げ、女がその礼に返した歌だという。Kaʻula と Niʻihau、Kauaʻi の Naue、Hawaiʻi 島の Puna と Kīlauea と、島々の名が並ぶ。",
     ],
     related: ["hula/lesson-05", "hula/lesson-04", "moolelo/lesson-03", "aina/lesson-04", "olelo/lesson-05"],
+  },
+  {
+    id: "ku-ka-punohu-ula",
+    title: "Kū ka Pūnohu ʻUla",
+    composer: "伝承（N. B. Emerson が採録）",
+    year: "1909年刊",
+    protection: "public",
+    summary: "装いを終えた踊り手が hālau の広間へ出るときの oli。赤い霧、海のしぶき、稲妻、四百の歓声、そして Laka の名。",
+    background: [
+      "Emerson『Unwritten Literature of Hawaii』（1909）の p.55 に、支度部屋から広間へ出る ʻōlapa の歌として全文と英訳（Tiring Song）が載る。pāʻū を着ける長い詠唱のあと、lei の歌（Ke Lei Maila ʻo Kaʻula）の前に置かれている。",
+      "7行と短く、名詞と動詞を畳みかける。1行目の pūnohu ʻula は PE の pūnohu の項の例文「Pūnohu ʻula, i ke kai」と同じ言い回し。6行目の lau は古い数詞の「四百」。",
+    ],
+    related: ["hula/lesson-03", "hula/lesson-04", "hula/lesson-05", "moolelo/lesson-04"],
   },
   {
     id: "noho-paipai",

@@ -122,3 +122,10 @@
 - Place Names 1974: Kaʻula「Rocky islet (540 feet elevation) 22 miles southwest of Niʻihau」、Naue「Place near Hāʻena, Hanalei district, Kauaʻi, famous for pandanus trees」。Hawaiʻi Place Names 2002: Naue「The grove is mentioned in many chants and songs」— https://wehe.hilo.hawaii.edu/?q=Naue
 - PE: Inuwai「Name of a sea breeze. Lit., water drinking」（Andrews「Name of a sea breeze at Lehua on Kauai」）、pā 4.（said of … activity of wind, sun, moon）、mālamalama 1.、mālie、lua 1.（hole, pit … crater）
 - Emerson 注125: wahine＝Pele
+- 2026-09-24 のレビュー（Opus、中3・低4）で直したこと: 2行目の Ke は冠詞ではなく動詞の標識（m の前の冠詞は ka。Emerson も shines forth と動詞で訳す）、1・4行目の Ke は PE の見出し「ke (verb) lā: present tense at a distance from the speaker」、maila は PE の見出し「maila: The directional mai plus lā」を根拠に、5行目の句読点は p.56 に、hala の実と4・5行目の hala を結ぶ文は Emerson が結びつけていないので削除、p.212 の物語はまず hula muʻumuʻu の起こりとして語られることを補った
+
+## Kū ka Pūnohu ʻUla（id: ku-ka-punohu-ula）— 2026-09-24 調査
+
+- 底本: Emerson 1909 p.55「Oli」（英訳の題 Tiring Song。`docs/research/emerson-1909-gutenberg.txt` の 3066–3092行）。7行、注122（Lau: archaic, four hundred）
+- 場面（Emerson）: 支度部屋で装いを終えた ʻōlapa の娘たちが、この歌を歌いながら hālau の広間へ出る。kumu が「Lele Mahu’ilani a luna, Lewa ia Kauna-lewa!」で答える（注123: Mahuʻilani は右手の詩的な名）
+- PE: pūnohu（例文「Pūnohu ʻula, i ke kai (song), red rising mist on the sea」）／kū 1. to stand … to rise, as dust／ʻehu 1. spray, foam, mist（年配の人は ehu と言い、そちらが古い形らしい）／uhi 1. to cover, spread over／ʻōlapa 1. to flash, as lightning／uila lightning／noho 2. to live, dwell, stay／Kahiki 1. Tahiti（Related: 空を Kahiki-moe などに分ける、Malo 10）／ʻuʻina 1. sharp report … to crack／nākolo 1. rumbling, roaring, as of surf or thunder／ʻuwā to shout／pihe din of voices, shouting／lau 4. numeral … four hundred
