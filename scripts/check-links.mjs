@@ -52,14 +52,14 @@ async function request(url, method) {
   }
 }
 
-// HEAD を拒む（404・405・403・5xx）サーバーや、混み合って切れる相手があるので、GET で2回まで試し直す
+// HEAD を拒む（404・405・403・5xx）サーバーや、混み合うと 410 を返す相手（arts.gov）があるので、GET で2回まで試し直す
 async function probe(url) {
   let status = await request(url, "HEAD");
   if (status === 200) return status;
   for (const wait of [0, 3000]) {
     if (wait) await new Promise((r) => setTimeout(r, wait));
     status = await request(url, "GET");
-    if (status !== 0 && status !== 404) return status;
+    if (status !== 0 && status !== 404 && status !== 410) return status;
   }
   return status;
 }

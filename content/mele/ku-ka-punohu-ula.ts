@@ -23,7 +23,7 @@ export const body: MeleBody = {
             },
             {
               "w": "pūnohu",
-              "gloss": "煙や霧のように立ちのぼるもの。赤みを帯びることがある（PE）"
+              "gloss": "煙や霧のように立ちのぼるもの（PE pūnohu 1.。赤みを帯びることがある）。PE 2. は「地面近くにかかる虹」で、典拠に UL 99（Emerson の p.99）を挙げる"
             },
             {
               "w": "ʻula",
@@ -65,7 +65,7 @@ export const body: MeleBody = {
             },
             {
               "w": "ʻehu",
-              "gloss": "しぶき、泡、霧（PE ʻehu 1.）"
+              "gloss": "しぶき、泡、霧（PE ʻehu 1.）。ʻehu kai で「海のしぶき、泡」（PE の見出し ʻehu kai）"
             },
             {
               "w": "kai",
@@ -94,7 +94,7 @@ export const body: MeleBody = {
           "ja": "海のしぶきが進み、陸を覆う",
           "notes": [
             {
-              "text": "Emerson の綴りは ehu-kai。PE は ʻehu の項で、年配の人は ʻokina の無い ehu と言い、そちらが古い形らしいと書く。Emerson の訳は「Mist crawls from the sea and covers the land」。"
+              "text": "Emerson の綴りは ehu-kai。PE の見出し ʻehu kai（Sea spray, foam）に合わせて2語に書いた。PE は ʻehu の項で、年配の人は ʻokina の無い ehu と言い、そちらが古い形らしいと書く。Emerson の訳は「Mist crawls from the sea and covers the land」。"
             }
           ]
         },
@@ -130,7 +130,7 @@ export const body: MeleBody = {
           "ja": "稲妻がひらめき、Kahiki にとどまる",
           "notes": [
             {
-              "text": "Emerson の訳は「Far as Kahiki flashes the lightning」。踊り手を指す ʻōlapa（Lesson 03）と同じ綴りの、稲妻の ʻōlapa。",
+              "text": "Emerson の訳は「Far as Kahiki flashes the lightning」。PE の ʻōlapa は同じ見出しの第1義が「稲妻のようにひらめく」、第3義が「踊り手（詠唱者 hoʻopaʻa に対して）」（Lesson 03）。",
               "lesson": "hula/lesson-03"
             }
           ]
@@ -150,7 +150,7 @@ export const body: MeleBody = {
           "ja": "はじける音、とどろき"
         },
         {
-          "haw": "ʻUwā ka pihe,",
+          "haw": "ʻUwā, ka pihe,",
           "words": [
             {
               "w": "ʻUwā",
@@ -190,7 +190,7 @@ export const body: MeleBody = {
               "term": "hula"
             }
           ],
-          "ja": "hula に集う人は四百",
+          "ja": "hula には四百の人",
           "notes": [
             {
               "text": "Emerson の訳は5・6行目をまとめて「A shout of applause / From the four hundred」。"
@@ -198,11 +198,11 @@ export const body: MeleBody = {
           ]
         },
         {
-          "haw": "E Laka ē!",
+          "haw": "Ē Laka, ē!",
           "words": [
             {
-              "w": "E",
-              "gloss": "呼びかけ（名の前）",
+              "w": "Ē",
+              "gloss": "呼びかけ（名の前。PE ē 1.）",
               "term": "e-vocative"
             },
             {
@@ -219,7 +219,7 @@ export const body: MeleBody = {
           "ja": "Laka よ！",
           "notes": [
             {
-              "text": "Emerson の本文は「E Laka, e!」、訳は「I appeal to thee, Laka!」。",
+              "text": "Emerson の本文は「E Laka, e!」、訳は「I appeal to thee, Laka!」。名の前の呼びかけも PE の ē 1. に合わせて長音で書いた。",
               "lesson": "moolelo/lesson-04"
             }
           ]
@@ -228,10 +228,10 @@ export const body: MeleBody = {
     }
   ],
   "kaona": [
-    "Emerson（1909）の p.55 では、支度部屋で装いを終えた ʻōlapa の娘たちが、この歌を勢いよく声に出して歌いながら、弾むような足取りで hālau の広間へ出て、待っている人々の前に並ぶ。Emerson は英訳に「Tiring Song」（支度の歌）の題を付けた。続けて kumu が「Lele Mahuʻilani i luna」（右手を高く上げよ）で始まる答えの歌を導く、と書く。",
-    "1〜4行目は空と海のしるしが続く。赤い pūnohu、陸を覆う海のしぶき、稲妻、はじける音ととどろき。5・6行目でそれが人々の叫びとどよめきに変わり、7行目で Laka の名を呼んで終わる。赤く立ちのぼる pūnohu は、Emerson が別の詠唱（He Mele no Kāne）の注で、神聖で大事な出来事の前ぶれとする空のしるしである。"
+    "Emerson（1909）の p.55 では、支度部屋で装いを終えた ʻōlapa の娘たちが、この歌を勢いよく声に出して歌いながら、弾むような足取りで hālau の広間へ出て、待っている人々の前に並ぶ。Emerson は英訳に「Tiring Song」（支度の歌）の題を付けた。続けて kumu が「Lele Mahu’ilani a luna」で始まる答えの歌を導く。英訳は「Lift Mahu’ilani on high」で、注123 によれば Mahuʻilani は右手の詩的な名、左手は Kaohilani と呼ばれた。",
+    "1〜4行目は空と海のしるしが続く。赤い pūnohu、陸を覆う海のしぶき、稲妻、はじける音ととどろき。5・6行目でそれが人々の叫びとどよめきに変わり、7行目で Laka の名を呼んで終わる。Emerson はこの歌の pūnohu ʻula を「The rainbow stands red」と訳す。PE の pūnohu 2. も「地面近くにかかる虹」である。"
   ],
-  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.55 の本文（Oli）に拠る。綴りは DDR 010 に従い PE の見出しに合わせた（Ku→Kū、punohu ula→pūnohu ʻula、ehu-kai→ʻehu kai、aina→ʻāina、Olapa→ʻŌlapa、Uina→ʻUʻina、nakolo→nākolo、Uwa→ʻUwā、kánaka→kānaka、e→ē）。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。",
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.55 の本文（Oli）に拠る。綴りは DDR 010 に従い PE の見出しに合わせた（Ku→Kū、punohu ula→pūnohu ʻula、ehu-kai→ʻehu kai、aina→ʻāina、Olapa→ʻŌlapa、Uina→ʻUʻina、nakolo→nākolo、Uwa→ʻUwā、kánaka→kānaka、E Laka, e→Ē Laka, ē）。句読点は Emerson の本文のまま。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳の解釈に合わせている。",
   "sources": [
     {
       "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）p.55–56「Oli」（Tiring Song。Project Gutenberg 全文）",
