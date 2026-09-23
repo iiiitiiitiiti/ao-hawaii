@@ -106,7 +106,19 @@
 - 底本: Emerson 1909 p.40「Mele Kahea」（`docs/research/emerson-1909-gutenberg.txt` の 2083–2124行）。9行、英訳8行、注59（Wai-ale-ale: Leaping-water, the central mountain-mass of Kauai）。巻末索引「KUNIHI KA MAUNA: mele kahea, password to the halau」
 - 物語（Emerson）: Hiʻiaka が Hōpoe と Lohiʻau を迎えに行く途中、Kauaʻi の Wailua 川の一枚板の橋を、Kahiki から来たとされる気難しい女 Wailua が外した。呼びかけに答えず、Hiʻiaka が力を振るうと moʻo に戻って川底の洞へ逃げた。Hiʻiaka は飛び石を置き、石は今も残る
 - Place Names of Hawaiʻi（1974、wehe.hilo 経由）: Nounou の項「Mountain (now known as Sleeping Giant) … Hula chant by Hiʻiaka (PH 109): Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」— https://wehe.hilo.hawaii.edu/?q=Nounou ／ Kapaʻa の項「Ka laulā mauka o Kapaʻa ē, mai paʻa i ka leo (UL 40)」— https://wehe.hilo.hawaii.edu/?q=Kapa%CA%BBa ／ Waiʻaleʻale「Highest mountain on Kauaʻi (5,080 feet) … (PH 109; UL 40.)」／ Wailua「State park, land division, river … Līhuʻe qd., Kauaʻi」
-- 綴り: 5〜7行目は Place Names の引用に合わせた（Ālai ʻia aʻela、Kaipuhaʻa）。Waikini は辞書・地名辞典に項が無いので Emerson の Wai-kini をつなげただけ
+- 綴り: 5〜7行目は Place Names の引用に合わせた（Ālai ʻia aʻela、Kaipuhaʻa）。4行目の ka Wai-kini は Place Names の Kawaikini「Highest peak (5,243 feet) on Wai-ʻaleʻale, central Kauaʻi. (PH 109; UL 40, 135.) Lit., the multitudinous water」に合わせて Kawaikini（最初の版では項を見落として Waikini と書いた。レビューで訂正）— https://wehe.hilo.hawaii.edu/?q=Kawaikini
+- 読みの分かれ: 3・4行目は Emerson が「外された渡し板」と訳すが、PE の huki の例文「Huki i ka lani, ka lae o Kalāʻau (chant by Hiʻiaka), reaching to the sky」の形なら Kawaikini が空へ届く景色。5行目は Emerson「Filched away by Nou-nou」、Place Names「Nounou is screened」、文法どおりなら「Nounou によってさえぎられ」。3通りをメモに並べた
+- Emerson のこの箇所の同行者は Hōpoe。Moʻolelo L03 の筋（Hōpoe は Pele に託されて残り、同行は Wahineʻōmaʻo）と違うので kaona に明記
 - PE: kūnihi 1. steep, sheer／laʻi calm, stillness … serene, as of sea, sky, wind／huki 1. to pull … 例文「Huki i ka lani, ka lae o Kalāʻau (chant by Hiʻiaka)」／ālai 1. obstruction … to obstruct, block／nalo 1. lost, vanished, concealed／laulā broad, wide; width, extent／mai 4. preverb particle of negative command／paʻa 1.／leo voice／ʻole 1. not, without … nothing
 
 - 2026-09-24 のレビュー（Opus）で直したこと: hikina は「東」ではなく PE 3. coming（日の昇り）、ʻōuli の note から「Emerson の訳は重なりに沿う読み」という推測を外す、wai kau は PE に見出しが無いので「据えた」と訳さない、「Emerson が聖杯伝説と呼んだ」は観念（Kāne の水）の話なので言い換え、oli と分類する出典が無いので「詠唱」に
+
+## Ke Lei Maila ʻo Kaʻula（id: ke-lei-maila-o-kaula）— 2026-09-24 調査
+
+- 底本: Emerson 1909 p.56「Oli Lei」（`docs/research/emerson-1909-gutenberg.txt` の 3136–3160行）。p.212–213（12090–12112行）に同じ歌の再掲と由来の物語
+- 由来（Emerson p.212）: Hiʻiaka が Wahineʻōmaʻo と Maui の Kahakuloa の高台から、手足を失った女（幽霊）が浜の岩で踊るのを見た。Hiʻiaka が首の lei から hala の実を投げ、女がその礼に返した歌が「that pretty mele appropriated by hula folk as the wreath-song」
+- lei の儀式（p.56）: pāʻū の儀式のあとに lei。神々が喜ぶのは ʻilima・lehua・maile・ʻieʻie のようなその土地の花だけ
+- PE Kaʻula 1.「A rocky islet off Niʻihau. Ke lei maila ʻo Kaʻula i ke kai (UL 56), Kaʻula wears the ocean as a lei」— 綴り maila はこれに合わせた — https://wehe.hilo.hawaii.edu/?q=Ka%CA%BBula
+- Place Names 1974: Kaʻula「Rocky islet (540 feet elevation) 22 miles southwest of Niʻihau」、Naue「Place near Hāʻena, Hanalei district, Kauaʻi, famous for pandanus trees」。Hawaiʻi Place Names 2002: Naue「The grove is mentioned in many chants and songs」— https://wehe.hilo.hawaii.edu/?q=Naue
+- PE: Inuwai「Name of a sea breeze. Lit., water drinking」（Andrews「Name of a sea breeze at Lehua on Kauai」）、pā 4.（said of … activity of wind, sun, moon）、mālamalama 1.、mālie、lua 1.（hole, pit … crater）
+- Emerson 注125: wahine＝Pele

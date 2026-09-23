@@ -41,7 +41,7 @@ export const body: MeleBody = {
             },
             {
               "w": "ē",
-              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "gloss": "強めの小辞（PE ē 2.）",
               "term": "e-intens"
             }
           ],
@@ -91,7 +91,7 @@ export const body: MeleBody = {
           "words": [
             {
               "w": "Huki",
-              "gloss": "引く、引っ張る（PE huki 1.）"
+              "gloss": "引く、伸ばす、届く（PE huki 1. to pull … stretch, reach）"
             },
             {
               "w": "aʻe",
@@ -117,15 +117,15 @@ export const body: MeleBody = {
               "gloss": "空、天（PE lani 1.）"
             }
           ],
-          "ja": "空へと引き上げられた",
+          "ja": "空へと伸び上がる",
           "notes": [
             {
-              "text": "PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani」＝reaching to the sky を例文に挙げる。"
+              "text": "読みが2つある。PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani, ka lae o Kalāʻau」＝reaching to the sky is point Kalāʻau を挙げる。この形なら、次の行の Kawaikini（Waiʻaleʻale の最高点）が空へ届く、と読める。Emerson は3・4行目をまとめて「Gone the stream-spanning plank of Wai-kini」と訳し、物語の、外された渡し板として読む。行訳は前者に拠った。"
             }
           ]
         },
         {
-          "haw": "Ka papa ʻauwai o ka Waikini;",
+          "haw": "Ka papa ʻauwai o Kawaikini;",
           "words": [
             {
               "w": "ka",
@@ -134,7 +134,7 @@ export const body: MeleBody = {
             },
             {
               "w": "papa",
-              "gloss": "板、平らなもの（PE papa 1.）"
+              "gloss": "平らな面、層、平地。板（PE papa 1.）"
             },
             {
               "w": "ʻauwai",
@@ -145,19 +145,14 @@ export const body: MeleBody = {
               "gloss": "〜の"
             },
             {
-              "w": "ka",
-              "gloss": "定冠詞",
-              "term": "ka-ke"
-            },
-            {
-              "w": "Waikini",
-              "gloss": "地名（Emerson の綴りは Wai-kini）"
+              "w": "Kawaikini",
+              "gloss": "Waiʻaleʻale の最高点（5,243フィート）。字義は「多くの水」。Place Names は典拠に UL 40（この本の p.40）を挙げる。Emerson の綴りは ka Wai-kini"
             }
           ],
-          "ja": "Waikini の流れにかけた板が",
+          "ja": "Kawaikini の、水路の走る平らな高み",
           "notes": [
             {
-              "text": "Emerson は3・4行目をまとめて「Gone the stream-spanning plank of Wai-kini」と訳す。"
+              "text": "Emerson の訳では「Wai-kini の流れにかけた板」。papa（平らな面・板）と ʻauwai（水路）のどちらの意味を取るかで、山の景色にも、外された渡し板にも読める。"
             }
           ]
         },
@@ -186,10 +181,10 @@ export const body: MeleBody = {
               "gloss": "Kauaʻi の山。今は Sleeping Giant と呼ばれる（Place Names）"
             }
           ],
-          "ja": "Nounou にさえぎられ",
+          "ja": "（景色は）Nounou にさえぎられ",
           "notes": [
             {
-              "text": "Place Names は Nounou の項に「Hula chant by Hiʻiaka」として「Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」を引く。5〜7行目の綴りはこの引用に合わせた。",
+              "text": "ʻia（受動）と行為者の e で「Nounou によってさえぎられ」。訳は資料で分かれ、Emerson は「Filched away by Nou-nou」（Nounou に奪われた、として板の話につなぐ）、Place Names は「Nounou is screened」（Nounou が隠される）と訳す。Place Names は5〜7行目を「Hula chant by Hiʻiaka」として「Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」と引き、ここの綴りはその引用に合わせた。",
               "lesson": "moolelo/lesson-03"
             }
           ]
@@ -234,7 +229,7 @@ export const body: MeleBody = {
             },
             {
               "w": "ē",
-              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "gloss": "強めの小辞（PE ē 2.）",
               "term": "e-intens"
             }
           ],
@@ -305,7 +300,7 @@ export const body: MeleBody = {
             },
             {
               "w": "ē",
-              "gloss": "強めの小辞。行末の囃子（PE ē 2.）",
+              "gloss": "強めの小辞（PE ē 2.）",
               "term": "e-intens"
             }
           ],
@@ -321,11 +316,11 @@ export const body: MeleBody = {
     }
   ],
   "kaona": [
-    "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行く途中、Kauaʻi の Wailua 川に来る。川には板が一枚かけてあるだけだったが、その板は Kahiki から来たとされる気難しい女、Wailua（川と同じ名）が外してしまっていた。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
-    "物語に重ねると、3・4行目の「空へ引き上げられた板」は外された橋、5〜7行目は山がさえぎって見えなくなった景色、8行目は「声を閉ざさず答えよ」という呼びかけ、9行目は答えが返らない沈黙になる。",
+    "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Emerson のこの箇所では、Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行き、Kauaʻi の Wailua 川に来る（講座 Moʻolelo Lesson 03 で見た筋では、Hōpoe は Pele に託されて残り、同行者は Wahineʻōmaʻo）。川には板が一枚かけてあるだけだったが、Kahiki から来たとされる気性の荒い水の精（Emerson は naiad、witch と書く）で、川と同じ名の Wailua がその板を外していた。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
+    "Emerson の英訳は、この物語に沿って詞章を読む。3・4行目は外された渡し板、5行目は Nounou に奪われた板、8行目は「声を出して答えよ」という呼びかけ、9行目は答えが返らない沈黙になる。一方で、3〜7行目は Waiʻaleʻale・Kawaikini・Nounou・Kaipuhaʻa・Kapaʻa の景色としても読める（各行のメモ）。",
     "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。Emerson は、この訪問者を戸口で長く待たせた、と書いたうえで次の mele kāhea へ話を進める。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
   ],
-  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、Wai-kini→Waikini、e→ē など）。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳で、Emerson の英訳（8行）の解釈に合わせている。",
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、e→ē など）。4行目の ka Wai-kini は Place Names の Kawaikini（典拠に UL 40）に合わせて Kawaikini と書いた。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳。3〜5行目は読みが分かれるので、Emerson（英訳8行）と Place Names の訳を各行のメモに並べた。",
   "sources": [
     {
       "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）p.40「Mele Kahea」（Project Gutenberg 全文）",
@@ -338,9 +333,9 @@ export const body: MeleBody = {
       "note": "Sleeping Giant、「Hula chant by Hiʻiaka」として5〜7行目を引く"
     },
     {
-      "label": "Place Names of Hawaiʻi（1974）— Kapaʻa / Waiʻaleʻale / Wailua",
+      "label": "Place Names of Hawaiʻi（1974）— Kapaʻa / Waiʻaleʻale / Kawaikini / Wailua",
       "url": "https://wehe.hilo.hawaii.edu/?q=Kapa%CA%BBa",
-      "note": "7・8行目を UL 40 として引く。Waiʻaleʻale は Kauaʻi の最高峰"
+      "note": "7・8行目を UL 40 として引く。Waiʻaleʻale は Kauaʻi の最高峰、Kawaikini はその最高点（典拠に UL 40）"
     },
     {
       "label": "Pukui & Elbert, Hawaiian Dictionary（Wehewehe Wikiwiki、Hilo ミラー）",

@@ -40,10 +40,23 @@ export const MELE: MeleMeta[] = [
     protection: "public",
     summary: "hālau の戸口で入室を請う mele kāhea。Kauaʻi の Wailua 川で、橋の板を外されて答えを待つ Hiʻiaka の場面を詠む。",
     background: [
-      "Emerson『Unwritten Literature of Hawaii』（1909）の p.40 に、hālau に入るときの合言葉の詠唱（mele kahea）の一つとして全文と英訳が載る。巻末索引にも「KUNIHI KA MAUNA: mele kahea, password to the halau」の項が立つ。",
-      "Emerson によれば、詞章は Hiʻiaka が Lohiʻau を迎えに行く旅の途中、Kauaʻi の Wailua 川で渡し板を外され、呼びかけても答えが返らない場面から取られている。Place Names of Hawaiʻi も後半の3行を「Hula chant by Hiʻiaka」として引く。Waiʻaleʻale、Wailua、Nounou、Kaipuhaʻa、Kapaʻa と、Kauaʻi の東側の地名が並ぶ。",
+      "Emerson『Unwritten Literature of Hawaii』（1909）の p.40 に、hālau に入るときの合言葉の詠唱（mele kahea）の一つとして全文と英訳が載る。巻末索引にも「KUNIHI KA MAUNA i ka la’i, e: mele kahea, password to the halau」の項が立つ。",
+      "Emerson によれば、詞章は Hiʻiaka が Lohiʻau を迎えに行く旅の途中、Kauaʻi の Wailua 川で渡し板を外され、呼びかけても答えが返らない場面から取られている。Place Names of Hawaiʻi も5〜7行目を「Hula chant by Hiʻiaka」として引く。Waiʻaleʻale と Kawaikini、Wailua、Nounou、Kaipuhaʻa、Kapaʻa と、Kauaʻi の中央から東側の地名が並ぶ。",
     ],
     related: ["hula/lesson-05", "hula/lesson-04", "moolelo/lesson-03", "olelo/lesson-03"],
+  },
+  {
+    id: "ke-lei-maila-o-kaula",
+    title: "Ke Lei Maila ʻo Kaʻula",
+    composer: "伝承（Hiʻiaka の物語の歌。N. B. Emerson が採録）",
+    year: "1909年刊",
+    protection: "public",
+    summary: "hālau で lei を結びながら唱える oli lei。Kaʻula は海を lei にまとい、Naue の hala は潮を飲む。",
+    background: [
+      "Emerson『Unwritten Literature of Hawaii』（1909）の p.56 に、hālau の支度で lei を着けるときに唱える歌（Oli Lei、英訳 Wreath Song）として全文と英訳が載る。PE の Kaʻula の項も1行目をこの本の p.56 から例文に引く。",
+      "Emerson は p.212 で、この歌の始まりを Hiʻiaka の物語に置く。Maui の Kahakuloa で、手足を失った幽霊の女に Hiʻiaka が lei の hala の実を投げ、女がその礼に返した歌だという。Kaʻula と Niʻihau、Kauaʻi の Naue、Hawaiʻi 島の Puna と Kīlauea と、島々の名が並ぶ。",
+    ],
+    related: ["hula/lesson-05", "hula/lesson-04", "moolelo/lesson-03", "aina/lesson-04", "olelo/lesson-05"],
   },
   {
     id: "noho-paipai",
