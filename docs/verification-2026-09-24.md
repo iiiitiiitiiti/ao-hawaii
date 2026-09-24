@@ -62,3 +62,13 @@ Emerson の伝承の詠唱は1929年より前の出版で、歌詞の規約を�
 - 表示: 320・360・390・1024px の4幅×66ページで横のはみ出しなし（`vite preview`、SW を止めて計測）
 - Lighthouse（モバイル、代表6ページ、localhost）: アクセシビリティ・ベストプラクティス・SEO 100、パフォーマンス 88（クレジットのページだけ 72）
 - 外部リンク619本: 切れは SOEST の2本（差し替え済み）と、一時的に 410 を返した arts.gov の1本（検査スクリプトを直した）
+
+## 追記（同日 20時台、持ち主の指示）
+
+- 持ち主の返事: Kūnihi ka Mauna は知っているが、ほかの3曲は知らない。E Hō Mai・Oli Aloha・Oli Komo がよい。スマホの文字は 14px。読みが分かれる行は代表的な読みを行訳にし、ほかはメモへ
+- He Mele no Kāne・Ke Lei Maila ʻo Kaʻula・Kū ka Pūnohu ʻUla を外した
+- Oli Komo（Emerson p.41、公開）を足した。E Hō Mai（Edith Kanakaʻole 作）と Oli Aloha（1929年より前の出版を確かめられない）は鍵付きで足した。平文は Drive の ao-hawaii-private/mele/ にだけ置き、`npm run mele:lock` で暗号化した（ほかの鍵付き3曲も同じ手順で暗号化し直された。中身は変わっていない）
+- Kūnihi の3〜5行目の行訳を物語どおりの読みに揃え、ほかの読みはメモに「別の読み:」として移した
+- スマホ幅の `--text-xs`・`--text-sm` を 1rem（14px）にした（DDR 011 追記）。360px 幅で8ページを測り、14px 未満の文字は0、320px 幅で11ページとも横のはみ出しなし
+- Oli Komo の2行目に PE の例文どおり ka を入れた判断を DDR 010 に追記した
+- 照合レビュー（Opus）の指摘は、内容は docs/research/mele.md に書き、すべて反映した

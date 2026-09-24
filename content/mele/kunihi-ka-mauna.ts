@@ -117,10 +117,13 @@ export const body: MeleBody = {
               "gloss": "空、天（PE lani 1.）"
             }
           ],
-          "ja": "空へと伸び上がる",
+          "ja": "天へと引き上げられたのは",
           "notes": [
             {
-              "text": "読みが2つある。PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani, ka lae o Kalāʻau」＝reaching to the sky is point Kalāʻau を挙げる。この形なら、次の行の Kawaikini（Waiʻaleʻale の最高点）が空へ届く、と読める。Emerson は3・4行目をまとめて「Gone the stream-spanning plank of Wai-kini」と訳し、物語の、外された渡し板として読む。行訳は前者に拠った。"
+              "text": "3・4行目で1文。行訳は物語どおりの読みに拠った。渡し板が空へ引き上げられた、つまり外されて渡れない場面で、Emerson の訳「Gone the stream-spanning plank of Wai-kini」（板は消えた）と、hālau の学び手のブログ Ka Huakaʻi o Hula の英訳「Drawn up into the heavens is the stream plank of Mount Kawaikini」がこの読み。"
+            },
+            {
+              "text": "別の読み: 山の景色として読むこともできる。PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani, ka lae o Kalāʻau」（reaching to the sky is point Kalāʻau）を挙げ、この形なら Kawaikini（Waiʻaleʻale の最高点）が空へ届く、となる。Kanu o ka ʻĀina の教材は「The heavy rain of Kawaikini reaches up to the heavens」と訳す。"
             }
           ]
         },
@@ -134,7 +137,7 @@ export const body: MeleBody = {
             },
             {
               "w": "papa",
-              "gloss": "平らな面、層、平地。板（PE papa 1.）"
+              "gloss": "板（PE papa 4.）。平らな面（PE papa 1.）の意味もある"
             },
             {
               "w": "ʻauwai",
@@ -149,10 +152,13 @@ export const body: MeleBody = {
               "gloss": "Waiʻaleʻale の最高点（5,243フィート）。字義は「多くの水」。Place Names は典拠に UL 40（この本の p.40）を挙げる。Emerson の綴りは ka Wai-kini"
             }
           ],
-          "ja": "Kawaikini の、水路の走る平らな高み",
+          "ja": "Kawaikini の水路の渡し板",
           "notes": [
             {
-              "text": "Emerson の訳では「Wai-kini の流れにかけた板」。papa（平らな面・板）と ʻauwai（水路）のどちらの意味を取るかで、山の景色にも、外された渡し板にも読める。"
+              "text": "papa は「板」、ʻauwai は「水路」で、ka papa ʻauwai は流れに渡した板。3行目の主語にあたる。"
+            },
+            {
+              "text": "別の読み: Kanu o ka ʻĀina の教材は ka papa ʻauwai o Kawaikini を「The heavy rain of Kawaikini」（Kawaikini の大雨）と訳す。"
             }
           ]
         },
@@ -184,8 +190,11 @@ export const body: MeleBody = {
           "ja": "（景色は）Nounou にさえぎられ",
           "notes": [
             {
-              "text": "ʻia（受動）と行為者の e で「Nounou によってさえぎられ」。訳は資料で分かれ、Emerson は「Filched away by Nou-nou」（Nounou に奪われた、として板の話につなぐ）、Place Names は「Nounou is screened」（Nounou が隠される）と訳す。Place Names は5〜7行目を「Hula chant by Hiʻiaka」として「Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」と引き、ここの綴りはその引用に合わせた。",
+              "text": "ʻia（受動）と行為者の e で「Nounou によってさえぎられ」。行訳は Ka Huakaʻi o Hula の英訳「The view is blocked by Nounou Hill」と Kanu o ka ʻĀina の教材の「Obstructed by Nounou」に拠った。Place Names は5〜7行目を「Hula chant by Hiʻiaka」として「Ālai ʻia aʻela e Nounou, nalo Ka-ipu-haʻa i ka laulā mauka o Ka-paʻa」と引き、ここの綴りはその引用に合わせた。",
               "lesson": "moolelo/lesson-03"
+            },
+            {
+              "text": "別の読み: Emerson は「Filched away by Nou-nou」（Nounou に奪われた）と訳し、4行目の板を Nounou が持ち去った、と読む。Place Names は「Nounou is screened」（Nounou が隠される）と訳す。"
             }
           ]
         },
@@ -317,10 +326,10 @@ export const body: MeleBody = {
   ],
   "kaona": [
     "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Emerson のこの箇所では、Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行き、Kauaʻi の Wailua 川に来る（講座 Moʻolelo Lesson 03 で見た筋では、Hōpoe は Pele に託されて残り、同行者は Wahineʻōmaʻo）。川には板が一枚かけてあるだけだったが、Kahiki から来たとされる気性の荒い水の精（Emerson は naiad、witch と書く）で、川と同じ名の Wailua がその板を外していた。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
-    "Emerson の英訳は、この物語に沿って詞章を読む。3・4行目は外された渡し板、5行目は Nounou に奪われた板、8行目は「声を出して答えよ」という呼びかけ、9行目は答えが返らない沈黙になる。一方で、3〜7行目は Waiʻaleʻale・Kawaikini・Nounou・Kaipuhaʻa・Kapaʻa の景色としても読める（各行のメモ）。",
-    "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。Emerson は、この訪問者を戸口で長く待たせた、と書いたうえで次の mele kāhea へ話を進める。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
+    "行訳はこの物語に沿った読みを採った。3・4行目は引き上げられて渡れなくなった板、5〜7行目は Nounou にさえぎられて見えなくなる景色、8行目は「声を閉ざさないで」という呼びかけ、9行目は答えが返らない沈黙になる。3・4行目は Emerson と Ka Huakaʻi o Hula の英訳、5行目は Ka Huakaʻi o Hula と Kanu o ka ʻĀina の教材の英訳がこの読み（Emerson は5行目を、Nounou が板を持ち去ったと読む）。3〜7行目を Waiʻaleʻale・Kawaikini・Nounou・Kaipuhaʻa・Kapaʻa の景色だけとして読む訳もあり、各行のメモの「別の読み」に書いた。",
+    "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。答えの歌は「メレを読む」の Oli Komo。Emerson は、この訪問者を戸口で長く待たせた、と書いたうえで次の mele kāhea へ話を進め、そのあとに答えの Mele Komo を載せる。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
   ],
-  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、e→ē など）。4行目の ka Wai-kini は Place Names の Kawaikini（典拠に UL 40）に合わせて Kawaikini と書いた。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳。3〜5行目は読みが分かれるので、Emerson（英訳8行）と Place Names の訳を各行のメモに並べた。",
+  "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、e→ē など）。4行目の ka Wai-kini は Place Names の Kawaikini（典拠に UL 40）に合わせて Kawaikini と書いた。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳で、読みが分かれる3・4行目は Emerson と Ka Huakaʻi o Hula の英訳に、5行目は Ka Huakaʻi o Hula と Kanu o ka ʻĀina の教材の英訳に拠った。Emerson・Place Names・PE・Kanu o ka ʻĀina の教材で読みが違うところは、各行のメモに「別の読み」として書いた。",
   "sources": [
     {
       "label": "N. B. Emerson『Unwritten Literature of Hawaii』（1909）p.40「Mele Kahea」（Project Gutenberg 全文）",
@@ -336,6 +345,16 @@ export const body: MeleBody = {
       "label": "Place Names of Hawaiʻi（1974）— Kapaʻa / Waiʻaleʻale / Kawaikini / Wailua",
       "url": "https://wehe.hilo.hawaii.edu/?q=Kapa%CA%BBa",
       "note": "7・8行目を UL 40 として引く。Waiʻaleʻale は Kauaʻi の最高峰、Kawaikini はその最高点（典拠に UL 40）"
+    },
+    {
+      "label": "Ka Huakaʻi o Hula — Kūnihi ka mauna i ka laʻi ē（2011）",
+      "url": "https://hulajourney.wordpress.com/2011/05/04/kunihi-ka-mauna-i-ka-la%CA%BDi-e/",
+      "note": "hālau の学び手の英訳（Drawn up into the heavens is the stream plank of Mount Kawaikini / The view is blocked by Nounou Hill）"
+    },
+    {
+      "label": "Kanu o ka ʻĀina Protocol Chants & Songs（2017）",
+      "url": "https://malamapokii.org/wp-content/uploads/2021/11/KANU-Protocol-Chants-Songs-Final-2017.pdf",
+      "note": "Entrance Chant。3・4行目を Kawaikini の雨として訳す別の読み、5行目の Obstructed by Nounou"
     },
     {
       "label": "Pukui & Elbert, Hawaiian Dictionary（Wehewehe Wikiwiki、Hilo ミラー）",
