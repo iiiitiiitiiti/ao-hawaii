@@ -33,15 +33,17 @@ describe("メレのページ", () => {
     }
   });
 
-  test("曲が関連に挙げたレッスンからは、その曲へ戻れる", () => {
-    for (const m of MELE) {
-      for (const ref of m.related) {
-        const { container, unmount } = at(`/${ref}`);
-        const hrefs = [...container.querySelectorAll(".lesson__mele a")].map((a) => a.getAttribute("href"));
-        expect(hrefs, ref).toContain(`/mele/${m.id}`);
-        unmount();
-      }
-    }
+  // 曲×レッスンの組ごとに分ける。1テストで総当たりすると Windows の jsdom では既定の 5000ms を超える
+  test.each(MELE.flatMap((m) => m.related.map((ref) => [m.id, ref])))(
+    "曲 %s が関連に挙げたレッスン %s からは、その曲へ戻れる",
+    (id, ref) => {
+      const { container } = at(`/${ref}`);
+      const hrefs = [...container.querySelectorAll(".lesson__mele a")].map((a) => a.getAttribute("href"));
+      expect(hrefs).toContain(`/mele/${id}`);
+    },
+  );
+
+  test("曲を関連に挙げていないレッスンには、曲への欄が出ない", () => {
     const { container } = at("/olelo/lesson-01");
     expect(container.querySelector(".lesson__mele")).toBeNull();
   });
