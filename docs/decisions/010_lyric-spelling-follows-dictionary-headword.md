@@ -30,7 +30,7 @@ wehe.hilo.hawaii.edu で ʻanunu・ʻālunu を引き、PE・Andrews（1865）�
 
 ## 追記（2026-09-24）— 辞書・地名辞典がその行を引いていれば、引用の綴りに合わせる
 
-Emerson 1909 の伝承の詠唱を4曲（He Mele no Kāne・Kūnihi ka Mauna・Ke Lei Maila ʻo Kaʻula・Kū ka Pūnohu ʻUla）加えるにあたり、綴りの決め方を1段足した。Emerson の本文は ʻokina・kahakō が無く、語をハイフンでつなぐ（Wai-ale-ale、mai la、Ipu-ha’a）。
+Emerson 1909 の伝承の詠唱を4曲（He Mele no Kāne・Kūnihi ka Mauna・Ke Lei Maila ʻo Kaʻula・Kū ka Pūnohu ʻUla。Kūnihi 以外の3曲は同日夜、持ち主の指示で外した）加えるにあたり、綴りの決め方を1段足した。Emerson の本文は ʻokina・kahakō が無く、語をハイフンでつなぐ（Wai-ale-ale、mai la、Ipu-ha’a）。
 
 1. PE か Place Names が**その行そのもの**を例文に引いていれば（典拠に「UL 40」「UL 56」＝Emerson の該当ページを挙げることが多い）、引用の綴りに合わせる。Ke lei **maila** ʻo Kaʻula（PE Kaʻula）、Ālai ʻia **aʻela** e Nounou、**Kaipuhaʻa**（Place Names Nounou）、**Kawaikini**（Place Names Kawaikini、典拠 UL 40）
 2. 引用が無ければ、語ごとに PE の見出しに合わせる（従来どおり）。地名は Place Names の見出し
@@ -44,3 +44,18 @@ Emerson 1909 の伝承の詠唱を4曲（He Mele no Kāne・Kūnihi ka Mauna・K
 | mai la のように分かち書きを残し、ʻokina と kahakō だけ足す | PE 自身が見出し maila（The directional mai plus lā）を立て、例文もそう綴る。辞書で引ける形に合わせる |
 
 教訓: 「辞書に項が無い」と書く前に、Place Names の欄まで見る。Waikini を「項が無い」として Emerson の綴りで書いたが、Place Names に Kawaikini（典拠 UL 40）があり、別モデルのレビューで直した。
+
+## 追記（2026-09-24 夜）— 辞書の例文が語の有無まで違うとき
+
+Oli Komo（Emerson p.41）の2行目は、Emerson の本文が a hewa waha、PE の hewa の項の例文が a hewa ka waha で、ka の有無が違う。上の4（語を足さない）と1（辞書の引用に合わせる）がぶつかるので、次の条件をすべて満たすときだけ、語の有無も辞書の例文に合わせることにした。
+
+- 辞書（PE か Place Names）がその行そのものを例文に引いている
+- 辞書とは別の資料の少なくとも1つが、辞書と同じ形を取る（Oli Komo では、Emerson が同じページに載せる mele kāhea の同じ句と、Kanu o ka ʻĀina の教材の2つ）
+- version 欄に、Emerson の形と、足した・削った語を書く
+
+持ち主の指示「読みが分かれる行は代表的な読みを採る」と同じ考えで、語の形も、複数の資料が揃う形を代表として採る。
+
+| 案 | 却下理由 |
+|---|---|
+| Emerson のまま ka を入れない（4 を優先） | 辞書・同じページの別の詠唱・今の教材がどれも ka を入れる形で唱えられており、Emerson の形だけが外れている |
+| 辞書の例文があれば、条件なしで語の有無も合わせる | 辞書の例文は要約して引くことがある。別の資料で同じ形を確かめてから合わせる |

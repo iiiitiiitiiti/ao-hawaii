@@ -130,3 +130,36 @@
 - 場面（Emerson）: 支度部屋で装いを終えた ʻōlapa の娘たちが、この歌を歌いながら hālau の広間へ出る。kumu が「Lele Mahu’ilani a luna, Lewa ia Kauna-lewa!」で答える（注123: Mahuʻilani は右手の詩的な名）
 - PE: pūnohu（例文「Pūnohu ʻula, i ke kai (song), red rising mist on the sea」）／kū 1. to stand … to rise, as dust／ʻehu 1. spray, foam, mist（年配の人は ehu と言い、そちらが古い形らしい）／uhi 1. to cover, spread over／ʻōlapa 1. to flash, as lightning／uila lightning／noho 2. to live, dwell, stay／Kahiki 1. Tahiti（Related: 空を Kahiki-moe などに分ける、Malo 10）／ʻuʻina 1. sharp report … to crack／nākolo 1. rumbling, roaring, as of surf or thunder／ʻuwā to shout／pihe din of voices, shouting／lau 4. numeral … four hundred
 - 2026-09-24 のレビュー（Opus、中4・低5）で直したこと: 名の前の呼びかけを PE ē 1. に合わせて Ē（E Laka, e → Ē Laka, ē）、kumu の答えの歌の引用は原文どおり「a luna」、He Mele no Kāne の注516 をこの歌の pūnohu の読みとして断定しない（Emerson はこの歌では rainbow と訳す。PE pūnohu 2.「Rainbow lying close to the earth」、典拠 UL 99）、ʻehu kai は PE の見出し「ʻehu kai: Sea spray, foam」を根拠に、ʻōlapa は同じ見出しの第1義と第3義、句読点は本文のまま
+
+## 差し替え（2026-09-24 夜、持ち主の指示）
+
+持ち主は Kūnihi ka Mauna を知っていたが、He Mele no Kāne・Ke Lei Maila ʻo Kaʻula・Kū ka Pūnohu ʻUla は「知らんかも」とし、E Hō Mai・Oli Aloha・Oli Komo を挙げた。3曲を外し（上の調査メモは経緯として残す）、次の3曲を足した。読みが分かれる行は「代表的な読みを行訳にし、ほかはメモへ」と指示された。
+
+### Oli Komo（id: oli-komo、公開）
+
+- Emerson p.41「Mele Komo」（英訳 Welcoming-Song）。p.40 の Kūnihi と、p.41 の別の mele kāhea（Kamāmalu 王女の作と伝える）への答えとして置かれる。注62（hewa ka waha は訳しにくい）、注63（報いは「声だけ」と控えめ）
+- PE hewa 4.（to the point of satiety）の例文が1・2行目を引く: 「E hea i ke kanaka e komo maloko e hānai ai a hewa ka waha, call the person to come in and feed until his mouth can take no more [hospitality].」。行訳はこれに拠る。Emerson の本文は2行目を a hewa waha（ka なし）と書く
+- 別の読み: Kanu o ka ʻĀina の教材（2017）と huapala の Entrance Chant（K. Garza-Maguire）は「Feed him lest his mouth err」
+- RealHula（The Meaning of OLI）: 最もよく使われる oli kāhea は Kūnihi ka Mauna、kumu が返すいつもの oli komo は「E hea i ke kanaka…」
+
+### E Hō Mai（id: e-ho-mai、鍵付き）
+
+- 作者 Edith Kanakaʻole（1913–1979）。Wikipedia（Hopkins 1984 ほか）、UH Mānoa の教材（Cultural Protocol E Ho Mai）、Kanu o ka ʻĀina の教材、Kamehameha Schools の Aloha ʻĀina Project がいずれも作者とする。1929年より前の出版ではないので鍵付き
+- 1946年に oli を作り始め、1953年に Hālau O Kekuhi を開いた（Wikipedia）。作った年を書いた資料は見つからなかったので、年は「不詳（作者が oli を作り始めた1946年以降）」とした
+- 本文は UH Mānoa・Kanu o ka ʻĀina・KSBE の3つで照合（UH は (i) と (a) を括弧で添える、Kanu は2行目を2行に分けて「x3」）
+
+### Oli Aloha（id: oli-aloha、鍵付き）
+
+- huapala.org は「Mary Pūkuʻi Collection, translated by Mary Pūkuʻi」とする。1929年より前の出版を確かめられないので、規約（DDR 003）に従い鍵付き
+- RealHula の「Aloha Chant … of fairly recent composition in the form we use today」は歌詞を示しておらず、この曲と同定できないので使わない（レビューの指摘）。Kamehameha Schools Maui の OLI_ALOHA.pdf は検索結果に出るが取得できず、出典にしていない
+- 本文は UH Maui College の Kīpaepae 講座の教材（2021）。huapala とは5〜7行目が違う（ʻoukou／ʻoe など）
+
+### Kūnihi ka Mauna の読みの組み替え
+
+- 3〜5行目の行訳を、物語どおりの読み（渡し板が引き上げられた／Nounou にさえぎられる）に揃えた。Emerson の英訳と Ka Huakaʻi o Hula（2011）の英訳「Drawn up into the heavens is the stream plank of Mount Kawaikini / The view is blocked by Nounou Hill」がこの読み
+- 別の読み: PE の huki の例文（空へ届く＝景色）、Kanu o ka ʻĀina の教材（Kawaikini の雨が天へ届く）、papa を「平らな面」と取る読み、Emerson の「Filched away by Nou-nou」、Place Names の「Nounou is screened」
+- Hālau Mōhala ʻIlima のページ（halaumohalailima.com）は検索結果に出るが、2026-09-24 にはドメインが引けなかったので出典にしていない
+
+### 照合レビュー（2026-09-24 夜、Opus、別の文脈）
+
+中10・低10程度。主な反映: PE の意味番号（papa は 4. board、hiki は 3.、pū は 12.、onaona は番号なし）、Kūnihi 5行目の行訳の根拠を Ka Huakaʻi o Hula と Kanu o ka ʻĀina に正す（Emerson は Filched away で別の読み）、出典の無い「平らな高み」の読みを Kanu の「heavy rain」に差し替え、Oli Komo の kaona の出典の無い解釈を削る、RealHula の引用の綴り（E hea e ke kanaka）、E Hō Mai の x3 は3行目だけ、UH Mānoa と Kanu の教材は「始めに唱える」と書いていない、Oli Aloha の RealHula と KS Maui を外す
