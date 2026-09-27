@@ -252,7 +252,7 @@ export const GLOSSARY: Term[] = [
   { id: "ili", hawaiian: "ʻili", meaning: "ahupuaʻa の下位区分（PE ʻili 5.）。ʻili ʻāina の貢納は ahupuaʻa の首長へ、ʻili kūpono は統治首長へ直接（PE の ʻili ʻāina・ʻili kūpono の項）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBili%20k%C5%ABpono", checkedAt: "2026-09-21" },
   { id: "loi", hawaiian: "loʻi", meaning: "灌漑した段々の田。主に kalo 用", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=lo%CA%BBi", checkedAt: "2026-09-18" },
   { id: "auwai", hawaiian: "ʻauwai", meaning: "用水路、溝", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=%CA%BBauwai", checkedAt: "2026-09-18" },
-  { id: "loko-ia", hawaiian: "loko iʻa", meaning: "養魚池。loko kuapā（石垣の海面池）、loko puʻuone（砂州の背後の汽水池）、loko wai（淡水池）など", category: "aina", sourceUrl: "https://seagrant.soest.hawaii.edu/the-return-of-kuula/", checkedAt: "2026-09-18" },
+  { id: "loko-ia", hawaiian: "loko iʻa", meaning: "養魚池。loko kuapā（石垣の海面池）、loko puʻuone（砂州の背後の汽水池）、loko wai（淡水池）など", category: "aina", sourceUrl: "https://web.archive.org/web/20260918081155/https://seagrant.soest.hawaii.edu/the-return-of-kuula/", checkedAt: "2026-09-18" },
   { id: "makaha", hawaiian: "mākāhā", meaning: "養魚池の水門（PE: sluice gate, as of a fish pond）", note: "細い枝を結わえた格子で、稚魚は入れるが成魚は出られない（Hawaiʻi Sea Grant の解説）", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=m%C4%81k%C4%81h%C4%81", checkedAt: "2026-09-21" },
   { id: "muliwai", hawaiian: "muliwai", meaning: "河口、汽水域", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=muliwai", checkedAt: "2026-09-18" },
   { id: "pahoehoe", hawaiian: "pāhoehoe", meaning: "滑らかで途切れない溶岩。第2義は「サテン」", category: "aina", sourceUrl: "https://wehe.hilo.hawaii.edu/?q=p%C4%81hoehoe", checkedAt: "2026-09-18" },
