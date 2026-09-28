@@ -13,6 +13,9 @@ const ROOTS = ["content", "src/content"];
 const CONCURRENCY = 12;
 const TIMEOUT_MS = 25_000;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36";
+// 手元からは開けるが GitHub Actions からは接続できないホスト（2026-09-28 の初回実行と再実行で確認）。
+// 接続不能のときだけ「切れ」にせず「要目視」へ回す。404・410 は従来どおり「切れ」にする
+const UNREACHABLE_FROM_CI = new Set(["rainfall.geography.hawaii.edu"]);
 
 function walk(dir, out = []) {
   for (const name of readdirSync(dir)) {
@@ -98,7 +101,8 @@ const dead = [];
 const blocked = [];
 for (const [url, status] of results) {
   const files = [...byUrl.get(url)].join(", ");
-  if (status === 0 || status === 404 || status === 410) dead.push(`${status || "接続不能"} ${url}  ← ${files}`);
+  if (status === 0 && UNREACHABLE_FROM_CI.has(new URL(url).hostname)) blocked.push(`接続不能（GitHub から届かないホスト） ${url}`);
+  else if (status === 0 || status === 404 || status === 410) dead.push(`${status || "接続不能"} ${url}  ← ${files}`);
   else if (status === 403 || status === 429 || status === 503) blocked.push(`${status} ${url}`);
 }
 const ok = urls.length - dead.length - blocked.length;
