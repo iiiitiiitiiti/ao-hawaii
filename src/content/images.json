@@ -901,6 +901,23 @@
     "subjectNote": ""
   },
   {
+    "id": "lanai-polihua-coast",
+    "file": "lanai-polihua-coast.jpg",
+    "title": "File:Landscape seascape Polihua Beach, Keanapapa Point, K'a'apa cliffs, northwest corner of Island of Lanai, Hawai'i DSC 0517 (49103669283).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_seascape_Polihua_Beach%2C_Keanapapa_Point%2C_K'a'apa_cliffs%2C_northwest_corner_of_Island_of_Lanai%2C_Hawai'i_DSC_0517_(49103669283).jpg",
+    "author": "Bill Abbott",
+    "credit": "Landscape / seascape: Polihua Beach, Keanapapa Point, K'a'apa cliffs, northwest corner of Island of Lanai, Hawai'i DSC_0517",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Polihua Beach, Keanapapa Point, K'a'apa cliffs, northwest corner of Island of Lanai, Hawai'i. Cloud shadow on the right hand edge of the image is about 20°52'59.4\"N 157°00'37.6\"W 20.883163, -157.010444 Two trails run from approximately the cloud shadow on the right, center, to the shore on the left ",
+    "date": "2019-03-23 13:09",
+    "width": 1280,
+    "height": 851,
+    "revision": 1203234877,
+    "fetchedAt": "2026-09-28",
+    "subjectNote": "Kaʻululāʻau が追放されたと語られるラナイ島の海岸線"
+  },
+  {
     "id": "liliuokalani-1891",
     "file": "liliuokalani-1891.jpg",
     "title": "File:Liliuokalani, c. 1891.jpg",
@@ -1171,6 +1188,23 @@
     "revision": 1258294031,
     "fetchedAt": "2026-09-18",
     "subjectNote": ""
+  },
+  {
+    "id": "moon-over-maui",
+    "file": "moon-over-maui.jpg",
+    "title": "File:Starr-210525-9832-full moon on super flower blood moon night-Hawea Pl-Olinda-Maui (51579449899).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr-210525-9832-full_moon_on_super_flower_blood_moon_night-Hawea_Pl-Olinda-Maui_(51579449899).jpg",
+    "author": "Forest and Kim Starr",
+    "credit": "starr-210525-9832-Eucalyptus_globulus-view_full_moon_on_super_flower_blood_moon_night-Hawea_Pl_Olinda-Maui",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Full moon on super flower blood moon night at Hawea Pl, Olinda, Maui, Hawaii. May 25, 2021 #210525-9832 Image Use Policy",
+    "date": "2021-05-25 19:37",
+    "width": 1280,
+    "height": 960,
+    "revision": 1226328965,
+    "fetchedAt": "2026-09-28",
+    "subjectNote": "Hina が瓢箪を背負って登ったと語られる月。撮影地は Māui 島 Olinda"
   },
   {
     "id": "nene-kauai",

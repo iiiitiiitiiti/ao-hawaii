@@ -865,3 +865,15 @@ Commons API（`action=query&list=search` + `prop=imageinfo&iiprop=extmetadata`�
 - L7 の帰属を直した: Lili-noe（Fine-fog）・Wai-aie（Water-mist）・Kahoupo ʻkane は1919年『Laieikawai』英訳の登場人物表、『Hawaiian Mythology』p.222 は語義なしの列挙。Līlīnoe の洪水譚は Beckwith p.314–315（Fornander 版）で、Westervelt ではない。「kilu 争い（Lesson 03）」の参照は lesson-03 に該当箇所が無いので Beckwith 直接参照に変えた
 - L3 の Pele の落ち着き先は Beckwith 版 Mokuaweoweo／NPS Halemaʻumaʻu を並記し、本サイトは Halemaʻumaʻu を採ると明記。ʻĀina L1 の「Nāmakaokahaʻi に消され」は資料ノートに無いので L3 と同じ「失敗を繰り返し」に揃えた
 - L6 の Westervelt 版の島の分割の内訳（Hilo〜Kohala など）は Fornander 版のものなので削除。引用「戻れ、あなたは山、私は海辺」は資料ノートの訳に戻した。Kahiki-ula → Kahikiula に統一
+
+## 2026-09-28 追記（Lesson 08「Kaʻululāʻau と Hina-i-ka-malama」執筆のための調査）
+
+L5 で「材料が未使用」として残っていた Kaʻululāʻau（本ノート104〜109行目）と Hina-i-ka-malama（同110〜113行目）を Lesson 08 として書くにあたり、以下を新たに確認した。
+
+- **W. D. Westervelt『Legends of Maui』（1910）第15章「Hina, the Woman in the Moon」の原文**（sacred-texts.com のプレーンテキスト）: Hina が Kauiki に住み、kapa 作りに疲れて瓢箪を背負い、虹の道で太陽へ向かうが暑すぎて月へ登った、という筋を直接確認した。本ノートの既存記述（Beckwith 経由）と一致する。 https://sacred-texts.com/pac/maui/maui18.htm
+- **Pukui, Elbert & Mookini『Place Names of Hawaii』の Lānaʻi 項**（wehe.hilo.hawaii.edu 経由）: 島の語義を「おそらく『征服の日』」とし、別称 **Lānaʻi o Kaʻululāʻau** を明記。Kaʻululāʻau の物語と島の名の結びつきが、Beckwith/Fornander とは独立した辞書項目で裏づけられた。 https://wehe.hilo.hawaii.edu/?q=L%C4%81na%CA%BBi
+- **Ka Wai Ola（OHA の刊行物）「The Storied Places of Lānaʻi」**: Kaʻululāʻau を「Kaulahea の孫」とし、槍で最後の精霊を討ったと伝える。**訂正（レビューで発覚）**: 当初「Beckwith/Fornander とは祖先関係も異なる別系統」と書いたが誤り。Wikipedia「Kakaʻalaneo」は Kakaʻalaneo を「Kaulahea I の子」とする。つまり Kaʻululāʻau は Kaulahea の孫で、Ka Wai Ola の系譜は Beckwith/Fornander と**一致する**。違うのは退治の手段だけで、槍の版は Kalākaua & Daggett『The Legends and Myths of Hawaii』（1888、"The Sacred Spear-Point"）に遡る。 https://kawaiola.news/moomeheu/the-storied-places-of-lanai/ ／ https://en.wikipedia.org/wiki/Kaka%CA%BBalaneo
+- **Pukui & Elbert『Hawaiian Dictionary』の Hina 項**（wehe.hilo.hawaii.edu 経由）: 「Wākea が Papa と別れた後に交わった女神で Molokaʻi の母となった」という記述は、**Pukui-Elbert（1986）本体ではなく Parker（1922）の項目**として立つ（ことわざ Molokaʻi nui a Hina の由来）。Place Names of Hawaii の Molokaʻi の滝の項も同じ Hina を伝える。Kaʻuiki の Hina・Wailuku の Hina（Lesson 05）とは別人格。**訂正（レビューで発覚）**: 当初 Pukui-Elbert 本体の記述と誤記していた。 https://wehe.hilo.hawaii.edu/?q=hina
+- **訂正（レビューで発覚）**: Kanikaniʻula の蘇生譚の要約が Beckwith の論旨とずれていた。Beckwith の原文は、魂（kino wailua）が肉体を離れて漂っているのを捕らえ、体に押し戻すことで蘇生させる、という型を説明するもので、「魂が離れても死とは限らない」という一般化ではない。レッスン・glossary とも修正した。
+- **Place Names of Hawaii の Kauiki 項**: 「きらめき」の語義、Māui の住まい、Kaʻahumanu の生誕地という記述を確認した。
+- **画像**: Wikimedia Commons から新規取得。`lanai-polihua-coast`（Bill Abbott 撮影、CC BY-SA 2.0、Lānaʻi 北西の Polihua 海岸）、`moon-over-maui`（Forest and Kim Starr 撮影、CC BY 2.0、Maui 島 Olinda からの満月）。`src/content/images.json` に登録済み。
