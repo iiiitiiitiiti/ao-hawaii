@@ -11,6 +11,8 @@ permissions:
 jobs:
   links:
     runs-on: ubuntu-latest
+    # 普段は2〜4分。2026-09-28 に出力のないまま2時間止まった回があったので、既定の6時間を待たずに打ち切る
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
