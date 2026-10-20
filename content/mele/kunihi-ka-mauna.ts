@@ -120,10 +120,10 @@ export const body: MeleBody = {
           "ja": "天へと引き上げられたのは",
           "notes": [
             {
-              "text": "3・4行目で1文。行訳は物語どおりの読みに拠った。渡し板が空へ引き上げられた、つまり外されて渡れない場面で、Emerson の訳「Gone the stream-spanning plank of Wai-kini」（板は消えた）と、hālau の学び手のブログ Ka Huakaʻi o Hula の英訳「Drawn up into the heavens is the stream plank of Mount Kawaikini」がこの読み。"
+              "text": "3・4行目で1文。行訳は物語どおりの読みに拠った。渡し板が空へ引き上げられた、つまり外されて渡れない場面と読む。Emerson の訳「Gone the stream-spanning plank of Wai-kini」（板は消えた）と、hālau の学び手のブログ Ka Huakaʻi o Hula の英訳「Drawn up into the heavens is the stream plank of Mount Kawaikini」がこの読み。"
             },
             {
-              "text": "別の読み: 山の景色として読むこともできる。PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani, ka lae o Kalāʻau」（reaching to the sky is point Kalāʻau）を挙げ、この形なら Kawaikini（Waiʻaleʻale の最高点）が空へ届く、となる。Kanu o ka ʻĀina の教材は「The heavy rain of Kawaikini reaches up to the heavens」と訳す。"
+              "text": "別の読み: 山の景色として読むこともできる。PE は huki の項に Hiʻiaka の詠唱の「Huki i ka lani, ka lae o Kalāʻau」（reaching to the sky is point Kalāʻau）を挙げる。この形なら Kawaikini（Waiʻaleʻale の最高点）が空へ届くという意味になる。Kanu o ka ʻĀina の教材は「The heavy rain of Kawaikini reaches up to the heavens」と訳す。"
             }
           ]
         },
@@ -194,7 +194,7 @@ export const body: MeleBody = {
               "lesson": "moolelo/lesson-03"
             },
             {
-              "text": "別の読み: Emerson は「Filched away by Nou-nou」（Nounou に奪われた）と訳し、4行目の板を Nounou が持ち去った、と読む。Place Names は「Nounou is screened」（Nounou が隠される）と訳す。"
+              "text": "別の読み: Emerson は「Filched away by Nou-nou」（Nounou に奪われた）と訳し、4行目の板を Nounou が持ち去ったと読む。Place Names は「Nounou is screened」（Nounou が隠される）と訳す。"
             }
           ]
         },
@@ -325,9 +325,9 @@ export const body: MeleBody = {
     }
   ],
   "kaona": [
-    "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Emerson のこの箇所では、Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行き、Kauaʻi の Wailua 川に来る（講座 Moʻolelo Lesson 03 で見た筋では、Hōpoe は Pele に託されて残り、同行者は Wahineʻōmaʻo）。川には板が一枚かけてあるだけだったが、Kahiki から来たとされる気性の荒い水の精（Emerson は naiad、witch と書く）で、川と同じ名の Wailua がその板を外していた。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
+    "Emerson（1909）によれば、この詠唱は Hiʻiaka の物語から取られた一節で、hālau に入る合言葉としても使われた。Emerson のこの箇所では、Hiʻiaka は Hōpoe と連れ立って Lohiʻau を迎えに行き、Kauaʻi の Wailua 川に来る（講座 Moʻolelo Lesson 03 で見た筋では、Hōpoe は Pele に託されて残り、同行者は Wahineʻōmaʻo）。川には板が一枚かけてあるだけだったが、川と同じ名の Wailua がその板を外していた。Wailua は Kahiki から来たとされる気性の荒い水の精で、Emerson は naiad、witch と書く。Hiʻiaka が板を戻せと呼びかけても、Wailua は女神だと気づかず、黙って答えない。Hiʻiaka が力を振るうと Wailua は正体の moʻo に戻って川底の洞に逃げ、Hiʻiaka は渡り場に飛び石を置いた。その石は今も残る、と Emerson は書く。Place Names も5〜7行目を「Hula chant by Hiʻiaka」として引く。",
     "行訳はこの物語に沿った読みを採った。3・4行目は引き上げられて渡れなくなった板、5〜7行目は Nounou にさえぎられて見えなくなる景色、8行目は「声を閉ざさないで」という呼びかけ、9行目は答えが返らない沈黙になる。3・4行目は Emerson と Ka Huakaʻi o Hula の英訳、5行目は Ka Huakaʻi o Hula と Kanu o ka ʻĀina の教材の英訳がこの読み（Emerson は5行目を、Nounou が板を持ち去ったと読む）。3〜7行目を Waiʻaleʻale・Kawaikini・Nounou・Kaipuhaʻa・Kapaʻa の景色だけとして読む訳もあり、各行のメモの「別の読み」に書いた。",
-    "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。答えの歌は「メレを読む」の Oli Komo。Emerson は、この訪問者を戸口で長く待たせた、と書いたうえで次の mele kāhea へ話を進め、そのあとに答えの Mele Komo を載せる。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
+    "hālau の戸口では、外に立つ者がこれを詠み、中からの答え（mele komo）を待つ。答えの歌は「メレを読む」の Oli Komo。Emerson は、この訪問者を戸口で長く待たせたと書いたうえで次の mele kāhea へ話を進め、そのあとに答えの Mele Komo を載せる。答えの無い沈黙で終わる詞章が、入室を請う詠唱として使われていたことになる。"
   ],
   "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.40 の本文（mele kahea）に拠る。綴りは DDR 010 に従い PE の見出しと Place Names に合わせた（Kunihi→Kūnihi、la’i→laʻi、O→ʻO、Wai-ale-ale→Waiʻaleʻale、au-wai→ʻauwai、e→ē など）。4行目の ka Wai-kini は Place Names の Kawaikini（典拠に UL 40）に合わせて Kawaikini と書いた。5〜7行目は Place Names の Nounou の項の引用に合わせ、Alai ia a’e la を Ālai ʻia aʻela、ka Ipu-ha’a を Kaipuhaʻa と書いた。Place Names の引用は7行目を「i ka laulā」とするが、ここは Emerson の Ka laulā のまま。語そのものは変えていない。行訳は本サイトの訳で、読みが分かれる3・4行目は Emerson と Ka Huakaʻi o Hula の英訳に、5行目は Ka Huakaʻi o Hula と Kanu o ka ʻĀina の教材の英訳に拠った。Emerson・Place Names・PE・Kanu o ka ʻĀina の教材で読みが違うところは、各行のメモに「別の読み」として書いた。",
   "sources": [

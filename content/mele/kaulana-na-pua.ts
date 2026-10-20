@@ -80,7 +80,7 @@ export const body: MeleBody = {
             { w: "Keawe", gloss: "Keawe（ハワイ島の首長の名。PE は古い首長にちなむ星の名として載せる）" },
           ],
           ja: "Keawe の島ハワイが応える",
-          notes: [{ text: "この連は4つの島を、それぞれ昔の首長の名で呼んで並べる。全土がそろって拒む、という構図。", lesson: "moaukala/lesson-04" }],
+          notes: [{ text: "この連は4つの島をそれぞれ昔の首長の名で呼んで並べる。全土がそろって拒むという構図。", lesson: "moaukala/lesson-04" }],
         },
         {
           haw: "Kōkua nā Hono aʻo Piʻilani",
@@ -298,10 +298,10 @@ export const body: MeleBody = {
     },
   ],
   kaona: [
-    "題の pua（花）は、PE が挙げる語義「子孫、子ら」によって、ハワイの人々を指す。名高いのは花ではなく、署名を拒んだ人々のほうである。",
+    "題の pua（花）は、PE が挙げる語義「子孫、子ら」によって、ハワイの人々を指す。名高いのは花ではなく署名を拒んだ人々のほうである。",
     "第1連の「強欲と強奪の文書」は、楽団員が署名を拒んだ暫定政府への忠誠の誓約書を指す。第3連の「敵の紙」も同じものである。",
-    "第4連の石（pōhaku）が、別名 Mele ʻAi Pōhaku（石を食う歌）の由来。楽団員の「残されたもの、石、この土地の神秘の食物で満足する」という言葉を、そのまま歌詞にしている。政府の金（puʻu kālā。PE は sum of money）より、土地そのものを取る、という宣言である。",
-    "第2連は4つの島を昔の首長の名で呼ぶ。Hawaiʻi は Keawe、Maui は Piʻilani、Kauaʻi は Mano、Oʻahu は Kākuhihewa。Oʻahu＝Kākuhihewa は PE の one の項（ke one ʻai aliʻi o Kākuhihewa, said of Oʻahu）、Kauaʻi＝Mano は PE の Manokalanipō の項、Maui＝Piʻilani は PE の Hono- の項が裏づける。島ごとの呼び名を並べることで、全土が一つになって応えていることを示す。",
+    "第4連の石（pōhaku）が、別名 Mele ʻAi Pōhaku（石を食う歌）の由来。楽団員の「残されたもの、石、この土地の神秘の食物で満足する」という言葉を、そのまま歌詞にしている。政府の金（puʻu kālā。PE は sum of money）より土地そのものを取るという宣言である。",
+    "第2連は4つの島を昔の首長の名で呼ぶ。Hawaiʻi は Keawe、Maui は Piʻilani、Kauaʻi は Mano、Oʻahu は Kākuhihewa。Oʻahu＝Kākuhihewa は PE の one の項（ke one ʻai aliʻi o Kākuhihewa, said of Oʻahu）、Kauaʻi＝Mano は PE の Manokalanipō の項、Maui＝Piʻilani は PE の Hono- の項が裏づける。島ごとの呼び名を並べて、全土が一つになって応えていることを示す。",
   ],
   version:
     "Elbert & Mahoe『Nā Mele o Hawaiʻi Nei』の版（huapala.org 掲載）に拠る。第4連末は huapala では ka āina だが、ほかの行に合わせて ʻāina と書いた。第1連の ʻānunu は底本どおり。PE は ʻānunu を2つの語に立てる（ウリ科の植物／ʻānulu の項で ʻālunu＝強欲の異形）。この行は後者で、PE の ʻānulu の項がこの行そのものを例文に引く（2026-09-18 に ʻanunu と改めたが、2026-09-21 に戻した。DDR 010 の追記）。第5連1行目の Liliʻulani の前は huapala では o だが、PE の hope の項の引用は a。この版には最終連の別の行として「A kau hou ʻia e ke kalaunu」（再び王冠を戴かれるまで）がある。1893年の新聞掲載では、3月25日の初出と5月12日の訂正版とで第3・4連の行の順が違う（Stillman 1999）。PE の aʻe 5. の例文は第4連を「i ka puʻu kālā a ke aupuni」と引いていて、この版の o ke aupuni と1字違う。",

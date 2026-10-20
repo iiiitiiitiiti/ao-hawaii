@@ -46,7 +46,7 @@ export const body: MeleBody = {
               "text": "行訳は PE の訳（feed until his mouth can take no more）に拠った。hewa は「間違い」の語だが、PE の4番目の意味は「飽きるほどに、度を越して」で、例に Hewa ka maka（もう見られないほど見る）を挙げる。客を迎え入れてもてなす言葉として読む。同じ 4. には Hewa ka waha（しゃべりすぎる、軽々しく言う）という例もある。"
             },
             {
-              "text": "別の読み: Kanu o ka ʻĀina の教材と huapala（K. Garza-Maguire）は「Feed him lest his mouth err」（口が過ちを言わないよう食べさせよ）と訳す。PE の Hewa ka waha（しゃべりすぎる）もこの向きの読み。Emerson は注62で訳しにくい句だと断り、ハワイ語に通じた学者の説として、食べ物で口をふさいで敵を味方に変える意味かもしれない、と書く。"
+              "text": "別の読み: Kanu o ka ʻĀina の教材と huapala（K. Garza-Maguire）は「Feed him lest his mouth err」（口が過ちを言わないよう食べさせよ）と訳す。PE の Hewa ka waha（しゃべりすぎる）もこの向きの読み。Emerson は注62で訳しにくい句だと断り、ハワイ語に通じた学者の説として、食べ物で口をふさいで敵を味方に変える意味かもしれないと書く。"
             }
           ]
         },
@@ -92,9 +92,9 @@ export const body: MeleBody = {
     }
   ],
   "kaona": [
-    "Kūnihi ka Mauna（「メレを読む」）への答えの歌。Emerson（1909）は p.40 に戸口で入室を請う Kūnihi を、p.41 に別の mele kāhea を載せたあと、「この願いへの答えは次の言葉だった」としてこの Mele Komo を置く。Kūnihi は答えの無い沈黙で終わるが、この歌は人を中へ呼び入れる。Emerson によれば、mele komo を唱えることは hālau の戸を開けるだけでなく、訪ねてきた者を心からの客として迎えることでもあり、外の世界の新しい知らせを持ってくる者として三重に歓迎された。",
-    "もてなしの見返りに求めるのは、声だけ。Emerson は注63で、p.41 の mele kāhea（Emerson は Kamāmalu 王女の作と伝える）が報いに waʻa（カヌー。身体の婉曲）を差し出すのに対し、答えの mele komo は報いを「ただ声だけ」と控えめに量る、と書く。",
-    "今の hālau でも、kumu が返す oli komo として使われる。RealHula の kumu は、hālau に入るときに最もよく使われる oli kāhea が Kūnihi ka Mauna で、oli kāhea には oli komo が答えるものだとし、kumu が返すいつもの oli komo としてこの歌の書き出しを挙げる。oli kāhea がきちんと詠まれなければ中からは沈黙しか返らない、とも書く。"
+    "Kūnihi ka Mauna（「メレを読む」）への答えの歌。Emerson（1909）は p.40 に戸口で入室を請う Kūnihi を、p.41 に別の mele kāhea を載せたあと、「この願いへの答えは次の言葉だった」としてこの Mele Komo を置く。Kūnihi は答えの無い沈黙で終わるが、この歌は人を中へ呼び入れる。Emerson によれば、mele komo を唱えることは hālau の戸を開けるだけでなく訪ねてきた者を心からの客として迎えることでもあり、外の世界の新しい知らせを持ってくる者として三重に歓迎された。",
+    "もてなしの見返りに求めるのは声だけである。Emerson は注63で、p.41 の mele kāhea（Emerson は Kamāmalu 王女の作と伝える）が報いに waʻa（カヌー。身体の婉曲）を差し出すのに対し、答えの mele komo は報いを「ただ声だけ」と控えめに量ると書く。",
+    "今の hālau でも、kumu が返す oli komo として使われる。RealHula の kumu は、hālau に入るときに最もよく使われる oli kāhea が Kūnihi ka Mauna で、oli kāhea には oli komo が答えるものだと書く。そのうえで、kumu が返すいつもの oli komo としてこの歌の書き出しを挙げる。oli kāhea がきちんと詠まれなければ中からは沈黙しか返らないとも書く。"
   ],
   "version": "Emerson『Unwritten Literature of Hawaii』（1909）p.41 の本文（Mele Komo）に拠る。1・2行目は、PE が hewa の項の例文に引く形に合わせた（DDR 010）。Emerson の本文も1行目は maloko と書くが、2行目は a hewa waha（ka なし）と書く。PE の例文、Emerson が同じページに載せる mele kāhea の同じ句（a hewa ka waha）、Kanu o ka ʻĀina の教材（a hewa aʻe ka waha）はどれも ka を入れるので、ここは PE に合わせて ka を入れた。3・4行目は PE の見出しに綴りを合わせた（no→nō、la→lā、o→ʻo、e→ē）。Kanu o ka ʻĀina の教材は1行目を ma loko と2語に書き、4行目の ē を置かない。行訳は本サイトの訳。",
   "sources": [
