@@ -58,7 +58,7 @@
 ### 「絶滅の首都」
 - USFWS の公式リカバリープラン（1998年、Cuddihy and Stone 1990 を引用）は「非在来種の導入と人間活動の直接的影響により、ハワイの鳥類種と陸産貝類種の半数以上が絶滅し、植物種・昆虫種についても不明な数が絶滅した」と明記している。 https://ecos.fws.gov/docs/recovery_plan/980511b.pdf
 - ハワイミツスイはかつて50種以上存在したが、現存は17種のみで、うち6種は明確に絶滅宣言されている（他に化石記録のみの絶滅種が別途18種）。ハワイの森林鳥類全体では8種が絶滅宣言された。 https://www.fws.gov/story/2024-04/birds-brink
-- USFWS太平洋諸島事務所（Pacific Islands Fish and Wildlife Office）が所管する絶滅危惧・危機種は578種に上り、うち植物は約400種。太平洋諸島（大部分はハワイ）は米国全体の絶滅危惧・危機植物種の44%を占める。 https://www.fws.gov/office/pacific-islands-fish-and-wildlife/species
+- USFWS太平洋諸島事務所（Pacific Islands Fish and Wildlife Office）が所管する絶滅危惧・危機種は578種に上り、うち植物は約400種。太平洋諸島（大部分はハワイ）は米国全体の絶滅危惧・危機植物種の44%を占める。 https://www.fws.gov/locations/pacific-islands-fish-and-wildlife-office/pacific-islands-species
 - 在来ハワイ固有植物のうち少なくとも10%が絶滅し、さらに40〜50%が絶滅危惧種または絶滅危機状態にある。 https://www.ncbi.nlm.nih.gov/books/NBK208860/
 
 ### ハワイ語 用語集

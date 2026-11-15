@@ -48,6 +48,7 @@ export function cleanAuthor(raw) {
 
 function stripHtml(html = "") {
   return html
+    .replace(/<br\s*\/?>/gi, " ")
     .replace(/<[^>]+>/g, "")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
