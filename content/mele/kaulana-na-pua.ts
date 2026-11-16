@@ -300,7 +300,7 @@ export const body: MeleBody = {
   kaona: [
     "題の pua（花）は、PE が挙げる語義「子孫、子ら」によって、ハワイの人々を指す。名高いのは花ではなく署名を拒んだ人々のほうである。",
     "第1連の「強欲と強奪の文書」は、楽団員が署名を拒んだ暫定政府への忠誠の誓約書を指す。第3連の「敵の紙」も同じものである。",
-    "第4連の石（pōhaku）が、別名 Mele ʻAi Pōhaku（石を食う歌）の由来。楽団員の「残されたもの、石、この土地の神秘の食物で満足する」という言葉を、そのまま歌詞にしている。政府の金（puʻu kālā。PE は sum of money）より土地そのものを取るという宣言である。",
+    "第4連の石（pōhaku）が、別名 Mele ʻAi Pōhaku（石を食う歌）の由来。政府の金（puʻu kālā。PE は sum of money）より土地そのものを取るという宣言である。",
     "第2連は4つの島を昔の首長の名で呼ぶ。Hawaiʻi は Keawe、Maui は Piʻilani、Kauaʻi は Mano、Oʻahu は Kākuhihewa。Oʻahu＝Kākuhihewa は PE の one の項（ke one ʻai aliʻi o Kākuhihewa, said of Oʻahu）、Kauaʻi＝Mano は PE の Manokalanipō の項、Maui＝Piʻilani は PE の Hono- の項が裏づける。島ごとの呼び名を並べて、全土が一つになって応えていることを示す。",
   ],
   version:
@@ -311,6 +311,6 @@ export const body: MeleBody = {
     { label: "Andrews 1865 / Parker 1922（Wehewehe Wikiwiki）", url: "https://wehe.hilo.hawaii.edu/?q=%CA%BBanunu", note: "anunu を alunu の n 形とする" },
     { label: "Amy Kuʻuleialoha Stillman, 'Aloha Aina': New Perspectives on 'Kaulana Na Pua', Hawaiian Journal of History 33（1999）", url: "https://evols.library.manoa.hawaii.edu/handle/10524/167", note: "作曲日、新聞掲載の系譜と版の違い、1895年の楽譜" },
     { label: "Eleanor C. Nordyke & Martha H. Noyes, Kaulana Nā Pua: A Voice for Sovereignty, Hawaiian Journal of History 27（1993）", url: "https://evols.library.manoa.hawaii.edu/handle/10524/172", note: "作者の生没年（1865年4月12日生、1902年12月5日没）" },
-    { label: "Kamehameha Schools — Kuʻukahekahe: Mele ʻAi Pōhaku", url: "https://www.ksbe.edu/article/kuukahekahe-mele-ai-phaku", note: "楽団員の依頼の言葉" },
+    { label: "Kamehameha Schools — Kuʻukahekahe: Mele ʻAi Pōhaku", url: "https://www.ksbe.edu/article/kuukahekahe-mele-ai-phaku", note: "楽団員の失職（1893年2月1日）と Puahaulani Hale での作曲" },
   ],
 };
