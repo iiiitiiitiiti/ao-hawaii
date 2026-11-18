@@ -4,8 +4,8 @@ import { describe, expect, test } from "vitest";
 import { MELE } from "../src/content/mele";
 import { decryptJson, deriveKey, encryptJson, randomBytes, toBase64, type KeyInfo } from "../src/lib/lock/crypto";
 import { getLockedEnvelope, getPublicBody, listBodyFiles } from "../src/mele/meleData";
-import type { MeleBody } from "../src/mele/types";
-import { normalizeLine, validateBody, validateMeta } from "../src/mele/validate";
+import type { MeleBody, MeleLine, MeleMeta, MeleWord } from "../src/mele/types";
+import { lessonRefExists, normalizeLine, validateBody, validateMeta } from "../src/mele/validate";
 
 const ROOT = process.cwd();
 
@@ -44,6 +44,87 @@ describe("曲データの検査（validate）", () => {
 
   test("ダミーの曲は合格する", () => {
     expect(validateBody("dummy", DUMMY)).toEqual([]);
+  });
+});
+
+// 検査を1つ消しても気づけるよう、悪い例ごとにエラーの文面と場所まで確かめる
+describe("曲データの検査を一つずつ（validate）", () => {
+  const LINE = DUMMY.stanzas[0].lines[0];
+  const withLine = (patch: Partial<MeleLine>): MeleBody => ({ ...DUMMY, stanzas: [{ lines: [{ ...LINE, ...patch }] }] });
+  const withWord = (i: number, patch: Partial<MeleWord>): MeleBody =>
+    withLine({ words: LINE.words.map((w, j) => (j === i ? { ...w, ...patch } : w)) });
+  const BANNED = "禁止フレーズ 未確認（docs/decisions/007）";
+
+  test("normalizeLine は小文字にし、句読点を空白に変え、続く空白を1つにする", () => {
+    expect(normalizeLine("Kaulana  nā pua,aʻo")).toBe("kaulana nā pua aʻo");
+  });
+
+  test("レッスン参照は「講座/lesson-2桁」の形だけを受け付ける", () => {
+    expect(lessonRefExists("olelo/lesson-04")).toBe(true);
+    expect(lessonRefExists("Xolelo/lesson-04")).toBe(false);
+    expect(lessonRefExists("olelo/lesson-04x")).toBe(false);
+  });
+
+  test("本体の空を検出する", () => {
+    expect(validateBody("x", { ...DUMMY, stanzas: [] })).toEqual(["x: 連（stanzas）が空です"]);
+    expect(validateBody("x", { ...DUMMY, version: "  " })).toEqual(["x: version（拠った版とよく知られた版との違い）が空です"]);
+    expect(validateBody("x", { ...DUMMY, sources: [] })).toEqual(["x: 出典（sources）が空です"]);
+    expect(validateBody("x", { ...DUMMY, stanzas: [...DUMMY.stanzas, { lines: [] }] })).toEqual(["x 連2: 行が空です"]);
+  });
+
+  test("行と語の問題を、連と行の番号つきで検出する", () => {
+    expect(validateBody("x", withLine({ ja: "  " }))).toEqual(["x 連1 行1: 行訳が空です"]);
+    expect(validateBody("x", withLine({ haw: "He mele ho'āʻo kēia." }))).toContain("x 連1 行1: 歌詞にアポストロフィ類があります（ʻokina は U+02BB）");
+    expect(validateBody("x", withWord(0, { w: " " }))).toContain("x 連1 行1: 空の語があります");
+    expect(validateBody("x", withWord(2, { w: "ho'āʻo" }))).toContain("x 連1 行1「ho'āʻo」: アポストロフィ類があります（ʻokina は U+02BB）");
+    expect(validateBody("x", withWord(3, { w: "kēia." }))).toEqual(["x 連1 行1「kēia.」: 語に句読点を含めないでください"]);
+    expect(validateBody("x", withWord(1, { gloss: " " }))).toEqual(["x 連1 行1「mele」: 逐語の意味が空です"]);
+  });
+
+  test("禁止フレーズを、どこに書いたかつきで検出する", () => {
+    expect(validateBody("x", withLine({ ja: "未確認の訳" }))).toEqual([`x 連1 行1: ${BANNED}`]);
+    expect(validateBody("x", withWord(0, { gloss: "未確認" }))).toEqual([`x 連1 行1「He」: ${BANNED}`]);
+    expect(validateBody("x", withLine({ notes: [{ text: "未確認" }] }))).toEqual([`x 連1 行1 のメモ: ${BANNED}`]);
+    expect(validateBody("x", { ...DUMMY, kaona: ["ふつうの段落", "未確認"] })).toEqual([`x kaona 2: ${BANNED}`]);
+    expect(validateBody("x", { ...DUMMY, version: "未確認" })).toEqual([`x version: ${BANNED}`]);
+  });
+});
+
+describe("目次の検査を一つずつ（validateMeta）", () => {
+  const META: MeleMeta = {
+    id: "dummy",
+    title: "He mele hoʻāʻo",
+    composer: "なし",
+    year: "2026",
+    protection: "public",
+    summary: "テスト用の曲",
+    background: ["テスト用の段落"],
+    related: ["olelo/lesson-04"],
+    appleMusic: { url: "https://music.apple.com/jp/album/x/1?i=2", note: "テスト用" },
+  };
+  const BANNED = "禁止フレーズ 未確認（docs/decisions/007）";
+  const BAD_URL = "dummy: appleMusic.url は https://music.apple.com/<国>/album/<曲>/<albumId>?i=<trackId> の形にします";
+
+  test("ダミーの目次は合格する", () => {
+    expect(validateMeta(META)).toEqual([]);
+  });
+
+  test("id は英小文字・数字・ハイフンだけにする", () => {
+    expect(validateMeta({ ...META, id: "Dummy" })).toEqual(["Dummy: id は英小文字・数字・ハイフンだけにします"]);
+    expect(validateMeta({ ...META, id: "dummy_" })).toEqual(["dummy_: id は英小文字・数字・ハイフンだけにします"]);
+  });
+
+  test("関連レッスン・禁止フレーズ・題のアポストロフィを検出する", () => {
+    expect(validateMeta({ ...META, related: ["olelo/lesson-99"] })).toEqual(["dummy: 目次に無いレッスン「olelo/lesson-99」"]);
+    expect(validateMeta({ ...META, summary: "未確認" })).toEqual([`dummy summary: ${BANNED}`]);
+    expect(validateMeta({ ...META, background: ["ふつうの段落", "未確認"] })).toEqual([`dummy background 2: ${BANNED}`]);
+    expect(validateMeta({ ...META, title: "Ho'ā" })).toEqual(["dummy: 題にアポストロフィ類があります（ʻokina は U+02BB）"]);
+  });
+
+  test("Apple Music の URL の形と、誰の録音かの一言を確かめる", () => {
+    expect(validateMeta({ ...META, appleMusic: { ...META.appleMusic!, url: "xhttps://music.apple.com/jp/album/x/1?i=2" } })).toEqual([BAD_URL]);
+    expect(validateMeta({ ...META, appleMusic: { ...META.appleMusic!, url: "https://music.apple.com/jp/album/x/1?i=2x" } })).toEqual([BAD_URL]);
+    expect(validateMeta({ ...META, appleMusic: { ...META.appleMusic!, note: "  " } })).toEqual(["dummy: appleMusic.note（誰の録音か）が空です"]);
   });
 });
 
